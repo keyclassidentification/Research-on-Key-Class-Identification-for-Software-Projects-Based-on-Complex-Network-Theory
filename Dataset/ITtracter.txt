@@ -1,0 +1,2245 @@
+*Vertices 429
+1 "bsh.EvalError"
+2 "bsh.Interpreter"
+3 "bsh.ParseException"
+4 "bsh.Parser"
+5 "net.sf.jasperreports.engine.DefaultJasperReportsContext"
+6 "net.sf.jasperreports.engine.JRDataSource"
+7 "net.sf.jasperreports.engine.JRException"
+8 "net.sf.jasperreports.engine.JRExporter"
+9 "net.sf.jasperreports.engine.JasperCompileManager"
+10 "net.sf.jasperreports.engine.JasperFillManager"
+11 "net.sf.jasperreports.engine.JasperReport"
+12 "net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"
+13 "net.sf.jasperreports.engine.export.JRCsvExporter"
+14 "net.sf.jasperreports.engine.export.JRHtmlExporter"
+15 "net.sf.jasperreports.engine.export.JRPdfExporter"
+16 "net.sf.jasperreports.engine.export.JRXlsExporter"
+17 "org.itracker.AbstractDependencyInjectionTest"
+18 "org.itracker.Assert"
+19 "org.itracker.ImportExportException"
+20 "org.itracker.ImportExportExceptionTest"
+21 "org.itracker.IssueException"
+22 "org.itracker.IssueExceptionTest"
+23 "org.itracker.IssueSearchException"
+24 "org.itracker.IssueSearchExceptionTest"
+25 "org.itracker.ProjectException"
+26 "org.itracker.ProjectExceptionTest"
+27 "org.itracker.ReportException"
+28 "org.itracker.ReportExceptionTest"
+29 "org.itracker.SystemConfigurationException"
+30 "org.itracker.SystemConfigurationExceptionTest"
+31 "org.itracker.UserException"
+32 "org.itracker.UserExceptionTest"
+33 "org.itracker.WorkflowException"
+34 "org.itracker.WorkflowExceptionTest"
+35 "org.itracker.core.ApplicationInitialization"
+36 "org.itracker.core.resources.ITrackerResourceBundle"
+37 "org.itracker.core.resources.ITrackerResourceBundle$DirtyKey"
+38 "org.itracker.core.resources.ITrackerResources"
+39 "org.itracker.core.resources.ItrackerResourceBundleIT"
+40 "org.itracker.core.resources.ItrackerResourcesIT"
+41 "org.itracker.core.resources.ItrackerResourcesTest"
+42 "org.itracker.core.resources.MessageFormat"
+43 "org.itracker.core.resources.MessageFormatTest"
+44 "org.itracker.model.AbstractEntity"
+45 "org.itracker.model.AbstractEntity$CreateDateComparator"
+46 "org.itracker.model.AbstractEntity$IdComparator"
+47 "org.itracker.model.AbstractEntity$LastModifiedDateComparator"
+48 "org.itracker.model.AbstractEntityTest"
+49 "org.itracker.model.AbstractEntityTest$TestAbstractEntity"
+50 "org.itracker.model.Component"
+51 "org.itracker.model.Component$NameComparator"
+52 "org.itracker.model.Component$ProjectNameComparator"
+53 "org.itracker.model.ComponentTest"
+54 "org.itracker.model.Configuration"
+55 "org.itracker.model.Configuration$ConfigurationOrderComparator"
+56 "org.itracker.model.Configuration$Type"
+57 "org.itracker.model.ConfigurationTest"
+58 "org.itracker.model.CustomField"
+59 "org.itracker.model.CustomField$NameComparator"
+60 "org.itracker.model.CustomField$Type"
+61 "org.itracker.model.CustomFieldIT"
+62 "org.itracker.model.CustomFieldValue"
+63 "org.itracker.model.CustomFieldValue$NameComparator"
+64 "org.itracker.model.CustomFieldValue$SortOrderComparator"
+65 "org.itracker.model.CustomFieldValueIT"
+66 "org.itracker.model.Entity"
+67 "org.itracker.model.ImportDataModel"
+68 "org.itracker.model.ImportDataModelTest"
+69 "org.itracker.model.IntCodeEnum"
+70 "org.itracker.model.Issue"
+71 "org.itracker.model.Issue$OwnerAndStatusComparator"
+72 "org.itracker.model.Issue$ProjectAndStatusComparator"
+73 "org.itracker.model.Issue$SeverityComparator"
+74 "org.itracker.model.Issue$StatusComparator"
+75 "org.itracker.model.IssueActivity"
+76 "org.itracker.model.IssueActivityTest"
+77 "org.itracker.model.IssueActivityType"
+78 "org.itracker.model.IssueActivityTypeTest"
+79 "org.itracker.model.IssueAttachment"
+80 "org.itracker.model.IssueAttachment$OriginalFilenameComparator"
+81 "org.itracker.model.IssueAttachment$SizeComparator"
+82 "org.itracker.model.IssueAttachmentTest"
+83 "org.itracker.model.IssueField"
+84 "org.itracker.model.IssueFieldIT"
+85 "org.itracker.model.IssueHistory"
+86 "org.itracker.model.IssueHistoryTest"
+87 "org.itracker.model.IssueRelation"
+88 "org.itracker.model.IssueRelationTest"
+89 "org.itracker.model.IssueSearchQuery"
+90 "org.itracker.model.IssueSearchQueryTest"
+91 "org.itracker.model.IssueTest"
+92 "org.itracker.model.Language"
+93 "org.itracker.model.Language$LanguageKeyComparator"
+94 "org.itracker.model.Language$LanguageValueComparator"
+95 "org.itracker.model.LanguageTest"
+96 "org.itracker.model.NameValuePair"
+97 "org.itracker.model.NameValuePair$NameComparator"
+98 "org.itracker.model.NameValuePair$ValueComparator"
+99 "org.itracker.model.NameValuePairTest"
+100 "org.itracker.model.Notification"
+101 "org.itracker.model.Notification$IssueUserRoleComparator"
+102 "org.itracker.model.Notification$Role"
+103 "org.itracker.model.Notification$RoleComparator"
+104 "org.itracker.model.Notification$Type"
+105 "org.itracker.model.Notification$UserComparator"
+106 "org.itracker.model.NotificationTest"
+107 "org.itracker.model.Permission"
+108 "org.itracker.model.Permission$PermissionPropertiesComparator"
+109 "org.itracker.model.PermissionTest"
+110 "org.itracker.model.PermissionType"
+111 "org.itracker.model.PermissionTypeTest"
+112 "org.itracker.model.Project"
+113 "org.itracker.model.Project$ProjectComparator"
+114 "org.itracker.model.ProjectScript"
+115 "org.itracker.model.ProjectScript$FieldPriorityComparator"
+116 "org.itracker.model.ProjectScript$ScriptPriorityComparator"
+117 "org.itracker.model.ProjectScriptTest"
+118 "org.itracker.model.ProjectTest"
+119 "org.itracker.model.Report"
+120 "org.itracker.model.Report$NameComparator"
+121 "org.itracker.model.ReportTest"
+122 "org.itracker.model.Status"
+123 "org.itracker.model.StatusTest"
+124 "org.itracker.model.SystemConfiguration"
+125 "org.itracker.model.SystemConfiguration$SystemConfigurationComparator"
+126 "org.itracker.model.SystemConfigurationTest"
+127 "org.itracker.model.User"
+128 "org.itracker.model.User$LoginComparator"
+129 "org.itracker.model.User$NameComparator"
+130 "org.itracker.model.UserPreferenceTest"
+131 "org.itracker.model.UserPreferences"
+132 "org.itracker.model.UserTest"
+133 "org.itracker.model.Version"
+134 "org.itracker.model.Version$VersionComparator"
+135 "org.itracker.model.VersionTest"
+136 "org.itracker.model.WorkflowScript"
+137 "org.itracker.model.WorkflowScriptTest"
+138 "org.itracker.model.util.Convert"
+139 "org.itracker.model.util.CustomFieldUtilities"
+140 "org.itracker.model.util.IssueUtilities"
+141 "org.itracker.model.util.IssueUtilitiesIT"
+142 "org.itracker.model.util.NotificationUtilities"
+143 "org.itracker.model.util.NotificationUtilitiesIT"
+144 "org.itracker.model.util.ProjectUtilities"
+145 "org.itracker.model.util.ProjectUtilitiesIT"
+146 "org.itracker.model.util.PropertiesFileHandler"
+147 "org.itracker.model.util.PropertiesFileHandlerTest"
+148 "org.itracker.model.util.SystemConfigurationUtilities"
+149 "org.itracker.model.util.SystemConfigurationUtilitiesTest"
+150 "org.itracker.model.util.UserUtilities"
+151 "org.itracker.model.util.UserUtilitiesIT"
+152 "org.itracker.model.util.WorkflowUtilities"
+153 "org.itracker.model.util.WorkflowUtilitiesIT"
+154 "org.itracker.persistence.dao.AbstractEnumUserType"
+155 "org.itracker.persistence.dao.BaseDAO"
+156 "org.itracker.persistence.dao.BaseHibernateDAOImpl"
+157 "org.itracker.persistence.dao.BaseHibernateDaoImplIT"
+158 "org.itracker.persistence.dao.ComponentDAO"
+159 "org.itracker.persistence.dao.ComponentDAOImpl"
+160 "org.itracker.persistence.dao.ComponentDAOImplIT"
+161 "org.itracker.persistence.dao.ConfigurationDAO"
+162 "org.itracker.persistence.dao.ConfigurationDAOImpl"
+163 "org.itracker.persistence.dao.ConfigurationDAOImplIT"
+164 "org.itracker.persistence.dao.CustomFieldDAO"
+165 "org.itracker.persistence.dao.CustomFieldDAOImpl"
+166 "org.itracker.persistence.dao.CustomFieldDAOImplIT"
+167 "org.itracker.persistence.dao.CustomFieldValueDAO"
+168 "org.itracker.persistence.dao.CustomFieldValueDAOImpl"
+169 "org.itracker.persistence.dao.CustomFieldValueDAOImplIT"
+170 "org.itracker.persistence.dao.EnumCodeUserType"
+171 "org.itracker.persistence.dao.EnumNameUserType"
+172 "org.itracker.persistence.dao.EnumOrdinalUserType"
+173 "org.itracker.persistence.dao.IssueActivityDAO"
+174 "org.itracker.persistence.dao.IssueActivityDAOImpl"
+175 "org.itracker.persistence.dao.IssueActivityDAOImplIT"
+176 "org.itracker.persistence.dao.IssueAttachmentDAO"
+177 "org.itracker.persistence.dao.IssueAttachmentDAOImpl"
+178 "org.itracker.persistence.dao.IssueAttachmentDAOImplIT"
+179 "org.itracker.persistence.dao.IssueDAO"
+180 "org.itracker.persistence.dao.IssueDAOImpl"
+181 "org.itracker.persistence.dao.IssueDAOImplIT"
+182 "org.itracker.persistence.dao.IssueHistoryDAO"
+183 "org.itracker.persistence.dao.IssueHistoryDAOImpl"
+184 "org.itracker.persistence.dao.IssueHistoryDAOImplIT"
+185 "org.itracker.persistence.dao.IssueRelationDAO"
+186 "org.itracker.persistence.dao.IssueRelationDAOImpl"
+187 "org.itracker.persistence.dao.IssueRelationDAOImplIT"
+188 "org.itracker.persistence.dao.LanguageDAO"
+189 "org.itracker.persistence.dao.LanguageDAOImpl"
+190 "org.itracker.persistence.dao.LanguageDAOImplIT"
+191 "org.itracker.persistence.dao.NoSuchEntityException"
+192 "org.itracker.persistence.dao.NoSuchEntityExceptionTest"
+193 "org.itracker.persistence.dao.NotificationDAO"
+194 "org.itracker.persistence.dao.NotificationDAOImpl"
+195 "org.itracker.persistence.dao.NotificationDAOImplIT"
+196 "org.itracker.persistence.dao.PermissionDAO"
+197 "org.itracker.persistence.dao.PermissionDAOImpl"
+198 "org.itracker.persistence.dao.PermissionDAOImplIT"
+199 "org.itracker.persistence.dao.ProjectDAO"
+200 "org.itracker.persistence.dao.ProjectDAOImpl"
+201 "org.itracker.persistence.dao.ProjectDAOImplIT"
+202 "org.itracker.persistence.dao.ProjectScriptDAO"
+203 "org.itracker.persistence.dao.ProjectScriptDAOImpl"
+204 "org.itracker.persistence.dao.ProjectScriptDAOImplIT"
+205 "org.itracker.persistence.dao.ReportDAO"
+206 "org.itracker.persistence.dao.ReportDAOImpl"
+207 "org.itracker.persistence.dao.ReportDAOImplIT"
+208 "org.itracker.persistence.dao.UserDAO"
+209 "org.itracker.persistence.dao.UserDAOImpl"
+210 "org.itracker.persistence.dao.UserDAOImplIT"
+211 "org.itracker.persistence.dao.UserPreferencesDAO"
+212 "org.itracker.persistence.dao.UserPreferencesDAOImpl"
+213 "org.itracker.persistence.dao.UserPreferencesDAOImplIT"
+214 "org.itracker.persistence.dao.VersionDAO"
+215 "org.itracker.persistence.dao.VersionDAOImpl"
+216 "org.itracker.persistence.dao.VersionDAOImplIT"
+217 "org.itracker.persistence.dao.WorkflowScriptDAO"
+218 "org.itracker.persistence.dao.WorkflowScriptDAOImpl"
+219 "org.itracker.persistence.dao.WorkflowScriptDAOImplIT"
+220 "org.itracker.selenium.AbstractSeleniumTestCase"
+221 "org.itracker.selenium.CreateIssueSeleniumIT"
+222 "org.itracker.selenium.EditIssueSeleniumIT"
+223 "org.itracker.selenium.ForgotPasswordSeleniumIT"
+224 "org.itracker.selenium.LoginSeleniumIT"
+225 "org.itracker.selenium.LogoutSeleniumIT"
+226 "org.itracker.selenium.SeleniumManager"
+227 "org.itracker.selenium.ViewIssueSeleniumIT"
+228 "org.itracker.selenium.ViewPortalHomeSeleniumIT"
+229 "org.itracker.selenium.ViewProjectIssueListSeleniumIT"
+230 "org.itracker.selenium.ViewProjectListSeleniumIT"
+231 "org.itracker.services.ConfigurationService"
+232 "org.itracker.services.ITrackerServices"
+233 "org.itracker.services.IssueService"
+234 "org.itracker.services.NotificationService"
+235 "org.itracker.services.ProjectService"
+236 "org.itracker.services.ReportService"
+237 "org.itracker.services.UserService"
+238 "org.itracker.services.authentication.AbstractPluggableAuthenticator"
+239 "org.itracker.services.authentication.AuthenticatorForProjectPermissionIT"
+240 "org.itracker.services.authentication.DefaultAuthenticator"
+241 "org.itracker.services.authentication.PluggableAuthenticator"
+242 "org.itracker.services.authentication.TestAuthenticator"
+243 "org.itracker.services.authentication.adsson.ADIntegration"
+244 "org.itracker.services.authentication.adsson.GetUserModelFromADPrivilegedAction"
+245 "org.itracker.services.authentication.adsson.SimpleCallbackHandler"
+246 "org.itracker.services.authentication.adsson.WindowsSSONAuthenticator"
+247 "org.itracker.services.authentication.adsson.WindowsSSONAuthenticatorADInfo"
+248 "org.itracker.services.authentication.package-info"
+249 "org.itracker.services.exceptions.AuthenticatorException"
+250 "org.itracker.services.exceptions.AuthenticatorExceptionTest"
+251 "org.itracker.services.exceptions.ITrackerDirtyResourceException"
+252 "org.itracker.services.exceptions.ItrackerDirtyResourceExceptionTest"
+253 "org.itracker.services.exceptions.PasswordException"
+254 "org.itracker.services.exceptions.PasswordExceptionTest"
+255 "org.itracker.services.implementations.ConfigurationServiceImpl"
+256 "org.itracker.services.implementations.EmailService"
+257 "org.itracker.services.implementations.ITrackerServicesImpl"
+258 "org.itracker.services.implementations.IssueServiceImpl"
+259 "org.itracker.services.implementations.NotificationServiceImpl"
+260 "org.itracker.services.implementations.ProjectServiceImpl"
+261 "org.itracker.services.implementations.ReportServiceImpl"
+262 "org.itracker.services.implementations.UserServiceImpl"
+263 "org.itracker.services.package-info"
+264 "org.itracker.services.util.AuthenticationConstants"
+265 "org.itracker.services.util.Base64Coder"
+266 "org.itracker.services.util.EmailAuthenticator"
+267 "org.itracker.services.util.NamingUtilites"
+268 "org.itracker.services.util.NamingUtilitiesIT"
+269 "org.itracker.web.actions.ErrorAction"
+270 "org.itracker.web.actions.ListProjectsAction"
+271 "org.itracker.web.actions.PortalHomeAction"
+272 "org.itracker.web.actions.ShowHelpAction"
+273 "org.itracker.web.actions.UnauthorizedAction"
+274 "org.itracker.web.actions.admin.AdminHomeAction"
+275 "org.itracker.web.actions.admin.AdminHomeActionIT"
+276 "org.itracker.web.actions.admin.attachment.DownloadAttachmentAction"
+277 "org.itracker.web.actions.admin.attachment.ExportAttachmentsAction"
+278 "org.itracker.web.actions.admin.attachment.ListAttachmentsAction"
+279 "org.itracker.web.actions.admin.attachment.ListAttachmentsActionIT"
+280 "org.itracker.web.actions.admin.configuration.EditConfigurationAction"
+281 "org.itracker.web.actions.admin.configuration.EditConfigurationFormAction"
+282 "org.itracker.web.actions.admin.configuration.EditCustomFieldAction"
+283 "org.itracker.web.actions.admin.configuration.EditCustomFieldFormAction"
+284 "org.itracker.web.actions.admin.configuration.EditCustomFieldValueAction"
+285 "org.itracker.web.actions.admin.configuration.EditCustomFieldValueFormAction"
+286 "org.itracker.web.actions.admin.configuration.ImportDataFormAction"
+287 "org.itracker.web.actions.admin.configuration.ImportDataProcessAction"
+288 "org.itracker.web.actions.admin.configuration.ImportDataProcessAction$ActionException"
+289 "org.itracker.web.actions.admin.configuration.ImportDataVerifyAction"
+290 "org.itracker.web.actions.admin.configuration.ListConfigurationAction"
+291 "org.itracker.web.actions.admin.configuration.OrderConfigurationItemAction"
+292 "org.itracker.web.actions.admin.configuration.OrderCustomFieldValueAction"
+293 "org.itracker.web.actions.admin.configuration.RemoveConfigurationItemAction"
+294 "org.itracker.web.actions.admin.configuration.RemoveCustomFieldAction"
+295 "org.itracker.web.actions.admin.configuration.RemoveCustomFieldValueAction"
+296 "org.itracker.web.actions.admin.language.CreateLanguageKeyAction"
+297 "org.itracker.web.actions.admin.language.CreateLanguageKeyFormAction"
+298 "org.itracker.web.actions.admin.language.EditLanguageAction"
+299 "org.itracker.web.actions.admin.language.EditLanguageFormAction"
+300 "org.itracker.web.actions.admin.language.ExportLanguageAction"
+301 "org.itracker.web.actions.admin.language.InitializeLanguagesAction"
+302 "org.itracker.web.actions.admin.language.ListLanguagesAction"
+303 "org.itracker.web.actions.admin.project.EditComponentAction"
+304 "org.itracker.web.actions.admin.project.EditComponentFormAction"
+305 "org.itracker.web.actions.admin.project.EditProjectAction"
+306 "org.itracker.web.actions.admin.project.EditProjectFormAction"
+307 "org.itracker.web.actions.admin.project.EditProjectScriptAction"
+308 "org.itracker.web.actions.admin.project.EditProjectScriptFormAction"
+309 "org.itracker.web.actions.admin.project.EditVersionAction"
+310 "org.itracker.web.actions.admin.project.EditVersionFormAction"
+311 "org.itracker.web.actions.admin.project.ListProjectsAdminAction"
+312 "org.itracker.web.actions.admin.project.RemoveProjectScriptAction"
+313 "org.itracker.web.actions.admin.report.DownloadReportAction"
+314 "org.itracker.web.actions.admin.report.EditReportAction"
+315 "org.itracker.web.actions.admin.report.EditReportFormAction"
+316 "org.itracker.web.actions.admin.report.ExportReportAction"
+317 "org.itracker.web.actions.admin.report.ListReportsAction"
+318 "org.itracker.web.actions.admin.report.RemoveReportAction"
+319 "org.itracker.web.actions.admin.scheduler.ListTasksAction"
+320 "org.itracker.web.actions.admin.user.EditUserAction"
+321 "org.itracker.web.actions.admin.user.EditUserFormAction"
+322 "org.itracker.web.actions.admin.user.ListUsersAction"
+323 "org.itracker.web.actions.admin.user.LockUserAction"
+324 "org.itracker.web.actions.admin.user.UnlockUserAction"
+325 "org.itracker.web.actions.admin.workflow.EditWorkflowScriptAction"
+326 "org.itracker.web.actions.admin.workflow.EditWorkflowScriptFormAction"
+327 "org.itracker.web.actions.admin.workflow.ListWorkflowScriptAction"
+328 "org.itracker.web.actions.admin.workflow.RemoveWorkflowScriptAction"
+329 "org.itracker.web.actions.base.ItrackerBaseAction"
+330 "org.itracker.web.actions.issuesearch.SearchIssuesAction"
+331 "org.itracker.web.actions.issuesearch.SearchIssuesFormAction"
+332 "org.itracker.web.actions.preferences.EditPreferencesAction"
+333 "org.itracker.web.actions.preferences.EditPreferencesFormAction"
+334 "org.itracker.web.actions.project.AddIssueRelationAction"
+335 "org.itracker.web.actions.project.AssignIssueAction"
+336 "org.itracker.web.actions.project.CreateIssueAction"
+337 "org.itracker.web.actions.project.CreateIssueFormAction"
+338 "org.itracker.web.actions.project.EditIssueAction"
+339 "org.itracker.web.actions.project.EditIssueActionIT"
+340 "org.itracker.web.actions.project.EditIssueFormAction"
+341 "org.itracker.web.actions.project.ListIssuesAction"
+342 "org.itracker.web.actions.project.ListProjectsAction"
+343 "org.itracker.web.actions.project.MoveIssueAction"
+344 "org.itracker.web.actions.project.MoveIssueFormAction"
+345 "org.itracker.web.actions.project.RemoveHistoryEntryAction"
+346 "org.itracker.web.actions.project.RemoveIssueAttachmentAction"
+347 "org.itracker.web.actions.project.ViewIssueAction"
+348 "org.itracker.web.actions.project.ViewIssueActivityAction"
+349 "org.itracker.web.actions.project.WatchIssueAction"
+350 "org.itracker.web.actions.report.DisplayReportAction"
+351 "org.itracker.web.actions.report.DisplayReportActionIT"
+352 "org.itracker.web.actions.report.ListReportsAction"
+353 "org.itracker.web.actions.user.ForgotPasswordAction"
+354 "org.itracker.web.actions.user.ForgotPasswordFormAction"
+355 "org.itracker.web.actions.user.LoginAction"
+356 "org.itracker.web.actions.user.LogoffAction"
+357 "org.itracker.web.actions.user.SelfRegisterAction"
+358 "org.itracker.web.actions.user.SelfRegisterFormAction"
+359 "org.itracker.web.filters.ExecuteAlwaysFilter"
+360 "org.itracker.web.filters.package-info"
+361 "org.itracker.web.forms.AssignIssueForm"
+362 "org.itracker.web.forms.ComponentForm"
+363 "org.itracker.web.forms.ConfigurationForm"
+364 "org.itracker.web.forms.CustomFieldForm"
+365 "org.itracker.web.forms.CustomFieldValueForm"
+366 "org.itracker.web.forms.DisplayReportForm"
+367 "org.itracker.web.forms.ForgotPasswordForm"
+368 "org.itracker.web.forms.ITrackerForm"
+369 "org.itracker.web.forms.ImportForm"
+370 "org.itracker.web.forms.IssueForm"
+371 "org.itracker.web.forms.LanguageForm"
+372 "org.itracker.web.forms.LoginForm"
+373 "org.itracker.web.forms.MoveIssueForm"
+374 "org.itracker.web.forms.ProjectForm"
+375 "org.itracker.web.forms.ProjectScriptForm"
+376 "org.itracker.web.forms.RemoveHistoryForm"
+377 "org.itracker.web.forms.ReportForm"
+378 "org.itracker.web.forms.SearchForm"
+379 "org.itracker.web.forms.UserForm"
+380 "org.itracker.web.forms.VersionForm"
+381 "org.itracker.web.forms.WorkflowScriptForm"
+382 "org.itracker.web.ptos.IssuePTO"
+383 "org.itracker.web.ptos.ListAttachmentsPTO"
+384 "org.itracker.web.ptos.ProjectPTO"
+385 "org.itracker.web.ptos.ProjectScriptPTO"
+386 "org.itracker.web.ptos.UserPTO"
+387 "org.itracker.web.resources.ITrackerMessageResources"
+388 "org.itracker.web.resources.ITrackerMessageResourcesFactory"
+389 "org.itracker.web.scheduler.tasks.BaseJob"
+390 "org.itracker.web.scheduler.tasks.MailNotification"
+391 "org.itracker.web.scheduler.tasks.NotificationException"
+392 "org.itracker.web.scheduler.tasks.ReminderNotification"
+393 "org.itracker.web.servlets.AttachmentDownloadController"
+394 "org.itracker.web.servlets.GenericController"
+395 "org.itracker.web.servlets.ReportChartController"
+396 "org.itracker.web.servlets.ReportDownloadController"
+397 "org.itracker.web.servlets.RssFeedController"
+398 "org.itracker.web.struts.mock.MockActionMapping"
+399 "org.itracker.web.taglib.ClearErrorsTag"
+400 "org.itracker.web.taglib.FormatCustomFieldTag"
+401 "org.itracker.web.taglib.FormatDateTag"
+402 "org.itracker.web.taglib.FormatDescriptionTag"
+403 "org.itracker.web.taglib.FormatHistoryEntryTag"
+404 "org.itracker.web.taglib.FormatImageActionTag"
+405 "org.itracker.web.taglib.FormatIssueOwnerTag"
+406 "org.itracker.web.taglib.FormatLinkTag"
+407 "org.itracker.web.taglib.FormatMessageTag"
+408 "org.itracker.web.taglib.FormatResolutionTag"
+409 "org.itracker.web.util.AdminProjectUtilities"
+410 "org.itracker.web.util.AttachmentUtilities"
+411 "org.itracker.web.util.EditComponentFormActionUtil"
+412 "org.itracker.web.util.EditIssueActionUtil"
+413 "org.itracker.web.util.EditProjectFormActionUtil"
+414 "org.itracker.web.util.EditProjectFormActionUtil$ComponentInfo"
+415 "org.itracker.web.util.EditProjectFormActionUtil$CustomFieldInfo"
+416 "org.itracker.web.util.EditProjectFormActionUtil$VersionInfo"
+417 "org.itracker.web.util.EditVersionFormActionUtil"
+418 "org.itracker.web.util.HTMLUtilities"
+419 "org.itracker.web.util.ImportExportTags"
+420 "org.itracker.web.util.ImportExportUtilities"
+421 "org.itracker.web.util.ImportExportUtilitiesIT"
+422 "org.itracker.web.util.ImportHandler"
+423 "org.itracker.web.util.ImportHandlerIT"
+424 "org.itracker.web.util.ListIssuesActionUtil"
+425 "org.itracker.web.util.LoginUtilities"
+426 "org.itracker.web.util.RequestHelper"
+427 "org.itracker.web.util.ServletContextUtils"
+428 "org.itracker.web.util.SessionManager"
+429 "org.itracker.web.util.SessionTracker"
+*Arcs
+17 35 2.0
+17 231 4.0
+18 66 16.0
+20 19 1800.0
+22 21 3200.0
+24 23 1800.0
+26 25 600.0
+28 27 1600.0
+30 29 2200.0
+32 31 1200.0
+34 33 2200.0
+35 5 4.0
+35 31 1.0
+35 38 4.0
+35 92 2.0
+35 127 2.0
+35 150 0.002
+35 231 27.0
+35 236 3.0
+35 237 10.0
+35 253 3.0
+36 37 400.0
+36 38 1800.0
+36 92 11.0
+36 251 2.0
+38 36 1000.0
+38 42 600.0
+38 92 1.0
+38 191 1.0
+38 231 15.0
+38 251 2.0
+39 17 8.0
+39 36 3100.0
+39 92 8.0
+40 17 6.0
+40 36 200.0
+40 38 3200.0
+41 36 900.0
+41 38 15000.0
+43 42 1000.0
+42 38 200.0
+45 44 1000.0
+46 66 1000.0
+47 44 1000.0
+49 44 600.0
+49 48 900.0
+48 18 30.0
+48 44 2800.0
+48 49 1800.0
+48 66 6700.0
+48 127 200.0
+44 45 200.0
+44 46 200.0
+44 47 200.0
+44 66 1100.0
+51 50 1400.0
+52 50 1800.0
+52 112 400.0
+53 18 20.0
+53 50 4500.0
+53 112 800.0
+50 44 800.0
+50 51 200.0
+50 52 200.0
+50 112 1200.0
+50 122 900.0
+55 54 1400.0
+56 54 700.0
+56 69 400.0
+57 18 6.0
+57 54 2100.0
+57 56 1000.0
+54 44 800.0
+54 55 500.0
+54 56 2400.0
+54 96 700.0
+59 58 1400.0
+59 139 0.004
+60 69 400.0
+61 17 8.0
+61 21 1.0
+61 38 10.0
+61 58 3100.0
+63 38 2.0
+63 62 1400.0
+63 139 0.004
+64 62 1000.0
+65 18 14.0
+65 38 8.0
+65 58 2000.0
+65 62 3900.0
+65 92 1600.0
+65 139 0.004
+65 231 11.0
+62 44 800.0
+62 58 1200.0
+62 63 200.0
+62 64 200.0
+58 21 9.0
+58 44 600.0
+58 59 200.0
+58 60 2100.0
+58 62 400.0
+68 67 4700.0
+67 44 3800.0
+71 70 1800.0
+72 70 1800.0
+73 70 1800.0
+74 70 1800.0
+76 75 1100.0
+78 77 6400.0
+77 69 400.0
+75 44 800.0
+75 70 1200.0
+75 77 1200.0
+75 127 1200.0
+80 79 1400.0
+81 79 1800.0
+82 18 24.0
+82 70 800.0
+82 79 6300.0
+79 44 800.0
+79 70 1800.0
+79 80 200.0
+79 81 200.0
+79 127 1200.0
+84 17 8.0
+84 21 1.0
+84 38 16.0
+84 58 3400.0
+84 83 8500.0
+83 21 8.0
+83 38 6.0
+83 44 800.0
+83 58 2800.0
+83 60 1400.0
+83 70 1200.0
+86 85 1100.0
+85 44 1000.0
+85 70 1500.0
+85 127 1500.0
+88 87 1100.0
+87 44 800.0
+87 70 2400.0
+90 89 700.0
+89 112 1300.0
+89 127 1800.0
+89 199 8.0
+91 18 36.0
+91 70 6700.0
+91 112 400.0
+91 127 400.0
+70 44 600.0
+70 71 200.0
+70 72 200.0
+70 73 200.0
+70 74 200.0
+70 112 900.0
+70 127 1800.0
+70 133 900.0
+93 92 1800.0
+94 92 1800.0
+95 92 1100.0
+92 44 800.0
+92 93 200.0
+92 94 200.0
+97 96 1000.0
+98 96 1000.0
+99 96 6100.0
+99 127 200.0
+96 44 600.0
+96 97 200.0
+96 98 200.0
+101 100 1800.0
+101 102 400.0
+103 100 1600.0
+103 102 400.0
+105 100 1400.0
+106 18 36.0
+106 70 2000.0
+106 100 5500.0
+106 127 1200.0
+100 44 1000.0
+100 70 1500.0
+100 101 200.0
+100 102 2500.0
+100 103 200.0
+100 105 200.0
+100 127 1500.0
+108 107 1800.0
+109 18 22.0
+109 107 3100.0
+109 112 400.0
+109 127 400.0
+111 110 1200.0
+107 44 800.0
+107 108 500.0
+107 112 1500.0
+107 127 1800.0
+113 112 1400.0
+115 114 1400.0
+116 114 1000.0
+117 18 12.0
+117 114 3100.0
+114 44 600.0
+114 112 900.0
+114 115 1000.0
+114 136 900.0
+118 18 14.0
+118 112 2700.0
+112 44 800.0
+112 113 500.0
+112 122 900.0
+120 119 1800.0
+121 18 20.0
+121 119 3500.0
+119 44 600.0
+119 120 200.0
+123 122 1000.0
+122 69 400.0
+125 124 1400.0
+126 54 2400.0
+126 124 4900.0
+124 44 600.0
+124 54 500.0
+124 56 1600.0
+124 125 200.0
+128 127 1000.0
+129 127 1400.0
+130 131 700.0
+131 38 2.0
+131 44 600.0
+131 127 900.0
+132 18 24.0
+132 127 11100.0
+127 44 800.0
+127 128 200.0
+127 129 200.0
+127 131 1800.0
+134 133 1800.0
+135 133 5900.0
+133 44 800.0
+133 112 1200.0
+133 122 900.0
+133 134 200.0
+137 136 700.0
+136 44 600.0
+138 50 4.0
+138 62 2.0
+138 96 10.0
+138 127 6.0
+138 133 4.0
+138 139 0.02
+139 38 20.0
+139 58 14.0
+139 60 10.0
+139 62 16.0
+139 83 8.0
+141 17 8.0
+141 50 4.0
+141 54 16.0
+141 58 20.0
+141 70 66.0
+141 85 2.0
+141 87 2.0
+141 96 113.0
+141 112 32.0
+141 127 46.0
+141 133 6.0
+141 140 2.26
+140 38 34.0
+140 50 2.0
+140 54 16.0
+140 58 15.0
+140 70 142.0
+140 77 10.0
+140 85 8.0
+140 87 2.0
+140 96 15.0
+140 100 2.0
+140 110 18.0
+140 112 28.0
+140 127 34.0
+140 133 2.0
+140 139 0.02
+140 150 0.18
+143 17 6.0
+143 100 24.0
+143 127 6.0
+143 142 0.24
+142 38 10.0
+142 100 11.0
+142 102 10.0
+145 17 8.0
+145 38 12.0
+145 92 2.0
+145 122 3.0
+145 144 0.2
+145 146 0.04
+145 188 2.0
+144 38 10.0
+144 122 13.0
+147 146 0.47
+149 54 16.0
+149 96 4.0
+149 148 0.46
+148 54 18.0
+148 56 24.0
+148 96 4.0
+151 17 8.0
+151 38 42.0
+151 92 2.0
+151 96 184.0
+151 146 0.04
+151 150 0.38
+151 188 2.0
+150 38 12.0
+150 96 26.0
+150 107 15.0
+150 110 7.0
+150 112 6.0
+150 127 6.0
+150 253 6.0
+150 264 0.004
+150 265 0.002
+153 17 6.0
+153 33 8.0
+153 96 73.0
+153 112 2.0
+153 114 20.0
+153 136 12.0
+153 152 0.08
+153 370 6.0
+152 38 2.0
+152 96 16.0
+155 66 21.0
+156 66 35.0
+156 155 400.0
+157 17 8.0
+157 92 122.0
+157 156 600.0
+157 188 2300.0
+160 17 8.0
+160 50 16.0
+160 112 2.0
+160 158 700.0
+159 50 3.0
+159 156 600.0
+159 158 400.0
+158 50 3.0
+158 155 400.0
+163 17 8.0
+163 54 24.0
+163 56 2.0
+163 161 1500.0
+162 54 6.0
+162 56 16.0
+162 156 600.0
+162 161 400.0
+161 54 6.0
+161 56 9.0
+161 155 400.0
+166 17 8.0
+166 58 18.0
+166 164 700.0
+165 58 3.0
+165 156 600.0
+165 164 400.0
+164 58 3.0
+164 155 400.0
+169 17 8.0
+169 62 4.0
+169 167 700.0
+168 62 3.0
+168 156 600.0
+168 167 400.0
+167 62 3.0
+167 155 400.0
+170 69 13.0
+170 154 800.0
+171 154 600.0
+172 154 800.0
+175 17 8.0
+175 70 4.0
+175 75 10.0
+175 173 1100.0
+174 75 3.0
+174 156 600.0
+174 173 400.0
+173 75 3.0
+173 155 400.0
+178 17 8.0
+178 79 12.0
+178 176 1700.0
+177 79 6.0
+177 156 600.0
+177 176 400.0
+176 79 6.0
+176 155 400.0
+181 17 8.0
+181 70 35.0
+181 89 4.0
+181 179 4900.0
+181 208 500.0
+181 237 5.0
+180 70 3.0
+180 89 47.0
+180 127 6.0
+180 140 0.002
+180 156 600.0
+180 179 400.0
+180 191 200.0
+180 199 900.0
+179 70 3.0
+179 89 3.0
+179 127 3.0
+179 155 400.0
+184 17 8.0
+184 85 8.0
+184 182 900.0
+183 85 3.0
+183 156 600.0
+183 182 400.0
+182 85 3.0
+182 155 400.0
+187 17 8.0
+187 70 8.0
+187 87 8.0
+187 185 700.0
+186 87 3.0
+186 156 600.0
+186 185 400.0
+185 87 3.0
+185 155 400.0
+190 17 8.0
+190 92 9.0
+190 188 1100.0
+189 92 6.0
+189 156 600.0
+189 188 400.0
+189 191 200.0
+188 92 6.0
+188 155 400.0
+192 191 1000.0
+195 17 8.0
+195 70 2.0
+195 100 6.0
+195 127 2.0
+195 193 700.0
+194 100 3.0
+194 156 600.0
+194 193 400.0
+193 100 3.0
+193 155 400.0
+198 17 8.0
+198 107 6.0
+198 112 2.0
+198 127 2.0
+198 196 900.0
+198 199 300.0
+198 208 300.0
+197 156 600.0
+197 191 400.0
+197 196 400.0
+196 155 400.0
+201 17 8.0
+201 112 6.0
+201 199 1100.0
+200 112 6.0
+200 156 600.0
+200 199 400.0
+199 112 6.0
+199 155 400.0
+204 17 8.0
+204 114 4.0
+204 202 1500.0
+203 114 3.0
+203 156 600.0
+203 202 400.0
+202 114 3.0
+202 155 400.0
+207 17 8.0
+207 119 6.0
+207 205 700.0
+206 119 3.0
+206 156 600.0
+206 205 400.0
+205 119 3.0
+205 155 400.0
+210 17 8.0
+210 127 23.0
+210 208 3100.0
+209 107 8.0
+209 110 2.0
+209 112 2.0
+209 127 13.0
+209 156 600.0
+209 208 400.0
+208 127 9.0
+208 155 400.0
+213 17 8.0
+213 211 500.0
+212 127 2.0
+212 131 3.0
+212 156 600.0
+212 208 1100.0
+212 211 400.0
+211 131 3.0
+211 155 400.0
+216 17 8.0
+216 133 4.0
+216 214 700.0
+215 133 3.0
+215 156 600.0
+215 214 400.0
+214 133 3.0
+214 155 400.0
+219 17 8.0
+219 136 10.0
+219 217 700.0
+218 136 3.0
+218 156 600.0
+218 217 400.0
+217 136 3.0
+217 155 400.0
+220 17 6.0
+220 226 1000.0
+221 127 4.0
+221 208 4.0
+221 220 600.0
+222 220 600.0
+223 127 2.0
+223 150 0.002
+223 220 600.0
+223 226 1000.0
+223 232 2.0
+223 237 2.0
+224 220 600.0
+225 220 600.0
+225 226 200.0
+227 220 600.0
+228 220 600.0
+228 226 200.0
+229 220 600.0
+230 220 600.0
+231 54 27.0
+231 56 15.0
+231 58 15.0
+231 62 15.0
+231 92 12.0
+231 114 15.0
+231 124 3.0
+231 136 15.0
+232 231 300.0
+232 233 300.0
+232 234 300.0
+232 235 300.0
+232 236 300.0
+232 237 300.0
+232 256 3.0
+233 23 1.0
+233 25 3.0
+233 70 30.0
+233 79 6.0
+233 85 6.0
+233 87 3.0
+233 89 3.0
+233 112 3.0
+233 127 15.0
+234 70 21.0
+234 100 6.0
+234 102 3.0
+234 104 9.0
+235 50 15.0
+235 112 21.0
+235 114 15.0
+235 133 15.0
+236 119 6.0
+236 205 3.0
+237 31 3.0
+237 70 3.0
+237 127 51.0
+237 131 6.0
+237 249 7.0
+237 253 1.0
+238 231 6.0
+238 237 6.0
+238 241 400.0
+238 249 6.0
+238 264 0.004
+239 17 8.0
+239 127 37.0
+239 150 0.006
+239 231 3.0
+239 237 23.0
+239 240 1700.0
+239 253 2.0
+240 107 2.0
+240 127 46.0
+240 150 0.004
+240 237 14.0
+240 238 600.0
+240 249 39.0
+241 127 30.0
+241 249 11.0
+242 127 9.0
+242 237 2.0
+242 240 600.0
+242 249 3.0
+243 244 200.0
+243 245 200.0
+244 127 23.0
+247 127 3.0
+247 243 600.0
+247 246 600.0
+247 249 5.0
+246 31 5.0
+246 127 82.0
+246 131 2.0
+246 237 25.0
+246 240 6.0
+246 249 23.0
+250 249 6400.0
+252 251 800.0
+254 253 1200.0
+255 38 22.0
+255 54 10.0
+255 55 2.0
+255 56 39.0
+255 58 59.0
+255 59 2.0
+255 62 55.0
+255 92 66.0
+255 96 2.0
+255 114 51.0
+255 124 15.0
+255 136 43.0
+255 139 0.004
+255 140 0.022
+255 148 0.016
+255 161 39.0
+255 164 27.0
+255 167 27.0
+255 188 37.0
+255 202 20.0
+255 217 23.0
+255 231 4.0
+255 267 0.002
+256 231 24.0
+256 266 0.002
+256 267 0.004
+257 231 9.0
+257 232 4.0
+257 233 9.0
+257 234 9.0
+257 235 9.0
+257 236 9.0
+257 237 9.0
+257 256 900.0
+258 23 1.0
+258 25 7.0
+258 38 52.0
+258 50 6.0
+258 58 2.0
+258 70 257.0
+258 75 152.0
+258 79 20.0
+258 83 6.0
+258 85 14.0
+258 87 39.0
+258 89 3.0
+258 100 12.0
+258 112 13.0
+258 127 58.0
+258 133 16.0
+258 140 0.018
+258 158 11.0
+258 164 11.0
+258 173 15.0
+258 176 29.0
+258 179 115.0
+258 182 17.0
+258 185 21.0
+258 199 13.0
+258 208 33.0
+258 214 13.0
+258 231 4.0
+258 232 4.0
+258 233 4.0
+258 234 18.0
+258 427 0.004
+259 38 40.0
+259 50 4.0
+259 70 196.0
+259 75 10.0
+259 85 42.0
+259 100 40.0
+259 102 3.0
+259 104 24.0
+259 112 36.0
+259 127 90.0
+259 131 4.0
+259 140 0.024
+259 144 0.004
+259 173 14.0
+259 179 14.0
+259 193 22.0
+259 232 2.0
+259 233 11.0
+259 234 4.0
+259 235 14.0
+259 256 1800.0
+259 418 0.008
+259 427 0.002
+260 50 19.0
+260 70 4.0
+260 112 43.0
+260 114 59.0
+260 133 25.0
+260 158 19.0
+260 164 11.0
+260 179 33.0
+260 199 31.0
+260 202 23.0
+260 208 15.0
+260 214 19.0
+260 235 4.0
+261 119 6.0
+261 205 15.0
+261 236 4.0
+262 31 13.0
+262 70 9.0
+262 107 12.0
+262 108 2.0
+262 112 10.0
+262 127 137.0
+262 131 56.0
+262 144 0.004
+262 150 0.01
+262 191 3.0
+262 196 19.0
+262 199 3.0
+262 205 3.0
+262 208 43.0
+262 211 15.0
+262 231 13.0
+262 235 11.0
+262 237 4.0
+262 241 58.0
+262 249 97.0
+262 253 1.0
+268 17 6.0
+268 267 0.02
+269 329 6.0
+270 232 2.0
+270 329 6.0
+270 427 0.002
+271 38 2.0
+271 70 22.0
+271 96 4.0
+271 107 2.0
+271 112 4.0
+271 127 20.0
+271 131 10.0
+271 140 0.01
+271 150 0.012
+271 232 6.0
+271 233 10.0
+271 237 4.0
+271 329 8.0
+271 382 30.0
+271 412 0.002
+271 425 0.002
+271 426 0.002
+271 427 0.006
+272 38 6.0
+272 231 2.0
+272 232 2.0
+272 329 6.0
+272 427 0.002
+273 329 6.0
+275 17 8.0
+275 274 400.0
+275 398 5.0
+274 38 2.0
+274 150 0.002
+274 231 15.0
+274 232 10.0
+274 233 7.0
+274 235 3.0
+274 236 3.0
+274 237 3.0
+274 329 6.0
+274 426 0.002
+274 427 0.01
+274 428 0.002
+276 79 14.0
+276 232 2.0
+276 233 2.0
+276 329 6.0
+276 427 0.002
+277 79 6.0
+277 232 2.0
+277 233 4.0
+277 329 6.0
+277 425 0.002
+277 427 0.002
+279 17 8.0
+279 79 3.0
+279 176 11.0
+279 278 1200.0
+279 383 8.0
+279 398 5.0
+278 232 2.0
+278 233 2.0
+278 329 6.0
+278 383 4.0
+280 29 24.0
+280 38 10.0
+280 54 34.0
+280 70 2.0
+280 92 4.0
+280 127 2.0
+280 148 0.004
+280 231 30.0
+280 232 4.0
+280 233 4.0
+280 329 6.0
+280 427 0.004
+281 29 2.0
+281 38 10.0
+281 54 4.0
+281 92 4.0
+281 96 4.0
+281 148 0.004
+281 231 6.0
+281 232 2.0
+281 329 6.0
+281 363 34.0
+281 425 0.004
+281 427 0.002
+282 29 10.0
+282 38 2.0
+282 58 32.0
+282 60 4.0
+282 92 2.0
+282 139 0.002
+282 231 12.0
+282 232 2.0
+282 329 6.0
+282 364 6.0
+282 427 0.002
+283 29 2.0
+283 58 12.0
+283 60 2.0
+283 92 4.0
+283 139 0.002
+283 231 4.0
+283 232 2.0
+283 329 6.0
+283 364 16.0
+283 425 0.002
+283 427 0.002
+284 29 8.0
+284 38 2.0
+284 58 6.0
+284 62 18.0
+284 92 4.0
+284 139 0.002
+284 231 14.0
+284 232 2.0
+284 329 6.0
+284 365 12.0
+285 29 2.0
+285 38 4.0
+285 58 2.0
+285 62 10.0
+285 92 4.0
+285 96 6.0
+285 139 0.002
+285 231 14.0
+285 232 2.0
+285 329 6.0
+285 365 14.0
+285 425 0.002
+285 427 0.002
+286 329 6.0
+286 369 12.0
+287 25 2.0
+287 31 2.0
+287 38 6.0
+287 50 6.0
+287 54 6.0
+287 58 16.0
+287 62 2.0
+287 67 32.0
+287 70 42.0
+287 79 2.0
+287 83 2.0
+287 85 2.0
+287 92 6.0
+287 112 34.0
+287 127 48.0
+287 133 6.0
+287 139 0.004
+287 148 0.002
+287 150 0.002
+287 231 12.0
+287 232 8.0
+287 233 14.0
+287 235 10.0
+287 237 4.0
+287 253 2.0
+287 288 500.0
+287 329 6.0
+287 425 0.004
+287 427 0.008
+289 19 25.0
+289 38 4.0
+289 44 3.0
+289 54 48.0
+289 58 8.0
+289 67 92.0
+289 70 12.0
+289 112 22.0
+289 127 18.0
+289 231 8.0
+289 232 6.0
+289 235 2.0
+289 237 2.0
+289 329 6.0
+289 420 0.002
+289 425 0.002
+289 427 0.002
+290 231 8.0
+290 232 2.0
+290 329 6.0
+290 425 0.002
+290 427 0.002
+291 29 4.0
+291 54 72.0
+291 56 16.0
+291 231 8.0
+291 232 2.0
+291 329 6.0
+291 425 0.002
+291 427 0.002
+292 29 6.0
+292 58 6.0
+292 62 14.0
+292 231 8.0
+292 232 2.0
+292 329 6.0
+292 425 0.002
+292 427 0.002
+293 29 8.0
+293 38 2.0
+293 54 36.0
+293 56 2.0
+293 70 4.0
+293 127 4.0
+293 140 0.008
+293 231 10.0
+293 232 6.0
+293 233 8.0
+293 329 6.0
+294 29 6.0
+294 38 2.0
+294 58 4.0
+294 139 0.002
+294 231 6.0
+294 232 2.0
+294 329 6.0
+294 425 0.002
+294 427 0.002
+295 29 6.0
+295 38 2.0
+295 58 4.0
+295 62 6.0
+295 139 0.002
+295 231 6.0
+295 232 2.0
+295 329 6.0
+295 425 0.002
+295 427 0.002
+296 38 2.0
+296 92 4.0
+296 231 4.0
+296 232 2.0
+296 329 6.0
+296 427 0.002
+297 231 2.0
+297 232 2.0
+297 329 6.0
+297 427 0.002
+298 38 12.0
+298 54 6.0
+298 92 28.0
+298 231 36.0
+298 232 2.0
+298 329 6.0
+298 427 0.002
+299 38 10.0
+299 92 8.0
+299 146 0.004
+299 148 0.006
+299 231 10.0
+299 232 2.0
+299 329 6.0
+299 371 20.0
+299 425 0.002
+299 427 0.002
+300 38 4.0
+300 96 8.0
+300 231 2.0
+300 232 2.0
+300 329 6.0
+300 418 0.002
+300 425 0.002
+300 427 0.002
+301 35 2.0
+301 232 2.0
+301 274 2.0
+301 329 6.0
+301 425 0.002
+301 427 0.002
+302 38 2.0
+302 231 2.0
+302 232 2.0
+302 329 6.0
+302 427 0.002
+303 50 10.0
+303 112 6.0
+303 150 0.002
+303 232 2.0
+303 235 8.0
+303 329 6.0
+303 362 12.0
+303 426 0.002
+303 427 0.002
+304 50 20.0
+304 112 8.0
+304 150 0.004
+304 232 2.0
+304 235 4.0
+304 329 6.0
+304 362 18.0
+304 411 0.002
+304 427 0.002
+305 112 4.0
+305 127 6.0
+305 150 0.002
+305 232 4.0
+305 235 6.0
+305 329 6.0
+305 409 0.01
+305 425 0.002
+305 426 0.002
+305 427 0.004
+306 58 2.0
+306 112 20.0
+306 122 2.0
+306 127 4.0
+306 144 0.002
+306 150 0.002
+306 232 2.0
+306 235 2.0
+306 329 6.0
+306 374 30.0
+306 426 0.002
+306 427 0.002
+307 112 2.0
+307 114 10.0
+307 231 2.0
+307 232 4.0
+307 235 4.0
+307 329 6.0
+307 375 8.0
+307 425 0.002
+307 427 0.004
+308 58 6.0
+308 112 6.0
+308 139 0.004
+308 231 2.0
+308 232 4.0
+308 235 2.0
+308 329 6.0
+308 375 4.0
+308 413 0.002
+308 425 0.004
+308 427 0.004
+309 112 6.0
+309 133 10.0
+309 150 0.002
+309 232 2.0
+309 235 8.0
+309 329 6.0
+309 380 12.0
+309 426 0.002
+309 427 0.002
+310 112 8.0
+310 133 18.0
+310 150 0.004
+310 232 2.0
+310 235 4.0
+310 329 6.0
+310 380 22.0
+310 417 0.002
+310 427 0.002
+311 150 0.002
+311 232 4.0
+311 342 6.0
+311 426 0.002
+311 427 0.004
+312 112 4.0
+312 114 2.0
+312 232 2.0
+312 235 4.0
+312 329 6.0
+313 119 2.0
+313 205 2.0
+313 232 2.0
+313 236 2.0
+313 329 6.0
+313 425 0.002
+313 427 0.002
+314 38 2.0
+314 92 2.0
+314 119 16.0
+314 150 0.002
+314 205 4.0
+314 231 2.0
+314 232 4.0
+314 236 4.0
+314 315 200.0
+314 329 6.0
+314 377 16.0
+314 426 0.002
+314 427 0.004
+315 119 20.0
+315 150 0.002
+315 205 2.0
+315 232 2.0
+315 236 2.0
+315 329 6.0
+315 377 20.0
+315 426 0.002
+315 427 0.002
+316 119 18.0
+316 205 2.0
+316 232 2.0
+316 236 2.0
+316 265 0.002
+316 329 6.0
+316 425 0.002
+316 427 0.002
+317 232 4.0
+317 236 2.0
+317 329 6.0
+317 427 0.004
+318 150 0.002
+318 205 4.0
+318 232 2.0
+318 236 4.0
+318 329 6.0
+318 426 0.002
+318 427 0.002
+319 232 2.0
+319 329 6.0
+319 427 0.002
+320 31 3.0
+320 107 5.0
+320 112 1.0
+320 127 35.0
+320 150 0.004
+320 232 4.0
+320 235 3.0
+320 237 19.0
+320 329 6.0
+320 379 38.0
+320 425 0.002
+320 427 0.004
+320 428 0.01
+321 107 24.0
+321 112 12.0
+321 127 28.0
+321 150 0.004
+321 232 4.0
+321 235 2.0
+321 237 12.0
+321 329 6.0
+321 379 24.0
+321 425 0.002
+321 427 0.004
+322 127 2.0
+322 232 2.0
+322 237 4.0
+322 329 6.0
+322 386 2.0
+322 427 0.002
+322 428 0.004
+323 127 8.0
+323 232 2.0
+323 237 4.0
+323 329 6.0
+323 425 0.002
+323 427 0.002
+323 428 0.004
+324 127 2.0
+324 232 2.0
+324 237 4.0
+324 329 6.0
+324 425 0.004
+324 427 0.002
+325 3 2.0
+325 4 4.0
+325 136 12.0
+325 231 4.0
+325 232 2.0
+325 326 200.0
+325 329 6.0
+325 425 0.002
+325 427 0.002
+326 29 2.0
+326 96 1.0
+326 136 12.0
+326 152 0.002
+326 231 2.0
+326 232 2.0
+326 329 6.0
+326 381 14.0
+326 425 0.002
+326 427 0.002
+327 232 2.0
+327 329 6.0
+328 150 0.002
+328 231 2.0
+328 232 2.0
+328 329 6.0
+328 426 0.002
+328 427 0.002
+329 231 2.0
+329 232 5.0
+329 425 0.004
+329 426 0.002
+329 427 0.002
+330 23 2.0
+330 89 54.0
+330 232 10.0
+330 233 2.0
+330 237 4.0
+330 329 6.0
+330 426 0.002
+330 427 0.01
+331 54 2.0
+331 89 108.0
+331 112 12.0
+331 113 2.0
+331 127 4.0
+331 131 2.0
+331 140 0.008
+331 150 0.004
+331 232 6.0
+331 235 2.0
+331 329 6.0
+331 378 46.0
+331 426 0.002
+331 427 0.006
+332 38 4.0
+332 127 14.0
+332 131 30.0
+332 150 0.002
+332 232 2.0
+332 237 12.0
+332 249 2.0
+332 329 6.0
+332 379 36.0
+332 425 0.004
+332 427 0.002
+333 38 26.0
+333 127 14.0
+333 131 36.0
+333 150 0.006
+333 231 2.0
+333 232 4.0
+333 237 6.0
+333 329 6.0
+333 379 28.0
+333 425 0.002
+333 427 0.004
+334 70 4.0
+334 127 4.0
+334 140 0.006
+334 232 4.0
+334 233 6.0
+334 237 2.0
+334 329 6.0
+334 427 0.004
+335 112 2.0
+335 127 2.0
+335 150 0.004
+335 232 4.0
+335 233 2.0
+335 235 2.0
+335 329 6.0
+335 426 0.002
+335 427 0.004
+336 38 2.0
+336 70 33.0
+336 83 4.0
+336 85 4.0
+336 112 11.0
+336 127 4.0
+336 140 0.006
+336 144 0.002
+336 150 0.008
+336 232 6.0
+336 233 14.0
+336 234 2.0
+336 235 2.0
+336 329 6.0
+336 370 35.0
+336 410 0.002
+336 412 0.008
+336 426 0.002
+336 427 0.01
+337 58 6.0
+337 96 2.0
+337 112 22.0
+337 127 10.0
+337 133 2.0
+337 134 2.0
+337 138 0.01
+337 140 0.002
+337 150 0.008
+337 231 2.0
+337 232 6.0
+337 235 2.0
+337 237 4.0
+337 329 6.0
+337 370 12.0
+337 412 0.002
+337 425 0.002
+337 426 0.002
+337 427 0.006
+339 17 8.0
+339 127 6.0
+339 237 5.0
+339 338 400.0
+339 370 6.0
+339 398 5.0
+338 70 8.0
+338 112 4.0
+338 127 2.0
+338 140 0.002
+338 150 0.002
+338 232 4.0
+338 233 4.0
+338 329 6.0
+338 370 14.0
+338 412 0.004
+338 426 0.002
+338 427 0.004
+340 70 4.0
+340 112 4.0
+340 127 2.0
+340 140 0.002
+340 232 4.0
+340 233 4.0
+340 329 6.0
+340 370 6.0
+340 412 0.004
+340 426 0.002
+340 427 0.004
+341 329 6.0
+341 424 0.002
+342 112 12.0
+342 113 4.0
+342 150 0.004
+342 232 2.0
+342 235 16.0
+342 329 6.0
+342 384 6.0
+342 426 0.002
+342 427 0.002
+343 70 21.0
+343 112 8.0
+343 127 2.0
+343 150 0.004
+343 232 2.0
+343 233 4.0
+343 329 6.0
+343 373 8.0
+343 425 0.002
+344 70 19.0
+344 112 8.0
+344 113 2.0
+344 150 0.004
+344 232 4.0
+344 233 2.0
+344 235 2.0
+344 329 6.0
+344 373 6.0
+344 426 0.004
+344 427 0.004
+345 127 4.0
+345 232 2.0
+345 233 2.0
+345 329 6.0
+345 427 0.002
+346 79 2.0
+346 231 2.0
+346 232 4.0
+346 233 4.0
+346 329 6.0
+346 425 0.002
+346 427 0.004
+347 38 2.0
+347 70 32.0
+347 85 2.0
+347 112 18.0
+347 127 6.0
+347 134 2.0
+347 140 0.008
+347 144 0.002
+347 150 0.002
+347 232 6.0
+347 233 4.0
+347 234 2.0
+347 329 6.0
+347 370 4.0
+347 426 0.004
+347 427 0.006
+348 75 3.0
+348 112 4.0
+348 127 8.0
+348 140 0.002
+348 150 0.004
+348 232 2.0
+348 233 15.0
+348 329 6.0
+348 425 0.002
+348 426 0.004
+348 427 0.002
+349 70 4.0
+349 100 12.0
+349 112 4.0
+349 127 4.0
+349 150 0.002
+349 232 4.0
+349 233 4.0
+349 234 4.0
+349 329 6.0
+349 426 0.002
+349 427 0.004
+351 17 6.0
+351 127 6.0
+351 237 5.0
+351 350 400.0
+351 366 10.0
+351 398 5.0
+350 6 4.0
+350 7 2.0
+350 8 11.0
+350 9 2.0
+350 10 2.0
+350 11 1.0
+350 12 3.0
+350 13 2.0
+350 14 2.0
+350 15 2.0
+350 16 2.0
+350 27 24.0
+350 36 2.0
+350 38 4.0
+350 70 2.0
+350 89 2.0
+350 112 8.0
+350 119 28.0
+350 127 2.0
+350 205 2.0
+350 231 2.0
+350 232 6.0
+350 233 6.0
+350 236 2.0
+350 329 6.0
+350 420 0.002
+350 425 0.002
+350 427 0.006
+352 232 6.0
+352 329 6.0
+352 427 0.006
+353 38 10.0
+353 127 20.0
+353 131 2.0
+353 231 2.0
+353 232 6.0
+353 237 6.0
+353 253 20.0
+353 256 2.0
+353 329 6.0
+353 427 0.006
+354 329 6.0
+354 367 2.0
+355 127 4.0
+355 150 0.002
+355 232 2.0
+355 237 8.0
+355 249 24.0
+355 329 6.0
+355 356 2400.0
+355 359 2.0
+355 372 2.0
+355 425 0.004
+355 427 0.002
+355 428 0.002
+356 127 2.0
+356 329 6.0
+356 428 0.002
+357 100 6.0
+357 127 10.0
+357 131 6.0
+357 150 0.002
+357 231 2.0
+357 232 6.0
+357 234 2.0
+357 237 4.0
+357 329 6.0
+357 379 12.0
+357 425 0.002
+357 427 0.004
+358 329 6.0
+359 38 2.0
+359 127 4.0
+359 150 0.006
+359 231 22.0
+359 232 8.0
+359 425 0.01
+359 426 0.002
+359 427 0.002
+359 428 0.008
+364 38 8.0
+364 58 6.0
+364 60 10.0
+364 62 4.0
+364 96 4.0
+364 139 0.004
+364 231 4.0
+364 232 2.0
+364 425 0.004
+364 427 0.002
+365 38 2.0
+365 425 0.002
+368 232 3.0
+368 427 0.002
+370 1 2.0
+370 2 18.0
+370 21 3.0
+370 33 16.0
+370 38 8.0
+370 58 36.0
+370 70 214.0
+370 79 4.0
+370 83 29.0
+370 85 8.0
+370 112 77.0
+370 114 47.0
+370 127 43.0
+370 133 2.0
+370 134 2.0
+370 136 12.0
+370 139 0.004
+370 140 0.01
+370 142 0.002
+370 144 0.012
+370 150 0.022
+370 152 0.014
+370 232 27.0
+370 233 37.0
+370 234 8.0
+370 235 2.0
+370 237 5.0
+370 368 800.0
+370 410 0.004
+370 412 0.008
+370 418 0.01
+370 425 0.008
+370 426 0.008
+370 427 0.01
+374 50 10.0
+374 58 6.0
+374 96 6.0
+374 112 18.0
+374 122 6.0
+374 133 10.0
+374 134 2.0
+374 139 0.004
+374 140 0.002
+374 144 0.006
+374 150 0.004
+374 232 6.0
+374 235 11.0
+374 237 8.0
+374 385 2.0
+374 413 0.002
+374 414 0.002
+374 415 0.002
+374 416 0.002
+374 425 0.014
+374 426 0.002
+374 427 0.004
+376 368 600.0
+382 70 12.0
+383 79 2.0
+384 112 23.0
+384 122 3.0
+384 150 0.002
+384 235 26.0
+385 114 16.0
+385 136 2.0
+385 139 0.002
+385 152 0.002
+386 127 13.0
+388 387 200.0
+387 38 2.0
+390 234 9.0
+390 389 600.0
+390 391 300.0
+392 70 10.0
+392 100 6.0
+392 127 6.0
+392 231 2.0
+392 232 6.0
+392 233 4.0
+392 234 4.0
+392 389 600.0
+392 427 0.006
+393 70 2.0
+393 79 10.0
+393 232 2.0
+393 233 6.0
+393 394 600.0
+394 127 2.0
+394 150 0.004
+394 232 3.0
+394 425 0.002
+394 427 0.002
+395 394 600.0
+396 119 2.0
+396 205 2.0
+396 232 2.0
+396 236 2.0
+396 394 600.0
+397 70 38.0
+397 85 11.0
+397 112 41.0
+397 127 4.0
+397 140 0.004
+397 150 0.006
+397 231 6.0
+397 232 6.0
+397 233 11.0
+397 235 7.0
+397 394 800.0
+397 418 0.002
+400 38 4.0
+400 58 39.0
+400 62 4.0
+400 96 6.0
+400 139 0.006
+400 231 2.0
+400 232 2.0
+400 418 0.006
+400 425 0.002
+400 427 0.002
+401 38 12.0
+401 425 0.002
+402 38 4.0
+402 425 0.002
+403 38 2.0
+403 144 0.008
+403 418 0.006
+404 38 8.0
+404 131 2.0
+404 418 0.016
+405 38 4.0
+405 70 21.0
+405 127 10.0
+406 38 2.0
+406 418 0.014
+407 38 12.0
+407 425 0.002
+408 140 0.002
+408 144 0.002
+409 107 4.0
+409 112 24.0
+409 122 2.0
+409 127 8.0
+409 235 16.0
+409 237 22.0
+410 38 4.0
+410 231 5.0
+410 232 12.0
+410 233 3.0
+411 50 5.0
+412 38 8.0
+412 58 15.0
+412 70 55.0
+412 96 24.0
+412 104 1.0
+412 112 45.0
+412 127 44.0
+412 138 0.012
+412 140 0.012
+412 144 0.006
+412 150 0.012
+412 152 0.01
+412 232 2.0
+412 233 2.0
+412 234 6.0
+412 237 6.0
+412 425 0.02
+412 427 0.02
+413 144 0.004
+417 133 3.0
+419 38 2.0
+421 17 6.0
+421 19 14.0
+421 44 3.0
+421 50 14.0
+421 54 6.0
+421 58 30.0
+421 62 8.0
+421 70 138.0
+421 79 20.0
+421 83 8.0
+421 85 22.0
+421 112 56.0
+421 124 20.0
+421 127 60.0
+421 133 16.0
+421 144 0.006
+421 420 0.44
+420 19 14.0
+420 38 46.0
+420 44 17.0
+420 50 10.0
+420 54 18.0
+420 58 22.0
+420 60 2.0
+420 62 2.0
+420 70 122.0
+420 79 22.0
+420 83 4.0
+420 85 18.0
+420 112 75.0
+420 124 58.0
+420 127 56.0
+420 133 12.0
+420 139 0.004
+420 144 0.002
+420 419 0.04
+420 422 0.05
+423 50 2.0
+423 58 8.0
+423 112 4.0
+423 127 2.0
+423 422 6.36
+422 38 4.0
+422 44 51.0
+422 50 6.0
+422 54 8.0
+422 58 14.0
+422 60 4.0
+422 70 28.0
+422 79 14.0
+422 83 2.0
+422 85 8.0
+422 112 20.0
+422 122 2.0
+422 124 8.0
+422 127 18.0
+422 133 6.0
+422 150 0.002
+422 419 0.04
+424 38 4.0
+424 50 2.0
+424 70 13.0
+424 112 17.0
+424 127 3.0
+424 131 9.0
+424 140 0.012
+424 150 0.004
+424 232 4.0
+424 233 3.0
+424 235 3.0
+424 382 15.0
+424 425 0.02
+424 426 0.04
+424 427 0.04
+425 38 14.0
+425 127 31.0
+425 131 9.0
+425 150 0.002
+425 231 2.0
+425 232 6.0
+425 237 6.0
+425 426 0.02
+425 427 0.06
+425 428 0.02
+425 429 0.02
+426 127 3.0
+427 232 10.0
+429 428 0.02

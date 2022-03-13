@@ -1,0 +1,13 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+WroManagerFactory & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+WroManager & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+WroModelFactory & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+GroupExtractor & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+PreProcessorExecutor & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+ResourcePreProcessor & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+Resource & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+WroModel & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+WroModelInspector & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+个数 & $\textbf{9}$ & $\textbf{9}$ & $6$ & $6$ & $3$ & $4$ & $\textbf{9}$ & $2$ & $\textbf{9}$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $66$ & $66$ & $33$ & $44$ & $\textbf{100}$ & $22$ & $\textbf{100}$ \\
+准确率($\%$) & $\textbf{60}$ & $\textbf{60}$ & $40$ & $40$ & $20$ & $26$ & $\textbf{60}$ & $13$ & $\textbf{60}$ \\

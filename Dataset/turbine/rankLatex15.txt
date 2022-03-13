@@ -1,0 +1,12 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+Assembler & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+GenericLoader & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Loader & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+AbstractValve & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Pipeline & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+PipelineData & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+Valve & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+ValveContext & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+个数 & $\textbf{8}$ & $\textbf{8}$ & $5$ & $\textbf{8}$ & $2$ & $2$ & $\textbf{8}$ & $0$ & $\textbf{8}$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $62$ & $\textbf{100}$ & $25$ & $25$ & $\textbf{100}$ & $0$ & $\textbf{100}$ \\
+准确率($\%$) & $\textbf{53}$ & $\textbf{53}$ & $33$ & $\textbf{53}$ & $13$ & $13$ & $\textbf{53}$ & $0$ & $\textbf{53}$ \\

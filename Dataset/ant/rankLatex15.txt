@@ -1,0 +1,16 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+AntTypeDefinition & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+BuildEvent & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+BuildException & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+ComponentHelper & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+IntrospectionHelper & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+Project & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+ProjectHelper & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+PropertyHelper & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+RuntimeConfigurable & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+Target & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+Task & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+UnknownElement & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+个数 & $\textbf{12}$ & $\textbf{12}$ & $9$ & $\textbf{12}$ & $0$ & $3$ & $\textbf{12}$ & $9$ & $\textbf{12}$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $75$ & $\textbf{100}$ & $0$ & $25$ & $\textbf{100}$ & $75$ & $\textbf{100}$ \\
+准确率($\%$) & $\textbf{80}$ & $\textbf{80}$ & $60$ & $\textbf{80}$ & $0$ & $20$ & $\textbf{80}$ & $60$ & $\textbf{80}$ \\

@@ -1,0 +1,2161 @@
+*Vertices 611
+1 "org.apache.tomcat.InstanceManager"
+2 "org.apache.tomcat.InstanceManagerBindings"
+3 "org.apache.tomcat.Jar"
+4 "org.apache.tomcat.JarScanFilter"
+5 "org.apache.tomcat.JarScanType"
+6 "org.apache.tomcat.JarScanner"
+7 "org.apache.tomcat.JarScannerCallback"
+8 "org.apache.tomcat.SimpleInstanceManager"
+9 "org.apache.tomcat.buildutil.CheckEol"
+10 "org.apache.tomcat.buildutil.CheckEol$CheckFailure"
+11 "org.apache.tomcat.buildutil.CheckEol$Mode"
+12 "org.apache.tomcat.buildutil.SignCode"
+13 "org.apache.tomcat.dbcp.dbcp2.AbandonedTrace"
+14 "org.apache.tomcat.dbcp.dbcp2.BasicDataSource"
+15 "org.apache.tomcat.dbcp.dbcp2.BasicDataSource$PaGetConnection"
+16 "org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+17 "org.apache.tomcat.dbcp.dbcp2.BasicDataSourceMXBean"
+18 "org.apache.tomcat.dbcp.dbcp2.ConnectionFactory"
+19 "org.apache.tomcat.dbcp.dbcp2.DataSourceConnectionFactory"
+20 "org.apache.tomcat.dbcp.dbcp2.DelegatingCallableStatement"
+21 "org.apache.tomcat.dbcp.dbcp2.DelegatingConnection"
+22 "org.apache.tomcat.dbcp.dbcp2.DelegatingDatabaseMetaData"
+23 "org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement"
+24 "org.apache.tomcat.dbcp.dbcp2.DelegatingResultSet"
+25 "org.apache.tomcat.dbcp.dbcp2.DelegatingStatement"
+26 "org.apache.tomcat.dbcp.dbcp2.DriverConnectionFactory"
+27 "org.apache.tomcat.dbcp.dbcp2.DriverManagerConnectionFactory"
+28 "org.apache.tomcat.dbcp.dbcp2.LifetimeExceededException"
+29 "org.apache.tomcat.dbcp.dbcp2.PStmtKey"
+30 "org.apache.tomcat.dbcp.dbcp2.PoolableCallableStatement"
+31 "org.apache.tomcat.dbcp.dbcp2.PoolableConnection"
+32 "org.apache.tomcat.dbcp.dbcp2.PoolableConnectionFactory"
+33 "org.apache.tomcat.dbcp.dbcp2.PoolableConnectionMXBean"
+34 "org.apache.tomcat.dbcp.dbcp2.PoolablePreparedStatement"
+35 "org.apache.tomcat.dbcp.dbcp2.PoolingConnection"
+36 "org.apache.tomcat.dbcp.dbcp2.PoolingConnection$StatementType"
+37 "org.apache.tomcat.dbcp.dbcp2.PoolingDataSource"
+38 "org.apache.tomcat.dbcp.dbcp2.PoolingDataSource$PoolGuardConnectionWrapper"
+39 "org.apache.tomcat.dbcp.dbcp2.PoolingDriver"
+40 "org.apache.tomcat.dbcp.dbcp2.PoolingDriver$PoolGuardConnectionWrapper"
+41 "org.apache.tomcat.dbcp.dbcp2.SwallowedExceptionLogger"
+42 "org.apache.tomcat.dbcp.dbcp2.Utils"
+43 "org.apache.tomcat.dbcp.dbcp2.cpdsadapter.ConnectionImpl"
+44 "org.apache.tomcat.dbcp.dbcp2.cpdsadapter.DriverAdapterCPDS"
+45 "org.apache.tomcat.dbcp.dbcp2.cpdsadapter.PStmtKeyCPDS"
+46 "org.apache.tomcat.dbcp.dbcp2.cpdsadapter.PooledConnectionImpl"
+47 "org.apache.tomcat.dbcp.dbcp2.datasources.CPDSConnectionFactory"
+48 "org.apache.tomcat.dbcp.dbcp2.datasources.InstanceKeyDataSource"
+49 "org.apache.tomcat.dbcp.dbcp2.datasources.InstanceKeyDataSourceFactory"
+50 "org.apache.tomcat.dbcp.dbcp2.datasources.KeyedCPDSConnectionFactory"
+51 "org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSource"
+52 "org.apache.tomcat.dbcp.dbcp2.datasources.PerUserPoolDataSourceFactory"
+53 "org.apache.tomcat.dbcp.dbcp2.datasources.PoolKey"
+54 "org.apache.tomcat.dbcp.dbcp2.datasources.PooledConnectionAndInfo"
+55 "org.apache.tomcat.dbcp.dbcp2.datasources.PooledConnectionManager"
+56 "org.apache.tomcat.dbcp.dbcp2.datasources.SharedPoolDataSource"
+57 "org.apache.tomcat.dbcp.dbcp2.datasources.SharedPoolDataSourceFactory"
+58 "org.apache.tomcat.dbcp.dbcp2.datasources.UserPassKey"
+59 "org.apache.tomcat.dbcp.dbcp2.package-info"
+60 "org.apache.tomcat.dbcp.pool2.BaseKeyedPooledObjectFactory"
+61 "org.apache.tomcat.dbcp.pool2.BaseObject"
+62 "org.apache.tomcat.dbcp.pool2.BaseObjectPool"
+63 "org.apache.tomcat.dbcp.pool2.BasePooledObjectFactory"
+64 "org.apache.tomcat.dbcp.pool2.KeyedObjectPool"
+65 "org.apache.tomcat.dbcp.pool2.KeyedPooledObjectFactory"
+66 "org.apache.tomcat.dbcp.pool2.ObjectPool"
+67 "org.apache.tomcat.dbcp.pool2.PoolUtils"
+68 "org.apache.tomcat.dbcp.pool2.PoolUtils$ErodingFactor"
+69 "org.apache.tomcat.dbcp.pool2.PoolUtils$ErodingKeyedObjectPool"
+70 "org.apache.tomcat.dbcp.pool2.PoolUtils$ErodingObjectPool"
+71 "org.apache.tomcat.dbcp.pool2.PoolUtils$ErodingPerKeyKeyedObjectPool"
+72 "org.apache.tomcat.dbcp.pool2.PoolUtils$KeyedObjectPoolMinIdleTimerTask"
+73 "org.apache.tomcat.dbcp.pool2.PoolUtils$ObjectPoolMinIdleTimerTask"
+74 "org.apache.tomcat.dbcp.pool2.PoolUtils$SynchronizedKeyedObjectPool"
+75 "org.apache.tomcat.dbcp.pool2.PoolUtils$SynchronizedKeyedPooledObjectFactory"
+76 "org.apache.tomcat.dbcp.pool2.PoolUtils$SynchronizedObjectPool"
+77 "org.apache.tomcat.dbcp.pool2.PoolUtils$SynchronizedPooledObjectFactory"
+78 "org.apache.tomcat.dbcp.pool2.PooledObject"
+79 "org.apache.tomcat.dbcp.pool2.PooledObjectFactory"
+80 "org.apache.tomcat.dbcp.pool2.PooledObjectState"
+81 "org.apache.tomcat.dbcp.pool2.SwallowedExceptionListener"
+82 "org.apache.tomcat.dbcp.pool2.TrackedUse"
+83 "org.apache.tomcat.dbcp.pool2.UsageTracking"
+84 "org.apache.tomcat.dbcp.pool2.impl.AbandonedConfig"
+85 "org.apache.tomcat.dbcp.pool2.impl.BaseGenericObjectPool"
+86 "org.apache.tomcat.dbcp.pool2.impl.BaseGenericObjectPool$EvictionIterator"
+87 "org.apache.tomcat.dbcp.pool2.impl.BaseGenericObjectPool$Evictor"
+88 "org.apache.tomcat.dbcp.pool2.impl.BaseGenericObjectPool$IdentityWrapper"
+89 "org.apache.tomcat.dbcp.pool2.impl.BaseGenericObjectPool$StatsStore"
+90 "org.apache.tomcat.dbcp.pool2.impl.BaseObjectPoolConfig"
+91 "org.apache.tomcat.dbcp.pool2.impl.DefaultEvictionPolicy"
+92 "org.apache.tomcat.dbcp.pool2.impl.DefaultPooledObject"
+93 "org.apache.tomcat.dbcp.pool2.impl.DefaultPooledObject$AbandonedObjectCreatedException"
+94 "org.apache.tomcat.dbcp.pool2.impl.DefaultPooledObjectInfo"
+95 "org.apache.tomcat.dbcp.pool2.impl.DefaultPooledObjectInfoMBean"
+96 "org.apache.tomcat.dbcp.pool2.impl.EvictionConfig"
+97 "org.apache.tomcat.dbcp.pool2.impl.EvictionPolicy"
+98 "org.apache.tomcat.dbcp.pool2.impl.EvictionTimer"
+99 "org.apache.tomcat.dbcp.pool2.impl.EvictionTimer$PrivilegedGetTccl"
+100 "org.apache.tomcat.dbcp.pool2.impl.EvictionTimer$PrivilegedNewEvictionTimer"
+101 "org.apache.tomcat.dbcp.pool2.impl.EvictionTimer$PrivilegedSetTccl"
+102 "org.apache.tomcat.dbcp.pool2.impl.GenericKeyedObjectPool"
+103 "org.apache.tomcat.dbcp.pool2.impl.GenericKeyedObjectPool$ObjectDeque"
+104 "org.apache.tomcat.dbcp.pool2.impl.GenericKeyedObjectPoolConfig"
+105 "org.apache.tomcat.dbcp.pool2.impl.GenericKeyedObjectPoolMXBean"
+106 "org.apache.tomcat.dbcp.pool2.impl.GenericObjectPool"
+107 "org.apache.tomcat.dbcp.pool2.impl.GenericObjectPoolConfig"
+108 "org.apache.tomcat.dbcp.pool2.impl.GenericObjectPoolMXBean"
+109 "org.apache.tomcat.dbcp.pool2.impl.InterruptibleReentrantLock"
+110 "org.apache.tomcat.dbcp.pool2.impl.LinkedBlockingDeque"
+111 "org.apache.tomcat.dbcp.pool2.impl.LinkedBlockingDeque$AbstractItr"
+112 "org.apache.tomcat.dbcp.pool2.impl.LinkedBlockingDeque$DescendingItr"
+113 "org.apache.tomcat.dbcp.pool2.impl.LinkedBlockingDeque$Itr"
+114 "org.apache.tomcat.dbcp.pool2.impl.LinkedBlockingDeque$Node"
+115 "org.apache.tomcat.dbcp.pool2.impl.PoolImplUtils"
+116 "org.apache.tomcat.dbcp.pool2.impl.PooledSoftReference"
+117 "org.apache.tomcat.dbcp.pool2.impl.SoftReferenceObjectPool"
+118 "org.apache.tomcat.jni.Address"
+119 "org.apache.tomcat.jni.BIOCallback"
+120 "org.apache.tomcat.jni.Buffer"
+121 "org.apache.tomcat.jni.CertificateVerifier"
+122 "org.apache.tomcat.jni.Directory"
+123 "org.apache.tomcat.jni.Error"
+124 "org.apache.tomcat.jni.File"
+125 "org.apache.tomcat.jni.FileInfo"
+126 "org.apache.tomcat.jni.Global"
+127 "org.apache.tomcat.jni.Library"
+128 "org.apache.tomcat.jni.LibraryNotFoundError"
+129 "org.apache.tomcat.jni.Lock"
+130 "org.apache.tomcat.jni.Mmap"
+131 "org.apache.tomcat.jni.OS"
+132 "org.apache.tomcat.jni.PasswordCallback"
+133 "org.apache.tomcat.jni.Poll"
+134 "org.apache.tomcat.jni.Pool"
+135 "org.apache.tomcat.jni.Proc"
+136 "org.apache.tomcat.jni.Procattr"
+137 "org.apache.tomcat.jni.Registry"
+138 "org.apache.tomcat.jni.SSL"
+139 "org.apache.tomcat.jni.SSLConf"
+140 "org.apache.tomcat.jni.SSLContext"
+141 "org.apache.tomcat.jni.SSLContext$SNICallBack"
+142 "org.apache.tomcat.jni.SSLSocket"
+143 "org.apache.tomcat.jni.Shm"
+144 "org.apache.tomcat.jni.Sockaddr"
+145 "org.apache.tomcat.jni.Socket"
+146 "org.apache.tomcat.jni.Status"
+147 "org.apache.tomcat.jni.Thread"
+148 "org.apache.tomcat.jni.User"
+149 "org.apache.tomcat.util.Diagnostics"
+150 "org.apache.tomcat.util.ExceptionUtils"
+151 "org.apache.tomcat.util.IntrospectionUtils"
+152 "org.apache.tomcat.util.IntrospectionUtils$PropertySource"
+153 "org.apache.tomcat.util.bcel.Const"
+154 "org.apache.tomcat.util.bcel.classfile.AnnotationElementValue"
+155 "org.apache.tomcat.util.bcel.classfile.AnnotationEntry"
+156 "org.apache.tomcat.util.bcel.classfile.Annotations"
+157 "org.apache.tomcat.util.bcel.classfile.ArrayElementValue"
+158 "org.apache.tomcat.util.bcel.classfile.ClassElementValue"
+159 "org.apache.tomcat.util.bcel.classfile.ClassFormatException"
+160 "org.apache.tomcat.util.bcel.classfile.ClassParser"
+161 "org.apache.tomcat.util.bcel.classfile.Constant"
+162 "org.apache.tomcat.util.bcel.classfile.ConstantClass"
+163 "org.apache.tomcat.util.bcel.classfile.ConstantDouble"
+164 "org.apache.tomcat.util.bcel.classfile.ConstantFloat"
+165 "org.apache.tomcat.util.bcel.classfile.ConstantInteger"
+166 "org.apache.tomcat.util.bcel.classfile.ConstantLong"
+167 "org.apache.tomcat.util.bcel.classfile.ConstantPool"
+168 "org.apache.tomcat.util.bcel.classfile.ConstantUtf8"
+169 "org.apache.tomcat.util.bcel.classfile.ElementValue"
+170 "org.apache.tomcat.util.bcel.classfile.ElementValuePair"
+171 "org.apache.tomcat.util.bcel.classfile.EnumElementValue"
+172 "org.apache.tomcat.util.bcel.classfile.JavaClass"
+173 "org.apache.tomcat.util.bcel.classfile.SimpleElementValue"
+174 "org.apache.tomcat.util.bcel.classfile.Utility"
+175 "org.apache.tomcat.util.buf.Ascii"
+176 "org.apache.tomcat.util.buf.B2CConverter"
+177 "org.apache.tomcat.util.buf.ByteBufferHolder"
+178 "org.apache.tomcat.util.buf.ByteBufferUtils"
+179 "org.apache.tomcat.util.buf.ByteChunk"
+180 "org.apache.tomcat.util.buf.ByteChunk$ByteInputChannel"
+181 "org.apache.tomcat.util.buf.ByteChunk$ByteOutputChannel"
+182 "org.apache.tomcat.util.buf.C2BConverter"
+183 "org.apache.tomcat.util.buf.CharChunk"
+184 "org.apache.tomcat.util.buf.CharChunk$CharInputChannel"
+185 "org.apache.tomcat.util.buf.CharChunk$CharOutputChannel"
+186 "org.apache.tomcat.util.buf.HexUtils"
+187 "org.apache.tomcat.util.buf.MessageBytes"
+188 "org.apache.tomcat.util.buf.MessageBytes$MessageBytesFactory"
+189 "org.apache.tomcat.util.buf.StringCache"
+190 "org.apache.tomcat.util.buf.StringCache$ByteEntry"
+191 "org.apache.tomcat.util.buf.StringCache$CharEntry"
+192 "org.apache.tomcat.util.buf.StringUtils"
+193 "org.apache.tomcat.util.buf.UDecoder"
+194 "org.apache.tomcat.util.buf.UDecoder$DecodeException"
+195 "org.apache.tomcat.util.buf.UEncoder"
+196 "org.apache.tomcat.util.buf.UEncoder$SafeCharsSet"
+197 "org.apache.tomcat.util.buf.UriUtil"
+198 "org.apache.tomcat.util.buf.Utf8Decoder"
+199 "org.apache.tomcat.util.buf.Utf8Encoder"
+200 "org.apache.tomcat.util.codec.binary.Base64"
+201 "org.apache.tomcat.util.codec.binary.BaseNCodec"
+202 "org.apache.tomcat.util.codec.binary.BaseNCodec$Context"
+203 "org.apache.tomcat.util.codec.binary.StringUtils"
+204 "org.apache.tomcat.util.collections.CaseInsensitiveKeyMap"
+205 "org.apache.tomcat.util.collections.CaseInsensitiveKeyMap$EntryImpl"
+206 "org.apache.tomcat.util.collections.CaseInsensitiveKeyMap$EntryIterator"
+207 "org.apache.tomcat.util.collections.CaseInsensitiveKeyMap$EntrySet"
+208 "org.apache.tomcat.util.collections.CaseInsensitiveKeyMap$Key"
+209 "org.apache.tomcat.util.collections.ConcurrentCache"
+210 "org.apache.tomcat.util.collections.ManagedConcurrentWeakHashMap"
+211 "org.apache.tomcat.util.collections.ManagedConcurrentWeakHashMap$Key"
+212 "org.apache.tomcat.util.collections.SynchronizedQueue"
+213 "org.apache.tomcat.util.collections.SynchronizedStack"
+214 "org.apache.tomcat.util.compat.Jre9Compat"
+215 "org.apache.tomcat.util.compat.JreCompat"
+216 "org.apache.tomcat.util.compat.JreVendor"
+217 "org.apache.tomcat.util.descriptor.DigesterFactory"
+218 "org.apache.tomcat.util.descriptor.InputSourceUtil"
+219 "org.apache.tomcat.util.descriptor.LocalResolver"
+220 "org.apache.tomcat.util.descriptor.XmlErrorHandler"
+221 "org.apache.tomcat.util.descriptor.tagplugin.TagPluginParser"
+222 "org.apache.tomcat.util.descriptor.tagplugin.TagPluginParser$TagPluginRuleSet"
+223 "org.apache.tomcat.util.descriptor.tld.ImplicitTldRuleSet"
+224 "org.apache.tomcat.util.descriptor.tld.ImplicitTldRuleSet$ElementNotAllowedRule"
+225 "org.apache.tomcat.util.descriptor.tld.TagFileXml"
+226 "org.apache.tomcat.util.descriptor.tld.TagXml"
+227 "org.apache.tomcat.util.descriptor.tld.TaglibXml"
+228 "org.apache.tomcat.util.descriptor.tld.TldParser"
+229 "org.apache.tomcat.util.descriptor.tld.TldResourcePath"
+230 "org.apache.tomcat.util.descriptor.tld.TldRuleSet"
+231 "org.apache.tomcat.util.descriptor.tld.TldRuleSet$Attribute"
+232 "org.apache.tomcat.util.descriptor.tld.TldRuleSet$GenericBooleanRule"
+233 "org.apache.tomcat.util.descriptor.tld.TldRuleSet$ScriptVariableRule"
+234 "org.apache.tomcat.util.descriptor.tld.TldRuleSet$TagAttributeRule"
+235 "org.apache.tomcat.util.descriptor.tld.TldRuleSet$Variable"
+236 "org.apache.tomcat.util.descriptor.tld.ValidatorXml"
+237 "org.apache.tomcat.util.descriptor.web.AbsoluteOrderingRule"
+238 "org.apache.tomcat.util.descriptor.web.CallMethodMultiRule"
+239 "org.apache.tomcat.util.descriptor.web.CallParamMultiRule"
+240 "org.apache.tomcat.util.descriptor.web.ContextEjb"
+241 "org.apache.tomcat.util.descriptor.web.ContextEnvironment"
+242 "org.apache.tomcat.util.descriptor.web.ContextHandler"
+243 "org.apache.tomcat.util.descriptor.web.ContextLocalEjb"
+244 "org.apache.tomcat.util.descriptor.web.ContextResource"
+245 "org.apache.tomcat.util.descriptor.web.ContextResourceEnvRef"
+246 "org.apache.tomcat.util.descriptor.web.ContextResourceLink"
+247 "org.apache.tomcat.util.descriptor.web.ContextService"
+248 "org.apache.tomcat.util.descriptor.web.ErrorPage"
+249 "org.apache.tomcat.util.descriptor.web.FilterDef"
+250 "org.apache.tomcat.util.descriptor.web.FilterMap"
+251 "org.apache.tomcat.util.descriptor.web.FragmentJarScannerCallback"
+252 "org.apache.tomcat.util.descriptor.web.IgnoreAnnotationsRule"
+253 "org.apache.tomcat.util.descriptor.web.Injectable"
+254 "org.apache.tomcat.util.descriptor.web.InjectionTarget"
+255 "org.apache.tomcat.util.descriptor.web.JspConfigDescriptorImpl"
+256 "org.apache.tomcat.util.descriptor.web.JspPropertyGroup"
+257 "org.apache.tomcat.util.descriptor.web.JspPropertyGroupDescriptorImpl"
+258 "org.apache.tomcat.util.descriptor.web.LifecycleCallbackRule"
+259 "org.apache.tomcat.util.descriptor.web.LoginConfig"
+260 "org.apache.tomcat.util.descriptor.web.MappedNameRule"
+261 "org.apache.tomcat.util.descriptor.web.MessageDestination"
+262 "org.apache.tomcat.util.descriptor.web.MessageDestinationRef"
+263 "org.apache.tomcat.util.descriptor.web.MultipartDef"
+264 "org.apache.tomcat.util.descriptor.web.NameRule"
+265 "org.apache.tomcat.util.descriptor.web.NamingResources"
+266 "org.apache.tomcat.util.descriptor.web.RelativeOrderingRule"
+267 "org.apache.tomcat.util.descriptor.web.ResourceBase"
+268 "org.apache.tomcat.util.descriptor.web.SecurityCollection"
+269 "org.apache.tomcat.util.descriptor.web.SecurityConstraint"
+270 "org.apache.tomcat.util.descriptor.web.SecurityRoleRef"
+271 "org.apache.tomcat.util.descriptor.web.ServiceQnameRule"
+272 "org.apache.tomcat.util.descriptor.web.ServletDef"
+273 "org.apache.tomcat.util.descriptor.web.ServletDefCreateRule"
+274 "org.apache.tomcat.util.descriptor.web.SessionConfig"
+275 "org.apache.tomcat.util.descriptor.web.SetAuthConstraintRule"
+276 "org.apache.tomcat.util.descriptor.web.SetDenyUncoveredHttpMethodsRule"
+277 "org.apache.tomcat.util.descriptor.web.SetDistributableRule"
+278 "org.apache.tomcat.util.descriptor.web.SetJspConfig"
+279 "org.apache.tomcat.util.descriptor.web.SetLoginConfig"
+280 "org.apache.tomcat.util.descriptor.web.SetOverrideRule"
+281 "org.apache.tomcat.util.descriptor.web.SetPublicIdRule"
+282 "org.apache.tomcat.util.descriptor.web.SetSessionConfig"
+283 "org.apache.tomcat.util.descriptor.web.SoapHeaderRule"
+284 "org.apache.tomcat.util.descriptor.web.TaglibDescriptorImpl"
+285 "org.apache.tomcat.util.descriptor.web.TaglibLocationRule"
+286 "org.apache.tomcat.util.descriptor.web.VersionRule"
+287 "org.apache.tomcat.util.descriptor.web.WebRuleSet"
+288 "org.apache.tomcat.util.descriptor.web.WebXml"
+289 "org.apache.tomcat.util.descriptor.web.WebXmlParser"
+290 "org.apache.tomcat.util.descriptor.web.XmlEncodingBase"
+291 "org.apache.tomcat.util.digester.AbstractObjectCreationFactory"
+292 "org.apache.tomcat.util.digester.ArrayStack"
+293 "org.apache.tomcat.util.digester.CallMethodRule"
+294 "org.apache.tomcat.util.digester.CallParamRule"
+295 "org.apache.tomcat.util.digester.Digester"
+296 "org.apache.tomcat.util.digester.Digester$SystemPropertySource"
+297 "org.apache.tomcat.util.digester.DocumentProperties$Charset"
+298 "org.apache.tomcat.util.digester.FactoryCreateRule"
+299 "org.apache.tomcat.util.digester.ObjectCreateRule"
+300 "org.apache.tomcat.util.digester.ObjectCreationFactory"
+301 "org.apache.tomcat.util.digester.Rule"
+302 "org.apache.tomcat.util.digester.RuleSet"
+303 "org.apache.tomcat.util.digester.Rules"
+304 "org.apache.tomcat.util.digester.RulesBase"
+305 "org.apache.tomcat.util.digester.SetNextRule"
+306 "org.apache.tomcat.util.digester.SetPropertiesRule"
+307 "org.apache.tomcat.util.file.ConfigFileLoader"
+308 "org.apache.tomcat.util.file.Matcher"
+309 "org.apache.tomcat.util.http.CookieProcessor"
+310 "org.apache.tomcat.util.http.CookieProcessorBase"
+311 "org.apache.tomcat.util.http.LegacyCookieProcessor"
+312 "org.apache.tomcat.util.http.MimeHeaderField"
+313 "org.apache.tomcat.util.http.MimeHeaders"
+314 "org.apache.tomcat.util.http.NamesEnumerator"
+315 "org.apache.tomcat.util.http.Parameters"
+316 "org.apache.tomcat.util.http.Parameters$FailReason"
+317 "org.apache.tomcat.util.http.Rfc6265CookieProcessor"
+318 "org.apache.tomcat.util.http.ServerCookie"
+319 "org.apache.tomcat.util.http.ServerCookies"
+320 "org.apache.tomcat.util.http.ValuesEnumerator"
+321 "org.apache.tomcat.util.http.fileupload.ByteArrayOutputStream"
+322 "org.apache.tomcat.util.http.fileupload.DeferredFileOutputStream"
+323 "org.apache.tomcat.util.http.fileupload.FileItem"
+324 "org.apache.tomcat.util.http.fileupload.FileItemFactory"
+325 "org.apache.tomcat.util.http.fileupload.FileItemHeaders"
+326 "org.apache.tomcat.util.http.fileupload.FileItemHeadersSupport"
+327 "org.apache.tomcat.util.http.fileupload.FileItemIterator"
+328 "org.apache.tomcat.util.http.fileupload.FileItemStream"
+329 "org.apache.tomcat.util.http.fileupload.FileItemStream$ItemSkippedException"
+330 "org.apache.tomcat.util.http.fileupload.FileUpload"
+331 "org.apache.tomcat.util.http.fileupload.FileUploadBase"
+332 "org.apache.tomcat.util.http.fileupload.FileUploadBase$FileItemIteratorImpl"
+333 "org.apache.tomcat.util.http.fileupload.FileUploadBase$FileItemIteratorImpl$FileItemStreamImpl"
+334 "org.apache.tomcat.util.http.fileupload.FileUploadBase$FileSizeLimitExceededException"
+335 "org.apache.tomcat.util.http.fileupload.FileUploadBase$FileUploadIOException"
+336 "org.apache.tomcat.util.http.fileupload.FileUploadBase$IOFileUploadException"
+337 "org.apache.tomcat.util.http.fileupload.FileUploadBase$InvalidContentTypeException"
+338 "org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeException"
+339 "org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException"
+340 "org.apache.tomcat.util.http.fileupload.FileUploadException"
+341 "org.apache.tomcat.util.http.fileupload.IOUtils"
+342 "org.apache.tomcat.util.http.fileupload.InvalidFileNameException"
+343 "org.apache.tomcat.util.http.fileupload.MultipartStream"
+344 "org.apache.tomcat.util.http.fileupload.MultipartStream$IllegalBoundaryException"
+345 "org.apache.tomcat.util.http.fileupload.MultipartStream$ItemInputStream"
+346 "org.apache.tomcat.util.http.fileupload.MultipartStream$MalformedStreamException"
+347 "org.apache.tomcat.util.http.fileupload.MultipartStream$ProgressNotifier"
+348 "org.apache.tomcat.util.http.fileupload.ParameterParser"
+349 "org.apache.tomcat.util.http.fileupload.ProgressListener"
+350 "org.apache.tomcat.util.http.fileupload.RequestContext"
+351 "org.apache.tomcat.util.http.fileupload.ThresholdingOutputStream"
+352 "org.apache.tomcat.util.http.fileupload.UploadContext"
+353 "org.apache.tomcat.util.http.fileupload.disk.DiskFileItem"
+354 "org.apache.tomcat.util.http.fileupload.disk.DiskFileItemFactory"
+355 "org.apache.tomcat.util.http.fileupload.package-info"
+356 "org.apache.tomcat.util.http.fileupload.servlet.ServletFileUpload"
+357 "org.apache.tomcat.util.http.fileupload.servlet.ServletRequestContext"
+358 "org.apache.tomcat.util.http.fileupload.util.Closeable"
+359 "org.apache.tomcat.util.http.fileupload.util.FileItemHeadersImpl"
+360 "org.apache.tomcat.util.http.fileupload.util.LimitedInputStream"
+361 "org.apache.tomcat.util.http.fileupload.util.Streams"
+362 "org.apache.tomcat.util.http.fileupload.util.mime.MimeUtility"
+363 "org.apache.tomcat.util.http.fileupload.util.mime.ParseException"
+364 "org.apache.tomcat.util.http.fileupload.util.mime.package-info"
+365 "org.apache.tomcat.util.http.parser.AcceptLanguage"
+366 "org.apache.tomcat.util.http.parser.Authorization"
+367 "org.apache.tomcat.util.http.parser.Cookie"
+368 "org.apache.tomcat.util.http.parser.Cookie$ByteBuffer"
+369 "org.apache.tomcat.util.http.parser.Host"
+370 "org.apache.tomcat.util.http.parser.Host$MessageBytesReader"
+371 "org.apache.tomcat.util.http.parser.HttpParser"
+372 "org.apache.tomcat.util.http.parser.HttpParser$DomainParseState"
+373 "org.apache.tomcat.util.http.parser.MediaType"
+374 "org.apache.tomcat.util.http.parser.MediaTypeCache"
+375 "org.apache.tomcat.util.http.parser.SkipResult"
+376 "org.apache.tomcat.util.log.CaptureLog"
+377 "org.apache.tomcat.util.log.SystemLogHandler"
+378 "org.apache.tomcat.util.log.UserDataHelper"
+379 "org.apache.tomcat.util.log.UserDataHelper$Config"
+380 "org.apache.tomcat.util.log.UserDataHelper$Mode"
+381 "org.apache.tomcat.util.modeler.AttributeInfo"
+382 "org.apache.tomcat.util.modeler.BaseAttributeFilter"
+383 "org.apache.tomcat.util.modeler.BaseModelMBean"
+384 "org.apache.tomcat.util.modeler.BaseNotificationBroadcaster"
+385 "org.apache.tomcat.util.modeler.BaseNotificationBroadcasterEntry"
+386 "org.apache.tomcat.util.modeler.FeatureInfo"
+387 "org.apache.tomcat.util.modeler.ManagedBean"
+388 "org.apache.tomcat.util.modeler.NotificationInfo"
+389 "org.apache.tomcat.util.modeler.OperationInfo"
+390 "org.apache.tomcat.util.modeler.ParameterInfo"
+391 "org.apache.tomcat.util.modeler.Registry"
+392 "org.apache.tomcat.util.modeler.RegistryMBean"
+393 "org.apache.tomcat.util.modeler.modules.MbeansDescriptorsDigesterSource"
+394 "org.apache.tomcat.util.modeler.modules.MbeansDescriptorsIntrospectionSource"
+395 "org.apache.tomcat.util.modeler.modules.ModelerSource"
+396 "org.apache.tomcat.util.net.AbstractEndpoint"
+397 "org.apache.tomcat.util.net.AbstractEndpoint$Handler"
+398 "org.apache.tomcat.util.net.AbstractJsseEndpoint"
+399 "org.apache.tomcat.util.net.Acceptor"
+400 "org.apache.tomcat.util.net.Acceptor$AcceptorState"
+401 "org.apache.tomcat.util.net.ApplicationBufferHandler"
+402 "org.apache.tomcat.util.net.AprEndpoint"
+403 "org.apache.tomcat.util.net.AprEndpoint$AprSocketWrapper"
+404 "org.apache.tomcat.util.net.AprEndpoint$Poller"
+405 "org.apache.tomcat.util.net.AprEndpoint$Sendfile"
+406 "org.apache.tomcat.util.net.AprEndpoint$SendfileData"
+407 "org.apache.tomcat.util.net.AprEndpoint$SocketList"
+408 "org.apache.tomcat.util.net.AprEndpoint$SocketProcessor"
+409 "org.apache.tomcat.util.net.AprEndpoint$SocketWithOptionsProcessor"
+410 "org.apache.tomcat.util.net.AprSSLSupport"
+411 "org.apache.tomcat.util.net.DispatchType"
+412 "org.apache.tomcat.util.net.Nio2Channel"
+413 "org.apache.tomcat.util.net.Nio2Endpoint"
+414 "org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper"
+415 "org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$GatherWriteCompletionHandler"
+416 "org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$OperationState"
+417 "org.apache.tomcat.util.net.Nio2Endpoint$Nio2SocketWrapper$ScatterReadCompletionHandler"
+418 "org.apache.tomcat.util.net.Nio2Endpoint$SendfileData"
+419 "org.apache.tomcat.util.net.Nio2Endpoint$SocketProcessor"
+420 "org.apache.tomcat.util.net.NioBlockingSelector"
+421 "org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller"
+422 "org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller$RunnableAdd"
+423 "org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller$RunnableCancel"
+424 "org.apache.tomcat.util.net.NioBlockingSelector$BlockPoller$RunnableRemove"
+425 "org.apache.tomcat.util.net.NioBlockingSelector$KeyReference"
+426 "org.apache.tomcat.util.net.NioChannel"
+427 "org.apache.tomcat.util.net.NioEndpoint"
+428 "org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper"
+429 "org.apache.tomcat.util.net.NioEndpoint$Poller"
+430 "org.apache.tomcat.util.net.NioEndpoint$PollerEvent"
+431 "org.apache.tomcat.util.net.NioEndpoint$SendfileData"
+432 "org.apache.tomcat.util.net.NioEndpoint$SocketProcessor"
+433 "org.apache.tomcat.util.net.NioSelectorPool"
+434 "org.apache.tomcat.util.net.SSLContext"
+435 "org.apache.tomcat.util.net.SSLHostConfig"
+436 "org.apache.tomcat.util.net.SSLHostConfig$CertificateVerification"
+437 "org.apache.tomcat.util.net.SSLHostConfig$Type"
+438 "org.apache.tomcat.util.net.SSLHostConfigCertificate"
+439 "org.apache.tomcat.util.net.SSLHostConfigCertificate$StoreType"
+440 "org.apache.tomcat.util.net.SSLHostConfigCertificate$Type"
+441 "org.apache.tomcat.util.net.SSLImplementation"
+442 "org.apache.tomcat.util.net.SSLSessionManager"
+443 "org.apache.tomcat.util.net.SSLSupport"
+444 "org.apache.tomcat.util.net.SSLUtil"
+445 "org.apache.tomcat.util.net.SSLUtil$ProtocolInfo"
+446 "org.apache.tomcat.util.net.SSLUtilBase"
+447 "org.apache.tomcat.util.net.SecureNio2Channel"
+448 "org.apache.tomcat.util.net.SecureNio2Channel$FutureFlush"
+449 "org.apache.tomcat.util.net.SecureNio2Channel$FutureRead"
+450 "org.apache.tomcat.util.net.SecureNio2Channel$FutureWrite"
+451 "org.apache.tomcat.util.net.SecureNio2Channel$HandshakeReadCompletionHandler"
+452 "org.apache.tomcat.util.net.SecureNio2Channel$HandshakeWriteCompletionHandler"
+453 "org.apache.tomcat.util.net.SecureNioChannel"
+454 "org.apache.tomcat.util.net.SendfileDataBase"
+455 "org.apache.tomcat.util.net.SendfileKeepAliveState"
+456 "org.apache.tomcat.util.net.SendfileState"
+457 "org.apache.tomcat.util.net.SocketBufferHandler"
+458 "org.apache.tomcat.util.net.SocketEvent"
+459 "org.apache.tomcat.util.net.SocketProcessorBase"
+460 "org.apache.tomcat.util.net.SocketProperties"
+461 "org.apache.tomcat.util.net.SocketWrapperBase"
+462 "org.apache.tomcat.util.net.SocketWrapperBase$BlockingMode"
+463 "org.apache.tomcat.util.net.SocketWrapperBase$CompletionCheck"
+464 "org.apache.tomcat.util.net.SocketWrapperBase$CompletionHandlerCall"
+465 "org.apache.tomcat.util.net.SocketWrapperBase$CompletionState"
+466 "org.apache.tomcat.util.net.TLSClientHelloExtractor"
+467 "org.apache.tomcat.util.net.TLSClientHelloExtractor$ExtractorResult"
+468 "org.apache.tomcat.util.net.jsse.JSSEImplementation"
+469 "org.apache.tomcat.util.net.jsse.JSSESSLContext"
+470 "org.apache.tomcat.util.net.jsse.JSSESupport"
+471 "org.apache.tomcat.util.net.jsse.JSSEUtil"
+472 "org.apache.tomcat.util.net.jsse.PEMFile"
+473 "org.apache.tomcat.util.net.jsse.PEMFile$Part"
+474 "org.apache.tomcat.util.net.openssl.OpenSSLConf"
+475 "org.apache.tomcat.util.net.openssl.OpenSSLConfCmd"
+476 "org.apache.tomcat.util.net.openssl.OpenSSLContext"
+477 "org.apache.tomcat.util.net.openssl.OpenSSLEngine"
+478 "org.apache.tomcat.util.net.openssl.OpenSSLEngine$ClientAuthMode"
+479 "org.apache.tomcat.util.net.openssl.OpenSSLEngine$OpenSSLSession"
+480 "org.apache.tomcat.util.net.openssl.OpenSSLImplementation"
+481 "org.apache.tomcat.util.net.openssl.OpenSSLKeyManager"
+482 "org.apache.tomcat.util.net.openssl.OpenSSLSessionContext"
+483 "org.apache.tomcat.util.net.openssl.OpenSSLSessionContext$EmptyEnumeration"
+484 "org.apache.tomcat.util.net.openssl.OpenSSLSessionStats"
+485 "org.apache.tomcat.util.net.openssl.OpenSSLUtil"
+486 "org.apache.tomcat.util.net.openssl.OpenSSLX509Certificate"
+487 "org.apache.tomcat.util.net.openssl.ciphers.Authentication"
+488 "org.apache.tomcat.util.net.openssl.ciphers.Cipher"
+489 "org.apache.tomcat.util.net.openssl.ciphers.Encryption"
+490 "org.apache.tomcat.util.net.openssl.ciphers.EncryptionLevel"
+491 "org.apache.tomcat.util.net.openssl.ciphers.KeyExchange"
+492 "org.apache.tomcat.util.net.openssl.ciphers.MessageDigest"
+493 "org.apache.tomcat.util.net.openssl.ciphers.OpenSSLCipherConfigurationParser"
+494 "org.apache.tomcat.util.net.openssl.ciphers.Protocol"
+495 "org.apache.tomcat.util.res.StringManager"
+496 "org.apache.tomcat.util.scan.AbstractInputStreamJar"
+497 "org.apache.tomcat.util.scan.JarFactory"
+498 "org.apache.tomcat.util.scan.JarFileUrlJar"
+499 "org.apache.tomcat.util.scan.JarFileUrlNestedJar"
+500 "org.apache.tomcat.util.scan.NonClosingJarInputStream"
+501 "org.apache.tomcat.util.scan.StandardJarScanFilter"
+502 "org.apache.tomcat.util.scan.StandardJarScanner"
+503 "org.apache.tomcat.util.scan.StandardJarScanner$ClassPathEntry"
+504 "org.apache.tomcat.util.scan.UrlJar"
+505 "org.apache.tomcat.util.security.ConcurrentMessageDigest"
+506 "org.apache.tomcat.util.security.PermissionCheck"
+507 "org.apache.tomcat.util.security.PrivilegedGetTccl"
+508 "org.apache.tomcat.util.security.PrivilegedSetTccl"
+509 "org.apache.tomcat.util.threads.InlineExecutorService"
+510 "org.apache.tomcat.util.threads.LimitLatch"
+511 "org.apache.tomcat.util.threads.LimitLatch$Sync"
+512 "org.apache.tomcat.util.threads.ResizableExecutor"
+513 "org.apache.tomcat.util.threads.StopPooledThreadException"
+514 "org.apache.tomcat.util.threads.TaskQueue"
+515 "org.apache.tomcat.util.threads.TaskThread"
+516 "org.apache.tomcat.util.threads.TaskThread$WrappingRunnable"
+517 "org.apache.tomcat.util.threads.TaskThreadFactory"
+518 "org.apache.tomcat.util.threads.ThreadPoolExecutor"
+519 "org.apache.tomcat.util.threads.ThreadPoolExecutor$RejectHandler"
+520 "org.apache.tomcat.websocket.AsyncChannelGroupUtil"
+521 "org.apache.tomcat.websocket.AsyncChannelGroupUtil$AsyncIOThreadFactory"
+522 "org.apache.tomcat.websocket.AsyncChannelGroupUtil$AsyncIOThreadFactory$NewThreadPrivilegedAction"
+523 "org.apache.tomcat.websocket.AsyncChannelWrapper"
+524 "org.apache.tomcat.websocket.AsyncChannelWrapperNonSecure"
+525 "org.apache.tomcat.websocket.AsyncChannelWrapperNonSecure$NoOpFuture"
+526 "org.apache.tomcat.websocket.AsyncChannelWrapperSecure"
+527 "org.apache.tomcat.websocket.AsyncChannelWrapperSecure$LongToIntegerFuture"
+528 "org.apache.tomcat.websocket.AsyncChannelWrapperSecure$ReadTask"
+529 "org.apache.tomcat.websocket.AsyncChannelWrapperSecure$SecureIOThreadFactory"
+530 "org.apache.tomcat.websocket.AsyncChannelWrapperSecure$WebSocketSslHandshakeThread"
+531 "org.apache.tomcat.websocket.AsyncChannelWrapperSecure$WrapperFuture"
+532 "org.apache.tomcat.websocket.AsyncChannelWrapperSecure$WriteTask"
+533 "org.apache.tomcat.websocket.BackgroundProcess"
+534 "org.apache.tomcat.websocket.BackgroundProcessManager"
+535 "org.apache.tomcat.websocket.BackgroundProcessManager$WsBackgroundThread"
+536 "org.apache.tomcat.websocket.Constants"
+537 "org.apache.tomcat.websocket.DecoderEntry"
+538 "org.apache.tomcat.websocket.FutureToSendHandler"
+539 "org.apache.tomcat.websocket.MessageHandlerResult"
+540 "org.apache.tomcat.websocket.MessageHandlerResultType"
+541 "org.apache.tomcat.websocket.MessagePart"
+542 "org.apache.tomcat.websocket.PerMessageDeflate"
+543 "org.apache.tomcat.websocket.ReadBufferOverflowException"
+544 "org.apache.tomcat.websocket.Transformation"
+545 "org.apache.tomcat.websocket.TransformationFactory"
+546 "org.apache.tomcat.websocket.TransformationResult"
+547 "org.apache.tomcat.websocket.Util"
+548 "org.apache.tomcat.websocket.Util$DecoderMatch"
+549 "org.apache.tomcat.websocket.Util$TypeResult"
+550 "org.apache.tomcat.websocket.WrappedMessageHandler"
+551 "org.apache.tomcat.websocket.WsContainerProvider"
+552 "org.apache.tomcat.websocket.WsExtension"
+553 "org.apache.tomcat.websocket.WsExtensionParameter"
+554 "org.apache.tomcat.websocket.WsFrameBase"
+555 "org.apache.tomcat.websocket.WsFrameBase$NoopTransformation"
+556 "org.apache.tomcat.websocket.WsFrameBase$ReadState"
+557 "org.apache.tomcat.websocket.WsFrameBase$State"
+558 "org.apache.tomcat.websocket.WsFrameBase$TerminalTransformation"
+559 "org.apache.tomcat.websocket.WsFrameBase$UnmaskTransformation"
+560 "org.apache.tomcat.websocket.WsFrameClient"
+561 "org.apache.tomcat.websocket.WsFrameClient$WsFrameClientCompletionHandler"
+562 "org.apache.tomcat.websocket.WsHandshakeResponse"
+563 "org.apache.tomcat.websocket.WsIOException"
+564 "org.apache.tomcat.websocket.WsPongMessage"
+565 "org.apache.tomcat.websocket.WsRemoteEndpointBase"
+566 "org.apache.tomcat.websocket.WsRemoteEndpointImplBase"
+567 "org.apache.tomcat.websocket.WsRemoteEndpointImplBase$EncoderEntry"
+568 "org.apache.tomcat.websocket.WsRemoteEndpointImplBase$IntermediateMessageHandler"
+569 "org.apache.tomcat.websocket.WsRemoteEndpointImplBase$OutputBufferSendHandler"
+570 "org.apache.tomcat.websocket.WsRemoteEndpointImplBase$StateMachine"
+571 "org.apache.tomcat.websocket.WsRemoteEndpointImplBase$TextMessageSendHandler"
+572 "org.apache.tomcat.websocket.WsRemoteEndpointImplBase$WsOutputStream"
+573 "org.apache.tomcat.websocket.WsRemoteEndpointImplBase$WsWriter"
+574 "org.apache.tomcat.websocket.WsRemoteEndpointImplClient"
+575 "org.apache.tomcat.websocket.WsSession"
+576 "org.apache.tomcat.websocket.WsSession$State"
+577 "org.apache.tomcat.websocket.WsWebSocketContainer"
+578 "org.apache.tomcat.websocket.WsWebSocketContainer$HttpResponse"
+579 "org.apache.tomcat.websocket.pojo.PojoEndpointBase"
+580 "org.apache.tomcat.websocket.pojo.PojoEndpointClient"
+581 "org.apache.tomcat.websocket.pojo.PojoEndpointServer"
+582 "org.apache.tomcat.websocket.pojo.PojoMessageHandlerBase"
+583 "org.apache.tomcat.websocket.pojo.PojoMessageHandlerPartialBase"
+584 "org.apache.tomcat.websocket.pojo.PojoMessageHandlerPartialBinary"
+585 "org.apache.tomcat.websocket.pojo.PojoMessageHandlerPartialText"
+586 "org.apache.tomcat.websocket.pojo.PojoMessageHandlerWholeBase"
+587 "org.apache.tomcat.websocket.pojo.PojoMessageHandlerWholeBinary"
+588 "org.apache.tomcat.websocket.pojo.PojoMessageHandlerWholePong"
+589 "org.apache.tomcat.websocket.pojo.PojoMessageHandlerWholeText"
+590 "org.apache.tomcat.websocket.pojo.PojoMethodMapping"
+591 "org.apache.tomcat.websocket.pojo.PojoMethodMapping$MessageHandlerInfo"
+592 "org.apache.tomcat.websocket.pojo.PojoMethodMapping$MethodType"
+593 "org.apache.tomcat.websocket.pojo.PojoPathParam"
+594 "org.apache.tomcat.websocket.server.Constants"
+595 "org.apache.tomcat.websocket.server.UpgradeUtil"
+596 "org.apache.tomcat.websocket.server.UriTemplate"
+597 "org.apache.tomcat.websocket.server.UriTemplate$Segment"
+598 "org.apache.tomcat.websocket.server.WsContextListener"
+599 "org.apache.tomcat.websocket.server.WsFilter"
+600 "org.apache.tomcat.websocket.server.WsFrameServer"
+601 "org.apache.tomcat.websocket.server.WsHandshakeRequest"
+602 "org.apache.tomcat.websocket.server.WsHttpUpgradeHandler"
+603 "org.apache.tomcat.websocket.server.WsMappingResult"
+604 "org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer"
+605 "org.apache.tomcat.websocket.server.WsSci"
+606 "org.apache.tomcat.websocket.server.WsServerContainer"
+607 "org.apache.tomcat.websocket.server.WsServerContainer$TemplatePathMatch"
+608 "org.apache.tomcat.websocket.server.WsServerContainer$TemplatePathMatchComparator"
+609 "org.apache.tomcat.websocket.server.WsSessionListener"
+610 "org.apache.tomcat.websocket.server.WsWriteTimeout"
+611 "org.apache.tomcat.websocket.server.WsWriteTimeout$EndpointComparator"
+*Arcs
+2 1 700.0
+4 5 0.03
+7 3 300.0
+6 4 600.0
+6 5 0.03
+6 7 300.0
+8 1 400.0
+9 10 0.06
+9 11 0.03
+12 192 0.002
+12 200 0.004
+13 82 0.4
+15 14 14.0
+16 14 98.0
+14 15 0.02
+14 17 4.0
+14 18 7.0
+14 26 2.0
+14 31 2.0
+14 32 64.0
+14 37 4.0
+14 41 2.0
+14 42 0.02
+14 78 0.3
+14 84 4.3
+14 106 8.1
+14 107 1.1
+19 18 4.0
+20 21 3.0
+20 23 6.0
+21 13 7.0
+21 20 9.0
+21 22 2.0
+21 23 18.0
+21 25 16.0
+22 21 62.0
+22 24 52.0
+23 21 9.0
+23 24 2.0
+23 25 6.0
+24 13 12.0
+24 21 2.0
+24 25 2.0
+25 13 6.0
+25 21 33.0
+25 24 6.0
+26 18 4.0
+27 18 4.0
+29 36 0.14
+30 20 10.0
+30 21 9.0
+30 29 6.0
+30 64 0.8
+32 18 11.0
+32 28 2.0
+32 31 47.0
+32 35 6.0
+32 42 0.04
+32 64 0.1
+32 66 1.1
+32 78 2.8
+32 79 0.4
+32 92 0.2
+32 102 0.2
+32 104 1.9
+31 21 12.0
+31 33 4.0
+31 42 0.02
+31 66 1.5
+34 21 9.0
+34 23 14.0
+34 64 0.8
+35 21 6.0
+35 23 8.0
+35 29 74.0
+35 30 4.0
+35 34 9.0
+35 36 0.06
+35 64 1.9
+35 65 0.4
+35 78 3.6
+35 92 1.0
+38 21 16.0
+38 37 10.0
+37 32 5.0
+37 38 0.02
+37 42 0.06
+37 66 1.4
+37 106 0.2
+40 21 10.0
+40 39 10.0
+40 66 0.9
+39 40 0.07
+39 66 1.4
+41 42 0.02
+41 81 0.4
+43 21 0.8
+43 23 1.2
+43 46 22.0
+44 46 14.0
+44 102 0.2
+44 104 2.5
+45 29 2.0
+46 21 0.5
+46 34 1.4
+46 43 2.0
+46 45 63.0
+46 64 2.0
+46 65 0.4
+46 78 3.6
+46 92 0.6
+47 42 0.026
+47 54 11.0
+47 55 4.0
+47 66 1.9
+47 78 2.4
+47 79 0.4
+47 92 0.2
+49 48 65.0
+48 49 4.0
+48 54 22.0
+48 55 10.0
+48 58 6.0
+50 42 0.026
+50 54 15.0
+50 55 4.0
+50 58 21.0
+50 64 2.1
+50 65 0.4
+50 78 3.9
+50 92 0.2
+52 48 3.0
+52 49 8.0
+52 51 20.0
+51 41 0.2
+51 47 12.0
+51 48 6.0
+51 49 2.0
+51 52 4.0
+51 53 8.0
+51 54 3.0
+51 55 7.0
+51 58 5.0
+51 66 1.4
+51 106 3.4
+54 58 8.0
+57 48 3.0
+57 49 8.0
+57 56 4.0
+56 48 6.0
+56 49 2.0
+56 50 9.0
+56 54 3.0
+56 55 3.0
+56 57 4.0
+56 58 5.0
+56 64 1.1
+56 102 0.2
+56 104 3.4
+60 61 6.0
+60 65 4.0
+60 78 18.0
+62 61 6.0
+62 66 4.0
+63 61 6.0
+63 78 18.0
+63 79 4.0
+65 78 15.0
+69 64 40.0
+69 68 0.15
+70 66 30.0
+70 68 0.09
+71 64 3.0
+71 68 0.05
+71 69 0.06
+72 64 10.0
+73 66 10.0
+74 64 32.0
+75 65 20.0
+75 78 15.0
+76 66 26.0
+77 78 15.0
+77 79 20.0
+67 64 46.0
+67 65 7.0
+67 66 31.0
+67 69 0.02
+67 70 0.02
+67 71 0.02
+67 72 0.02
+67 73 0.02
+67 74 0.02
+67 75 0.02
+67 76 0.02
+67 77 0.02
+67 79 7.0
+79 78 15.0
+78 80 3.0
+86 78 0.3
+86 85 8.0
+87 85 18.0
+89 85 6.0
+85 61 0.6
+85 78 0.5
+85 81 1.1
+85 86 0.03
+85 87 0.05
+85 89 0.27
+85 90 12.0
+85 97 7.0
+85 98 4.0
+90 61 0.6
+91 78 0.7
+91 96 9.0
+91 97 4.0
+94 78 2.4
+94 92 2.0
+94 95 4.0
+92 78 0.9
+92 80 0.8
+92 82 0.2
+92 93 0.02
+97 78 0.3
+97 96 3.0
+99 98 3.0
+100 98 3.0
+98 99 0.02
+98 100 0.02
+98 101 0.06
+103 102 6.0
+103 110 11.0
+104 90 8.0
+102 64 0.4
+102 65 3.2
+102 67 0.004
+102 78 3.9
+102 80 0.1
+102 85 8.0
+102 86 0.1
+102 88 0.08
+102 94 2.0
+102 96 3.0
+102 97 2.0
+102 103 1.23
+102 104 44.0
+102 105 4.0
+102 110 60.0
+107 90 8.0
+106 66 0.4
+106 67 0.004
+106 78 5.4
+106 79 3.5
+106 80 0.1
+106 83 0.4
+106 84 60.0
+106 85 8.0
+106 86 0.08
+106 88 0.1
+106 94 2.0
+106 96 3.0
+106 97 3.0
+106 107 45.0
+106 108 4.0
+106 110 51.0
+106 115 0.02
+111 109 18.0
+111 110 26.0
+111 114 0.22
+112 110 14.0
+112 111 0.06
+112 114 0.09
+113 110 14.0
+113 111 0.06
+113 114 0.09
+110 109 206.0
+110 112 0.02
+110 113 0.02
+110 114 0.3
+116 80 0.2
+116 92 6.0
+117 62 1.0
+117 67 0.004
+117 78 0.4
+117 79 2.9
+117 110 23.0
+117 116 39.0
+118 144 6.0
+122 123 1.0
+122 125 3.0
+124 123 6.0
+124 125 12.0
+126 123 2.0
+127 128 2.0
+129 123 2.0
+130 123 3.0
+133 123 1.0
+136 123 1.0
+137 123 9.0
+140 121 3.0
+140 141 0.07
+138 119 3.0
+138 132 3.0
+143 123 2.0
+148 123 8.0
+149 495 0.047
+151 150 0.08
+151 152 0.06
+154 155 0.09
+154 167 0.03
+154 169 0.06
+155 167 0.08
+155 168 0.02
+155 170 0.02
+156 155 0.08
+156 167 0.03
+157 167 0.03
+157 169 0.17
+158 167 0.05
+158 168 0.02
+158 169 0.08
+160 156 0.05
+160 159 0.15
+160 167 0.07
+160 168 0.03
+160 172 0.05
+160 174 0.14
+162 161 0.06
+163 161 0.06
+164 161 0.06
+165 161 0.06
+166 161 0.06
+167 153 0.002
+167 159 0.08
+167 161 0.15
+168 161 0.06
+161 159 0.03
+161 162 0.02
+161 163 0.02
+161 164 0.02
+161 165 0.02
+161 166 0.02
+161 168 0.02
+161 174 0.02
+170 167 0.08
+170 168 0.02
+170 169 0.08
+169 154 0.02
+169 155 0.02
+169 157 0.02
+169 158 0.02
+169 159 0.02
+169 167 0.13
+169 171 0.02
+169 173 0.02
+171 167 0.05
+171 168 0.02
+171 169 0.08
+172 155 0.03
+172 156 0.08
+172 167 0.03
+173 163 0.03
+173 164 0.03
+173 165 0.15
+173 166 0.03
+173 167 0.21
+173 168 0.03
+173 169 0.1
+174 161 0.01
+174 162 0.02
+174 167 0.08
+174 168 0.02
+176 179 0.31
+176 180 0.05
+176 183 0.21
+176 198 0.02
+176 495 0.007
+178 215 0.002
+178 495 0.009
+179 175 0.1
+179 180 0.08
+179 181 0.16
+179 183 0.09
+179 189 0.02
+182 179 0.21
+182 183 0.31
+183 175 0.08
+183 184 0.1
+183 185 0.12
+183 189 0.02
+186 495 0.009
+188 187 0.05
+187 175 0.04
+187 179 0.59
+187 183 0.39
+187 186 0.02
+187 188 0.07
+190 189 0.03
+191 189 0.03
+189 179 0.43
+189 183 0.39
+189 190 0.37
+189 191 0.33
+193 179 0.16
+193 183 0.16
+193 187 0.13
+193 194 0.08
+193 495 0.011
+196 195 0.02
+195 179 0.18
+195 182 0.09
+195 183 0.34
+195 196 0.05
+200 201 0.06
+200 202 0.06
+200 203 0.08
+202 186 0.002
+201 202 0.25
+201 203 0.08
+206 205 0.02
+206 208 0.02
+207 206 0.02
+204 207 0.02
+204 208 0.08
+204 495 0.007
+210 211 0.02
+214 215 0.06
+215 214 0.04
+215 495 0.009
+217 219 0.02
+217 295 0.016
+217 302 0.004
+217 495 0.007
+218 150 0.002
+219 495 0.009
+220 495 0.009
+222 221 0.03
+222 295 0.009
+222 302 0.004
+221 217 0.002
+221 220 0.013
+221 222 0.02
+221 295 0.015
+224 223 0.05
+224 301 0.006
+224 495 0.002
+223 224 0.16
+223 227 0.02
+223 295 0.002
+223 301 0.006
+223 302 0.004
+223 495 0.008
+227 225 0.03
+227 226 0.03
+227 236 0.09
+228 217 0.002
+228 220 0.013
+228 227 0.06
+228 229 0.07
+228 230 0.02
+228 295 0.015
+228 302 0.003
+228 507 0.003
+228 508 0.009
+229 3 3.0
+229 497 0.004
+231 230 0.03
+232 230 0.03
+232 295 0.002
+232 301 0.006
+233 226 0.02
+233 230 0.03
+233 235 0.04
+233 295 0.006
+233 301 0.006
+234 226 0.02
+234 227 0.02
+234 230 0.03
+234 231 0.04
+234 295 0.01
+234 301 0.006
+230 227 0.02
+230 232 0.1
+230 233 0.02
+230 234 0.02
+230 295 0.002
+230 301 0.006
+230 302 0.004
+237 288 0.03
+237 295 0.008
+237 301 0.006
+237 495 0.004
+238 151 0.008
+238 293 0.008
+238 295 0.01
+239 292 0.004
+239 294 0.006
+239 295 0.002
+240 267 0.1
+241 267 0.1
+242 267 0.1
+243 267 0.1
+245 267 0.1
+246 267 0.1
+244 267 0.1
+247 242 0.08
+247 267 0.1
+248 193 0.002
+249 495 0.007
+250 193 0.004
+250 290 0.06
+251 3 15.0
+251 7 4.0
+251 288 0.64
+251 289 0.1
+252 288 0.06
+252 295 0.008
+252 301 0.006
+257 256 0.42
+256 193 0.002
+256 290 0.06
+258 288 0.05
+258 293 0.008
+258 295 0.004
+258 495 0.004
+259 193 0.004
+260 267 0.02
+260 295 0.002
+260 301 0.006
+262 267 0.1
+261 267 0.1
+264 288 0.02
+264 295 0.002
+264 301 0.008
+264 495 0.002
+265 241 0.03
+265 244 0.03
+265 246 0.03
+266 295 0.002
+266 301 0.006
+266 495 0.004
+267 253 0.04
+267 254 0.02
+267 265 0.09
+268 193 0.004
+268 290 0.06
+269 268 0.59
+269 290 0.06
+269 495 0.013
+271 247 0.04
+271 295 0.004
+271 301 0.006
+273 272 0.02
+273 295 0.012
+273 301 0.006
+272 263 0.09
+272 270 0.03
+272 495 0.007
+275 295 0.006
+275 301 0.006
+276 288 0.02
+276 295 0.006
+276 301 0.006
+277 288 0.02
+277 295 0.006
+277 301 0.006
+278 301 0.006
+279 301 0.006
+280 241 0.02
+280 295 0.006
+280 301 0.006
+281 295 0.01
+281 301 0.006
+282 301 0.006
+283 242 0.02
+283 295 0.004
+283 301 0.006
+285 288 0.02
+285 295 0.004
+285 301 0.006
+286 288 0.04
+286 295 0.008
+286 301 0.006
+287 237 0.05
+287 238 0.04
+287 239 0.04
+287 252 0.02
+287 258 0.04
+287 260 0.16
+287 264 0.05
+287 266 0.05
+287 271 0.02
+287 273 0.02
+287 276 0.02
+287 277 0.02
+287 278 0.05
+287 279 0.05
+287 280 0.02
+287 281 0.02
+287 282 0.05
+287 283 0.02
+287 285 0.04
+287 286 0.02
+287 295 0.451
+287 302 0.004
+287 305 0.002
+287 495 0.005
+289 217 0.004
+289 218 0.008
+289 220 0.008
+289 287 0.19
+289 288 0.06
+289 295 0.029
+289 495 0.013
+288 176 0.004
+288 193 0.002
+288 240 0.2
+288 241 0.2
+288 242 0.05
+288 243 0.2
+288 244 0.22
+288 245 0.18
+288 247 0.34
+288 248 0.16
+288 249 0.62
+288 250 0.2
+288 254 0.35
+288 255 0.02
+288 256 0.31
+288 257 0.02
+288 259 0.23
+288 261 0.16
+288 262 0.22
+288 263 0.65
+288 267 0.1
+288 268 0.11
+288 270 0.06
+288 272 1.42
+288 274 1.63
+288 284 0.02
+288 290 0.06
+288 297 0.004
+288 495 0.067
+291 295 0.09
+291 300 0.04
+293 151 0.004
+293 295 0.12
+293 301 0.08
+294 292 0.11
+294 295 0.06
+294 301 0.06
+296 152 0.004
+296 295 0.14
+296 506 0.002
+295 150 0.002
+295 151 0.006
+295 152 0.012
+295 176 0.002
+295 292 0.62
+295 293 0.04
+295 294 0.02
+295 296 0.02
+295 297 0.02
+295 298 0.02
+295 299 0.04
+295 300 0.05
+295 301 0.17
+295 302 0.05
+295 303 0.19
+295 304 0.02
+295 305 0.02
+295 306 0.02
+295 495 0.011
+298 292 0.13
+298 295 0.06
+298 300 0.1
+298 301 0.06
+299 295 0.06
+299 301 0.06
+300 295 0.06
+302 295 0.03
+301 295 0.09
+304 295 0.09
+304 301 0.13
+304 303 0.04
+303 295 0.06
+303 301 0.03
+305 151 0.002
+305 295 0.06
+305 301 0.06
+306 151 0.002
+306 295 0.06
+306 301 0.06
+307 495 0.007
+310 309 0.04
+309 313 0.03
+309 319 0.03
+311 179 0.023
+311 187 0.023
+311 310 0.06
+311 313 0.09
+311 318 0.14
+311 319 0.08
+311 378 0.009
+311 380 0.006
+311 495 0.013
+312 187 0.02
+313 187 0.045
+313 312 0.53
+313 314 0.02
+313 320 0.02
+313 495 0.007
+314 187 0.004
+314 313 0.12
+315 179 0.065
+315 187 0.03
+315 192 0.002
+315 193 0.01
+315 316 0.09
+315 378 0.018
+315 380 0.008
+315 495 0.031
+317 179 0.007
+317 187 0.011
+317 310 0.06
+317 313 0.09
+317 319 0.03
+317 367 0.002
+317 495 0.017
+318 187 0.05
+319 318 0.15
+319 495 0.007
+320 187 0.008
+320 313 0.12
+322 321 0.09
+322 351 0.08
+324 323 0.03
+326 325 0.06
+327 328 0.03
+327 340 0.02
+328 326 0.04
+323 326 0.04
+333 325 0.09
+333 328 0.04
+333 329 0.02
+333 331 0.1
+333 332 0.06
+333 334 0.06
+333 335 0.02
+333 343 0.02
+333 345 0.08
+333 358 0.002
+333 360 0.006
+333 361 0.002
+332 325 0.12
+332 327 0.04
+332 328 0.03
+332 331 0.06
+332 333 0.13
+332 335 0.02
+332 337 0.04
+332 339 0.02
+332 340 0.05
+332 341 0.04
+332 343 0.22
+332 347 0.09
+332 350 0.11
+332 352 0.02
+332 360 0.006
+334 338 0.06
+336 340 0.12
+337 340 0.1
+338 340 0.06
+339 338 0.06
+331 323 0.14
+331 324 0.09
+331 325 0.14
+331 327 0.08
+331 328 0.11
+331 332 0.02
+331 333 0.02
+331 335 0.09
+331 336 0.02
+331 340 0.05
+331 348 0.2
+331 349 0.12
+331 350 0.15
+331 359 0.01
+331 361 0.002
+330 324 0.12
+330 331 0.08
+345 329 0.06
+345 343 0.76
+345 346 0.02
+345 347 0.02
+345 358 0.004
+347 349 0.08
+343 335 0.04
+343 344 0.03
+343 345 0.05
+343 346 0.13
+343 347 0.14
+343 361 0.002
+348 362 0.002
+352 350 0.04
+354 323 0.003
+354 324 0.004
+354 353 0.02
+353 322 0.025
+353 323 0.004
+353 325 0.009
+353 340 0.002
+353 341 0.022
+353 348 0.006
+353 361 0.002
+356 324 0.003
+356 327 0.003
+356 330 0.01
+356 331 0.002
+356 340 0.002
+356 357 0.06
+357 352 0.004
+359 325 0.004
+360 358 0.04
+361 341 0.008
+361 342 0.002
+362 200 0.002
+362 363 0.09
+365 371 0.08
+365 375 0.01
+366 371 0.2
+366 495 0.007
+367 187 0.014
+367 318 0.018
+367 319 0.016
+367 368 2.9
+367 371 0.04
+367 375 0.09
+367 378 0.014
+367 380 0.008
+367 495 0.015
+370 179 0.006
+370 187 0.005
+369 187 0.004
+369 370 0.02
+369 371 0.1
+372 371 0.04
+371 372 0.05
+371 375 0.06
+374 209 0.009
+374 373 0.06
+373 371 0.18
+373 375 0.01
+377 376 0.13
+378 379 0.07
+378 380 0.03
+381 386 0.06
+383 382 0.02
+383 384 0.28
+383 387 0.14
+384 382 0.1
+384 385 0.05
+387 192 0.004
+387 381 0.27
+387 383 0.19
+387 388 0.13
+387 389 0.16
+387 390 0.06
+388 386 0.1
+389 386 0.06
+389 390 0.12
+390 386 0.06
+391 387 0.2
+391 392 0.04
+391 395 0.005
+393 295 0.067
+393 387 0.001
+393 391 0.015
+393 395 0.06
+394 381 0.019
+394 387 0.014
+394 389 0.011
+394 390 0.009
+394 391 0.016
+394 395 0.06
+395 391 0.003
+397 458 0.03
+397 461 0.06
+396 150 0.002
+396 151 0.006
+396 213 0.005
+396 391 0.022
+396 399 0.11
+396 435 0.51
+396 437 0.03
+396 438 0.1
+396 458 0.06
+396 459 0.08
+396 460 0.34
+396 461 0.06
+396 495 0.039
+396 510 0.018
+396 512 0.004
+396 514 0.007
+396 517 0.002
+396 518 0.015
+398 215 0.006
+398 434 0.11
+398 435 0.38
+398 436 0.1
+398 437 0.03
+398 438 0.19
+398 440 0.02
+398 441 0.15
+398 444 0.13
+398 488 0.003
+398 495 0.004
+399 123 0.3
+399 150 0.002
+399 400 0.06
+399 495 0.007
+403 118 2.6
+403 142 1.4
+403 144 0.2
+403 145 2.4
+403 146 0.2
+403 150 0.002
+403 178 0.002
+403 401 0.03
+403 410 0.02
+403 443 0.06
+403 454 0.06
+403 456 0.03
+403 457 0.3
+403 461 0.1
+403 495 0.03
+404 123 0.2
+404 133 1.4
+404 134 0.4
+404 150 0.006
+404 461 0.03
+404 495 0.026
+406 454 0.06
+405 123 0.4
+405 124 0.2
+405 133 1.0
+405 134 1.2
+405 145 1.4
+405 150 0.002
+405 455 0.02
+405 456 0.03
+405 495 0.008
+408 213 0.004
+408 458 0.03
+408 459 0.06
+408 461 0.05
+409 461 0.14
+402 118 1.2
+402 123 0.7
+402 133 0.2
+402 134 0.8
+402 138 0.2
+402 139 0.4
+402 140 4.4
+402 141 0.004
+402 142 0.6
+402 144 0.2
+402 145 3.2
+402 146 0.2
+402 150 0.004
+402 213 0.004
+402 399 0.05
+402 435 0.89
+402 436 0.1
+402 437 0.03
+402 438 0.12
+402 446 0.04
+402 455 0.08
+402 458 0.06
+402 459 0.03
+402 460 0.14
+402 461 0.13
+402 474 0.004
+402 495 0.064
+410 443 0.04
+411 458 0.09
+412 401 0.09
+412 457 0.13
+412 461 0.09
+415 412 0.02
+415 463 0.02
+415 464 0.02
+415 465 0.01
+416 462 0.12
+416 463 0.12
+416 465 0.12
+417 412 0.02
+417 463 0.02
+417 464 0.02
+417 465 0.01
+414 177 0.005
+414 401 0.03
+414 412 0.08
+414 441 0.02
+414 443 0.06
+414 447 0.07
+414 454 0.06
+414 455 0.02
+414 456 0.03
+414 457 0.06
+414 461 0.06
+414 462 0.06
+414 463 0.06
+414 465 0.06
+414 470 0.002
+414 495 0.002
+418 454 0.06
+419 150 0.002
+419 213 0.012
+419 412 0.08
+419 458 0.03
+419 459 0.06
+419 461 0.15
+419 495 0.012
+413 150 0.002
+413 213 0.016
+413 412 0.03
+413 447 0.02
+413 455 0.08
+413 457 0.03
+413 458 0.03
+413 459 0.03
+413 460 0.14
+413 461 0.17
+413 464 0.08
+413 495 0.008
+422 421 0.12
+422 425 0.06
+424 421 0.14
+421 150 0.002
+421 212 0.017
+421 420 0.2
+421 422 0.02
+421 423 0.02
+421 424 0.02
+421 425 0.03
+421 426 0.04
+425 420 0.02
+420 213 0.017
+420 421 0.35
+420 425 0.04
+420 426 0.18
+426 401 0.09
+426 457 0.13
+426 461 0.06
+426 495 0.007
+428 401 0.03
+428 426 0.35
+428 433 0.19
+428 441 0.02
+428 443 0.06
+428 453 0.07
+428 454 0.06
+428 456 0.03
+428 457 0.16
+428 461 0.06
+428 470 0.002
+430 426 0.21
+430 461 0.02
+430 495 0.002
+429 150 0.006
+429 212 0.009
+429 213 0.006
+429 426 0.22
+429 455 0.02
+429 456 0.03
+429 460 0.02
+429 495 0.008
+431 454 0.06
+432 150 0.002
+432 213 0.01
+432 426 0.12
+432 458 0.03
+432 459 0.06
+432 461 0.09
+427 150 0.004
+427 151 0.002
+427 213 0.025
+427 426 0.17
+427 433 0.15
+427 453 0.02
+427 455 0.08
+427 457 0.03
+427 458 0.03
+427 459 0.03
+427 460 0.16
+427 461 0.03
+427 495 0.008
+433 420 0.13
+433 426 0.17
+436 435 0.02
+436 495 0.002
+440 487 0.007
+438 434 0.09
+438 435 0.21
+438 439 0.06
+438 440 0.12
+438 446 0.02
+438 495 0.007
+435 436 0.08
+435 437 0.14
+435 438 0.52
+435 446 0.04
+435 474 0.009
+435 493 0.006
+435 495 0.024
+441 438 0.03
+441 443 0.03
+441 444 0.03
+441 468 0.002
+441 495 0.007
+446 307 0.002
+446 435 0.04
+446 438 0.08
+446 444 0.04
+446 495 0.017
+444 434 0.03
+448 447 0.06
+449 401 0.06
+449 447 0.36
+449 457 0.06
+449 495 0.004
+450 447 0.18
+450 495 0.004
+451 447 0.12
+451 461 0.06
+452 447 0.12
+452 461 0.06
+447 178 0.01
+447 215 0.006
+447 412 0.1
+447 445 0.02
+447 448 0.02
+447 449 0.02
+447 450 0.02
+447 451 0.02
+447 452 0.02
+447 457 0.06
+447 460 0.04
+447 461 0.07
+447 466 0.12
+447 467 0.1
+447 495 0.004
+453 178 0.01
+453 215 0.006
+453 401 0.08
+453 426 0.1
+453 433 0.08
+453 445 0.02
+453 457 0.27
+453 460 0.04
+453 461 0.04
+453 466 0.14
+453 467 0.1
+453 495 0.055
+454 455 0.03
+457 178 0.008
+459 458 0.09
+459 461 0.11
+463 464 0.03
+463 465 0.03
+461 177 0.027
+461 401 0.03
+461 443 0.06
+461 454 0.06
+461 456 0.03
+461 457 0.94
+461 458 0.03
+461 462 0.12
+461 463 0.04
+461 464 0.03
+461 465 0.03
+461 495 0.007
+466 467 0.09
+466 488 0.002
+466 495 0.007
+468 215 0.002
+468 438 0.003
+468 441 0.006
+468 443 0.003
+468 444 0.003
+468 470 0.04
+468 471 0.02
+469 434 0.004
+470 442 0.004
+470 443 0.004
+470 488 0.007
+470 495 0.009
+471 307 0.002
+471 434 0.011
+471 435 0.031
+471 438 0.031
+471 446 0.006
+471 469 0.04
+471 472 0.15
+471 495 0.025
+473 200 0.002
+473 472 0.16
+473 495 0.002
+472 473 0.1
+472 495 0.008
+474 139 0.8
+474 475 0.13
+474 495 0.031
+476 121 0.4
+476 134 0.4
+476 139 0.4
+476 140 6.0
+476 434 0.004
+476 435 0.061
+476 436 0.01
+476 438 0.026
+476 440 0.007
+476 474 0.06
+476 477 0.02
+476 482 0.07
+476 486 0.02
+476 493 0.002
+476 495 0.002
+479 138 2.0
+479 477 0.98
+479 486 0.04
+479 493 0.002
+479 495 0.022
+477 120 1.2
+477 134 0.8
+477 138 9.8
+477 140 1.0
+477 178 0.024
+477 445 0.004
+477 478 0.08
+477 479 0.09
+477 482 0.12
+477 493 0.006
+477 495 0.044
+480 438 0.003
+480 441 0.006
+480 443 0.003
+480 444 0.003
+480 470 0.002
+480 485 0.02
+483 482 0.03
+482 140 1.6
+482 476 0.08
+482 483 0.02
+482 484 0.08
+482 495 0.007
+484 140 2.4
+485 434 0.003
+485 435 0.004
+485 438 0.009
+485 446 0.006
+485 471 0.011
+485 476 0.02
+485 481 0.02
+488 487 0.09
+488 489 0.09
+488 490 0.09
+488 491 0.09
+488 492 0.09
+488 494 0.09
+493 488 0.49
+493 495 0.009
+496 3 4.0
+496 500 0.16
+497 3 3.0
+497 197 0.004
+497 498 0.04
+497 499 0.04
+497 504 0.02
+498 3 4.0
+499 496 0.06
+499 500 0.05
+501 4 4.0
+501 5 0.008
+501 308 0.008
+502 3 26.0
+502 4 13.0
+502 5 0.006
+502 6 4.0
+502 7 16.0
+502 150 0.002
+502 197 0.002
+502 495 0.027
+502 497 0.04
+502 501 0.02
+502 503 0.07
+504 496 0.06
+504 500 0.05
+511 510 0.16
+510 511 0.15
+514 518 0.28
+516 513 0.01
+516 515 0.02
+517 508 0.006
+517 515 0.07
+515 516 0.04
+519 518 0.03
+518 495 0.007
+518 513 0.02
+518 514 0.07
+518 515 0.03
+518 519 0.04
+521 520 0.03
+521 522 0.04
+520 495 0.007
+520 518 0.002
+520 521 0.02
+525 524 300.0
+524 523 400.0
+524 525 0.02
+527 495 0.004
+527 526 400.0
+528 495 0.008
+528 526 4000.0
+528 531 0.14
+528 543 200.0
+529 526 300.0
+530 495 0.008
+530 526 5600.0
+530 531 0.1
+532 495 0.004
+532 526 3000.0
+532 531 0.12
+526 495 0.018
+526 523 400.0
+526 527 0.02
+526 528 0.04
+526 529 0.02
+526 530 0.02
+526 531 0.1
+526 532 0.04
+535 534 800.0
+534 150 0.002
+534 495 0.007
+534 533 900.0
+534 535 0.15
+536 552 200.0
+538 495 0.007
+538 575 1800.0
+539 540 0.09
+542 495 0.021
+542 541 4400.0
+542 544 2800.0
+542 546 800.0
+542 547 0.08
+542 552 200.0
+542 553 800.0
+545 495 0.007
+545 542 200.0
+545 544 300.0
+544 546 300.0
+548 495 0.002
+548 537 1900.0
+548 547 0.02
+547 495 0.022
+547 537 300.0
+547 539 2400.0
+547 548 0.25
+547 549 0.45
+547 552 500.0
+547 553 200.0
+547 584 0.002
+547 587 0.006
+547 589 0.004
+551 577 200.0
+555 546 300.0
+555 554 2400.0
+555 558 0.06
+558 544 700.0
+558 554 1200.0
+559 546 300.0
+559 554 3200.0
+559 558 0.06
+554 150 0.002
+554 198 0.008
+554 495 0.065
+554 544 2400.0
+554 546 1000.0
+554 547 0.12
+554 550 400.0
+554 555 0.02
+554 556 0.14
+554 557 0.03
+554 559 0.02
+554 563 4300.0
+554 564 200.0
+554 575 3200.0
+561 495 0.002
+561 543 200.0
+561 556 0.02
+561 560 3600.0
+560 495 0.012
+560 523 800.0
+560 544 300.0
+560 554 600.0
+560 556 0.1
+560 561 0.02
+560 563 200.0
+560 575 500.0
+562 204 0.004
+570 495 0.002
+571 495 0.002
+572 495 0.006
+573 495 0.004
+566 199 0.002
+566 495 0.05
+566 538 600.0
+566 541 4600.0
+566 544 1200.0
+566 547 0.12
+566 575 2000.0
+574 523 1000.0
+575 1 8.0
+575 2 4.0
+575 150 0.008
+575 495 0.037
+575 538 1300.0
+575 539 1100.0
+575 540 0.08
+575 547 0.04
+575 550 200.0
+575 554 1000.0
+575 576 0.03
+575 577 2600.0
+577 1 9.0
+577 192 0.002
+577 200 0.002
+577 204 0.002
+577 495 0.047
+577 520 0.04
+577 523 2300.0
+577 524 400.0
+577 526 200.0
+577 533 400.0
+577 534 800.0
+577 544 300.0
+577 545 500.0
+577 547 0.02
+577 560 600.0
+577 562 200.0
+577 575 1800.0
+577 578 0.23
+579 150 0.004
+579 495 0.015
+579 586 0.02
+579 590 0.29
+580 590 0.02
+581 495 0.007
+582 150 0.004
+582 550 4.0
+583 575 2.0
+583 582 0.06
+584 583 0.06
+585 583 0.06
+586 575 4.0
+586 582 0.06
+587 495 0.009
+587 586 0.06
+588 586 0.06
+589 495 0.009
+589 547 0.004
+589 586 0.06
+591 495 0.046
+591 547 0.004
+591 548 0.025
+591 584 0.04
+591 585 0.02
+591 587 0.08
+591 588 0.02
+591 589 0.06
+591 590 0.46
+591 593 0.09
+590 495 0.026
+590 547 0.006
+590 591 0.19
+590 592 0.04
+590 593 0.31
+595 200 0.002
+595 495 0.007
+595 505 0.002
+595 544 12.0
+595 545 5.0
+595 547 0.002
+595 562 5.0
+595 601 500.0
+595 602 300.0
+595 606 400.0
+596 495 0.013
+596 597 0.14
+598 605 200.0
+598 606 200.0
+599 595 0.04
+599 603 400.0
+599 606 700.0
+600 461 0.01
+600 495 0.011
+600 544 6.0
+600 554 14.0
+600 556 0.01
+600 563 2.0
+600 575 3.0
+601 204 0.002
+602 443 0.003
+602 458 0.014
+602 461 0.006
+602 495 0.013
+602 544 6.0
+602 563 3.0
+602 575 11.0
+602 600 1100.0
+602 601 1600.0
+602 606 800.0
+604 461 0.028
+604 495 0.007
+604 544 3.0
+604 606 500.0
+604 610 1100.0
+605 598 200.0
+605 606 1000.0
+605 609 200.0
+608 596 400.0
+608 607 0.1
+607 596 900.0
+606 495 0.019
+606 575 29.0
+606 577 10.0
+606 590 0.01
+606 595 0.02
+606 596 1200.0
+606 599 200.0
+606 603 700.0
+606 607 0.07
+606 608 0.02
+606 610 800.0
+609 606 800.0
+611 610 300.0
+610 533 4.0
+610 534 8.0

@@ -1,0 +1,2644 @@
+*Vertices 531
+1 "org.jhotdraw.applet.DrawApplet"
+2 "org.jhotdraw.application.DrawApplication"
+3 "org.jhotdraw.contrib.AutoscrollHelper"
+4 "org.jhotdraw.contrib.CTXCommandMenu"
+5 "org.jhotdraw.contrib.CTXWindowMenu"
+6 "org.jhotdraw.contrib.CTXWindowMenu$ChildMenuItem"
+7 "org.jhotdraw.contrib.ChopDiamondConnector"
+8 "org.jhotdraw.contrib.ChopPolygonConnector"
+9 "org.jhotdraw.contrib.ClippingUpdateStrategy"
+10 "org.jhotdraw.contrib.CommandCheckBoxMenuItem"
+11 "org.jhotdraw.contrib.CommandHolder"
+12 "org.jhotdraw.contrib.CommandMenuItem"
+13 "org.jhotdraw.contrib.ComponentFigure"
+14 "org.jhotdraw.contrib.CompositeFigureCreationTool"
+15 "org.jhotdraw.contrib.CustomSelectionTool"
+16 "org.jhotdraw.contrib.CustomToolBar"
+17 "org.jhotdraw.contrib.Desktop"
+18 "org.jhotdraw.contrib.DesktopEvent"
+19 "org.jhotdraw.contrib.DesktopEventService"
+20 "org.jhotdraw.contrib.DesktopListener"
+21 "org.jhotdraw.contrib.DiamondFigure"
+22 "org.jhotdraw.contrib.FloatingTextArea"
+23 "org.jhotdraw.contrib.GraphicalCompositeFigure"
+24 "org.jhotdraw.contrib.Helper"
+25 "org.jhotdraw.contrib.JPanelDesktop"
+26 "org.jhotdraw.contrib.JScrollPaneDesktop"
+27 "org.jhotdraw.contrib.Layoutable"
+28 "org.jhotdraw.contrib.Layouter"
+29 "org.jhotdraw.contrib.MDIDesktopManager"
+30 "org.jhotdraw.contrib.MDIDesktopPane"
+31 "org.jhotdraw.contrib.MDI_DrawApplication"
+32 "org.jhotdraw.contrib.MiniMapView"
+33 "org.jhotdraw.contrib.MiniMapView$MappedDrawingChangeListener"
+34 "org.jhotdraw.contrib.MiniMapView$MouseListener"
+35 "org.jhotdraw.contrib.MiniMapView$SubjectListener"
+36 "org.jhotdraw.contrib.NestedCreationTool"
+37 "org.jhotdraw.contrib.PolygonFigure"
+38 "org.jhotdraw.contrib.PolygonHandle"
+39 "org.jhotdraw.contrib.PolygonHandle$UndoActivity"
+40 "org.jhotdraw.contrib.PolygonScaleHandle"
+41 "org.jhotdraw.contrib.PolygonScaleHandle$UndoActivity"
+42 "org.jhotdraw.contrib.PolygonTool"
+43 "org.jhotdraw.contrib.PopupMenuFigureSelection"
+44 "org.jhotdraw.contrib.SVGDrawApp"
+45 "org.jhotdraw.contrib.SVGStorageFormat"
+46 "org.jhotdraw.contrib.SimpleLayouter"
+47 "org.jhotdraw.contrib.SplitConnectionTool"
+48 "org.jhotdraw.contrib.SplitPaneDesktop"
+49 "org.jhotdraw.contrib.SplitPaneDrawApplication"
+50 "org.jhotdraw.contrib.StandardLayouter"
+51 "org.jhotdraw.contrib.TextAreaFigure"
+52 "org.jhotdraw.contrib.TextAreaTool"
+53 "org.jhotdraw.contrib.TextAreaTool$UndoActivity"
+54 "org.jhotdraw.contrib.TriangleFigure"
+55 "org.jhotdraw.contrib.TriangleRotationHandle"
+56 "org.jhotdraw.contrib.TriangleRotationHandle$UndoActivity"
+57 "org.jhotdraw.contrib.WindowMenu"
+58 "org.jhotdraw.contrib.WindowMenu$ChildMenuItem"
+59 "org.jhotdraw.contrib.dnd.DNDFigures"
+60 "org.jhotdraw.contrib.dnd.DNDFiguresTransferable"
+61 "org.jhotdraw.contrib.dnd.DNDHelper"
+62 "org.jhotdraw.contrib.dnd.DNDInterface"
+63 "org.jhotdraw.contrib.dnd.DragNDropTool"
+64 "org.jhotdraw.contrib.dnd.JHDDragSourceListener"
+65 "org.jhotdraw.contrib.dnd.JHDDragSourceListener$RemoveUndoActivity"
+66 "org.jhotdraw.contrib.dnd.JHDDropTargetListener"
+67 "org.jhotdraw.contrib.dnd.JHDDropTargetListener$AddUndoActivity"
+68 "org.jhotdraw.contrib.html.AbstractContentProducer"
+69 "org.jhotdraw.contrib.html.AttributeContentProducerContext"
+70 "org.jhotdraw.contrib.html.AttributeFigureContentProducer"
+71 "org.jhotdraw.contrib.html.ColorContentProducer"
+72 "org.jhotdraw.contrib.html.ContentProducer"
+73 "org.jhotdraw.contrib.html.ContentProducerContext"
+74 "org.jhotdraw.contrib.html.ContentProducerRegistry"
+75 "org.jhotdraw.contrib.html.DiamondFigureGeometricAdapter"
+76 "org.jhotdraw.contrib.html.DisposableResourceHolder"
+77 "org.jhotdraw.contrib.html.DisposableResourceManager"
+78 "org.jhotdraw.contrib.html.DisposableResourceManagerFactory"
+79 "org.jhotdraw.contrib.html.DisposalThread"
+80 "org.jhotdraw.contrib.html.ETSLADisposalStrategy"
+81 "org.jhotdraw.contrib.html.EllipseFigureGeometricAdapter"
+82 "org.jhotdraw.contrib.html.FigureContentProducerContext"
+83 "org.jhotdraw.contrib.html.FigureDataContentProducer"
+84 "org.jhotdraw.contrib.html.GeometricFigure"
+85 "org.jhotdraw.contrib.html.HTMLColorContentProducer"
+86 "org.jhotdraw.contrib.html.HTMLContentProducer"
+87 "org.jhotdraw.contrib.html.HTMLContentProducerContext"
+88 "org.jhotdraw.contrib.html.HTMLLayouter"
+89 "org.jhotdraw.contrib.html.HTMLTextAreaFigure"
+90 "org.jhotdraw.contrib.html.HTMLTextAreaFigure$InvalidAttributeMarker"
+91 "org.jhotdraw.contrib.html.HTMLTextAreaTool"
+92 "org.jhotdraw.contrib.html.PolygonFigureGeometricAdapter"
+93 "org.jhotdraw.contrib.html.ResourceContentProducer"
+94 "org.jhotdraw.contrib.html.ResourceDisposabilityStrategy"
+95 "org.jhotdraw.contrib.html.ResourceManagerNotSetException"
+96 "org.jhotdraw.contrib.html.RoundRectangleGeometricAdapter"
+97 "org.jhotdraw.contrib.html.StandardDisposableResourceHolder"
+98 "org.jhotdraw.contrib.html.StandardDisposableResourceManager"
+99 "org.jhotdraw.contrib.html.TextHolderContentProducer"
+100 "org.jhotdraw.contrib.html.TriangleFigureGeometricAdapter"
+101 "org.jhotdraw.contrib.html.URLContentProducer"
+102 "org.jhotdraw.contrib.zoom.AreaTracker"
+103 "org.jhotdraw.contrib.zoom.DoubleBufferImage"
+104 "org.jhotdraw.contrib.zoom.MiniMapZoomableView"
+105 "org.jhotdraw.contrib.zoom.ScalingGraphics"
+106 "org.jhotdraw.contrib.zoom.ScalingGraphics$ScalingFontMetrics"
+107 "org.jhotdraw.contrib.zoom.ZoomAreaTracker"
+108 "org.jhotdraw.contrib.zoom.ZoomCommand"
+109 "org.jhotdraw.contrib.zoom.ZoomDrawingView"
+110 "org.jhotdraw.contrib.zoom.ZoomTool"
+111 "org.jhotdraw.contrib.zoom.ZoomUpdateStrategy"
+112 "org.jhotdraw.figures.AbstractLineDecoration"
+113 "org.jhotdraw.figures.ArrowTip"
+114 "org.jhotdraw.figures.AttributeFigure"
+115 "org.jhotdraw.figures.BorderDecorator"
+116 "org.jhotdraw.figures.BorderTool"
+117 "org.jhotdraw.figures.BorderTool$UndoActivity"
+118 "org.jhotdraw.figures.ChopEllipseConnector"
+119 "org.jhotdraw.figures.ConnectedTextTool"
+120 "org.jhotdraw.figures.ConnectedTextTool$DeleteUndoActivity"
+121 "org.jhotdraw.figures.ConnectedTextTool$UndoActivity"
+122 "org.jhotdraw.figures.ElbowConnection"
+123 "org.jhotdraw.figures.ElbowHandle"
+124 "org.jhotdraw.figures.ElbowTextLocator"
+125 "org.jhotdraw.figures.EllipseFigure"
+126 "org.jhotdraw.figures.FigureAttributes"
+127 "org.jhotdraw.figures.FontSizeHandle"
+128 "org.jhotdraw.figures.FontSizeHandle$UndoActivity"
+129 "org.jhotdraw.figures.GroupCommand"
+130 "org.jhotdraw.figures.GroupCommand$UndoActivity"
+131 "org.jhotdraw.figures.GroupFigure"
+132 "org.jhotdraw.figures.GroupHandle"
+133 "org.jhotdraw.figures.ImageFigure"
+134 "org.jhotdraw.figures.InsertImageCommand"
+135 "org.jhotdraw.figures.InsertImageCommand$UndoActivity"
+136 "org.jhotdraw.figures.LineConnection"
+137 "org.jhotdraw.figures.LineDecoration"
+138 "org.jhotdraw.figures.LineFigure"
+139 "org.jhotdraw.figures.NullConnector"
+140 "org.jhotdraw.figures.NullFigure"
+141 "org.jhotdraw.figures.NumberTextFigure"
+142 "org.jhotdraw.figures.PolyLineConnector"
+143 "org.jhotdraw.figures.PolyLineFigure"
+144 "org.jhotdraw.figures.PolyLineHandle"
+145 "org.jhotdraw.figures.PolyLineHandle$UndoActivity"
+146 "org.jhotdraw.figures.PolyLineLocator"
+147 "org.jhotdraw.figures.RadiusHandle"
+148 "org.jhotdraw.figures.RadiusHandle$UndoActivity"
+149 "org.jhotdraw.figures.RectangleFigure"
+150 "org.jhotdraw.figures.RoundRectangleFigure"
+151 "org.jhotdraw.figures.ScribbleTool"
+152 "org.jhotdraw.figures.ShortestDistanceConnector"
+153 "org.jhotdraw.figures.TextFigure"
+154 "org.jhotdraw.figures.TextTool"
+155 "org.jhotdraw.figures.TextTool$UndoActivity"
+156 "org.jhotdraw.figures.UngroupCommand"
+157 "org.jhotdraw.figures.UngroupCommand$UndoActivity"
+158 "org.jhotdraw.framework.ConnectionFigure"
+159 "org.jhotdraw.framework.Connector"
+160 "org.jhotdraw.framework.Cursor"
+161 "org.jhotdraw.framework.Drawing"
+162 "org.jhotdraw.framework.DrawingChangeEvent"
+163 "org.jhotdraw.framework.DrawingChangeListener"
+164 "org.jhotdraw.framework.DrawingEditor"
+165 "org.jhotdraw.framework.DrawingView"
+166 "org.jhotdraw.framework.Figure"
+167 "org.jhotdraw.framework.FigureAttributeConstant"
+168 "org.jhotdraw.framework.FigureChangeEvent"
+169 "org.jhotdraw.framework.FigureChangeListener"
+170 "org.jhotdraw.framework.FigureEnumeration"
+171 "org.jhotdraw.framework.FigureSelection"
+172 "org.jhotdraw.framework.FigureSelectionListener"
+173 "org.jhotdraw.framework.FigureVisitor"
+174 "org.jhotdraw.framework.Handle"
+175 "org.jhotdraw.framework.HandleEnumeration"
+176 "org.jhotdraw.framework.JHotDrawRuntimeException"
+177 "org.jhotdraw.framework.Locator"
+178 "org.jhotdraw.framework.Painter"
+179 "org.jhotdraw.framework.Tool"
+180 "org.jhotdraw.framework.ToolListener"
+181 "org.jhotdraw.framework.ViewChangeListener"
+182 "org.jhotdraw.samples.javadraw.AnimationDecorator"
+183 "org.jhotdraw.samples.javadraw.Animator"
+184 "org.jhotdraw.samples.javadraw.BouncingDrawing"
+185 "org.jhotdraw.samples.javadraw.FollowURLTool"
+186 "org.jhotdraw.samples.javadraw.JavaDrawApp"
+187 "org.jhotdraw.samples.javadraw.JavaDrawApplet"
+188 "org.jhotdraw.samples.javadraw.JavaDrawViewer"
+189 "org.jhotdraw.samples.javadraw.MySelectionTool"
+190 "org.jhotdraw.samples.javadraw.PatternPainter"
+191 "org.jhotdraw.samples.javadraw.URLTool"
+192 "org.jhotdraw.samples.minimap.MiniMapApplication"
+193 "org.jhotdraw.samples.minimap.MiniMapDesktop"
+194 "org.jhotdraw.samples.net.NetApp"
+195 "org.jhotdraw.samples.net.NodeFigure"
+196 "org.jhotdraw.samples.nothing.NothingApp"
+197 "org.jhotdraw.samples.nothing.NothingApplet"
+198 "org.jhotdraw.samples.pert.PertApplet"
+199 "org.jhotdraw.samples.pert.PertApplication"
+200 "org.jhotdraw.samples.pert.PertDependency"
+201 "org.jhotdraw.samples.pert.PertFigure"
+202 "org.jhotdraw.samples.pert.PertFigureCreationTool"
+203 "org.jhotdraw.standard.AWTCursor"
+204 "org.jhotdraw.standard.AbstractCommand"
+205 "org.jhotdraw.standard.AbstractCommand$EventDispatcher"
+206 "org.jhotdraw.standard.AbstractConnector"
+207 "org.jhotdraw.standard.AbstractFigure"
+208 "org.jhotdraw.standard.AbstractHandle"
+209 "org.jhotdraw.standard.AbstractLocator"
+210 "org.jhotdraw.standard.AbstractTool"
+211 "org.jhotdraw.standard.AbstractTool$EventDispatcher"
+212 "org.jhotdraw.standard.ActionTool"
+213 "org.jhotdraw.standard.AlignCommand"
+214 "org.jhotdraw.standard.AlignCommand$Alignment"
+215 "org.jhotdraw.standard.AlignCommand$UndoActivity"
+216 "org.jhotdraw.standard.BoxHandleKit"
+217 "org.jhotdraw.standard.BringToFrontCommand"
+218 "org.jhotdraw.standard.BringToFrontCommand$UndoActivity"
+219 "org.jhotdraw.standard.BufferedUpdateStrategy"
+220 "org.jhotdraw.standard.ChangeAttributeCommand"
+221 "org.jhotdraw.standard.ChangeAttributeCommand$UndoActivity"
+222 "org.jhotdraw.standard.ChangeConnectionEndHandle"
+223 "org.jhotdraw.standard.ChangeConnectionEndHandle$UndoActivity"
+224 "org.jhotdraw.standard.ChangeConnectionHandle"
+225 "org.jhotdraw.standard.ChangeConnectionHandle$UndoActivity"
+226 "org.jhotdraw.standard.ChangeConnectionStartHandle"
+227 "org.jhotdraw.standard.ChangeConnectionStartHandle$UndoActivity"
+228 "org.jhotdraw.standard.ChopBoxConnector"
+229 "org.jhotdraw.standard.CompositeFigure"
+230 "org.jhotdraw.standard.ConnectionHandle"
+231 "org.jhotdraw.standard.ConnectionTool"
+232 "org.jhotdraw.standard.ConnectionTool$UndoActivity"
+233 "org.jhotdraw.standard.CopyCommand"
+234 "org.jhotdraw.standard.CreationTool"
+235 "org.jhotdraw.standard.CutCommand"
+236 "org.jhotdraw.standard.CutCommand$UndoActivity"
+237 "org.jhotdraw.standard.DecoratorFigure"
+238 "org.jhotdraw.standard.DeleteCommand"
+239 "org.jhotdraw.standard.DeleteCommand$UndoActivity"
+240 "org.jhotdraw.standard.DeleteFromDrawingVisitor"
+241 "org.jhotdraw.standard.DragTracker"
+242 "org.jhotdraw.standard.DragTracker$UndoActivity"
+243 "org.jhotdraw.standard.DuplicateCommand"
+244 "org.jhotdraw.standard.EastHandle"
+245 "org.jhotdraw.standard.FastBufferedUpdateStrategy"
+246 "org.jhotdraw.standard.FigureAndEnumerator"
+247 "org.jhotdraw.standard.FigureChangeAdapter"
+248 "org.jhotdraw.standard.FigureChangeEventMulticaster"
+249 "org.jhotdraw.standard.FigureEnumerator"
+250 "org.jhotdraw.standard.FigureTransferCommand"
+251 "org.jhotdraw.standard.GridConstrainer"
+252 "org.jhotdraw.standard.HandleAndEnumerator"
+253 "org.jhotdraw.standard.HandleEnumerator"
+254 "org.jhotdraw.standard.HandleTracker"
+255 "org.jhotdraw.standard.InsertIntoDrawingVisitor"
+256 "org.jhotdraw.standard.LocatorConnector"
+257 "org.jhotdraw.standard.LocatorHandle"
+258 "org.jhotdraw.standard.NorthEastHandle"
+259 "org.jhotdraw.standard.NorthHandle"
+260 "org.jhotdraw.standard.NorthWestHandle"
+261 "org.jhotdraw.standard.NullDrawingView"
+262 "org.jhotdraw.standard.NullHandle"
+263 "org.jhotdraw.standard.NullPainter"
+264 "org.jhotdraw.standard.NullTool"
+265 "org.jhotdraw.standard.OffsetLocator"
+266 "org.jhotdraw.standard.OrderedFigureElement"
+267 "org.jhotdraw.standard.PasteCommand"
+268 "org.jhotdraw.standard.PasteCommand$UndoActivity"
+269 "org.jhotdraw.standard.PeripheralLocator"
+270 "org.jhotdraw.standard.QuadTree"
+271 "org.jhotdraw.standard.RelativeLocator"
+272 "org.jhotdraw.standard.ResizeHandle"
+273 "org.jhotdraw.standard.ResizeHandle$UndoActivity"
+274 "org.jhotdraw.standard.ReverseFigureEnumerator"
+275 "org.jhotdraw.standard.SelectAllCommand"
+276 "org.jhotdraw.standard.SelectAllCommand$UndoActivity"
+277 "org.jhotdraw.standard.SelectAreaTracker"
+278 "org.jhotdraw.standard.SelectionTool"
+279 "org.jhotdraw.standard.SendToBackCommand"
+280 "org.jhotdraw.standard.SendToBackCommand$UndoActivity"
+281 "org.jhotdraw.standard.SimpleUpdateStrategy"
+282 "org.jhotdraw.standard.SingleFigureEnumerator"
+283 "org.jhotdraw.standard.SouthEastHandle"
+284 "org.jhotdraw.standard.SouthHandle"
+285 "org.jhotdraw.standard.SouthWestHandle"
+286 "org.jhotdraw.standard.StandardDrawing"
+287 "org.jhotdraw.standard.StandardDrawingView"
+288 "org.jhotdraw.standard.StandardDrawingView$ASH"
+289 "org.jhotdraw.standard.StandardDrawingView$DrawingViewKeyListener"
+290 "org.jhotdraw.standard.StandardDrawingView$DrawingViewMouseListener"
+291 "org.jhotdraw.standard.StandardDrawingView$DrawingViewMouseMotionListener"
+292 "org.jhotdraw.standard.StandardFigureSelection"
+293 "org.jhotdraw.standard.TextHolder"
+294 "org.jhotdraw.standard.ToggleGridCommand"
+295 "org.jhotdraw.standard.ToolButton"
+296 "org.jhotdraw.standard.WestHandle"
+297 "org.jhotdraw.test.AllTests"
+298 "org.jhotdraw.test.JHDTestCase"
+299 "org.jhotdraw.test.contrib.AllTests"
+300 "org.jhotdraw.test.contrib.CTXCommandMenuTest"
+301 "org.jhotdraw.test.contrib.CTXWindowMenuTest"
+302 "org.jhotdraw.test.contrib.ChopDiamondConnectorTest"
+303 "org.jhotdraw.test.contrib.ChopPolygonConnectorTest"
+304 "org.jhotdraw.test.contrib.ClippingUpdateStrategyTest"
+305 "org.jhotdraw.test.contrib.CommandCheckBoxMenuItemTest"
+306 "org.jhotdraw.test.contrib.CommandMenuItemTest"
+307 "org.jhotdraw.test.contrib.ComponentFigureTest"
+308 "org.jhotdraw.test.contrib.CompositeFigureCreationToolTest"
+309 "org.jhotdraw.test.contrib.CustomSelectionToolTest"
+310 "org.jhotdraw.test.contrib.CustomToolBarTest"
+311 "org.jhotdraw.test.contrib.DesktopEventServiceTest"
+312 "org.jhotdraw.test.contrib.DiamondFigureTest"
+313 "org.jhotdraw.test.contrib.FloatingTextAreaTest"
+314 "org.jhotdraw.test.contrib.GraphicalCompositeFigureTest"
+315 "org.jhotdraw.test.contrib.HelperTest"
+316 "org.jhotdraw.test.contrib.JPanelDesktopTest"
+317 "org.jhotdraw.test.contrib.JScrollPaneDesktopTest"
+318 "org.jhotdraw.test.contrib.MDIDesktopPaneTest"
+319 "org.jhotdraw.test.contrib.MDI_DrawApplicationTest"
+320 "org.jhotdraw.test.contrib.MiniMapViewTest"
+321 "org.jhotdraw.test.contrib.NestedCreationToolTest"
+322 "org.jhotdraw.test.contrib.PolygonFigureTest"
+323 "org.jhotdraw.test.contrib.PolygonHandleTest"
+324 "org.jhotdraw.test.contrib.PolygonToolTest"
+325 "org.jhotdraw.test.contrib.SVGDrawAppTest"
+326 "org.jhotdraw.test.contrib.SVGStorageFormatTest"
+327 "org.jhotdraw.test.contrib.SimpleLayouterTest"
+328 "org.jhotdraw.test.contrib.SplitConnectionToolTest"
+329 "org.jhotdraw.test.contrib.StandardLayouterTest"
+330 "org.jhotdraw.test.contrib.TextAreaFigureTest"
+331 "org.jhotdraw.test.contrib.TextAreaToolTest"
+332 "org.jhotdraw.test.contrib.TriangleFigureTest"
+333 "org.jhotdraw.test.contrib.WindowMenuTest"
+334 "org.jhotdraw.test.figures.AllTests"
+335 "org.jhotdraw.test.figures.ArrowTipTest"
+336 "org.jhotdraw.test.figures.BorderDecoratorTest"
+337 "org.jhotdraw.test.figures.BorderToolTest"
+338 "org.jhotdraw.test.figures.ChopEllipseConnectorTest"
+339 "org.jhotdraw.test.figures.ConnectedTextToolTest"
+340 "org.jhotdraw.test.figures.ElbowConnectionTest"
+341 "org.jhotdraw.test.figures.ElbowHandleTest"
+342 "org.jhotdraw.test.figures.EllipseFigureTest"
+343 "org.jhotdraw.test.figures.FigureAttributesTest"
+344 "org.jhotdraw.test.figures.FontSizeHandleTest"
+345 "org.jhotdraw.test.figures.GroupCommandTest"
+346 "org.jhotdraw.test.figures.GroupFigureTest"
+347 "org.jhotdraw.test.figures.ImageFigureTest"
+348 "org.jhotdraw.test.figures.InsertImageCommandTest"
+349 "org.jhotdraw.test.figures.LineConnectionTest"
+350 "org.jhotdraw.test.figures.LineFigureTest"
+351 "org.jhotdraw.test.figures.NullConnectorTest"
+352 "org.jhotdraw.test.figures.NullFigureTest"
+353 "org.jhotdraw.test.figures.NumberTextFigureTest"
+354 "org.jhotdraw.test.figures.PolyLineConnectorTest"
+355 "org.jhotdraw.test.figures.PolyLineFigureTest"
+356 "org.jhotdraw.test.figures.PolyLineHandleTest"
+357 "org.jhotdraw.test.figures.RectangleFigureTest"
+358 "org.jhotdraw.test.figures.RoundRectangleFigureTest"
+359 "org.jhotdraw.test.figures.ScribbleToolTest"
+360 "org.jhotdraw.test.figures.ShortestDistanceConnectorTest"
+361 "org.jhotdraw.test.figures.TextFigureTest"
+362 "org.jhotdraw.test.figures.TextToolTest"
+363 "org.jhotdraw.test.figures.UngroupCommandTest"
+364 "org.jhotdraw.test.framework.AllTests"
+365 "org.jhotdraw.test.framework.DrawingChangeEventTest"
+366 "org.jhotdraw.test.framework.FigureAttributeConstantTest"
+367 "org.jhotdraw.test.framework.FigureChangeEventTest"
+368 "org.jhotdraw.test.samples.javadraw.AllTests"
+369 "org.jhotdraw.test.samples.javadraw.AnimationDecoratorTest"
+370 "org.jhotdraw.test.samples.javadraw.AnimatorTest"
+371 "org.jhotdraw.test.samples.javadraw.BouncingDrawingTest"
+372 "org.jhotdraw.test.samples.javadraw.JavaDrawAppTest"
+373 "org.jhotdraw.test.samples.javadraw.JavaDrawAppletTest"
+374 "org.jhotdraw.test.samples.javadraw.JavaDrawViewerTest"
+375 "org.jhotdraw.test.samples.javadraw.MySelectionToolTest"
+376 "org.jhotdraw.test.samples.javadraw.PatternPainterTest"
+377 "org.jhotdraw.test.samples.javadraw.URLToolTest"
+378 "org.jhotdraw.test.samples.minimap.AllTests"
+379 "org.jhotdraw.test.samples.minimap.MiniMapApplicationTest"
+380 "org.jhotdraw.test.samples.minimap.MiniMapDesktopTest"
+381 "org.jhotdraw.test.samples.net.AllTests"
+382 "org.jhotdraw.test.samples.net.NetAppTest"
+383 "org.jhotdraw.test.samples.net.NodeFigureTest"
+384 "org.jhotdraw.test.samples.nothing.AllTests"
+385 "org.jhotdraw.test.samples.nothing.NothingAppTest"
+386 "org.jhotdraw.test.samples.nothing.NothingAppletTest"
+387 "org.jhotdraw.test.samples.pert.AllTests"
+388 "org.jhotdraw.test.samples.pert.PertAppletTest"
+389 "org.jhotdraw.test.samples.pert.PertApplicationTest"
+390 "org.jhotdraw.test.samples.pert.PertDependencyTest"
+391 "org.jhotdraw.test.samples.pert.PertFigureCreationToolTest"
+392 "org.jhotdraw.test.samples.pert.PertFigureTest"
+393 "org.jhotdraw.test.standard.AlignCommandTest"
+394 "org.jhotdraw.test.standard.AllTests"
+395 "org.jhotdraw.test.standard.BoxHandleKitTest"
+396 "org.jhotdraw.test.standard.BringToFrontCommandTest"
+397 "org.jhotdraw.test.standard.BufferedUpdateStrategyTest"
+398 "org.jhotdraw.test.standard.ChangeAttributeCommandTest"
+399 "org.jhotdraw.test.standard.ChangeConnectionEndHandleTest"
+400 "org.jhotdraw.test.standard.ChangeConnectionStartHandleTest"
+401 "org.jhotdraw.test.standard.ChopBoxConnectorTest"
+402 "org.jhotdraw.test.standard.ConnectionHandleTest"
+403 "org.jhotdraw.test.standard.ConnectionToolTest"
+404 "org.jhotdraw.test.standard.CopyCommandTest"
+405 "org.jhotdraw.test.standard.CreationToolTest"
+406 "org.jhotdraw.test.standard.CutCommandTest"
+407 "org.jhotdraw.test.standard.DeleteCommandTest"
+408 "org.jhotdraw.test.standard.DeleteFromDrawingVisitorTest"
+409 "org.jhotdraw.test.standard.DragTrackerTest"
+410 "org.jhotdraw.test.standard.DuplicateCommandTest"
+411 "org.jhotdraw.test.standard.FastBufferedUpdateStrategyTest"
+412 "org.jhotdraw.test.standard.FigureAndEnumeratorTest"
+413 "org.jhotdraw.test.standard.FigureChangeAdapterTest"
+414 "org.jhotdraw.test.standard.FigureChangeEventMulticasterTest"
+415 "org.jhotdraw.test.standard.FigureEnumeratorTest"
+416 "org.jhotdraw.test.standard.GridConstrainerTest"
+417 "org.jhotdraw.test.standard.HandleAndEnumeratorTest"
+418 "org.jhotdraw.test.standard.HandleEnumeratorTest"
+419 "org.jhotdraw.test.standard.HandleTrackerTest"
+420 "org.jhotdraw.test.standard.InsertIntoDrawingVisitorTest"
+421 "org.jhotdraw.test.standard.LocatorConnectorTest"
+422 "org.jhotdraw.test.standard.LocatorHandleTest"
+423 "org.jhotdraw.test.standard.NullDrawingViewTest"
+424 "org.jhotdraw.test.standard.NullHandleTest"
+425 "org.jhotdraw.test.standard.NullToolTest"
+426 "org.jhotdraw.test.standard.OffsetLocatorTest"
+427 "org.jhotdraw.test.standard.PasteCommandTest"
+428 "org.jhotdraw.test.standard.PeripheralLocatorTest"
+429 "org.jhotdraw.test.standard.RelativeLocatorTest"
+430 "org.jhotdraw.test.standard.ReverseFigureEnumeratorTest"
+431 "org.jhotdraw.test.standard.SelectAllCommandTest"
+432 "org.jhotdraw.test.standard.SelectAreaTrackerTest"
+433 "org.jhotdraw.test.standard.SelectionToolTest"
+434 "org.jhotdraw.test.standard.SendToBackCommandTest"
+435 "org.jhotdraw.test.standard.SimpleUpdateStrategyTest"
+436 "org.jhotdraw.test.standard.SingleFigureEnumeratorTest"
+437 "org.jhotdraw.test.standard.StandardDrawingTest"
+438 "org.jhotdraw.test.standard.StandardDrawingViewTest"
+439 "org.jhotdraw.test.standard.StandardFigureSelectionTest"
+440 "org.jhotdraw.test.standard.ToggleGridCommandTest"
+441 "org.jhotdraw.test.standard.ToolButtonTest"
+442 "org.jhotdraw.test.util.AllTests"
+443 "org.jhotdraw.test.util.BoundsTest"
+444 "org.jhotdraw.test.util.ClipboardTest"
+445 "org.jhotdraw.test.util.ColorMapTest"
+446 "org.jhotdraw.test.util.CommandButtonTest"
+447 "org.jhotdraw.test.util.CommandChoiceTest"
+448 "org.jhotdraw.test.util.CommandMenuTest"
+449 "org.jhotdraw.test.util.FillerTest"
+450 "org.jhotdraw.test.util.FloatingTextFieldTest"
+451 "org.jhotdraw.test.util.GeomTest"
+452 "org.jhotdraw.test.util.GraphLayoutTest"
+453 "org.jhotdraw.test.util.IconkitTest"
+454 "org.jhotdraw.test.util.JDOStorageFormatTest"
+455 "org.jhotdraw.test.util.PaletteIconTest"
+456 "org.jhotdraw.test.util.PaletteLayoutTest"
+457 "org.jhotdraw.test.util.RedoCommandTest"
+458 "org.jhotdraw.test.util.ReverseListEnumeratorTest"
+459 "org.jhotdraw.test.util.SerializationStorageFormatTest"
+460 "org.jhotdraw.test.util.StandardStorageFormatTest"
+461 "org.jhotdraw.test.util.StandardVersionControlStrategyTest"
+462 "org.jhotdraw.test.util.StorableInputTest"
+463 "org.jhotdraw.test.util.StorableOutputTest"
+464 "org.jhotdraw.test.util.StorageFormatManagerTest"
+465 "org.jhotdraw.test.util.UndoCommandTest"
+466 "org.jhotdraw.test.util.UndoManagerTest"
+467 "org.jhotdraw.test.util.UndoRedoActivityTest"
+468 "org.jhotdraw.test.util.UndoableAdapterTest"
+469 "org.jhotdraw.test.util.UndoableCommandTest"
+470 "org.jhotdraw.test.util.UndoableHandleTest"
+471 "org.jhotdraw.test.util.UndoableToolTest"
+472 "org.jhotdraw.test.util.VersionManagementTest"
+473 "org.jhotdraw.test.util.collections.jdk11.AllTests"
+474 "org.jhotdraw.test.util.collections.jdk11.CollectionsFactoryJDK11Test"
+475 "org.jhotdraw.test.util.collections.jdk11.IteratorWrapperTest"
+476 "org.jhotdraw.test.util.collections.jdk11.ListWrapperTest"
+477 "org.jhotdraw.test.util.collections.jdk11.MapWrapperTest"
+478 "org.jhotdraw.test.util.collections.jdk11.SetWrapperTest"
+479 "org.jhotdraw.test.util.collections.jdk12.AllTests"
+480 "org.jhotdraw.test.util.collections.jdk12.CollectionsFactoryJDK12Test"
+481 "org.jhotdraw.util.Animatable"
+482 "org.jhotdraw.util.Bounds"
+483 "org.jhotdraw.util.Clipboard"
+484 "org.jhotdraw.util.CollectionsFactory"
+485 "org.jhotdraw.util.ColorEntry"
+486 "org.jhotdraw.util.ColorMap"
+487 "org.jhotdraw.util.Command"
+488 "org.jhotdraw.util.CommandButton"
+489 "org.jhotdraw.util.CommandChoice"
+490 "org.jhotdraw.util.CommandListener"
+491 "org.jhotdraw.util.CommandMenu"
+492 "org.jhotdraw.util.Filler"
+493 "org.jhotdraw.util.FloatingTextField"
+494 "org.jhotdraw.util.Geom"
+495 "org.jhotdraw.util.GraphLayout"
+496 "org.jhotdraw.util.GraphNode"
+497 "org.jhotdraw.util.Iconkit"
+498 "org.jhotdraw.util.JDOStorageFormat"
+499 "org.jhotdraw.util.JDOStorageFormat$DrawingListModel"
+500 "org.jhotdraw.util.JDOStorageFormat$DrawingSelector"
+501 "org.jhotdraw.util.PaletteButton"
+502 "org.jhotdraw.util.PaletteIcon"
+503 "org.jhotdraw.util.PaletteLayout"
+504 "org.jhotdraw.util.PaletteListener"
+505 "org.jhotdraw.util.RedoCommand"
+506 "org.jhotdraw.util.ReverseListEnumerator"
+507 "org.jhotdraw.util.SerializationStorageFormat"
+508 "org.jhotdraw.util.StandardStorageFormat"
+509 "org.jhotdraw.util.StandardVersionControlStrategy"
+510 "org.jhotdraw.util.Storable"
+511 "org.jhotdraw.util.StorableInput"
+512 "org.jhotdraw.util.StorableOutput"
+513 "org.jhotdraw.util.StorageFormat"
+514 "org.jhotdraw.util.StorageFormatManager"
+515 "org.jhotdraw.util.UndoCommand"
+516 "org.jhotdraw.util.UndoManager"
+517 "org.jhotdraw.util.UndoRedoActivity"
+518 "org.jhotdraw.util.Undoable"
+519 "org.jhotdraw.util.UndoableAdapter"
+520 "org.jhotdraw.util.UndoableCommand"
+521 "org.jhotdraw.util.UndoableHandle"
+522 "org.jhotdraw.util.UndoableTool"
+523 "org.jhotdraw.util.VersionControlStrategy"
+524 "org.jhotdraw.util.VersionManagement"
+525 "org.jhotdraw.util.VersionRequester"
+526 "org.jhotdraw.util.collections.jdk11.CollectionsFactoryJDK11"
+527 "org.jhotdraw.util.collections.jdk11.IteratorWrapper"
+528 "org.jhotdraw.util.collections.jdk11.ListWrapper"
+529 "org.jhotdraw.util.collections.jdk11.MapWrapper"
+530 "org.jhotdraw.util.collections.jdk11.SetWrapper"
+531 "org.jhotdraw.util.collections.jdk12.CollectionsFactoryJDK12"
+*Arcs
+1 114 0.008
+1 129 0.002
+1 156 0.002
+1 161 15.0
+1 164 4.0
+1 165 33.0
+1 166 9.0
+1 167 0.003
+1 170 0.004
+1 179 19.0
+1 181 0.006
+1 219 0.2
+1 220 0.012
+1 238 0.002
+1 243 0.002
+1 278 0.2
+1 281 0.2
+1 286 0.2
+1 287 0.2
+1 295 2.8
+1 486 0.01
+1 488 0.008
+1 489 0.018
+1 492 0.004
+1 497 0.005
+1 501 0.008
+1 503 0.006
+1 504 0.004
+1 509 0.002
+1 511 0.005
+1 516 0.011
+1 523 0.005
+1 524 0.002
+1 525 0.004
+2 17 0.002
+2 18 0.015
+2 20 0.004
+2 25 0.002
+2 129 0.002
+2 156 0.002
+2 161 22.0
+2 164 3.0
+2 165 4.0
+2 167 0.003
+2 179 34.0
+2 181 0.015
+2 204 0.006
+2 213 0.012
+2 217 0.002
+2 219 0.2
+2 220 0.02
+2 233 0.002
+2 235 0.002
+2 238 0.002
+2 243 0.002
+2 264 0.2
+2 267 0.002
+2 275 0.002
+2 278 0.2
+2 279 0.002
+2 281 0.2
+2 286 0.2
+2 287 0.4
+2 294 0.002
+2 295 3.2
+2 484 0.004
+2 486 0.006
+2 487 0.001
+2 491 0.121
+2 497 0.014
+2 501 0.006
+2 504 0.004
+2 505 0.002
+2 507 0.002
+2 508 0.002
+2 509 0.002
+2 513 0.012
+2 514 0.034
+2 515 0.002
+2 516 0.004
+2 520 0.05
+2 523 0.005
+2 524 0.002
+2 525 0.004
+4 10 0.05
+4 11 0.06
+4 12 0.07
+4 176 4.0
+4 487 0.021
+4 490 0.004
+4 491 0.002
+6 5 0.06
+5 4 0.06
+5 6 0.09
+5 12 0.35
+5 30 0.04
+5 164 3.0
+5 204 0.008
+7 166 8.0
+7 228 0.008
+7 494 0.012
+8 37 0.02
+8 166 6.0
+8 228 0.008
+9 161 2.0
+9 165 9.0
+9 166 3.0
+9 170 0.004
+9 249 0.002
+10 11 0.04
+10 487 0.029
+11 487 0.006
+12 11 0.04
+12 487 0.026
+13 114 0.006
+13 175 0.003
+13 216 0.2
+13 253 0.002
+13 484 0.004
+14 161 2.0
+14 164 5.0
+14 166 7.0
+14 229 1.3
+14 234 0.8
+15 43 0.02
+15 109 0.002
+15 161 4.0
+15 164 3.0
+15 166 7.0
+15 278 1.6
+16 484 0.008
+19 17 0.12
+19 18 0.05
+19 20 0.15
+19 24 0.04
+19 165 3.0
+19 261 0.2
+19 484 0.008
+18 17 0.06
+18 165 27.0
+20 18 0.09
+17 20 0.06
+17 165 12.0
+21 7 0.02
+21 37 0.02
+21 149 0.008
+21 159 0.003
+23 27 0.04
+23 28 0.15
+23 50 0.02
+23 149 0.002
+23 166 28.0
+23 167 0.006
+23 168 9.0
+23 169 0.004
+23 175 0.003
+23 216 0.2
+23 229 2.6
+23 253 0.002
+23 484 0.004
+23 511 0.007
+23 512 0.007
+24 165 7.0
+25 2 18.0
+25 17 0.04
+25 19 0.28
+25 20 0.06
+25 161 4.0
+25 165 19.0
+26 17 0.04
+26 19 0.26
+26 20 0.06
+26 165 15.0
+27 28 0.06
+27 166 4.0
+28 27 0.03
+28 510 0.004
+29 30 0.16
+30 2 18.0
+30 17 0.04
+30 19 0.24
+30 20 0.06
+30 24 0.06
+30 29 0.17
+30 161 4.0
+30 165 3.0
+30 261 0.2
+31 2 13.0
+31 17 0.09
+31 30 0.02
+31 63 0.002
+31 161 3.0
+31 165 10.0
+31 261 0.2
+33 32 0.1
+33 162 9.0
+33 163 0.004
+34 32 0.14
+35 32 0.08
+32 33 0.02
+32 34 0.04
+32 35 0.05
+32 161 2.0
+32 163 0.003
+32 165 16.0
+36 161 2.0
+36 164 5.0
+36 166 5.0
+36 229 1.5
+36 234 1.0
+37 8 0.02
+37 38 0.02
+37 40 0.02
+37 114 0.012
+37 159 0.003
+37 166 3.0
+37 175 0.003
+37 177 3.0
+37 209 0.6
+37 253 0.002
+37 484 0.008
+37 494 0.018
+37 511 0.009
+37 512 0.009
+39 37 0.06
+39 145 0.006
+39 165 3.0
+39 170 0.004
+38 37 0.1
+38 39 0.04
+38 145 0.002
+38 165 12.0
+38 177 8.0
+38 208 0.6
+38 282 0.002
+38 518 0.005
+41 37 0.08
+41 165 3.0
+41 170 0.004
+41 519 0.008
+40 37 0.13
+40 41 0.08
+40 165 12.0
+40 208 0.6
+40 282 0.002
+40 494 0.002
+40 518 0.003
+42 37 0.25
+42 161 2.0
+42 164 5.0
+42 165 6.0
+42 166 9.0
+42 210 1.2
+42 268 0.002
+42 282 0.002
+42 518 0.005
+43 166 6.0
+44 2 3.0
+44 45 0.02
+44 186 0.006
+44 514 0.009
+45 161 8.0
+45 508 0.006
+46 27 0.17
+46 28 0.07
+46 166 3.0
+46 170 0.004
+46 511 0.013
+46 512 0.013
+47 139 0.002
+47 140 0.002
+47 143 0.002
+47 158 19.0
+47 164 7.0
+47 165 4.0
+47 166 4.0
+47 231 0.8
+47 282 0.002
+47 518 0.002
+48 17 0.04
+48 19 0.22
+48 20 0.06
+48 24 0.02
+48 165 21.0
+49 2 6.0
+49 17 0.03
+49 48 0.02
+50 27 0.12
+50 28 0.06
+50 46 0.06
+50 166 10.0
+50 170 0.008
+51 114 0.022
+51 166 24.0
+51 168 19.0
+51 169 0.008
+51 175 0.003
+51 216 0.2
+51 253 0.002
+51 265 0.9
+51 293 0.4
+51 484 0.02
+51 486 0.002
+51 511 0.019
+51 512 0.019
+53 161 6.0
+53 165 15.0
+53 166 5.0
+53 170 0.024
+53 293 0.2
+53 519 0.01
+52 22 0.15
+52 53 0.04
+52 161 6.0
+52 164 7.0
+52 165 4.0
+52 166 19.0
+52 234 1.4
+52 282 0.002
+52 293 3.4
+52 518 0.005
+54 37 0.04
+54 55 0.02
+54 149 0.016
+54 175 0.005
+54 253 0.002
+54 511 0.005
+54 512 0.005
+56 54 0.08
+56 165 3.0
+56 170 0.004
+56 519 0.008
+55 54 0.09
+55 56 0.06
+55 165 12.0
+55 166 4.0
+55 208 0.6
+55 282 0.002
+55 494 0.002
+55 518 0.003
+58 57 0.06
+57 12 0.04
+57 30 0.04
+57 58 0.02
+57 164 3.0
+57 204 0.008
+57 487 0.006
+57 491 0.006
+59 170 0.01
+59 249 0.002
+59 484 0.004
+61 64 0.02
+61 66 0.02
+61 164 3.0
+61 165 3.0
+63 59 0.03
+63 60 0.03
+63 62 0.02
+63 161 4.0
+63 164 6.0
+63 165 5.0
+63 166 3.0
+63 170 0.007
+63 174 6.0
+63 179 18.0
+63 203 0.4
+63 210 1.6
+63 241 0.2
+63 254 0.2
+63 277 0.2
+65 64 0.06
+65 161 2.0
+65 165 13.0
+65 166 5.0
+65 170 0.012
+65 240 0.5
+65 249 0.002
+65 519 0.006
+64 59 0.03
+64 61 0.02
+64 65 0.02
+64 164 15.0
+64 165 12.0
+64 166 2.0
+64 170 0.005
+64 240 0.3
+64 516 0.004
+64 518 0.016
+67 66 0.06
+67 161 2.0
+67 165 13.0
+67 166 6.0
+67 170 0.009
+67 240 0.4
+67 249 0.002
+67 519 0.008
+66 59 0.05
+66 61 0.08
+66 67 0.02
+66 164 15.0
+66 165 20.0
+66 170 0.001
+66 516 0.004
+66 518 0.02
+68 72 0.04
+68 511 0.003
+68 512 0.003
+69 82 0.04
+70 69 0.02
+70 73 0.03
+70 83 0.12
+70 511 0.003
+70 512 0.003
+71 73 0.03
+71 83 0.12
+71 511 0.007
+71 512 0.007
+74 72 0.37
+74 101 0.02
+74 510 0.004
+74 511 0.009
+74 512 0.009
+72 73 0.03
+72 510 0.004
+75 21 0.008
+75 84 0.04
+78 76 0.11
+78 77 0.1
+78 80 0.02
+78 94 0.07
+78 95 0.01
+78 97 0.02
+78 98 0.02
+77 76 0.09
+77 95 0.01
+79 80 0.08
+80 76 0.09
+80 77 0.14
+80 79 0.11
+80 94 0.04
+80 95 0.03
+81 84 0.04
+81 125 0.008
+82 73 0.04
+83 68 0.1
+83 73 0.03
+83 82 0.08
+83 511 0.003
+83 512 0.003
+84 166 4.0
+85 71 0.06
+85 73 0.03
+87 69 0.04
+86 70 0.08
+86 73 0.03
+86 87 0.02
+88 27 0.006
+88 28 0.007
+88 511 0.003
+88 512 0.003
+90 89 0.12
+89 51 0.026
+89 72 0.32
+89 74 0.2
+89 76 0.27
+89 78 0.02
+89 84 0.02
+89 85 0.02
+89 86 0.02
+89 87 0.04
+89 90 0.03
+89 99 0.02
+89 149 0.002
+89 166 30.0
+89 167 0.003
+89 168 19.0
+89 169 0.004
+89 175 0.003
+89 494 0.002
+89 511 0.009
+89 512 0.009
+91 52 0.006
+91 164 3.0
+91 166 3.0
+91 293 0.3
+92 37 0.01
+92 84 0.04
+93 68 0.12
+93 73 0.03
+93 511 0.005
+93 512 0.005
+94 77 0.06
+94 95 0.01
+96 84 0.04
+96 150 0.008
+97 76 0.04
+98 76 0.09
+98 77 0.04
+98 94 0.18
+98 95 0.01
+99 68 0.12
+99 73 0.03
+99 293 1.6
+99 511 0.005
+99 512 0.005
+100 54 0.008
+100 84 0.04
+101 73 0.03
+101 83 0.12
+101 511 0.007
+101 512 0.007
+102 164 3.0
+102 165 4.0
+102 210 1.2
+103 105 0.04
+104 32 0.006
+104 109 0.02
+104 165 3.0
+106 105 0.16
+105 103 0.12
+105 106 0.04
+107 102 0.08
+107 109 0.02
+107 164 3.0
+108 109 0.05
+108 164 3.0
+108 176 2.0
+108 204 0.01
+109 161 14.0
+109 162 7.0
+109 164 6.0
+109 166 2.0
+109 170 0.005
+109 286 0.4
+109 287 2.0
+109 289 0.01
+109 290 0.01
+109 291 0.01
+109 494 0.004
+110 107 0.02
+110 109 0.08
+110 164 3.0
+110 165 4.0
+110 179 9.0
+110 210 0.8
+111 105 0.09
+111 165 9.0
+112 126 0.08
+112 137 0.04
+112 167 0.012
+112 511 0.007
+112 512 0.007
+113 112 0.1
+113 511 0.009
+113 512 0.009
+114 126 0.44
+114 167 0.02
+114 207 1.0
+114 486 0.004
+114 511 0.005
+114 512 0.007
+115 166 5.0
+115 168 7.0
+115 237 1.4
+117 161 2.0
+117 165 9.0
+117 170 0.008
+117 249 0.002
+117 484 0.004
+117 519 0.008
+116 115 0.02
+116 117 0.06
+116 161 2.0
+116 164 3.0
+116 165 2.0
+116 166 9.0
+116 212 0.8
+116 237 0.2
+116 249 0.004
+116 484 0.008
+116 518 0.007
+118 166 8.0
+118 228 0.008
+118 494 0.004
+120 166 26.0
+120 170 0.008
+120 239 0.01
+120 250 0.003
+120 293 0.4
+121 155 0.1
+121 165 3.0
+121 166 23.0
+121 170 0.008
+121 293 0.8
+119 120 0.02
+119 121 0.04
+119 154 0.12
+119 161 2.0
+119 164 3.0
+119 166 20.0
+119 238 0.002
+119 293 0.7
+119 518 0.006
+122 123 0.02
+122 124 0.02
+122 136 0.08
+122 159 0.004
+122 166 7.0
+122 175 0.003
+122 177 3.0
+122 222 0.2
+122 226 0.2
+122 253 0.002
+122 262 0.2
+122 484 0.004
+122 494 0.002
+123 136 0.32
+123 159 0.008
+123 165 6.0
+123 166 16.0
+123 208 0.6
+123 494 0.008
+124 166 5.0
+124 209 0.6
+125 114 0.1
+125 118 0.02
+125 159 0.003
+125 175 0.003
+125 216 0.2
+125 253 0.002
+125 484 0.004
+125 511 0.011
+125 512 0.011
+126 167 0.015
+126 484 0.012
+126 511 0.035
+126 512 0.043
+128 153 0.02
+128 165 3.0
+128 170 0.004
+128 519 0.008
+127 128 0.12
+127 153 0.08
+127 165 12.0
+127 166 3.0
+127 177 3.0
+127 257 0.6
+127 282 0.002
+127 518 0.005
+130 131 0.04
+130 161 8.0
+130 165 19.0
+130 166 7.0
+130 170 0.009
+130 249 0.004
+130 484 0.008
+130 519 0.008
+129 130 0.04
+129 164 3.0
+129 165 6.0
+129 204 0.008
+129 518 0.005
+131 132 0.08
+131 166 8.0
+131 167 0.003
+131 170 0.017
+131 175 0.003
+131 229 1.0
+131 249 0.002
+131 253 0.002
+131 271 0.8
+131 484 0.004
+132 166 3.0
+132 177 3.0
+132 262 0.6
+133 114 0.12
+133 168 2.0
+133 169 0.002
+133 175 0.003
+133 216 0.2
+133 253 0.002
+133 484 0.004
+133 497 0.012
+133 511 0.013
+133 512 0.013
+135 133 0.08
+135 134 0.06
+135 161 2.0
+135 165 15.0
+135 497 0.004
+135 519 0.008
+134 135 0.04
+134 164 3.0
+134 165 2.0
+134 204 0.008
+134 518 0.003
+136 113 0.04
+136 143 0.2
+136 144 0.02
+136 158 11.0
+136 159 0.032
+136 166 48.0
+136 168 15.0
+136 169 0.003
+136 173 5.0
+136 175 0.003
+136 222 0.2
+136 226 0.2
+136 253 0.002
+136 484 0.004
+136 511 0.007
+136 512 0.007
+137 510 0.004
+138 143 0.06
+139 166 3.0
+139 206 0.008
+140 166 6.0
+140 167 0.006
+140 170 0.006
+140 175 0.003
+140 207 0.8
+140 249 0.002
+140 253 0.002
+140 282 0.002
+141 153 0.06
+141 166 3.0
+142 143 0.12
+142 166 6.0
+142 228 0.008
+142 494 0.006
+143 113 0.04
+143 137 0.26
+143 142 0.02
+143 144 0.02
+143 146 0.02
+143 159 0.003
+143 167 0.018
+143 175 0.003
+143 177 3.0
+143 207 1.8
+143 253 0.002
+143 484 0.016
+143 494 0.006
+143 511 0.015
+143 512 0.015
+145 143 0.04
+145 165 3.0
+145 170 0.004
+145 519 0.008
+144 143 0.08
+144 145 0.06
+144 165 12.0
+144 177 3.0
+144 257 0.6
+144 282 0.002
+144 518 0.005
+146 143 0.04
+146 166 3.0
+146 209 0.6
+148 150 0.04
+148 165 3.0
+148 170 0.004
+148 519 0.008
+147 148 0.08
+147 150 0.15
+147 165 12.0
+147 208 0.6
+147 282 0.002
+147 494 0.004
+147 518 0.005
+149 114 0.1
+149 175 0.003
+149 216 0.2
+149 253 0.002
+149 484 0.004
+149 511 0.011
+149 512 0.011
+150 114 0.1
+150 147 0.02
+150 152 0.02
+150 159 0.003
+150 175 0.003
+150 216 0.2
+150 253 0.002
+150 484 0.004
+150 511 0.015
+150 512 0.015
+151 143 0.11
+151 161 2.0
+151 164 5.0
+151 165 2.0
+151 166 9.0
+151 210 1.4
+151 268 0.002
+151 282 0.002
+151 518 0.005
+152 158 13.0
+152 159 0.004
+152 166 11.0
+152 206 0.008
+152 494 0.018
+153 114 0.18
+153 127 0.02
+153 166 30.0
+153 167 0.022
+153 168 17.0
+153 169 0.006
+153 175 0.003
+153 253 0.002
+153 262 0.6
+153 265 1.5
+153 271 0.8
+153 293 0.7
+153 484 0.004
+153 486 0.002
+153 511 0.021
+153 512 0.021
+155 165 7.0
+155 166 5.0
+155 170 0.004
+155 293 0.2
+155 519 0.01
+154 155 0.04
+154 161 2.0
+154 164 7.0
+154 165 2.0
+154 166 16.0
+154 234 1.2
+154 238 0.002
+154 239 0.002
+154 268 0.002
+154 282 0.006
+154 293 3.5
+154 493 0.028
+154 518 0.017
+157 161 10.0
+157 165 21.0
+157 166 10.0
+157 170 0.008
+157 519 0.008
+156 157 0.04
+156 164 3.0
+156 165 10.0
+156 166 3.0
+156 170 0.004
+156 204 0.008
+156 518 0.005
+158 159 0.12
+158 166 1600.0
+158 169 0.04
+159 158 900.0
+159 166 300.0
+159 510 0.004
+162 161 600.0
+163 162 900.0
+164 165 900.0
+164 172 0.04
+164 179 300.0
+164 181 0.06
+164 516 0.003
+165 160 300.0
+165 161 600.0
+165 163 0.04
+165 164 600.0
+165 166 2700.0
+165 170 0.21
+165 171 300.0
+165 172 0.06
+165 174 300.0
+165 179 300.0
+161 163 0.06
+161 166 7500.0
+161 169 0.04
+161 170 0.21
+161 510 0.004
+167 176 200.0
+168 166 1200.0
+169 168 1500.0
+170 166 300.0
+172 165 300.0
+173 166 300.0
+173 169 0.03
+173 174 300.0
+166 158 300.0
+166 159 0.03
+166 167 0.06
+166 169 0.15
+166 170 0.09
+166 173 300.0
+166 175 0.03
+166 177 300.0
+166 293 0.3
+166 510 0.004
+175 174 300.0
+174 160 300.0
+174 161 900.0
+174 165 900.0
+174 166 300.0
+174 518 0.006
+177 166 300.0
+177 510 0.004
+178 165 300.0
+179 164 300.0
+179 180 0.06
+179 518 0.006
+181 165 1200.0
+182 166 3.0
+182 237 1.8
+182 481 0.004
+182 511 0.007
+182 512 0.007
+183 165 12.0
+183 481 0.008
+184 166 22.0
+184 170 0.004
+184 182 0.08
+184 286 1.2
+184 481 0.004
+185 161 4.0
+185 164 3.0
+185 166 4.0
+185 210 0.6
+187 1 12.0
+187 21 0.002
+187 42 0.004
+187 54 0.002
+187 116 0.002
+187 119 0.002
+187 122 0.002
+187 125 0.002
+187 136 0.002
+187 138 0.002
+187 149 0.002
+187 150 0.002
+187 151 0.002
+187 153 0.004
+187 154 0.002
+187 161 3.0
+187 183 0.09
+187 184 0.02
+187 191 0.02
+187 231 0.4
+187 234 1.2
+186 2 3.0
+186 9 0.002
+186 13 0.002
+186 14 0.002
+186 21 0.002
+186 23 0.004
+186 31 0.016
+186 42 0.002
+186 46 0.002
+186 47 0.002
+186 51 0.002
+186 52 0.002
+186 54 0.002
+186 57 0.002
+186 89 0.002
+186 91 0.002
+186 109 0.002
+186 110 0.002
+186 116 0.002
+186 119 0.002
+186 122 0.002
+186 125 0.002
+186 134 0.002
+186 136 0.006
+186 138 0.002
+186 149 0.004
+186 150 0.002
+186 151 0.002
+186 153 0.004
+186 154 0.002
+186 161 8.0
+186 164 3.0
+186 165 9.0
+186 176 2.0
+186 179 3.0
+186 183 0.09
+186 184 0.02
+186 189 0.02
+186 191 0.02
+186 204 0.006
+186 231 0.4
+186 234 1.6
+186 491 0.022
+186 520 0.002
+186 522 0.028
+188 161 9.0
+188 164 4.0
+188 165 9.0
+188 179 9.0
+188 181 0.006
+188 185 0.02
+188 286 0.2
+188 287 0.7
+188 511 0.005
+188 516 0.011
+189 161 2.0
+189 164 3.0
+189 166 4.0
+189 278 0.8
+190 165 8.0
+191 161 2.0
+191 164 5.0
+191 165 3.0
+191 166 21.0
+191 210 1.0
+191 493 0.017
+192 17 0.003
+192 49 0.006
+192 193 0.02
+193 32 0.002
+193 48 0.008
+193 133 0.002
+193 165 10.0
+193 497 0.004
+194 2 11.0
+194 136 0.002
+194 154 0.002
+194 195 0.04
+194 231 0.2
+194 234 0.2
+195 136 0.002
+195 153 0.012
+195 158 3.0
+195 159 0.011
+195 166 3.0
+195 175 0.003
+195 230 0.8
+195 253 0.002
+195 256 0.008
+195 262 0.8
+195 271 2.4
+195 484 0.008
+195 494 0.004
+197 1 8.0
+197 42 0.002
+197 122 0.002
+197 125 0.002
+197 136 0.002
+197 138 0.002
+197 149 0.002
+197 150 0.002
+197 153 0.002
+197 154 0.002
+197 231 0.4
+197 234 0.8
+196 2 11.0
+196 42 0.002
+196 122 0.002
+196 125 0.002
+196 136 0.002
+196 138 0.002
+196 149 0.002
+196 150 0.002
+196 153 0.002
+196 154 0.002
+196 231 0.4
+196 234 0.8
+198 1 8.0
+198 138 0.002
+198 153 0.002
+198 154 0.002
+198 200 0.02
+198 202 0.02
+198 231 0.2
+198 234 0.2
+199 2 8.0
+199 138 0.002
+199 153 0.002
+199 154 0.002
+199 200 0.02
+199 202 0.02
+199 231 0.2
+199 234 0.2
+200 113 0.002
+200 136 0.008
+200 143 0.002
+200 166 18.0
+200 175 0.005
+200 201 0.14
+200 253 0.002
+200 262 0.2
+202 164 3.0
+202 166 3.0
+202 201 0.02
+202 234 0.6
+201 141 0.018
+201 153 0.008
+201 166 13.0
+201 168 11.0
+201 170 0.008
+201 175 0.003
+201 200 0.02
+201 229 1.6
+201 230 0.2
+201 253 0.002
+201 262 0.8
+201 271 1.0
+201 484 0.016
+201 511 0.018
+201 512 0.018
+203 160 4.0
+205 484 0.004
+205 487 0.006
+205 490 0.012
+204 164 19.0
+204 165 30.0
+204 172 0.004
+204 176 2.0
+204 181 0.003
+204 205 0.22
+204 487 0.004
+204 490 0.006
+204 518 0.009
+206 158 12.0
+206 159 0.004
+206 166 13.0
+206 494 0.002
+206 511 0.005
+206 512 0.005
+207 158 3.0
+207 159 0.003
+207 166 26.0
+207 167 0.006
+207 168 6.0
+207 169 0.024
+207 170 0.017
+207 173 7.0
+207 175 0.007
+207 177 3.0
+207 228 0.02
+207 248 4.0
+207 249 0.06
+207 271 2.0
+207 293 3.0
+207 484 0.008
+207 494 0.002
+207 511 0.003
+207 512 0.003
+208 160 3.0
+208 161 9.0
+208 165 15.0
+208 166 9.0
+208 174 4.0
+208 203 2.0
+208 518 0.009
+209 177 4.0
+209 510 0.004
+209 511 0.003
+209 512 0.003
+211 179 6.0
+211 180 0.018
+211 484 0.004
+210 161 6.0
+210 164 18.0
+210 165 12.0
+210 179 4.0
+210 180 0.006
+210 181 0.004
+210 203 2.0
+210 211 30.0
+210 518 0.009
+212 161 2.0
+212 164 5.0
+212 165 2.0
+212 166 3.0
+212 210 8.0
+214 166 3.0
+214 213 0.15
+215 165 3.0
+215 166 16.0
+215 170 0.017
+215 214 0.17
+215 519 0.01
+213 164 3.0
+213 165 6.0
+213 166 7.0
+213 204 0.08
+213 214 0.06
+213 215 0.04
+213 518 0.005
+216 166 40.0
+216 174 24.0
+216 244 2.0
+216 258 2.0
+216 259 2.0
+216 260 2.0
+216 283 2.0
+216 284 2.0
+216 285 2.0
+216 296 2.0
+218 161 2.0
+218 165 5.0
+218 166 3.0
+218 280 0.06
+217 161 2.0
+217 164 3.0
+217 165 8.0
+217 170 0.004
+217 204 0.08
+217 218 0.02
+217 518 0.007
+219 165 9.0
+221 165 3.0
+221 166 15.0
+221 167 0.012
+221 170 0.015
+221 519 0.012
+220 164 3.0
+220 165 6.0
+220 166 2.0
+220 167 0.006
+220 170 0.004
+220 204 0.08
+220 221 0.02
+220 518 0.007
+223 158 7.0
+223 159 0.003
+223 165 3.0
+223 225 6.0
+222 158 15.0
+222 159 0.008
+222 165 3.0
+222 166 3.0
+222 223 2.0
+222 224 6.0
+222 518 0.003
+225 158 6.0
+225 159 0.012
+225 165 3.0
+225 170 0.004
+225 519 0.008
+224 158 20.0
+224 159 0.024
+224 161 8.0
+224 165 18.0
+224 166 37.0
+224 170 0.004
+224 208 6.0
+224 225 4.0
+224 282 0.02
+224 494 0.002
+224 518 0.005
+227 158 7.0
+227 159 0.003
+227 165 3.0
+227 225 6.0
+226 158 15.0
+226 159 0.008
+226 165 3.0
+226 166 3.0
+226 224 6.0
+226 227 2.0
+226 518 0.003
+228 158 24.0
+228 159 0.008
+228 166 8.0
+228 206 0.08
+228 494 0.004
+229 166 177.0
+229 168 21.0
+229 169 0.012
+229 170 0.094
+229 207 14.0
+229 249 0.1
+229 266 5.0
+229 270 13.0
+229 274 0.02
+229 482 0.012
+229 484 0.024
+229 511 0.007
+229 512 0.007
+230 158 32.0
+230 159 0.011
+230 160 3.0
+230 161 12.0
+230 165 22.0
+230 166 41.0
+230 170 0.004
+230 177 3.0
+230 203 2.0
+230 249 0.02
+230 257 6.0
+230 268 0.02
+230 494 0.002
+230 518 0.005
+232 158 26.0
+232 159 0.006
+232 161 2.0
+232 165 9.0
+232 170 0.004
+232 519 0.01
+231 158 44.0
+231 159 0.034
+231 161 19.0
+231 164 5.0
+231 165 6.0
+231 166 59.0
+231 170 0.008
+231 210 10.0
+231 232 2.0
+231 282 0.02
+231 494 0.002
+231 518 0.005
+233 164 3.0
+233 165 6.0
+233 250 0.08
+234 164 8.0
+234 165 6.0
+234 166 41.0
+234 176 2.0
+234 203 2.0
+234 210 12.0
+234 249 0.02
+234 268 0.02
+234 484 0.004
+234 518 0.005
+236 165 2.0
+236 166 2.0
+236 170 0.019
+236 249 0.04
+236 250 0.14
+236 484 0.008
+236 519 0.01
+235 164 3.0
+235 165 8.0
+235 166 3.0
+235 170 0.009
+235 236 0.08
+235 249 0.02
+235 250 0.08
+235 484 0.004
+235 518 0.007
+237 158 3.0
+237 159 0.003
+237 166 89.0
+237 167 0.006
+237 168 17.0
+237 169 0.01
+237 170 0.009
+237 175 0.003
+237 177 3.0
+237 207 16.0
+237 293 3.0
+237 511 0.005
+237 512 0.005
+239 165 4.0
+239 170 0.002
+239 250 0.12
+239 519 0.008
+238 164 3.0
+238 165 6.0
+238 166 3.0
+238 170 0.009
+238 239 0.02
+238 249 0.02
+238 250 0.08
+238 484 0.004
+238 518 0.007
+240 161 16.0
+240 166 4.0
+240 169 0.003
+240 170 0.003
+240 173 4.0
+240 174 3.0
+240 249 0.02
+240 484 0.004
+242 165 3.0
+242 166 2.0
+242 170 0.004
+242 519 0.01
+241 164 3.0
+241 165 10.0
+241 166 14.0
+241 170 0.005
+241 210 10.0
+241 242 4.0
+241 518 0.007
+243 164 3.0
+243 165 8.0
+243 171 2.0
+243 250 0.08
+243 268 0.02
+243 518 0.009
+244 165 3.0
+244 166 7.0
+244 271 2.0
+244 272 6.0
+245 161 3.0
+245 165 18.0
+245 170 0.001
+246 166 3.0
+246 170 0.032
+247 168 15.0
+247 169 0.004
+248 168 15.0
+248 169 0.054
+249 166 3.0
+249 170 0.007
+249 484 0.004
+250 164 3.0
+250 165 6.0
+250 166 2.0
+250 170 0.016
+250 204 0.06
+250 240 2.0
+250 292 2.0
+250 483 0.004
+252 174 3.0
+252 175 0.036
+253 174 3.0
+253 175 0.007
+253 484 0.008
+254 164 3.0
+254 174 12.0
+254 210 12.0
+255 161 16.0
+255 166 4.0
+255 169 0.003
+255 170 0.003
+255 173 4.0
+255 174 3.0
+255 249 0.02
+255 484 0.004
+256 166 3.0
+256 177 14.0
+256 206 0.12
+256 511 0.005
+256 512 0.005
+257 160 3.0
+257 166 3.0
+257 177 11.0
+257 203 16.0
+257 208 8.0
+257 271 33.0
+258 165 3.0
+258 166 7.0
+258 271 2.0
+258 272 6.0
+259 165 3.0
+259 166 7.0
+259 271 2.0
+259 272 6.0
+260 165 3.0
+260 166 7.0
+260 271 2.0
+260 272 6.0
+261 160 3.0
+261 161 9.0
+261 162 9.0
+261 164 18.0
+261 165 8.0
+261 166 27.0
+261 170 0.021
+261 171 3.0
+261 172 0.006
+261 174 3.0
+261 179 3.0
+261 249 0.08
+261 286 2.0
+261 292 2.0
+262 166 3.0
+262 177 6.0
+262 257 6.0
+263 165 3.0
+264 164 3.0
+264 210 6.0
+265 166 3.0
+265 177 11.0
+265 209 10.0
+265 511 0.009
+265 512 0.009
+266 166 9.0
+268 165 11.0
+268 166 2.0
+268 170 0.004
+268 240 2.0
+268 519 0.008
+267 164 3.0
+267 165 6.0
+267 166 4.0
+267 170 0.012
+267 171 2.0
+267 250 0.08
+267 268 0.02
+267 483 0.008
+267 518 0.013
+269 166 8.0
+269 209 8.0
+270 170 0.003
+270 249 0.02
+270 484 0.004
+271 166 5.0
+271 177 27.0
+271 209 12.0
+271 511 0.007
+271 512 0.007
+273 165 3.0
+273 166 4.0
+273 170 0.004
+273 519 0.008
+272 165 9.0
+272 166 7.0
+272 177 3.0
+272 257 6.0
+272 273 6.0
+272 282 0.02
+272 518 0.005
+274 166 3.0
+274 170 0.004
+274 506 0.002
+276 161 2.0
+276 165 11.0
+276 519 0.008
+275 161 4.0
+275 164 3.0
+275 165 10.0
+275 170 0.004
+275 204 0.08
+275 276 0.02
+275 518 0.005
+277 161 2.0
+277 164 6.0
+277 165 8.0
+277 166 3.0
+277 170 0.004
+277 210 12.0
+278 63 0.002
+278 161 2.0
+278 164 5.0
+278 165 11.0
+278 166 4.0
+278 174 3.0
+278 179 28.0
+278 210 8.0
+278 241 2.0
+278 254 2.0
+278 277 2.0
+278 521 0.002
+278 522 0.002
+280 161 6.0
+280 165 9.0
+280 166 11.0
+280 170 0.015
+280 519 0.01
+279 161 2.0
+279 164 3.0
+279 165 8.0
+279 170 0.004
+279 204 0.08
+279 280 0.02
+279 518 0.007
+281 165 5.0
+282 166 12.0
+282 170 0.004
+283 165 3.0
+283 166 7.0
+283 271 2.0
+283 272 6.0
+284 165 3.0
+284 166 7.0
+284 271 2.0
+284 272 6.0
+285 165 3.0
+285 166 7.0
+285 271 2.0
+285 272 6.0
+288 3 0.006
+288 287 12.0
+289 179 2.0
+289 238 0.02
+289 287 20.0
+289 487 0.01
+289 520 0.002
+290 179 4.0
+290 287 26.0
+291 179 4.0
+291 287 18.0
+287 61 0.006
+287 62 0.004
+287 158 24.0
+287 159 0.002
+287 160 3.0
+287 161 41.0
+287 162 11.0
+287 164 3.0
+287 165 3.0
+287 166 73.0
+287 170 0.07
+287 171 3.0
+287 172 0.009
+287 174 8.0
+287 175 0.016
+287 179 3.0
+287 249 0.1
+287 253 0.02
+287 255 6.0
+287 274 0.02
+287 281 2.0
+287 288 9.0
+287 289 0.02
+287 290 0.02
+287 291 0.02
+287 292 2.0
+287 484 0.044
+287 494 0.004
+286 161 4.0
+286 162 6.0
+286 163 0.015
+286 166 24.0
+286 168 12.0
+286 169 0.004
+286 170 0.007
+286 175 0.003
+286 229 10.0
+286 253 0.02
+286 262 8.0
+286 271 8.0
+286 484 0.016
+292 166 1.0
+292 170 0.014
+292 171 4.0
+292 249 0.02
+292 484 0.004
+292 511 0.007
+292 512 0.008
+293 166 9.0
+294 164 3.0
+294 165 6.0
+294 204 0.08
+294 251 2.0
+295 176 2.0
+295 179 16.0
+295 180 0.004
+295 497 0.008
+295 501 0.008
+295 502 0.027
+295 504 0.003
+296 165 3.0
+296 166 7.0
+296 271 2.0
+296 272 6.0
+297 299 0.002
+297 334 0.002
+297 364 0.002
+297 368 0.002
+297 378 0.002
+297 381 0.002
+297 384 0.002
+297 387 0.002
+297 394 0.002
+297 442 0.002
+297 473 0.002
+297 479 0.002
+298 2 3.0
+298 186 0.012
+300 4 0.008
+301 2 2.0
+301 5 0.008
+301 298 0.01
+302 7 0.008
+303 8 0.008
+304 9 0.008
+305 10 0.012
+305 238 0.004
+305 298 0.01
+306 12 0.012
+306 238 0.004
+306 298 0.01
+307 13 0.008
+307 298 0.01
+308 14 0.008
+308 149 0.002
+308 298 0.01
+309 15 0.008
+309 298 0.01
+310 16 0.008
+311 19 0.008
+311 25 0.002
+311 298 0.01
+312 21 0.008
+313 22 0.008
+314 23 0.016
+314 46 0.002
+314 149 0.002
+315 24 0.008
+316 25 0.008
+316 298 0.01
+317 26 0.008
+318 30 0.008
+318 298 0.01
+319 31 0.008
+320 2 6.0
+320 32 0.008
+320 298 0.01
+321 36 0.008
+321 149 0.002
+321 298 0.01
+322 37 0.008
+323 37 0.008
+323 38 0.008
+323 298 0.01
+324 42 0.008
+324 298 0.01
+325 44 0.008
+326 45 0.008
+327 23 0.004
+327 46 0.016
+327 149 0.002
+328 47 0.008
+328 136 0.002
+328 298 0.01
+329 50 0.008
+330 51 0.034
+331 52 0.008
+331 149 0.002
+331 298 0.01
+332 54 0.008
+333 2 2.0
+333 57 0.008
+333 298 0.01
+335 113 0.008
+336 115 0.018
+337 116 0.008
+337 298 0.01
+338 118 0.008
+339 119 0.008
+339 149 0.002
+339 298 0.01
+340 122 0.008
+341 123 0.008
+341 136 0.002
+341 298 0.01
+342 125 0.008
+343 126 0.008
+344 127 0.008
+344 149 0.002
+344 271 0.2
+344 298 0.01
+345 129 0.008
+345 298 0.01
+346 131 0.008
+347 133 0.008
+348 134 0.008
+348 298 0.01
+349 136 0.008
+350 138 0.008
+351 139 0.008
+351 149 0.002
+352 140 0.008
+353 141 0.012
+354 142 0.008
+355 113 0.004
+355 143 0.016
+356 143 0.008
+356 144 0.008
+356 298 0.01
+357 149 0.008
+358 150 0.008
+359 151 0.008
+359 298 0.01
+360 152 0.008
+361 153 0.016
+362 149 0.002
+362 154 0.008
+362 298 0.01
+363 156 0.008
+363 298 0.01
+365 162 8.0
+365 286 0.2
+366 167 0.008
+367 149 0.002
+367 168 8.0
+369 182 0.008
+370 2 2.0
+370 149 0.002
+370 161 2.0
+370 183 0.008
+370 184 0.002
+370 298 0.01
+371 184 0.008
+372 2 6.0
+372 298 0.01
+373 187 0.008
+374 188 0.008
+375 189 0.008
+375 298 0.01
+376 298 0.01
+376 497 0.004
+377 191 0.008
+377 298 0.01
+379 192 0.008
+380 193 0.008
+382 194 0.008
+383 195 0.008
+385 196 0.008
+386 197 0.008
+388 198 0.008
+389 199 0.008
+390 200 0.008
+391 202 0.008
+391 298 0.01
+392 201 0.008
+393 213 0.008
+393 298 0.01
+395 216 0.8
+396 217 0.008
+396 298 0.01
+397 219 0.8
+398 220 0.008
+398 298 0.01
+399 136 0.002
+399 222 0.8
+400 136 0.002
+400 226 0.8
+401 228 0.008
+402 136 0.002
+402 149 0.002
+402 230 0.8
+402 271 0.2
+402 298 0.01
+403 136 0.002
+403 231 0.8
+403 298 0.01
+404 233 0.008
+404 298 0.01
+405 149 0.002
+405 234 0.8
+405 298 0.01
+406 235 0.008
+406 298 0.01
+407 238 0.008
+407 298 0.01
+408 2 4.0
+408 165 2.0
+408 240 0.8
+408 298 0.01
+409 149 0.002
+409 241 0.8
+409 298 0.01
+410 243 0.008
+410 298 0.01
+411 245 0.8
+412 143 0.004
+412 149 0.004
+412 246 0.008
+412 249 0.004
+412 298 0.01
+412 484 0.008
+413 247 0.8
+414 2 4.0
+414 153 0.002
+414 165 2.0
+414 248 0.8
+414 298 0.01
+415 143 0.002
+415 149 0.002
+415 249 0.008
+415 484 0.004
+416 251 0.8
+417 149 0.004
+417 252 0.008
+417 253 0.004
+417 262 0.8
+417 271 0.8
+417 484 0.008
+418 149 0.002
+418 253 0.008
+418 262 0.4
+418 271 0.4
+418 298 0.01
+418 484 0.004
+419 149 0.002
+419 254 0.8
+419 262 0.2
+419 271 0.2
+419 298 0.01
+420 2 4.0
+420 165 2.0
+420 255 0.8
+420 298 0.01
+421 256 0.008
+422 149 0.002
+422 257 0.8
+422 271 0.2
+422 298 0.01
+423 261 1.6
+423 281 0.2
+423 298 0.01
+424 149 0.002
+424 262 0.8
+424 271 0.2
+425 264 0.8
+425 298 0.01
+426 265 0.8
+427 267 0.008
+427 298 0.01
+428 269 0.8
+429 271 0.8
+430 143 0.002
+430 149 0.002
+430 274 0.008
+430 484 0.004
+431 275 0.008
+431 298 0.01
+432 277 0.8
+432 298 0.01
+433 278 0.8
+433 298 0.01
+434 279 0.008
+434 298 0.01
+435 281 0.8
+436 149 0.002
+436 282 0.008
+437 286 1.2
+438 2 6.0
+438 251 0.2
+438 281 0.2
+438 286 0.2
+438 287 1.4
+438 298 0.01
+439 143 0.002
+439 149 0.002
+439 249 0.002
+439 292 0.8
+439 484 0.004
+440 294 0.008
+440 298 0.01
+441 278 0.2
+441 295 0.8
+441 298 0.01
+443 482 0.018
+444 483 0.012
+445 486 0.008
+446 243 0.002
+446 298 0.01
+446 488 0.008
+447 489 0.008
+448 491 0.008
+449 492 0.008
+450 493 0.008
+451 494 0.006
+452 495 0.008
+453 298 0.01
+453 497 0.008
+454 498 0.008
+455 176 2.0
+455 298 0.01
+455 497 0.008
+455 502 0.008
+456 503 0.008
+457 298 0.01
+457 505 0.008
+458 484 0.004
+458 506 0.008
+459 507 0.008
+460 508 0.02
+461 298 0.01
+461 509 0.008
+462 511 0.008
+463 512 0.008
+464 508 0.002
+464 514 0.012
+465 298 0.01
+465 515 0.008
+466 516 0.008
+467 2 2.0
+467 149 0.004
+467 170 0.013
+467 268 0.002
+467 282 0.004
+467 298 0.01
+467 517 0.024
+467 518 0.002
+468 2 2.0
+468 149 0.002
+468 170 0.013
+468 282 0.002
+468 298 0.01
+468 519 0.024
+469 238 0.002
+469 298 0.01
+469 520 0.008
+470 149 0.002
+470 216 0.2
+470 298 0.01
+470 521 0.008
+471 21 0.002
+471 234 0.2
+471 298 0.01
+471 522 0.018
+472 524 0.008
+474 526 0.008
+475 143 0.002
+475 149 0.004
+475 527 0.008
+476 528 0.008
+477 529 0.008
+478 530 0.008
+480 531 0.008
+484 176 6.0
+486 485 0.33
+488 487 0.14
+489 484 0.04
+489 487 0.1
+491 176 4.0
+491 487 0.31
+491 490 0.04
+487 164 3.0
+487 490 0.06
+487 518 0.06
+495 158 12.0
+495 159 0.008
+495 166 26.0
+495 168 5.0
+495 247 0.6
+495 496 0.12
+496 166 8.0
+497 484 0.04
+499 161 7.0
+499 484 0.04
+498 161 28.0
+498 166 5.0
+498 170 0.004
+498 286 0.4
+498 484 0.04
+498 499 0.11
+498 500 0.03
+498 508 0.06
+501 504 0.12
+504 501 0.06
+505 164 9.0
+505 165 2.0
+505 204 0.008
+505 516 0.08
+505 518 0.08
+507 161 6.0
+507 508 0.06
+508 161 6.0
+508 511 0.05
+508 512 0.06
+508 513 0.04
+509 176 2.0
+509 523 0.04
+509 524 0.04
+509 525 0.16
+511 484 0.04
+511 510 0.11
+512 484 0.04
+512 510 0.14
+510 511 0.03
+510 512 0.03
+514 484 0.04
+514 513 0.55
+513 161 6.0
+515 164 9.0
+515 165 2.0
+515 204 0.008
+515 516 0.08
+515 518 0.08
+516 165 6.0
+516 484 0.16
+516 518 0.38
+517 165 3.0
+517 170 0.006
+517 518 0.45
+519 165 12.0
+519 166 2.0
+519 170 0.02
+519 249 0.006
+519 274 0.002
+519 292 0.2
+519 484 0.12
+519 518 0.04
+520 164 13.0
+520 165 10.0
+520 172 0.004
+520 205 0.024
+520 487 0.28
+520 490 0.1
+520 516 0.06
+520 518 0.08
+520 519 0.02
+521 160 3.0
+521 161 9.0
+521 164 4.0
+521 165 25.0
+521 166 3.0
+521 174 45.0
+521 516 0.04
+521 518 0.08
+521 519 0.02
+522 164 15.0
+522 165 6.0
+522 179 44.0
+522 180 0.01
+522 211 3.0
+522 516 0.04
+522 518 0.08
+522 519 0.02
+518 165 3.0
+518 170 0.006
+526 484 0.006
+526 528 0.06
+526 529 0.04
+526 530 0.04
+528 527 0.02
+530 527 0.02
+531 484 0.006

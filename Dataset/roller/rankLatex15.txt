@@ -1,0 +1,14 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+Weblogger & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+MediaFile & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+User & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+Weblog & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+WeblogBookmarkFolder & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+WeblogCategory & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+WeblogEntry & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+WeblogEntrySearchCriteria & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+WeblogEntryTag & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+WebloggerException & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+个数 & $\textbf{10}$ & $9$ & $8$ & $7$ & $0$ & $5$ & $\textbf{10}$ & $6$ & $9$ \\
+召回率($\%$) & $\textbf{100}$ & $90$ & $80$ & $70$ & $0$ & $50$ & $\textbf{100}$ & $60$ & $90$ \\
+准确率($\%$) & $\textbf{66}$ & $60$ & $53$ & $46$ & $0$ & $33$ & $\textbf{66}$ & $40$ & $60$ \\

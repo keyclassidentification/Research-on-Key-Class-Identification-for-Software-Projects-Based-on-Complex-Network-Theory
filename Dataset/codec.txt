@@ -1,0 +1,400 @@
+*Vertices 133
+1 "org.apache.commons.codec.BinaryDecoder"
+2 "org.apache.commons.codec.BinaryEncoder"
+3 "org.apache.commons.codec.BinaryEncoderAbstractTest"
+4 "org.apache.commons.codec.CharEncodingTest"
+5 "org.apache.commons.codec.CharsetsTest"
+6 "org.apache.commons.codec.CodecPolicy"
+7 "org.apache.commons.codec.Decoder"
+8 "org.apache.commons.codec.DecoderException"
+9 "org.apache.commons.codec.Encoder"
+10 "org.apache.commons.codec.EncoderException"
+11 "org.apache.commons.codec.Resources"
+12 "org.apache.commons.codec.StringDecoder"
+13 "org.apache.commons.codec.StringEncoder"
+14 "org.apache.commons.codec.StringEncoderAbstractTest"
+15 "org.apache.commons.codec.StringEncoderComparator"
+16 "org.apache.commons.codec.binary.AllocateDirectHexTest"
+17 "org.apache.commons.codec.binary.Base16"
+18 "org.apache.commons.codec.binary.Base16InputStream"
+19 "org.apache.commons.codec.binary.Base16OutputStream"
+20 "org.apache.commons.codec.binary.Base16Test"
+21 "org.apache.commons.codec.binary.Base32"
+22 "org.apache.commons.codec.binary.Base32InputStream"
+23 "org.apache.commons.codec.binary.Base32OutputStream"
+24 "org.apache.commons.codec.binary.Base32Test"
+25 "org.apache.commons.codec.binary.Base64"
+26 "org.apache.commons.codec.binary.Base64Codec13Test"
+27 "org.apache.commons.codec.binary.Base64InputStream"
+28 "org.apache.commons.codec.binary.Base64OutputStream"
+29 "org.apache.commons.codec.binary.Base64Test"
+30 "org.apache.commons.codec.binary.BaseNCodec"
+31 "org.apache.commons.codec.binary.BaseNCodec$Context"
+32 "org.apache.commons.codec.binary.BaseNCodecInputStream"
+33 "org.apache.commons.codec.binary.BaseNCodecOutputStream"
+34 "org.apache.commons.codec.binary.BaseNCodecTest"
+35 "org.apache.commons.codec.binary.BaseNCodecTest$NoOpBaseNCodec"
+36 "org.apache.commons.codec.binary.BaseNTestData"
+37 "org.apache.commons.codec.binary.BinaryCodec"
+38 "org.apache.commons.codec.binary.BinaryCodecTest"
+39 "org.apache.commons.codec.binary.CharSequenceUtils"
+40 "org.apache.commons.codec.binary.CharSequenceUtilsTest"
+41 "org.apache.commons.codec.binary.CharSequenceUtilsTest$RunTest"
+42 "org.apache.commons.codec.binary.CharSequenceUtilsTest$TestData"
+43 "org.apache.commons.codec.binary.Hex"
+44 "org.apache.commons.codec.binary.HexTest"
+45 "org.apache.commons.codec.binary.StringUtils"
+46 "org.apache.commons.codec.cli.Digest"
+47 "org.apache.commons.codec.digest.B64"
+48 "org.apache.commons.codec.digest.Crypt"
+49 "org.apache.commons.codec.digest.DigestUtils"
+50 "org.apache.commons.codec.digest.DigestUtilsTest"
+51 "org.apache.commons.codec.digest.HmacAlgorithms"
+52 "org.apache.commons.codec.digest.HmacAlgorithmsTest"
+53 "org.apache.commons.codec.digest.HmacUtils"
+54 "org.apache.commons.codec.digest.Md5Crypt"
+55 "org.apache.commons.codec.digest.MessageDigestAlgorithms"
+56 "org.apache.commons.codec.digest.MessageDigestAlgorithmsTest"
+57 "org.apache.commons.codec.digest.MurmurHash2"
+58 "org.apache.commons.codec.digest.MurmurHash3"
+59 "org.apache.commons.codec.digest.MurmurHash3$IncrementalHash32"
+60 "org.apache.commons.codec.digest.MurmurHash3$IncrementalHash32x86"
+61 "org.apache.commons.codec.digest.PureJavaCrc32"
+62 "org.apache.commons.codec.digest.PureJavaCrc32C"
+63 "org.apache.commons.codec.digest.PureJavaCrc32CTest"
+64 "org.apache.commons.codec.digest.PureJavaCrc32Test"
+65 "org.apache.commons.codec.digest.PureJavaCrc32Test$PerformanceTest"
+66 "org.apache.commons.codec.digest.PureJavaCrc32Test$PerformanceTest$BenchResult"
+67 "org.apache.commons.codec.digest.Sha256CryptTest"
+68 "org.apache.commons.codec.digest.Sha2Crypt"
+69 "org.apache.commons.codec.digest.Sha512CryptTest"
+70 "org.apache.commons.codec.digest.UnixCrypt"
+71 "org.apache.commons.codec.digest.XXHash32"
+72 "org.apache.commons.codec.digest.XXHash32Test"
+73 "org.apache.commons.codec.language.AbstractCaverphone"
+74 "org.apache.commons.codec.language.Caverphone"
+75 "org.apache.commons.codec.language.Caverphone1"
+76 "org.apache.commons.codec.language.Caverphone1Test"
+77 "org.apache.commons.codec.language.Caverphone2"
+78 "org.apache.commons.codec.language.Caverphone2Test"
+79 "org.apache.commons.codec.language.ColognePhonetic"
+80 "org.apache.commons.codec.language.ColognePhonetic$CologneBuffer"
+81 "org.apache.commons.codec.language.ColognePhonetic$CologneInputBuffer"
+82 "org.apache.commons.codec.language.ColognePhonetic$CologneOutputBuffer"
+83 "org.apache.commons.codec.language.ColognePhoneticTest"
+84 "org.apache.commons.codec.language.DaitchMokotoffSoundex"
+85 "org.apache.commons.codec.language.DaitchMokotoffSoundex$Branch"
+86 "org.apache.commons.codec.language.DaitchMokotoffSoundex$Rule"
+87 "org.apache.commons.codec.language.DaitchMokotoffSoundexTest"
+88 "org.apache.commons.codec.language.DoubleMetaphone"
+89 "org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult"
+90 "org.apache.commons.codec.language.DoubleMetaphone2Test"
+91 "org.apache.commons.codec.language.DoubleMetaphoneTest"
+92 "org.apache.commons.codec.language.MatchRatingApproachEncoder"
+93 "org.apache.commons.codec.language.MatchRatingApproachEncoderTest"
+94 "org.apache.commons.codec.language.Metaphone"
+95 "org.apache.commons.codec.language.MetaphoneTest"
+96 "org.apache.commons.codec.language.Nysiis"
+97 "org.apache.commons.codec.language.NysiisTest"
+98 "org.apache.commons.codec.language.RefinedSoundex"
+99 "org.apache.commons.codec.language.RefinedSoundexTest"
+100 "org.apache.commons.codec.language.Soundex"
+101 "org.apache.commons.codec.language.SoundexTest"
+102 "org.apache.commons.codec.language.SoundexUtils"
+103 "org.apache.commons.codec.language.bm.BeiderMorseEncoder"
+104 "org.apache.commons.codec.language.bm.BeiderMorseEncoderTest"
+105 "org.apache.commons.codec.language.bm.Lang"
+106 "org.apache.commons.codec.language.bm.Lang$LangRule"
+107 "org.apache.commons.codec.language.bm.LanguageGuessingTest"
+108 "org.apache.commons.codec.language.bm.Languages"
+109 "org.apache.commons.codec.language.bm.Languages$LanguageSet"
+110 "org.apache.commons.codec.language.bm.Languages$SomeLanguages"
+111 "org.apache.commons.codec.language.bm.NameType"
+112 "org.apache.commons.codec.language.bm.PhoneticEngine"
+113 "org.apache.commons.codec.language.bm.PhoneticEngine$PhonemeBuilder"
+114 "org.apache.commons.codec.language.bm.PhoneticEngine$RulesApplication"
+115 "org.apache.commons.codec.language.bm.PhoneticEngineRegressionTest"
+116 "org.apache.commons.codec.language.bm.PhoneticEngineTest"
+117 "org.apache.commons.codec.language.bm.Rule"
+118 "org.apache.commons.codec.language.bm.Rule$Phoneme"
+119 "org.apache.commons.codec.language.bm.Rule$PhonemeExpr"
+120 "org.apache.commons.codec.language.bm.Rule$PhonemeList"
+121 "org.apache.commons.codec.language.bm.Rule$RPattern"
+122 "org.apache.commons.codec.language.bm.RuleTest"
+123 "org.apache.commons.codec.language.bm.RuleType"
+124 "org.apache.commons.codec.net.BCodec"
+125 "org.apache.commons.codec.net.BCodecTest"
+126 "org.apache.commons.codec.net.PercentCodec"
+127 "org.apache.commons.codec.net.QCodec"
+128 "org.apache.commons.codec.net.QuotedPrintableCodec"
+129 "org.apache.commons.codec.net.RFC1522Codec"
+130 "org.apache.commons.codec.net.RFC1522CodecTest$RFC1522TestCodec"
+131 "org.apache.commons.codec.net.URLCodec"
+132 "org.apache.commons.codec.net.URLCodecTest"
+133 "org.apache.commons.codec.net.Utils"
+*Arcs
+1 7 400.0
+1 8 100.0
+3 2 300.0
+2 9 400.0
+2 10 100.0
+7 8 100.0
+9 10 100.0
+12 7 400.0
+12 8 100.0
+14 10 300.0
+14 13 900.0
+15 13 1000.0
+13 9 400.0
+13 10 100.0
+16 44 0.06
+18 6 3.0
+18 17 200.0
+18 32 600.0
+19 6 3.0
+19 17 200.0
+19 33 600.0
+20 8 2.0
+17 6 3.0
+17 30 600.0
+17 31 600.0
+22 6 3.0
+22 21 600.0
+22 32 1000.0
+23 6 3.0
+23 21 600.0
+23 33 1000.0
+24 21 300.0
+21 6 3.0
+21 30 600.0
+21 31 900.0
+21 45 0.02
+26 8 4.0
+26 10 4.0
+27 6 3.0
+27 25 600.0
+27 32 1000.0
+28 6 3.0
+28 25 600.0
+28 33 1000.0
+29 8 3.0
+25 6 3.0
+25 30 600.0
+25 31 900.0
+25 45 0.08
+32 30 1600.0
+32 31 500.0
+33 30 2000.0
+33 31 500.0
+35 30 400.0
+35 31 600.0
+34 30 300.0
+30 1 4.0
+30 2 4.0
+30 6 12.0
+30 8 3.0
+30 10 3.0
+30 31 2600.0
+30 45 0.08
+36 30 600.0
+38 8 1.0
+38 37 300.0
+37 1 4.0
+37 2 4.0
+37 8 3.0
+37 10 3.0
+41 42 0.03
+40 42 0.03
+44 8 16.0
+44 10 5.0
+43 1 4.0
+43 2 4.0
+43 8 15.0
+43 10 3.0
+45 39 0.02
+46 43 2.0
+46 49 0.016
+46 55 2.0
+48 54 200.0
+48 68 600.0
+48 70 200.0
+49 43 84.0
+49 45 0.026
+52 50 0.03
+52 51 600.0
+53 43 10.0
+53 45 0.008
+53 51 2200.0
+54 47 2200.0
+54 49 0.06
+56 50 0.03
+57 45 0.004
+59 58 200.0
+59 60 600.0
+60 58 800.0
+58 45 0.004
+63 62 300.0
+65 66 0.03
+64 61 300.0
+68 47 7400.0
+68 49 0.1
+73 10 4.0
+73 13 4.0
+76 10 5.0
+76 14 0.004
+76 75 300.0
+75 73 600.0
+78 10 9.0
+78 14 0.004
+78 77 300.0
+77 73 600.0
+74 10 3.0
+74 13 4.0
+74 77 700.0
+80 79 900.0
+81 79 600.0
+81 80 600.0
+82 79 600.0
+82 80 600.0
+83 10 11.0
+83 14 0.004
+83 79 300.0
+79 10 3.0
+79 13 4.0
+79 81 1200.0
+79 82 4000.0
+87 10 2.0
+87 14 0.004
+87 84 300.0
+84 10 3.0
+84 11 2.0
+84 13 4.0
+84 85 1000.0
+84 86 1000.0
+89 88 1000.0
+90 14 0.004
+90 88 300.0
+91 14 0.004
+91 88 300.0
+88 10 3.0
+88 13 4.0
+88 45 0.002
+88 89 24200.0
+93 14 0.004
+93 92 300.0
+92 10 3.0
+92 13 4.0
+95 14 0.004
+95 94 300.0
+94 10 3.0
+94 13 4.0
+97 10 10.0
+97 14 0.004
+97 96 600.0
+96 10 3.0
+96 13 4.0
+96 102 0.02
+99 10 1.0
+99 14 0.004
+99 98 300.0
+98 10 4.0
+98 13 4.0
+98 102 0.04
+101 10 6.0
+101 14 0.004
+101 100 300.0
+102 10 1.0
+102 13 8.0
+100 10 4.0
+100 13 4.0
+100 102 0.04
+104 10 11.0
+104 13 3.0
+104 14 0.004
+104 103 600.0
+103 10 4.0
+103 13 4.0
+103 111 0.06
+103 112 4500.0
+103 123 0.06
+105 11 2.0
+105 106 1000.0
+105 108 1400.0
+105 109 900.0
+105 111 0.09
+107 105 300.0
+109 110 200.0
+110 109 1800.0
+108 11 2.0
+108 109 1800.0
+108 111 0.13
+113 109 800.0
+113 118 1500.0
+113 119 500.0
+114 113 1100.0
+114 117 600.0
+116 111 0.06
+116 123 0.06
+112 105 1000.0
+112 109 300.0
+112 111 0.22
+112 113 2000.0
+112 114 1800.0
+112 117 600.0
+112 118 800.0
+112 123 0.12
+120 119 400.0
+118 109 1900.0
+118 119 400.0
+122 118 300.0
+117 11 4.0
+117 108 500.0
+117 109 1600.0
+117 111 0.31
+117 118 900.0
+117 119 1300.0
+117 120 200.0
+117 121 400.0
+117 123 0.33
+125 8 3.0
+124 6 9.0
+124 8 6.0
+124 10 8.0
+124 12 4.0
+124 13 4.0
+124 25 6.0
+124 30 2.0
+124 129 600.0
+126 1 4.0
+126 2 4.0
+126 8 6.0
+126 10 4.0
+126 133 0.08
+127 8 7.0
+127 10 8.0
+127 12 4.0
+127 13 4.0
+127 129 600.0
+128 1 4.0
+128 2 4.0
+128 8 10.0
+128 10 4.0
+128 12 4.0
+128 13 4.0
+128 45 0.008
+128 133 0.08
+130 129 400.0
+129 8 12.0
+129 10 3.0
+129 45 0.004
+132 8 1.0
+132 131 300.0
+131 1 4.0
+131 2 4.0
+131 8 11.0
+131 10 6.0
+131 12 4.0
+131 13 4.0
+131 45 0.004
+131 133 0.08
+133 8 3.0

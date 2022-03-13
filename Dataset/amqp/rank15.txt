@@ -1,0 +1,12 @@
+com.rabbitmq.client.AMQP$BasicProperties
+com.rabbitmq.client.Channel
+com.rabbitmq.client.impl.AMQCommand
+com.rabbitmq.client.impl.AMQConnection
+com.rabbitmq.client.impl.AMQImpl$MethodVisitor
+com.rabbitmq.client.impl.Frame
+com.rabbitmq.client.impl.Method
+com.rabbitmq.client.impl.MethodArgumentReader
+com.rabbitmq.client.impl.MethodArgumentWriter
+com.rabbitmq.client.impl.recovery.AutorecoveringChannel
+com.rabbitmq.client.impl.ValueReader
+com.rabbitmq.client.Method

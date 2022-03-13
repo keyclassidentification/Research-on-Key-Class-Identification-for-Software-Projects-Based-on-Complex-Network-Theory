@@ -1,0 +1,8 @@
+org.opengis.metadata.quality.Element
+org.opengis.referencing.crs.CoordinateReferenceSystem
+org.opengis.referencing.cs.CoordinateSystem
+org.opengis.referencing.cs.CoordinateSystemAxis
+org.opengis.referencing.operation.MathTransform
+org.opengis.util.GenericName
+org.opengis.util.InternationalString
+org.opengis.util.LocalName

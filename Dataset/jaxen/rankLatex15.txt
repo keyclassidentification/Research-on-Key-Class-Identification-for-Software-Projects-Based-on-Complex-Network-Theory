@@ -1,0 +1,14 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+Context & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\times$ \\
+ContextSupport & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+Expr & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+PredicateSet & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Step & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+JaxenException & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+Navigator & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+LocationPathPattern & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+Token & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+SAXPathException & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+个数 & $\textbf{10}$ & $9$ & $6$ & $6$ & $3$ & $7$ & $9$ & $2$ & $7$ \\
+召回率($\%$) & $\textbf{100}$ & $90$ & $60$ & $60$ & $30$ & $70$ & $90$ & $20$ & $70$ \\
+准确率($\%$) & $\textbf{66}$ & $60$ & $40$ & $40$ & $20$ & $46$ & $60$ & $13$ & $46$ \\

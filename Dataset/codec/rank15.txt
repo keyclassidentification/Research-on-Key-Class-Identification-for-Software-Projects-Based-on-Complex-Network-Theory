@@ -1,0 +1,12 @@
+org.apache.commons.codec.binary.BaseNCodec
+org.apache.commons.codec.binary.BaseNCodec$Context
+org.apache.commons.codec.EncoderException
+org.apache.commons.codec.language.bm.BeiderMorseEncoder
+org.apache.commons.codec.language.bm.Languages$LanguageSet
+org.apache.commons.codec.language.bm.PhoneticEngine
+org.apache.commons.codec.language.bm.PhoneticEngine$PhonemeBuilder
+org.apache.commons.codec.language.bm.Rule$Phoneme
+org.apache.commons.codec.language.ColognePhonetic
+org.apache.commons.codec.language.ColognePhonetic$CologneOutputBuffer
+org.apache.commons.codec.language.DoubleMetaphone
+org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult

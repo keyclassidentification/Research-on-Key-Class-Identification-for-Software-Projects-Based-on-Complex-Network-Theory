@@ -1,0 +1,17 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+$AnnotationVisitor & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\times$ \\
+$AnnotationWriter & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+$ByteVector & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+$ClassVisitor & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\times$ \\
+$ClassWriter & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+$Item & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+$Label & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+$MethodVisitor & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+ClassEmitter & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+CodeEmitter & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+Signature & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+Callback & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+CallbackGenerator$Context & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ \\
+个数 & $\textbf{13}$ & $\textbf{13}$ & $9$ & $8$ & $1$ & $5$ & $12$ & $4$ & $9$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $69$ & $61$ & $7$ & $38$ & $92$ & $30$ & $69$ \\
+准确率($\%$) & $\textbf{86}$ & $\textbf{86}$ & $60$ & $53$ & $6$ & $33$ & $80$ & $26$ & $60$ \\

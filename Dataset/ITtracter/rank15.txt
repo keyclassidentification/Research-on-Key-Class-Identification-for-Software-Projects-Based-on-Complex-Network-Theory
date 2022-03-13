@@ -1,0 +1,6 @@
+org.itracker.core.resources.ITrackerResources
+org.itracker.model.AbstractEntity
+org.itracker.model.CustomField
+org.itracker.model.Issue
+org.itracker.model.Project
+org.itracker.model.User

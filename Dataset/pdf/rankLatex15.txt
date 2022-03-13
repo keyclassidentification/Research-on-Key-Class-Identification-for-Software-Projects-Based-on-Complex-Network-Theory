@@ -1,0 +1,17 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+BaseWatchable & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\times$ \\
+Cache & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+PagePanel & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+PDFFile & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+PDFImage & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+PDFObject & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+PDFPage & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+PDFParseException & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+PDFParser & $\times$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+PDFRenderer & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+PDFTextFormat & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+PDFViewer & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+PDFXref & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\times$ \\
+个数 & $\textbf{12}$ & $\textbf{12}$ & $7$ & $10$ & $4$ & $9$ & $\textbf{12}$ & $9$ & $11$ \\
+召回率($\%$) & $\textbf{92}$ & $\textbf{92}$ & $53$ & $76$ & $30$ & $69$ & $\textbf{92}$ & $69$ & $84$ \\
+准确率($\%$) & $\textbf{80}$ & $\textbf{80}$ & $46$ & $66$ & $26$ & $60$ & $\textbf{80}$ & $60$ & $73$ \\

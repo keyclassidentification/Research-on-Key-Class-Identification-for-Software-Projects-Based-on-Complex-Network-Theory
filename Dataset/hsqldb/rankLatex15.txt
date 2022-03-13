@@ -1,0 +1,12 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+ColumnSchema & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Database & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+Expression & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+RangeVariable & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+SchemaManager & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+Session & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+Statement & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Table & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+个数 & $\textbf{8}$ & $\textbf{8}$ & $7$ & $6$ & $0$ & $3$ & $\textbf{8}$ & $2$ & $7$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $87$ & $75$ & $0$ & $37$ & $\textbf{100}$ & $25$ & $87$ \\
+准确率($\%$) & $\textbf{53}$ & $\textbf{53}$ & $46$ & $40$ & $0$ & $20$ & $\textbf{53}$ & $13$ & $46$ \\

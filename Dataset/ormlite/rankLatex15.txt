@@ -1,0 +1,12 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+CloseableIterator & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Dao & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+DataPersister & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+BaseComparison & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+QueryBuilder & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+DatabaseConnection & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+DatabaseResults & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ \\
+TableInfo & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+个数 & $\textbf{8}$ & $\textbf{8}$ & $6$ & $2$ & $3$ & $4$ & $7$ & $2$ & $7$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $75$ & $25$ & $37$ & $50$ & $87$ & $25$ & $87$ \\
+准确率($\%$) & $\textbf{53}$ & $\textbf{53}$ & $40$ & $13$ & $20$ & $26$ & $46$ & $13$ & $46$ \\

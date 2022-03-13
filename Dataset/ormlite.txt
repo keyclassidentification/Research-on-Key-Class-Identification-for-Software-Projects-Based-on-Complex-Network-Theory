@@ -1,0 +1,993 @@
+*Vertices 176
+1 "com.j256.ormlite.dao.BaseDaoImpl"
+2 "com.j256.ormlite.dao.BaseForeignCollection"
+3 "com.j256.ormlite.dao.CloseableIterable"
+4 "com.j256.ormlite.dao.CloseableIterator"
+5 "com.j256.ormlite.dao.CloseableWrappedIterable"
+6 "com.j256.ormlite.dao.CloseableWrappedIterableImpl"
+7 "com.j256.ormlite.dao.Dao"
+8 "com.j256.ormlite.dao.Dao$CreateOrUpdateStatus"
+9 "com.j256.ormlite.dao.Dao$DaoObserver"
+10 "com.j256.ormlite.dao.DaoManager"
+11 "com.j256.ormlite.dao.DaoManager$ClassConnectionSource"
+12 "com.j256.ormlite.dao.DaoManager$TableConfigConnectionSource"
+13 "com.j256.ormlite.dao.DatabaseResultsMapper"
+14 "com.j256.ormlite.dao.EagerForeignCollection"
+15 "com.j256.ormlite.dao.ForeignCollection"
+16 "com.j256.ormlite.dao.GenericRawResults"
+17 "com.j256.ormlite.dao.LazyForeignCollection"
+18 "com.j256.ormlite.dao.LruObjectCache"
+19 "com.j256.ormlite.dao.LruObjectCache$LimitedLinkedHashMap"
+20 "com.j256.ormlite.dao.ObjectCache"
+21 "com.j256.ormlite.dao.RawRowMapper"
+22 "com.j256.ormlite.dao.RawRowObjectMapper"
+23 "com.j256.ormlite.dao.ReferenceObjectCache"
+24 "com.j256.ormlite.dao.RuntimeExceptionDao"
+25 "com.j256.ormlite.db.BaseDatabaseType"
+26 "com.j256.ormlite.db.BaseDatabaseType$BooleanNumberFieldConverter"
+27 "com.j256.ormlite.db.BaseSqliteDatabaseType"
+28 "com.j256.ormlite.db.DatabaseType"
+29 "com.j256.ormlite.field.BaseFieldConverter"
+30 "com.j256.ormlite.field.DataPersister"
+31 "com.j256.ormlite.field.DataPersisterManager"
+32 "com.j256.ormlite.field.DataType"
+33 "com.j256.ormlite.field.DatabaseField"
+34 "com.j256.ormlite.field.DatabaseFieldConfig"
+35 "com.j256.ormlite.field.DatabaseFieldConfigLoader"
+36 "com.j256.ormlite.field.FieldConverter"
+37 "com.j256.ormlite.field.FieldType"
+38 "com.j256.ormlite.field.FieldType$LevelCounters"
+39 "com.j256.ormlite.field.ForeignCollectionField"
+40 "com.j256.ormlite.field.SqlType"
+41 "com.j256.ormlite.field.types.BaseDataType"
+42 "com.j256.ormlite.field.types.BaseDateType"
+43 "com.j256.ormlite.field.types.BaseDateType$DateStringFormatConfig"
+44 "com.j256.ormlite.field.types.BaseEnumType"
+45 "com.j256.ormlite.field.types.BigDecimalNumericType"
+46 "com.j256.ormlite.field.types.BigDecimalStringType"
+47 "com.j256.ormlite.field.types.BigIntegerType"
+48 "com.j256.ormlite.field.types.BooleanCharType"
+49 "com.j256.ormlite.field.types.BooleanIntegerType"
+50 "com.j256.ormlite.field.types.BooleanObjectType"
+51 "com.j256.ormlite.field.types.BooleanType"
+52 "com.j256.ormlite.field.types.ByteArrayType"
+53 "com.j256.ormlite.field.types.ByteObjectType"
+54 "com.j256.ormlite.field.types.ByteType"
+55 "com.j256.ormlite.field.types.CharType"
+56 "com.j256.ormlite.field.types.CharacterObjectType"
+57 "com.j256.ormlite.field.types.DateLongType"
+58 "com.j256.ormlite.field.types.DateStringType"
+59 "com.j256.ormlite.field.types.DateTimeType"
+60 "com.j256.ormlite.field.types.DateType"
+61 "com.j256.ormlite.field.types.DoubleObjectType"
+62 "com.j256.ormlite.field.types.DoubleType"
+63 "com.j256.ormlite.field.types.EnumIntegerType"
+64 "com.j256.ormlite.field.types.EnumStringType"
+65 "com.j256.ormlite.field.types.EnumToStringType"
+66 "com.j256.ormlite.field.types.FloatObjectType"
+67 "com.j256.ormlite.field.types.FloatType"
+68 "com.j256.ormlite.field.types.IntType"
+69 "com.j256.ormlite.field.types.IntegerObjectType"
+70 "com.j256.ormlite.field.types.LongObjectType"
+71 "com.j256.ormlite.field.types.LongStringType"
+72 "com.j256.ormlite.field.types.LongType"
+73 "com.j256.ormlite.field.types.NativeUuidType"
+74 "com.j256.ormlite.field.types.SerializableType"
+75 "com.j256.ormlite.field.types.ShortObjectType"
+76 "com.j256.ormlite.field.types.ShortType"
+77 "com.j256.ormlite.field.types.SqlDateStringType"
+78 "com.j256.ormlite.field.types.SqlDateType"
+79 "com.j256.ormlite.field.types.StringBytesType"
+80 "com.j256.ormlite.field.types.StringType"
+81 "com.j256.ormlite.field.types.TimeStampStringType"
+82 "com.j256.ormlite.field.types.TimeStampType"
+83 "com.j256.ormlite.field.types.UuidType"
+84 "com.j256.ormlite.field.types.VoidType"
+85 "com.j256.ormlite.logger.LocalLog"
+86 "com.j256.ormlite.logger.LocalLog$PatternLevel"
+87 "com.j256.ormlite.logger.Log"
+88 "com.j256.ormlite.logger.Log$Level"
+89 "com.j256.ormlite.logger.Logger"
+90 "com.j256.ormlite.logger.LoggerFactory"
+91 "com.j256.ormlite.logger.LoggerFactory$LogType"
+92 "com.j256.ormlite.logger.Slf4jLoggingLog"
+93 "com.j256.ormlite.misc.BaseDaoEnabled"
+94 "com.j256.ormlite.misc.IOUtils"
+95 "com.j256.ormlite.misc.JavaxPersistenceConfigurer"
+96 "com.j256.ormlite.misc.JavaxPersistenceImpl"
+97 "com.j256.ormlite.misc.SqlExceptionUtil"
+98 "com.j256.ormlite.misc.TransactionManager"
+99 "com.j256.ormlite.misc.VersionUtils"
+100 "com.j256.ormlite.stmt.ArgumentHolder"
+101 "com.j256.ormlite.stmt.BaseArgumentHolder"
+102 "com.j256.ormlite.stmt.ColumnArg"
+103 "com.j256.ormlite.stmt.DeleteBuilder"
+104 "com.j256.ormlite.stmt.GenericRowMapper"
+105 "com.j256.ormlite.stmt.NullArgHolder"
+106 "com.j256.ormlite.stmt.PreparedDelete"
+107 "com.j256.ormlite.stmt.PreparedQuery"
+108 "com.j256.ormlite.stmt.PreparedStmt"
+109 "com.j256.ormlite.stmt.PreparedUpdate"
+110 "com.j256.ormlite.stmt.QueryBuilder"
+111 "com.j256.ormlite.stmt.QueryBuilder$InternalQueryBuilderWrapper"
+112 "com.j256.ormlite.stmt.QueryBuilder$JoinInfo"
+113 "com.j256.ormlite.stmt.QueryBuilder$JoinType"
+114 "com.j256.ormlite.stmt.QueryBuilder$JoinWhereOperation"
+115 "com.j256.ormlite.stmt.RawResultsImpl"
+116 "com.j256.ormlite.stmt.RawRowMapperImpl"
+117 "com.j256.ormlite.stmt.SelectArg"
+118 "com.j256.ormlite.stmt.SelectIterator"
+119 "com.j256.ormlite.stmt.StatementBuilder"
+120 "com.j256.ormlite.stmt.StatementBuilder$StatementInfo"
+121 "com.j256.ormlite.stmt.StatementBuilder$StatementType"
+122 "com.j256.ormlite.stmt.StatementBuilder$WhereOperation"
+123 "com.j256.ormlite.stmt.StatementExecutor"
+124 "com.j256.ormlite.stmt.StatementExecutor$ObjectArrayRowMapper"
+125 "com.j256.ormlite.stmt.StatementExecutor$UserDatabaseResultsMapper"
+126 "com.j256.ormlite.stmt.StatementExecutor$UserRawRowMapper"
+127 "com.j256.ormlite.stmt.StatementExecutor$UserRawRowObjectMapper"
+128 "com.j256.ormlite.stmt.ThreadLocalSelectArg"
+129 "com.j256.ormlite.stmt.ThreadLocalSelectArg$ValueWrapper"
+130 "com.j256.ormlite.stmt.UpdateBuilder"
+131 "com.j256.ormlite.stmt.Where"
+132 "com.j256.ormlite.stmt.mapped.BaseMappedQuery"
+133 "com.j256.ormlite.stmt.mapped.BaseMappedStatement"
+134 "com.j256.ormlite.stmt.mapped.MappedCreate"
+135 "com.j256.ormlite.stmt.mapped.MappedCreate$KeyHolder"
+136 "com.j256.ormlite.stmt.mapped.MappedDelete"
+137 "com.j256.ormlite.stmt.mapped.MappedDeleteCollection"
+138 "com.j256.ormlite.stmt.mapped.MappedPreparedStmt"
+139 "com.j256.ormlite.stmt.mapped.MappedQueryForFieldEq"
+140 "com.j256.ormlite.stmt.mapped.MappedRefresh"
+141 "com.j256.ormlite.stmt.mapped.MappedUpdate"
+142 "com.j256.ormlite.stmt.mapped.MappedUpdateId"
+143 "com.j256.ormlite.stmt.query.BaseComparison"
+144 "com.j256.ormlite.stmt.query.Between"
+145 "com.j256.ormlite.stmt.query.Clause"
+146 "com.j256.ormlite.stmt.query.ColumnNameOrRawSql"
+147 "com.j256.ormlite.stmt.query.Comparison"
+148 "com.j256.ormlite.stmt.query.Exists"
+149 "com.j256.ormlite.stmt.query.In"
+150 "com.j256.ormlite.stmt.query.InSubQuery"
+151 "com.j256.ormlite.stmt.query.IsNotNull"
+152 "com.j256.ormlite.stmt.query.IsNull"
+153 "com.j256.ormlite.stmt.query.ManyClause"
+154 "com.j256.ormlite.stmt.query.NeedsFutureClause"
+155 "com.j256.ormlite.stmt.query.Not"
+156 "com.j256.ormlite.stmt.query.OrderBy"
+157 "com.j256.ormlite.stmt.query.Raw"
+158 "com.j256.ormlite.stmt.query.SetExpression"
+159 "com.j256.ormlite.stmt.query.SetValue"
+160 "com.j256.ormlite.stmt.query.SimpleComparison"
+161 "com.j256.ormlite.support.BaseConnectionSource"
+162 "com.j256.ormlite.support.BaseConnectionSource$NestedConnection"
+163 "com.j256.ormlite.support.CompiledStatement"
+164 "com.j256.ormlite.support.ConnectionSource"
+165 "com.j256.ormlite.support.DatabaseConnection"
+166 "com.j256.ormlite.support.DatabaseConnectionProxy"
+167 "com.j256.ormlite.support.DatabaseConnectionProxyFactory"
+168 "com.j256.ormlite.support.DatabaseResults"
+169 "com.j256.ormlite.support.GeneratedKeyHolder"
+170 "com.j256.ormlite.support.ReflectionDatabaseConnectionProxyFactory"
+171 "com.j256.ormlite.table.DatabaseTable"
+172 "com.j256.ormlite.table.DatabaseTableConfig"
+173 "com.j256.ormlite.table.DatabaseTableConfigLoader"
+174 "com.j256.ormlite.table.ObjectFactory"
+175 "com.j256.ormlite.table.TableInfo"
+176 "com.j256.ormlite.table.TableUtils"
+*Arcs
+1 3 400.0
+1 4 300.0
+1 5 600.0
+1 6 400.0
+1 7 1000.0
+1 8 900.0
+1 9 900.0
+1 10 400.0
+1 13 300.0
+1 15 700.0
+1 16 1500.0
+1 20 2400.0
+1 21 600.0
+1 22 300.0
+1 23 700.0
+1 28 0.003
+1 30 2.0
+1 32 0.006
+1 37 0.035
+1 93 12.0
+1 97 0.02
+1 103 5.0
+1 104 5.0
+1 106 3.0
+1 107 6.0
+1 109 3.0
+1 110 15.0
+1 117 4.0
+1 118 2.0
+1 123 2.0
+1 130 5.0
+1 131 12.0
+1 164 3.0
+1 165 6.0
+1 168 3.0
+1 172 0.003
+1 174 9.0
+1 175 76.0
+2 4 1200.0
+2 7 1700.0
+2 15 400.0
+2 37 0.012
+2 94 0.008
+2 107 6.0
+2 110 5.0
+2 117 5.0
+2 131 4.0
+2 138 3.0
+3 4 300.0
+4 168 3.0
+6 3 800.0
+6 4 1100.0
+6 5 400.0
+6 94 0.002
+5 3 400.0
+11 164 6.0
+12 164 6.0
+12 172 0.006
+10 1 800.0
+10 7 6900.0
+10 11 2700.0
+10 12 0.16
+10 28 0.003
+10 89 0.011
+10 90 0.002
+10 97 0.004
+10 164 38.0
+10 171 14.0
+10 172 0.024
+7 3 400.0
+7 4 1200.0
+7 5 600.0
+7 8 300.0
+7 9 600.0
+7 13 300.0
+7 15 300.0
+7 16 1500.0
+7 20 600.0
+7 21 600.0
+7 22 300.0
+7 32 0.006
+7 37 0.003
+7 103 3.0
+7 104 3.0
+7 106 3.0
+7 107 18.0
+7 109 3.0
+7 110 3.0
+7 130 3.0
+7 164 3.0
+7 165 18.0
+7 168 3.0
+7 174 3.0
+13 168 3.0
+14 2 1200.0
+14 4 400.0
+14 5 1000.0
+14 7 200.0
+14 37 0.003
+14 168 3.0
+15 3 400.0
+15 4 1200.0
+15 5 600.0
+15 7 300.0
+16 5 400.0
+17 2 600.0
+17 3 400.0
+17 4 600.0
+17 5 600.0
+17 6 200.0
+17 7 200.0
+17 37 0.003
+17 94 0.036
+18 19 200.0
+18 20 400.0
+22 32 0.003
+23 20 400.0
+24 4 1500.0
+24 5 600.0
+24 7 16200.0
+24 8 300.0
+24 9 600.0
+24 10 400.0
+24 13 300.0
+24 15 300.0
+24 16 1500.0
+24 20 600.0
+24 21 600.0
+24 22 300.0
+24 32 0.006
+24 37 0.003
+24 88 0.003
+24 89 0.005
+24 90 0.002
+24 103 3.0
+24 104 3.0
+24 106 3.0
+24 107 18.0
+24 109 3.0
+24 110 3.0
+24 130 3.0
+24 164 11.0
+24 165 18.0
+24 168 3.0
+24 172 0.004
+24 174 3.0
+26 29 6.0
+26 37 0.015
+26 40 0.003
+26 168 5.0
+25 28 0.04
+25 30 17.0
+25 36 3.0
+25 37 0.128
+25 40 0.036
+25 97 0.002
+25 164 3.0
+25 172 0.003
+27 25 0.08
+27 26 0.02
+27 30 5.0
+27 36 6.0
+27 37 0.017
+27 40 0.006
+27 46 0.002
+28 30 9.0
+28 36 3.0
+28 37 0.021
+28 164 3.0
+28 172 0.003
+29 36 400.0
+29 37 0.09
+29 168 3.0
+31 30 2500.0
+31 32 0.06
+31 64 0.002
+30 36 400.0
+30 37 0.03
+32 30 900.0
+32 45 0.002
+32 46 0.002
+32 47 0.002
+32 48 0.002
+32 49 0.002
+32 50 0.002
+32 51 0.002
+32 52 0.002
+32 53 0.002
+32 54 0.002
+32 55 0.002
+32 56 0.002
+32 57 0.002
+32 58 0.002
+32 59 0.002
+32 60 0.002
+32 61 0.002
+32 62 0.002
+32 63 0.002
+32 64 0.002
+32 65 0.002
+32 66 0.002
+32 67 0.002
+32 68 0.002
+32 69 0.002
+32 70 0.002
+32 71 0.002
+32 72 0.002
+32 74 0.002
+32 75 0.002
+32 76 0.002
+32 78 0.002
+32 79 0.002
+32 80 0.002
+32 82 0.002
+32 83 0.004
+35 30 300.0
+35 32 0.14
+35 34 2.06
+35 97 0.004
+34 28 0.016
+34 30 900.0
+34 32 0.17
+34 33 6500.0
+34 39 2100.0
+34 95 0.005
+34 172 0.012
+33 32 0.03
+36 37 0.18
+36 40 0.03
+36 168 6.0
+38 37 0.03
+37 1 19.0
+37 2 3.0
+37 7 2.0
+37 10 12.0
+37 14 2.0
+37 17 6.0
+37 20 15.0
+37 28 0.016
+37 30 5200.0
+37 31 200.0
+37 32 0.06
+37 34 1.65
+37 36 1500.0
+37 38 0.04
+37 40 0.03
+37 89 0.007
+37 90 0.002
+37 97 0.018
+37 139 10.0
+37 164 27.0
+37 165 1.0
+37 168 11.0
+37 172 0.004
+37 175 14.0
+41 29 8.0
+41 30 4.0
+41 37 0.006
+41 40 0.012
+42 37 0.006
+42 40 0.006
+42 41 0.08
+42 43 0.25
+44 37 0.004
+44 40 0.006
+44 41 0.08
+45 37 0.006
+45 40 0.003
+45 41 0.08
+45 97 0.002
+45 168 5.0
+46 37 0.012
+46 40 0.003
+46 41 0.08
+46 97 0.004
+46 168 5.0
+47 37 0.012
+47 40 0.003
+47 41 0.08
+47 97 0.004
+47 168 5.0
+48 37 0.024
+48 51 0.06
+48 168 5.0
+49 37 0.015
+49 51 0.06
+49 168 5.0
+50 37 0.006
+50 40 0.006
+50 41 0.1
+50 168 5.0
+51 40 0.006
+51 50 0.1
+52 37 0.009
+52 40 0.003
+52 41 0.08
+52 168 5.0
+53 37 0.006
+53 40 0.003
+53 41 0.08
+53 168 5.0
+54 40 0.003
+54 53 0.08
+55 37 0.003
+55 40 0.003
+55 56 0.08
+56 37 0.006
+56 40 0.003
+56 41 0.08
+56 168 5.0
+57 37 0.012
+57 40 0.003
+57 42 0.08
+57 97 0.002
+57 168 5.0
+58 37 0.02
+58 40 0.006
+58 42 0.1
+58 43 0.04
+58 97 0.004
+58 168 5.0
+59 37 0.012
+59 40 0.003
+59 41 0.08
+59 97 0.006
+59 168 5.0
+60 37 0.012
+60 40 0.003
+60 42 0.08
+60 43 0.03
+60 97 0.002
+60 168 5.0
+61 37 0.006
+61 40 0.003
+61 41 0.08
+61 168 5.0
+62 40 0.003
+62 61 0.08
+63 37 0.023
+63 40 0.003
+63 44 0.08
+63 168 5.0
+64 37 0.023
+64 40 0.003
+64 44 0.08
+64 168 5.0
+65 40 0.003
+65 64 0.08
+66 37 0.006
+66 40 0.003
+66 41 0.08
+66 168 5.0
+67 40 0.003
+67 66 0.08
+68 40 0.003
+68 69 0.08
+69 37 0.006
+69 40 0.003
+69 41 0.08
+69 168 5.0
+70 37 0.006
+70 40 0.003
+70 41 0.08
+70 168 5.0
+71 40 0.003
+71 80 0.08
+72 40 0.003
+72 70 0.08
+73 40 0.003
+73 83 0.08
+74 37 0.015
+74 40 0.003
+74 41 0.08
+74 94 0.008
+74 97 0.004
+74 168 5.0
+75 37 0.006
+75 40 0.003
+75 41 0.08
+75 168 5.0
+76 40 0.003
+76 75 0.08
+77 37 0.006
+77 40 0.003
+77 58 0.12
+78 37 0.006
+78 40 0.003
+78 43 0.08
+78 60 0.08
+79 37 0.022
+79 40 0.003
+79 41 0.08
+79 97 0.006
+79 168 5.0
+80 37 0.006
+80 40 0.006
+80 41 0.1
+80 168 5.0
+81 37 0.006
+81 40 0.003
+81 58 0.12
+82 37 0.006
+82 40 0.003
+82 60 0.08
+83 37 0.012
+83 40 0.006
+83 41 0.1
+83 97 0.002
+83 168 5.0
+84 37 0.006
+84 41 0.06
+84 168 3.0
+86 88 0.06
+85 86 0.03
+85 87 0.04
+85 88 0.34
+85 90 0.02
+85 94 0.006
+87 88 0.09
+91 85 0.02
+91 87 0.03
+91 90 0.03
+90 85 0.02
+90 87 0.03
+90 89 0.08
+90 91 0.16
+89 87 0.14
+89 88 0.36
+92 87 0.04
+92 88 0.14
+93 7 25.0
+94 97 0.02
+95 28 0.003
+95 34 0.003
+96 28 0.007
+96 31 2.0
+96 34 0.053
+96 95 0.04
+98 28 0.01
+98 89 0.025
+98 90 0.002
+98 97 0.02
+98 164 31.0
+98 165 33.0
+99 89 0.008
+99 90 0.002
+100 37 0.009
+100 40 0.003
+101 37 0.023
+101 40 0.009
+101 100 400.0
+103 7 5.0
+103 28 0.005
+103 106 300.0
+103 119 1000.0
+103 175 5.0
+104 168 3.0
+105 37 0.009
+105 40 0.003
+105 100 400.0
+106 108 400.0
+107 108 400.0
+108 104 400.0
+108 121 0.09
+108 163 6.0
+108 165 6.0
+109 108 400.0
+111 37 0.003
+111 110 1000.0
+112 37 0.006
+112 110 1200.0
+112 113 0.06
+112 114 600.0
+114 122 900.0
+110 4 3.0
+110 7 17.0
+110 16 5.0
+110 28 0.031
+110 37 0.042
+110 100 500.0
+110 107 300.0
+110 112 1300.0
+110 113 0.11
+110 114 1100.0
+110 119 1200.0
+110 122 300.0
+110 146 28.0
+110 156 22.0
+110 175 27.0
+115 4 6.0
+115 16 4.0
+115 20 3.0
+115 94 0.01
+115 104 300.0
+115 118 1700.0
+115 163 3.0
+115 164 3.0
+115 165 3.0
+115 168 2.0
+116 21 4.0
+116 37 0.005
+116 175 10.0
+117 40 0.006
+117 101 1400.0
+118 4 4.0
+118 7 8.0
+118 20 3.0
+118 89 0.007
+118 90 0.002
+118 94 0.004
+118 104 800.0
+118 163 10.0
+118 164 8.0
+118 165 6.0
+118 168 20.0
+120 119 300.0
+119 7 6.0
+119 28 0.008
+119 37 0.006
+119 89 0.005
+119 90 0.002
+119 100 200.0
+119 120 500.0
+119 121 0.13
+119 122 700.0
+119 131 1300.0
+119 138 5.0
+119 175 10.0
+124 30 2.0
+124 32 0.01
+124 104 400.0
+124 168 8.0
+125 13 11.0
+125 104 400.0
+125 123 300.0
+125 168 3.0
+126 21 8.0
+126 104 1200.0
+126 168 8.0
+127 22 8.0
+127 30 2.0
+127 32 0.008
+127 104 400.0
+127 168 10.0
+123 1 6.0
+123 7 28.0
+123 13 3.0
+123 16 16.0
+123 20 57.0
+123 21 9.0
+123 22 3.0
+123 28 0.01
+123 32 0.006
+123 37 0.01
+123 89 0.053
+123 90 0.002
+123 94 0.072
+123 97 0.002
+123 98 2.0
+123 104 700.0
+123 106 500.0
+123 107 300.0
+123 108 3000.0
+123 109 500.0
+123 110 1300.0
+123 115 1400.0
+123 116 200.0
+123 117 200.0
+123 118 1300.0
+123 124 200.0
+123 125 200.0
+123 126 200.0
+123 127 200.0
+123 131 200.0
+123 134 7.0
+123 136 11.0
+123 137 4.0
+123 139 7.0
+123 140 7.0
+123 141 7.0
+123 142 7.0
+123 163 21.0
+123 164 83.0
+123 165 92.0
+123 168 20.0
+123 175 38.0
+128 40 0.003
+128 101 1200.0
+128 129 200.0
+130 7 5.0
+130 28 0.013
+130 37 0.004
+130 109 300.0
+130 119 1000.0
+130 145 6.0
+130 158 2.0
+130 159 2.0
+130 175 5.0
+131 4 3.0
+131 7 5.0
+131 16 3.0
+131 28 0.006
+131 37 0.008
+131 100 1100.0
+131 107 300.0
+131 110 3900.0
+131 111 400.0
+131 119 1000.0
+131 144 2.0
+131 145 23.0
+131 148 2.0
+131 149 6.0
+131 150 2.0
+131 151 2.0
+131 152 2.0
+131 153 12.0
+131 154 8.0
+131 155 4.0
+131 157 2.0
+131 160 20.0
+131 175 10.0
+132 2 1.0
+132 20 4.0
+132 37 0.033
+132 104 4.0
+132 133 600.0
+132 168 7.0
+132 175 5.0
+133 28 0.016
+133 37 0.03
+133 89 0.003
+133 90 0.002
+133 175 10.0
+135 134 300.0
+135 169 4.0
+134 20 11.0
+134 28 0.025
+134 37 0.081
+134 89 0.014
+134 97 0.002
+134 133 600.0
+134 135 400.0
+134 165 10.0
+134 175 25.0
+137 20 13.0
+137 28 0.018
+137 37 0.019
+137 89 0.004
+137 97 0.002
+137 133 600.0
+137 165 14.0
+137 175 29.0
+136 20 10.0
+136 28 0.004
+136 37 0.006
+136 89 0.008
+136 97 0.004
+136 133 600.0
+136 165 10.0
+136 175 13.0
+138 37 0.009
+138 40 0.002
+138 89 0.006
+138 94 0.004
+138 100 12.0
+138 106 4.0
+138 107 4.0
+138 109 4.0
+138 121 0.015
+138 132 600.0
+138 163 16.0
+138 165 8.0
+138 175 3.0
+139 20 5.0
+139 28 0.008
+139 37 0.014
+139 89 0.008
+139 132 600.0
+139 165 5.0
+139 175 19.0
+140 20 3.0
+140 28 0.004
+140 37 0.015
+140 139 800.0
+140 165 3.0
+140 175 15.0
+142 20 5.0
+142 28 0.004
+142 37 0.012
+142 89 0.004
+142 97 0.002
+142 133 600.0
+142 165 5.0
+142 175 13.0
+141 20 5.0
+141 28 0.004
+141 37 0.046
+141 89 0.004
+141 97 0.002
+141 133 600.0
+141 165 5.0
+141 175 19.0
+143 28 0.019
+143 37 0.036
+143 100 8.0
+143 102 5.0
+143 117 2.0
+143 147 400.0
+144 28 0.006
+144 37 0.003
+144 143 1200.0
+145 28 0.003
+147 28 0.003
+147 145 400.0
+148 28 0.003
+148 111 8.0
+148 145 400.0
+150 28 0.006
+150 37 0.007
+150 111 10.0
+150 143 1200.0
+149 28 0.006
+149 37 0.006
+149 143 1600.0
+151 28 0.006
+151 37 0.003
+151 143 1200.0
+152 28 0.006
+152 37 0.003
+152 143 1200.0
+153 28 0.003
+153 145 3700.0
+153 154 400.0
+154 145 700.0
+155 28 0.007
+155 145 1000.0
+155 147 900.0
+155 148 500.0
+155 154 400.0
+156 100 9.0
+157 28 0.003
+157 100 8.0
+157 145 400.0
+158 28 0.009
+158 37 0.006
+158 143 1400.0
+159 28 0.006
+159 37 0.003
+159 100 3.0
+159 105 2.0
+159 143 1400.0
+160 28 0.006
+160 37 0.003
+160 143 1400.0
+162 165 600.0
+161 89 0.007
+161 162 600.0
+161 164 400.0
+161 165 3500.0
+163 20 3.0
+163 40 0.003
+163 168 300.0
+164 28 0.003
+164 165 1800.0
+167 165 600.0
+166 20 3.0
+166 37 0.018
+166 104 3.0
+166 121 0.003
+166 163 300.0
+166 165 4600.0
+166 169 300.0
+165 20 3.0
+165 37 0.018
+165 104 3.0
+165 121 0.003
+165 163 300.0
+165 169 300.0
+168 20 6.0
+170 97 0.002
+170 165 600.0
+170 167 400.0
+173 34 0.002
+173 35 0.004
+173 97 0.006
+173 172 0.43
+172 28 0.008
+172 34 0.005
+172 37 0.021
+172 95 0.005
+172 164 16.0
+172 171 700.0
+175 1 17.0
+175 28 0.003
+175 37 0.062
+175 93 3.0
+175 97 0.002
+175 164 5.0
+175 172 0.13
+175 174 300.0
+176 1 10.0
+176 7 32.0
+176 10 16.0
+176 28 0.071
+176 37 0.027
+176 89 0.019
+176 90 0.002
+176 94 0.014
+176 97 0.004
+176 163 9.0
+176 164 89.0
+176 165 17.0
+176 168 5.0
+176 172 0.28
+176 175 7500.0

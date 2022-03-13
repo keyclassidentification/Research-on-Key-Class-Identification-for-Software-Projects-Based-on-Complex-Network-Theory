@@ -1,0 +1,13 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+Address & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+Event & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\times$ \\
+Header & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\times$ \\
+JChannel & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+Message & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+Locking & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+PingData & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+TP & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+View & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+个数 & $\textbf{9}$ & $\textbf{9}$ & $8$ & $6$ & $0$ & $6$ & $8$ & $4$ & $7$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $88$ & $66$ & $0$ & $66$ & $88$ & $44$ & $77$ \\
+准确率($\%$) & $\textbf{60}$ & $\textbf{60}$ & $53$ & $40$ & $0$ & $40$ & $53$ & $26$ & $46$ \\

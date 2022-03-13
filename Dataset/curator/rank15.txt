@@ -1,0 +1,8 @@
+org.apache.curator.generated.CuratorException
+org.apache.curator.generated.CuratorProjection
+org.apache.curator.generated.CuratorService$Iface
+org.apache.curator.generated.DiscoveryInstance
+org.apache.curator.generated.DiscoveryProjection
+org.apache.curator.generated.DiscoveryProviderProjection
+org.apache.curator.generated.LeaderProjection
+org.apache.curator.generated.PathChildrenCacheProjection

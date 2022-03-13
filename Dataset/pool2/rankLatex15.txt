@@ -1,0 +1,17 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+BaseGenericObjectPool & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+CallStack & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+EvictionPolicy & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ \\
+EvictionTimer & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+GenericKeyedObjectPool & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ \\
+GenericObjectPool & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+InterruptibleReentrantLock & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+LinkedBlockingDeque & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+KeyedObjectPool & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+KeyedPooledObjectFactory & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+ObjectPool & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+PooledObject & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+PooledObjectFactory & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+个数 & $11$ & $11$ & $10$ & $8$ & $4$ & $10$ & $\textbf{12}$ & $3$ & $10$ \\
+召回率($\%$) & $84$ & $84$ & $76$ & $61$ & $30$ & $76$ & $\textbf{92}$ & $23$ & $76$ \\
+准确率($\%$) & $73$ & $73$ & $66$ & $53$ & $26$ & $66$ & $\textbf{80}$ & $20$ & $66$ \\

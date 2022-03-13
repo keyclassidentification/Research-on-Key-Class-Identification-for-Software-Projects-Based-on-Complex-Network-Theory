@@ -1,0 +1,13 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+AbstractWell & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+AbstractXoShiRo128 & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+IntProvider & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+AbstractXoRoShiRo1024 & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+AbstractXoRoShiRo128 & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+AbstractXoShiRo256 & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+AbstractXoShiRo512 & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+LongProvider & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+UniformRandomProvider & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+个数 & $\textbf{9}$ & $\textbf{9}$ & $4$ & $8$ & $6$ & $4$ & $\textbf{9}$ & $1$ & $\textbf{9}$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $44$ & $88$ & $66$ & $44$ & $\textbf{100}$ & $11$ & $\textbf{100}$ \\
+准确率($\%$) & $\textbf{60}$ & $\textbf{60}$ & $26$ & $53$ & $40$ & $26$ & $\textbf{60}$ & $6$ & $\textbf{60}$ \\

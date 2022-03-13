@@ -1,0 +1,3309 @@
+*Vertices 546
+1 "net.oauth.OAuth"
+2 "net.oauth.OAuthAccessor"
+3 "net.oauth.OAuthConsumer"
+4 "net.oauth.OAuthException"
+5 "net.oauth.OAuthMessage"
+6 "net.oauth.OAuthProblemException"
+7 "net.oauth.OAuthServiceProvider"
+8 "net.oauth.OAuthValidator"
+9 "net.oauth.server.OAuthServlet"
+10 "org.apache.commons.codec.binary.Base64"
+11 "org.apache.commons.codec.binary.Hex"
+12 "org.apache.commons.codec.digest.DigestUtils"
+13 "org.apache.roller.RollerException"
+14 "org.apache.roller.planet.business.AbstractManagerImpl"
+15 "org.apache.roller.planet.business.BootstrapException"
+16 "org.apache.roller.planet.business.InitializationException"
+17 "org.apache.roller.planet.business.Manager"
+18 "org.apache.roller.planet.business.MultiPlanetURLStrategy"
+19 "org.apache.roller.planet.business.Planet"
+20 "org.apache.roller.planet.business.PlanetManager"
+21 "org.apache.roller.planet.business.PlanetProvider"
+22 "org.apache.roller.planet.business.PlanetURLStrategy"
+23 "org.apache.roller.planet.business.fetcher.FeedFetcher"
+24 "org.apache.roller.planet.business.fetcher.FetcherException"
+25 "org.apache.roller.planet.business.fetcher.RomeFeedFetcher"
+26 "org.apache.roller.planet.business.jpa.JPAPlanetImpl"
+27 "org.apache.roller.planet.business.jpa.JPAPlanetManagerImpl"
+28 "org.apache.roller.planet.business.updater.FeedUpdater"
+29 "org.apache.roller.planet.business.updater.SingleThreadedFeedUpdater"
+30 "org.apache.roller.planet.business.updater.UpdaterException"
+31 "org.apache.roller.planet.pojos.Author"
+32 "org.apache.roller.planet.pojos.Category"
+33 "org.apache.roller.planet.pojos.Planet"
+34 "org.apache.roller.planet.pojos.PlanetGroup"
+35 "org.apache.roller.planet.pojos.StaticTemplate"
+36 "org.apache.roller.planet.pojos.Subscription"
+37 "org.apache.roller.planet.pojos.SubscriptionEntry"
+38 "org.apache.roller.planet.pojos.Template"
+39 "org.apache.roller.planet.tasks.GeneratePlanetTask"
+40 "org.apache.roller.planet.tasks.PlanetTask"
+41 "org.apache.roller.planet.tasks.RefreshPlanetTask"
+42 "org.apache.roller.planet.tasks.StaticPlanetModel"
+43 "org.apache.roller.planet.util.rome.ContentModule"
+44 "org.apache.roller.planet.util.rome.ContentModuleGenerator"
+45 "org.apache.roller.planet.util.rome.ContentModuleImpl"
+46 "org.apache.roller.planet.util.rome.ContentModuleParser"
+47 "org.apache.roller.planet.util.rome.PlanetConverterForRSS091U"
+48 "org.apache.roller.planet.util.rome.PlanetRSS091NParser"
+49 "org.apache.roller.util.DateUtil"
+50 "org.apache.roller.util.ISO8601DateParser"
+51 "org.apache.roller.util.PropertyExpander"
+52 "org.apache.roller.util.RegexUtil"
+53 "org.apache.roller.util.UUIDGenerator"
+54 "org.apache.roller.weblogger.TestUtils"
+55 "org.apache.roller.weblogger.WebloggerException"
+56 "org.apache.roller.weblogger.business.AbstractURLStrategy"
+57 "org.apache.roller.weblogger.business.BookmarkManager"
+58 "org.apache.roller.weblogger.business.BootstrapException"
+59 "org.apache.roller.weblogger.business.DatabaseProvider"
+60 "org.apache.roller.weblogger.business.DatabaseProvider$ConfigurationType"
+61 "org.apache.roller.weblogger.business.FileContentManager"
+62 "org.apache.roller.weblogger.business.FileContentManagerImpl"
+63 "org.apache.roller.weblogger.business.FileIOException"
+64 "org.apache.roller.weblogger.business.FileNotFoundException"
+65 "org.apache.roller.weblogger.business.FilePathException"
+66 "org.apache.roller.weblogger.business.GuiceWebloggerProvider"
+67 "org.apache.roller.weblogger.business.HitCountQueue"
+68 "org.apache.roller.weblogger.business.InitializationException"
+69 "org.apache.roller.weblogger.business.MailProvider"
+70 "org.apache.roller.weblogger.business.MailProvider$ConfigurationType"
+71 "org.apache.roller.weblogger.business.MediaFileManager"
+72 "org.apache.roller.weblogger.business.MultiWeblogURLStrategy"
+73 "org.apache.roller.weblogger.business.OAuthManager"
+74 "org.apache.roller.weblogger.business.PreviewURLStrategy"
+75 "org.apache.roller.weblogger.business.PropertiesManager"
+76 "org.apache.roller.weblogger.business.TestTask"
+77 "org.apache.roller.weblogger.business.URLStrategy"
+78 "org.apache.roller.weblogger.business.UserManager"
+79 "org.apache.roller.weblogger.business.WeblogEntryManager"
+80 "org.apache.roller.weblogger.business.WeblogManager"
+81 "org.apache.roller.weblogger.business.Weblogger"
+82 "org.apache.roller.weblogger.business.WebloggerFactory"
+83 "org.apache.roller.weblogger.business.WebloggerImpl"
+84 "org.apache.roller.weblogger.business.WebloggerProvider"
+85 "org.apache.roller.weblogger.business.jpa.JPAAutoPingManagerImpl"
+86 "org.apache.roller.weblogger.business.jpa.JPABookmarkManagerImpl"
+87 "org.apache.roller.weblogger.business.jpa.JPAMediaFileManagerImpl"
+88 "org.apache.roller.weblogger.business.jpa.JPAOAuthManagerImpl"
+89 "org.apache.roller.weblogger.business.jpa.JPAPersistenceStrategy"
+90 "org.apache.roller.weblogger.business.jpa.JPAPingQueueManagerImpl"
+91 "org.apache.roller.weblogger.business.jpa.JPAPingTargetManagerImpl"
+92 "org.apache.roller.weblogger.business.jpa.JPAPropertiesManagerImpl"
+93 "org.apache.roller.weblogger.business.jpa.JPARefererManagerImpl"
+94 "org.apache.roller.weblogger.business.jpa.JPARefererManagerImpl$LinkbackExtractorRunnable"
+95 "org.apache.roller.weblogger.business.jpa.JPAThreadManagerImpl"
+96 "org.apache.roller.weblogger.business.jpa.JPAUserManagerImpl"
+97 "org.apache.roller.weblogger.business.jpa.JPAWeblogEntryManagerImpl"
+98 "org.apache.roller.weblogger.business.jpa.JPAWeblogManagerImpl"
+99 "org.apache.roller.weblogger.business.jpa.JPAWebloggerImpl"
+100 "org.apache.roller.weblogger.business.pings.AutoPingManager"
+101 "org.apache.roller.weblogger.business.pings.PingQueueManager"
+102 "org.apache.roller.weblogger.business.pings.PingQueueProcessor"
+103 "org.apache.roller.weblogger.business.pings.PingQueueTask"
+104 "org.apache.roller.weblogger.business.pings.PingTargetManager"
+105 "org.apache.roller.weblogger.business.pings.WeblogUpdatePinger"
+106 "org.apache.roller.weblogger.business.pings.WeblogUpdatePinger$PingResult"
+107 "org.apache.roller.weblogger.business.plugins.PluginManager"
+108 "org.apache.roller.weblogger.business.plugins.PluginManagerImpl"
+109 "org.apache.roller.weblogger.business.plugins.comment.AutoformatPlugin"
+110 "org.apache.roller.weblogger.business.plugins.comment.HTMLSubsetPlugin"
+111 "org.apache.roller.weblogger.business.plugins.comment.LinkMarkupPlugin"
+112 "org.apache.roller.weblogger.business.plugins.comment.WeblogEntryCommentPlugin"
+113 "org.apache.roller.weblogger.business.plugins.entry.AcronymsPlugin"
+114 "org.apache.roller.weblogger.business.plugins.entry.BookmarkPlugin"
+115 "org.apache.roller.weblogger.business.plugins.entry.ConvertLineBreaksPlugin"
+116 "org.apache.roller.weblogger.business.plugins.entry.GoogleLinkPlugin"
+117 "org.apache.roller.weblogger.business.plugins.entry.ObfuscateEmailPlugin"
+118 "org.apache.roller.weblogger.business.plugins.entry.SearchPluginBase"
+119 "org.apache.roller.weblogger.business.plugins.entry.SmileysPlugin"
+120 "org.apache.roller.weblogger.business.plugins.entry.TopicTagPlugin"
+121 "org.apache.roller.weblogger.business.plugins.entry.WeblogEntryPlugin"
+122 "org.apache.roller.weblogger.business.plugins.entry.WikipediaLinkPlugin"
+123 "org.apache.roller.weblogger.business.referrers.IncomingReferrer"
+124 "org.apache.roller.weblogger.business.referrers.QueuedReferrerProcessingJob"
+125 "org.apache.roller.weblogger.business.referrers.RefererManager"
+126 "org.apache.roller.weblogger.business.referrers.ReferrerProcessingJob"
+127 "org.apache.roller.weblogger.business.referrers.ReferrerQueueManager"
+128 "org.apache.roller.weblogger.business.referrers.ReferrerQueueManagerImpl"
+129 "org.apache.roller.weblogger.business.runnable.ContinuousWorkerThread"
+130 "org.apache.roller.weblogger.business.runnable.HitCountProcessingJob"
+131 "org.apache.roller.weblogger.business.runnable.Job"
+132 "org.apache.roller.weblogger.business.runnable.ResetHitCountsTask"
+133 "org.apache.roller.weblogger.business.runnable.RollerTask"
+134 "org.apache.roller.weblogger.business.runnable.RollerTaskWithLeasing"
+135 "org.apache.roller.weblogger.business.runnable.ScheduledEntriesTask"
+136 "org.apache.roller.weblogger.business.runnable.TaskRunner"
+137 "org.apache.roller.weblogger.business.runnable.TaskScheduler"
+138 "org.apache.roller.weblogger.business.runnable.ThreadManager"
+139 "org.apache.roller.weblogger.business.runnable.ThreadManagerImpl"
+140 "org.apache.roller.weblogger.business.runnable.TurnoverReferersTask"
+141 "org.apache.roller.weblogger.business.runnable.WorkerThread"
+142 "org.apache.roller.weblogger.business.search.IndexManager"
+143 "org.apache.roller.weblogger.business.search.IndexManagerImpl"
+144 "org.apache.roller.weblogger.business.search.IndexUtil"
+145 "org.apache.roller.weblogger.business.search.operations.AddEntryOperation"
+146 "org.apache.roller.weblogger.business.search.operations.IndexOperation"
+147 "org.apache.roller.weblogger.business.search.operations.ReIndexEntryOperation"
+148 "org.apache.roller.weblogger.business.search.operations.ReadFromIndexOperation"
+149 "org.apache.roller.weblogger.business.search.operations.RebuildWebsiteIndexOperation"
+150 "org.apache.roller.weblogger.business.search.operations.RemoveEntryOperation"
+151 "org.apache.roller.weblogger.business.search.operations.RemoveWebsiteIndexOperation"
+152 "org.apache.roller.weblogger.business.search.operations.SearchOperation"
+153 "org.apache.roller.weblogger.business.search.operations.WriteToIndexOperation"
+154 "org.apache.roller.weblogger.business.startup.ClasspathDatabaseScriptProvider"
+155 "org.apache.roller.weblogger.business.startup.DatabaseInstaller"
+156 "org.apache.roller.weblogger.business.startup.DatabaseScriptProvider"
+157 "org.apache.roller.weblogger.business.startup.SQLScriptRunner"
+158 "org.apache.roller.weblogger.business.startup.StartupException"
+159 "org.apache.roller.weblogger.business.startup.WebloggerStartup"
+160 "org.apache.roller.weblogger.business.themes.SharedTheme"
+161 "org.apache.roller.weblogger.business.themes.SharedThemeFromDir"
+162 "org.apache.roller.weblogger.business.themes.SharedThemeResourceFromDir"
+163 "org.apache.roller.weblogger.business.themes.SharedThemeTemplate"
+164 "org.apache.roller.weblogger.business.themes.SharedThemeTemplateCode"
+165 "org.apache.roller.weblogger.business.themes.ThemeInitializationException"
+166 "org.apache.roller.weblogger.business.themes.ThemeManager"
+167 "org.apache.roller.weblogger.business.themes.ThemeManagerImpl"
+168 "org.apache.roller.weblogger.business.themes.ThemeMetadata"
+169 "org.apache.roller.weblogger.business.themes.ThemeMetadataParser"
+170 "org.apache.roller.weblogger.business.themes.ThemeMetadataTemplate"
+171 "org.apache.roller.weblogger.business.themes.ThemeMetadataTemplateCode"
+172 "org.apache.roller.weblogger.business.themes.ThemeNotFoundException"
+173 "org.apache.roller.weblogger.business.themes.ThemeParsingException"
+174 "org.apache.roller.weblogger.business.themes.WeblogCustomTheme"
+175 "org.apache.roller.weblogger.business.themes.WeblogSharedTheme"
+176 "org.apache.roller.weblogger.config.PingConfig"
+177 "org.apache.roller.weblogger.config.WebloggerConfig"
+178 "org.apache.roller.weblogger.config.WebloggerRuntimeConfig"
+179 "org.apache.roller.weblogger.config.runtime.ConfigDef"
+180 "org.apache.roller.weblogger.config.runtime.DisplayGroup"
+181 "org.apache.roller.weblogger.config.runtime.PropertyDef"
+182 "org.apache.roller.weblogger.config.runtime.RuntimeConfigDefs"
+183 "org.apache.roller.weblogger.config.runtime.RuntimeConfigDefsParser"
+184 "org.apache.roller.weblogger.planet.business.PlanetURLStrategy"
+185 "org.apache.roller.weblogger.planet.business.WebloggerRomeFeedFetcher"
+186 "org.apache.roller.weblogger.planet.tasks.RefreshRollerPlanetTask"
+187 "org.apache.roller.weblogger.planet.tasks.SyncWebsitesTask"
+188 "org.apache.roller.weblogger.planet.ui.PlanetConfig"
+189 "org.apache.roller.weblogger.planet.ui.PlanetGroups"
+190 "org.apache.roller.weblogger.planet.ui.PlanetGroupsBean"
+191 "org.apache.roller.weblogger.planet.ui.PlanetSubscriptions"
+192 "org.apache.roller.weblogger.planet.ui.PlanetUIAction"
+193 "org.apache.roller.weblogger.pojos.AutoPing"
+194 "org.apache.roller.weblogger.pojos.CommentSearchCriteria"
+195 "org.apache.roller.weblogger.pojos.FileContent"
+196 "org.apache.roller.weblogger.pojos.GlobalPermission"
+197 "org.apache.roller.weblogger.pojos.MediaFile"
+198 "org.apache.roller.weblogger.pojos.MediaFileComparator"
+199 "org.apache.roller.weblogger.pojos.MediaFileComparator$MediaFileComparatorType"
+200 "org.apache.roller.weblogger.pojos.MediaFileDirectory"
+201 "org.apache.roller.weblogger.pojos.MediaFileDirectoryComparator"
+202 "org.apache.roller.weblogger.pojos.MediaFileDirectoryComparator$DirectoryComparatorType"
+203 "org.apache.roller.weblogger.pojos.MediaFileFilter"
+204 "org.apache.roller.weblogger.pojos.MediaFileFilter$MediaFileOrder"
+205 "org.apache.roller.weblogger.pojos.MediaFileFilter$SizeFilterType"
+206 "org.apache.roller.weblogger.pojos.MediaFileTag"
+207 "org.apache.roller.weblogger.pojos.MediaFileType"
+208 "org.apache.roller.weblogger.pojos.OAuthAccessorRecord"
+209 "org.apache.roller.weblogger.pojos.OAuthConsumerRecord"
+210 "org.apache.roller.weblogger.pojos.ObjectPermission"
+211 "org.apache.roller.weblogger.pojos.PingQueueEntry"
+212 "org.apache.roller.weblogger.pojos.PingTarget"
+213 "org.apache.roller.weblogger.pojos.Resource"
+214 "org.apache.roller.weblogger.pojos.RollerPermission"
+215 "org.apache.roller.weblogger.pojos.RuntimeConfigProperty"
+216 "org.apache.roller.weblogger.pojos.StatCount"
+217 "org.apache.roller.weblogger.pojos.StatCountCountComparator"
+218 "org.apache.roller.weblogger.pojos.StaticTemplate"
+219 "org.apache.roller.weblogger.pojos.StaticThemeTemplate"
+220 "org.apache.roller.weblogger.pojos.TagStat"
+221 "org.apache.roller.weblogger.pojos.TagStatComparator"
+222 "org.apache.roller.weblogger.pojos.TagStatCountComparator"
+223 "org.apache.roller.weblogger.pojos.TaskLock"
+224 "org.apache.roller.weblogger.pojos.Template"
+225 "org.apache.roller.weblogger.pojos.TemplateCode"
+226 "org.apache.roller.weblogger.pojos.Theme"
+227 "org.apache.roller.weblogger.pojos.ThemeResource"
+228 "org.apache.roller.weblogger.pojos.ThemeTemplate"
+229 "org.apache.roller.weblogger.pojos.User"
+230 "org.apache.roller.weblogger.pojos.UserAttribute"
+231 "org.apache.roller.weblogger.pojos.UserAttribute$Attributes"
+232 "org.apache.roller.weblogger.pojos.UserRole"
+233 "org.apache.roller.weblogger.pojos.Weblog"
+234 "org.apache.roller.weblogger.pojos.WeblogBookmark"
+235 "org.apache.roller.weblogger.pojos.WeblogBookmarkFolder"
+236 "org.apache.roller.weblogger.pojos.WeblogCategory"
+237 "org.apache.roller.weblogger.pojos.WeblogEntry"
+238 "org.apache.roller.weblogger.pojos.WeblogEntryAttribute"
+239 "org.apache.roller.weblogger.pojos.WeblogEntryComment"
+240 "org.apache.roller.weblogger.pojos.WeblogEntrySearchCriteria"
+241 "org.apache.roller.weblogger.pojos.WeblogEntrySearchCriteria$SortBy"
+242 "org.apache.roller.weblogger.pojos.WeblogEntrySearchCriteria$SortOrder"
+243 "org.apache.roller.weblogger.pojos.WeblogEntryTag"
+244 "org.apache.roller.weblogger.pojos.WeblogEntryTagAggregate"
+245 "org.apache.roller.weblogger.pojos.WeblogEntryTagComparator"
+246 "org.apache.roller.weblogger.pojos.WeblogEntryWrapperComparator"
+247 "org.apache.roller.weblogger.pojos.WeblogHitCount"
+248 "org.apache.roller.weblogger.pojos.WeblogPermission"
+249 "org.apache.roller.weblogger.pojos.WeblogReferrer"
+250 "org.apache.roller.weblogger.pojos.WeblogTemplate"
+251 "org.apache.roller.weblogger.pojos.WeblogTheme"
+252 "org.apache.roller.weblogger.pojos.WeblogThemeAssoc"
+253 "org.apache.roller.weblogger.pojos.WeblogThemeTemplateCode"
+254 "org.apache.roller.weblogger.pojos.wrapper.ThemeTemplateWrapper"
+255 "org.apache.roller.weblogger.pojos.wrapper.UserWrapper"
+256 "org.apache.roller.weblogger.pojos.wrapper.WeblogBookmarkFolderWrapper"
+257 "org.apache.roller.weblogger.pojos.wrapper.WeblogBookmarkWrapper"
+258 "org.apache.roller.weblogger.pojos.wrapper.WeblogCategoryWrapper"
+259 "org.apache.roller.weblogger.pojos.wrapper.WeblogEntryAttributeWrapper"
+260 "org.apache.roller.weblogger.pojos.wrapper.WeblogEntryCommentWrapper"
+261 "org.apache.roller.weblogger.pojos.wrapper.WeblogEntryTagWrapper"
+262 "org.apache.roller.weblogger.pojos.wrapper.WeblogEntryWrapper"
+263 "org.apache.roller.weblogger.pojos.wrapper.WeblogReferrerWrapper"
+264 "org.apache.roller.weblogger.pojos.wrapper.WeblogWrapper"
+265 "org.apache.roller.weblogger.ui.core.CmaRollerContext"
+266 "org.apache.roller.weblogger.ui.core.RollerContext"
+267 "org.apache.roller.weblogger.ui.core.RollerSession"
+268 "org.apache.roller.weblogger.ui.core.filters.BootstrapFilter"
+269 "org.apache.roller.weblogger.ui.core.filters.CustomOpenIDAuthenticationProcessingFilter"
+270 "org.apache.roller.weblogger.ui.core.filters.IPBanFilter"
+271 "org.apache.roller.weblogger.ui.core.filters.InitFilter"
+272 "org.apache.roller.weblogger.ui.core.filters.LoadSaltFilter"
+273 "org.apache.roller.weblogger.ui.core.filters.PersistenceSessionFilter"
+274 "org.apache.roller.weblogger.ui.core.filters.RoleAssignmentFilter"
+275 "org.apache.roller.weblogger.ui.core.filters.RoleAssignmentRequestWrapper"
+276 "org.apache.roller.weblogger.ui.core.filters.SchemeEnforcementFilter"
+277 "org.apache.roller.weblogger.ui.core.filters.ValidateSaltFilter"
+278 "org.apache.roller.weblogger.ui.core.plugins.TextEditor"
+279 "org.apache.roller.weblogger.ui.core.plugins.UIPluginManager"
+280 "org.apache.roller.weblogger.ui.core.plugins.UIPluginManagerImpl"
+281 "org.apache.roller.weblogger.ui.core.plugins.WeblogEntryEditor"
+282 "org.apache.roller.weblogger.ui.core.plugins.XinhaEditor"
+283 "org.apache.roller.weblogger.ui.core.security.AuthoritiesPopulator"
+284 "org.apache.roller.weblogger.ui.core.security.AutoProvision"
+285 "org.apache.roller.weblogger.ui.core.security.BasicUserAutoProvision"
+286 "org.apache.roller.weblogger.ui.core.security.CustomUserRegistry"
+287 "org.apache.roller.weblogger.ui.core.security.RollerUserDetails"
+288 "org.apache.roller.weblogger.ui.core.security.RollerUserDetailsService"
+289 "org.apache.roller.weblogger.ui.core.tags.calendar.BigWeblogCalendarModel"
+290 "org.apache.roller.weblogger.ui.core.tags.calendar.CalendarModel"
+291 "org.apache.roller.weblogger.ui.core.tags.calendar.CalendarTag"
+292 "org.apache.roller.weblogger.ui.core.tags.calendar.WeblogCalendarModel"
+293 "org.apache.roller.weblogger.ui.core.util.menu.Menu"
+294 "org.apache.roller.weblogger.ui.core.util.menu.MenuHelper"
+295 "org.apache.roller.weblogger.ui.core.util.menu.MenuTab"
+296 "org.apache.roller.weblogger.ui.core.util.menu.MenuTabItem"
+297 "org.apache.roller.weblogger.ui.core.util.menu.ParsedMenu"
+298 "org.apache.roller.weblogger.ui.core.util.menu.ParsedTab"
+299 "org.apache.roller.weblogger.ui.core.util.menu.ParsedTabItem"
+300 "org.apache.roller.weblogger.ui.rendering.Renderer"
+301 "org.apache.roller.weblogger.ui.rendering.RendererFactory"
+302 "org.apache.roller.weblogger.ui.rendering.RendererManager"
+303 "org.apache.roller.weblogger.ui.rendering.RenderingException"
+304 "org.apache.roller.weblogger.ui.rendering.RequestMapper"
+305 "org.apache.roller.weblogger.ui.rendering.WeblogRequestMapper"
+306 "org.apache.roller.weblogger.ui.rendering.filters.RequestMappingFilter"
+307 "org.apache.roller.weblogger.ui.rendering.mobile.MobileDeviceRepository"
+308 "org.apache.roller.weblogger.ui.rendering.mobile.MobileDeviceRepository$DeviceType"
+309 "org.apache.roller.weblogger.ui.rendering.model.CalendarModel"
+310 "org.apache.roller.weblogger.ui.rendering.model.ConfigModel"
+311 "org.apache.roller.weblogger.ui.rendering.model.FeedModel"
+312 "org.apache.roller.weblogger.ui.rendering.model.FeedModel$FeedCommentsPager"
+313 "org.apache.roller.weblogger.ui.rendering.model.FeedModel$FeedEntriesPager"
+314 "org.apache.roller.weblogger.ui.rendering.model.FeedModel$FeedFilesPager"
+315 "org.apache.roller.weblogger.ui.rendering.model.MenuModel"
+316 "org.apache.roller.weblogger.ui.rendering.model.MessageModel"
+317 "org.apache.roller.weblogger.ui.rendering.model.Model"
+318 "org.apache.roller.weblogger.ui.rendering.model.ModelLoader"
+319 "org.apache.roller.weblogger.ui.rendering.model.PageModel"
+320 "org.apache.roller.weblogger.ui.rendering.model.PlanetModel"
+321 "org.apache.roller.weblogger.ui.rendering.model.PreviewPageModel"
+322 "org.apache.roller.weblogger.ui.rendering.model.PreviewURLModel"
+323 "org.apache.roller.weblogger.ui.rendering.model.SearchResultsFeedModel"
+324 "org.apache.roller.weblogger.ui.rendering.model.SearchResultsModel"
+325 "org.apache.roller.weblogger.ui.rendering.model.SiteModel"
+326 "org.apache.roller.weblogger.ui.rendering.model.URLModel"
+327 "org.apache.roller.weblogger.ui.rendering.model.URLModel$CommentFeedURLS"
+328 "org.apache.roller.weblogger.ui.rendering.model.URLModel$EntryFeedURLS"
+329 "org.apache.roller.weblogger.ui.rendering.model.URLModel$FeedURLS"
+330 "org.apache.roller.weblogger.ui.rendering.model.URLModel$MediaFileFeedURLS"
+331 "org.apache.roller.weblogger.ui.rendering.model.UtilitiesModel"
+332 "org.apache.roller.weblogger.ui.rendering.pagers.AbstractPager"
+333 "org.apache.roller.weblogger.ui.rendering.pagers.AbstractWeblogEntriesPager"
+334 "org.apache.roller.weblogger.ui.rendering.pagers.CommentsPager"
+335 "org.apache.roller.weblogger.ui.rendering.pagers.MediaFilesPager"
+336 "org.apache.roller.weblogger.ui.rendering.pagers.Pager"
+337 "org.apache.roller.weblogger.ui.rendering.pagers.PlanetEntriesPager"
+338 "org.apache.roller.weblogger.ui.rendering.pagers.SearchResultsFeedPager"
+339 "org.apache.roller.weblogger.ui.rendering.pagers.SearchResultsPager"
+340 "org.apache.roller.weblogger.ui.rendering.pagers.UsersPager"
+341 "org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesDayPager"
+342 "org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesLatestPager"
+343 "org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesListPager"
+344 "org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesMonthPager"
+345 "org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesPager"
+346 "org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesPermalinkPager"
+347 "org.apache.roller.weblogger.ui.rendering.pagers.WeblogEntriesPreviewPager"
+348 "org.apache.roller.weblogger.ui.rendering.pagers.WeblogsPager"
+349 "org.apache.roller.weblogger.ui.rendering.plugins.comments.AkismetCommentValidator"
+350 "org.apache.roller.weblogger.ui.rendering.plugins.comments.BlacklistCommentValidator"
+351 "org.apache.roller.weblogger.ui.rendering.plugins.comments.CommentAuthenticator"
+352 "org.apache.roller.weblogger.ui.rendering.plugins.comments.CommentValidationManager"
+353 "org.apache.roller.weblogger.ui.rendering.plugins.comments.CommentValidator"
+354 "org.apache.roller.weblogger.ui.rendering.plugins.comments.DefaultCommentAuthenticator"
+355 "org.apache.roller.weblogger.ui.rendering.plugins.comments.ExcessLinksCommentValidator"
+356 "org.apache.roller.weblogger.ui.rendering.plugins.comments.ExcessSizeCommentValidator"
+357 "org.apache.roller.weblogger.ui.rendering.plugins.comments.LdapCommentAuthenticator"
+358 "org.apache.roller.weblogger.ui.rendering.plugins.comments.MathCommentAuthenticator"
+359 "org.apache.roller.weblogger.ui.rendering.plugins.comments.TrackbackLinkbackCommentValidator"
+360 "org.apache.roller.weblogger.ui.rendering.servlets.CommentAuthenticatorServlet"
+361 "org.apache.roller.weblogger.ui.rendering.servlets.CommentServlet"
+362 "org.apache.roller.weblogger.ui.rendering.servlets.FeedServlet"
+363 "org.apache.roller.weblogger.ui.rendering.servlets.MediaResourceServlet"
+364 "org.apache.roller.weblogger.ui.rendering.servlets.PageServlet"
+365 "org.apache.roller.weblogger.ui.rendering.servlets.PlanetFeedServlet"
+366 "org.apache.roller.weblogger.ui.rendering.servlets.PreviewResourceServlet"
+367 "org.apache.roller.weblogger.ui.rendering.servlets.PreviewServlet"
+368 "org.apache.roller.weblogger.ui.rendering.servlets.PreviewThemeImageServlet"
+369 "org.apache.roller.weblogger.ui.rendering.servlets.RSDServlet"
+370 "org.apache.roller.weblogger.ui.rendering.servlets.ResourceServlet"
+371 "org.apache.roller.weblogger.ui.rendering.servlets.SearchServlet"
+372 "org.apache.roller.weblogger.ui.rendering.servlets.TrackbackServlet"
+373 "org.apache.roller.weblogger.ui.rendering.util.InvalidRequestException"
+374 "org.apache.roller.weblogger.ui.rendering.util.ModDateHeaderUtil"
+375 "org.apache.roller.weblogger.ui.rendering.util.ParsedRequest"
+376 "org.apache.roller.weblogger.ui.rendering.util.PlanetRequest"
+377 "org.apache.roller.weblogger.ui.rendering.util.WeblogCommentRequest"
+378 "org.apache.roller.weblogger.ui.rendering.util.WeblogEntryCommentForm"
+379 "org.apache.roller.weblogger.ui.rendering.util.WeblogFeedRequest"
+380 "org.apache.roller.weblogger.ui.rendering.util.WeblogMediaResourceRequest"
+381 "org.apache.roller.weblogger.ui.rendering.util.WeblogPageRequest"
+382 "org.apache.roller.weblogger.ui.rendering.util.WeblogPreviewRequest"
+383 "org.apache.roller.weblogger.ui.rendering.util.WeblogPreviewResourceRequest"
+384 "org.apache.roller.weblogger.ui.rendering.util.WeblogRequest"
+385 "org.apache.roller.weblogger.ui.rendering.util.WeblogResourceRequest"
+386 "org.apache.roller.weblogger.ui.rendering.util.WeblogSearchRequest"
+387 "org.apache.roller.weblogger.ui.rendering.util.WeblogTrackbackRequest"
+388 "org.apache.roller.weblogger.ui.rendering.util.cache.PlanetCache"
+389 "org.apache.roller.weblogger.ui.rendering.util.cache.SaltCache"
+390 "org.apache.roller.weblogger.ui.rendering.util.cache.SiteWideCache"
+391 "org.apache.roller.weblogger.ui.rendering.util.cache.WeblogCacheWarmupJob"
+392 "org.apache.roller.weblogger.ui.rendering.util.cache.WeblogFeedCache"
+393 "org.apache.roller.weblogger.ui.rendering.util.cache.WeblogPageCache"
+394 "org.apache.roller.weblogger.ui.rendering.velocity.RollerResourceLoader"
+395 "org.apache.roller.weblogger.ui.rendering.velocity.RollerVelocity"
+396 "org.apache.roller.weblogger.ui.rendering.velocity.ThemeResourceLoader"
+397 "org.apache.roller.weblogger.ui.rendering.velocity.VelocityRenderer"
+398 "org.apache.roller.weblogger.ui.rendering.velocity.VelocityRendererFactory"
+399 "org.apache.roller.weblogger.ui.rendering.velocity.WebappResourceLoader"
+400 "org.apache.roller.weblogger.ui.struts2.admin.CacheInfo"
+401 "org.apache.roller.weblogger.ui.struts2.admin.CommonPingTargetAdd"
+402 "org.apache.roller.weblogger.ui.struts2.admin.CommonPingTargetEdit"
+403 "org.apache.roller.weblogger.ui.struts2.admin.CommonPingTargets"
+404 "org.apache.roller.weblogger.ui.struts2.admin.CreateUser"
+405 "org.apache.roller.weblogger.ui.struts2.admin.CreateUserBean"
+406 "org.apache.roller.weblogger.ui.struts2.admin.GlobalCommentManagement"
+407 "org.apache.roller.weblogger.ui.struts2.admin.GlobalCommentManagementBean"
+408 "org.apache.roller.weblogger.ui.struts2.admin.GlobalConfig"
+409 "org.apache.roller.weblogger.ui.struts2.admin.ModifyUser"
+410 "org.apache.roller.weblogger.ui.struts2.admin.UserAdmin"
+411 "org.apache.roller.weblogger.ui.struts2.ajax.CommentDataServlet"
+412 "org.apache.roller.weblogger.ui.struts2.ajax.UserDataServlet"
+413 "org.apache.roller.weblogger.ui.struts2.common.PingTargetAddBase"
+414 "org.apache.roller.weblogger.ui.struts2.common.PingTargetEditBase"
+415 "org.apache.roller.weblogger.ui.struts2.common.PingTargetFormBean"
+416 "org.apache.roller.weblogger.ui.struts2.common.PingTargetsBase"
+417 "org.apache.roller.weblogger.ui.struts2.core.CreateWeblog"
+418 "org.apache.roller.weblogger.ui.struts2.core.CreateWeblogBean"
+419 "org.apache.roller.weblogger.ui.struts2.core.Install"
+420 "org.apache.roller.weblogger.ui.struts2.core.Login"
+421 "org.apache.roller.weblogger.ui.struts2.core.MainMenu"
+422 "org.apache.roller.weblogger.ui.struts2.core.OAuthAuthorize"
+423 "org.apache.roller.weblogger.ui.struts2.core.OAuthKeys"
+424 "org.apache.roller.weblogger.ui.struts2.core.Profile"
+425 "org.apache.roller.weblogger.ui.struts2.core.ProfileBean"
+426 "org.apache.roller.weblogger.ui.struts2.core.Register"
+427 "org.apache.roller.weblogger.ui.struts2.core.Setup"
+428 "org.apache.roller.weblogger.ui.struts2.editor.BookmarkAdd"
+429 "org.apache.roller.weblogger.ui.struts2.editor.BookmarkBean"
+430 "org.apache.roller.weblogger.ui.struts2.editor.BookmarkEdit"
+431 "org.apache.roller.weblogger.ui.struts2.editor.Bookmarks"
+432 "org.apache.roller.weblogger.ui.struts2.editor.BookmarksImport"
+433 "org.apache.roller.weblogger.ui.struts2.editor.Categories"
+434 "org.apache.roller.weblogger.ui.struts2.editor.CategoryAdd"
+435 "org.apache.roller.weblogger.ui.struts2.editor.CategoryBean"
+436 "org.apache.roller.weblogger.ui.struts2.editor.CategoryEdit"
+437 "org.apache.roller.weblogger.ui.struts2.editor.CategoryRemove"
+438 "org.apache.roller.weblogger.ui.struts2.editor.Comments"
+439 "org.apache.roller.weblogger.ui.struts2.editor.CommentsBean"
+440 "org.apache.roller.weblogger.ui.struts2.editor.Entries"
+441 "org.apache.roller.weblogger.ui.struts2.editor.EntriesBean"
+442 "org.apache.roller.weblogger.ui.struts2.editor.EntryAdd"
+443 "org.apache.roller.weblogger.ui.struts2.editor.EntryAddWithMediaFile"
+444 "org.apache.roller.weblogger.ui.struts2.editor.EntryBase"
+445 "org.apache.roller.weblogger.ui.struts2.editor.EntryBean"
+446 "org.apache.roller.weblogger.ui.struts2.editor.EntryEdit"
+447 "org.apache.roller.weblogger.ui.struts2.editor.EntryRemove"
+448 "org.apache.roller.weblogger.ui.struts2.editor.FolderAdd"
+449 "org.apache.roller.weblogger.ui.struts2.editor.FolderBean"
+450 "org.apache.roller.weblogger.ui.struts2.editor.FolderEdit"
+451 "org.apache.roller.weblogger.ui.struts2.editor.Maintenance"
+452 "org.apache.roller.weblogger.ui.struts2.editor.MediaFileAdd"
+453 "org.apache.roller.weblogger.ui.struts2.editor.MediaFileBase"
+454 "org.apache.roller.weblogger.ui.struts2.editor.MediaFileBean"
+455 "org.apache.roller.weblogger.ui.struts2.editor.MediaFileEdit"
+456 "org.apache.roller.weblogger.ui.struts2.editor.MediaFileImageChooser"
+457 "org.apache.roller.weblogger.ui.struts2.editor.MediaFileImageDim"
+458 "org.apache.roller.weblogger.ui.struts2.editor.MediaFileSearchBean"
+459 "org.apache.roller.weblogger.ui.struts2.editor.MediaFileView"
+460 "org.apache.roller.weblogger.ui.struts2.editor.MemberResign"
+461 "org.apache.roller.weblogger.ui.struts2.editor.Members"
+462 "org.apache.roller.weblogger.ui.struts2.editor.MembersInvite"
+463 "org.apache.roller.weblogger.ui.struts2.editor.Pings"
+464 "org.apache.roller.weblogger.ui.struts2.editor.Referrers"
+465 "org.apache.roller.weblogger.ui.struts2.editor.StylesheetEdit"
+466 "org.apache.roller.weblogger.ui.struts2.editor.TemplateEdit"
+467 "org.apache.roller.weblogger.ui.struts2.editor.TemplateEditBean"
+468 "org.apache.roller.weblogger.ui.struts2.editor.TemplateRemove"
+469 "org.apache.roller.weblogger.ui.struts2.editor.Templates"
+470 "org.apache.roller.weblogger.ui.struts2.editor.TemplatesRemove"
+471 "org.apache.roller.weblogger.ui.struts2.editor.ThemeEdit"
+472 "org.apache.roller.weblogger.ui.struts2.editor.WeblogConfig"
+473 "org.apache.roller.weblogger.ui.struts2.editor.WeblogConfigBean"
+474 "org.apache.roller.weblogger.ui.struts2.editor.WeblogExport"
+475 "org.apache.roller.weblogger.ui.struts2.editor.WeblogRemove"
+476 "org.apache.roller.weblogger.ui.struts2.pagers.CommentsPager"
+477 "org.apache.roller.weblogger.ui.struts2.pagers.EntriesPager"
+478 "org.apache.roller.weblogger.ui.struts2.pagers.MediaFilePager"
+479 "org.apache.roller.weblogger.ui.struts2.util.KeyValueObject"
+480 "org.apache.roller.weblogger.ui.struts2.util.UIAction"
+481 "org.apache.roller.weblogger.ui.struts2.util.UIActionInterceptor"
+482 "org.apache.roller.weblogger.ui.struts2.util.UIActionPreparable"
+483 "org.apache.roller.weblogger.ui.struts2.util.UIActionPrepareInterceptor"
+484 "org.apache.roller.weblogger.ui.struts2.util.UISecurityEnforced"
+485 "org.apache.roller.weblogger.ui.struts2.util.UISecurityInterceptor"
+486 "org.apache.roller.weblogger.ui.struts2.util.UIUtils"
+487 "org.apache.roller.weblogger.ui.struts2.util.UIUtils$LocaleComparator"
+488 "org.apache.roller.weblogger.ui.tags.StringTagSupport"
+489 "org.apache.roller.weblogger.ui.tags.TruncateNicelyTag"
+490 "org.apache.roller.weblogger.ui.tags.WordWrapTag"
+491 "org.apache.roller.weblogger.util.Blacklist"
+492 "org.apache.roller.weblogger.util.BlacklistChecker"
+493 "org.apache.roller.weblogger.util.GenericThrottle"
+494 "org.apache.roller.weblogger.util.GenericThrottle$ClientInfo"
+495 "org.apache.roller.weblogger.util.HTMLSanitizer"
+496 "org.apache.roller.weblogger.util.HTMLSanitizer$SanitizeResult"
+497 "org.apache.roller.weblogger.util.I18nMessages"
+498 "org.apache.roller.weblogger.util.I18nUtils"
+499 "org.apache.roller.weblogger.util.IPBanList"
+500 "org.apache.roller.weblogger.util.IPBanList$ModifiedFile"
+501 "org.apache.roller.weblogger.util.LRUCache2"
+502 "org.apache.roller.weblogger.util.LRUCache2$CacheEntry"
+503 "org.apache.roller.weblogger.util.LRUCache2$DefaultEnvironment"
+504 "org.apache.roller.weblogger.util.LRUCache2$Environment"
+505 "org.apache.roller.weblogger.util.LRUCache2$LRULinkedHashMap"
+506 "org.apache.roller.weblogger.util.LinkbackExtractor"
+507 "org.apache.roller.weblogger.util.LinkbackExtractor$LinkbackCallback"
+508 "org.apache.roller.weblogger.util.MailUtil"
+509 "org.apache.roller.weblogger.util.MailUtil$MailingException"
+510 "org.apache.roller.weblogger.util.MediacastException"
+511 "org.apache.roller.weblogger.util.MediacastResource"
+512 "org.apache.roller.weblogger.util.MediacastUtil"
+513 "org.apache.roller.weblogger.util.PasswordUtility"
+514 "org.apache.roller.weblogger.util.RollerMessages"
+515 "org.apache.roller.weblogger.util.RollerMessages$RollerMessage"
+516 "org.apache.roller.weblogger.util.StandaloneWebappClassLoader"
+517 "org.apache.roller.weblogger.util.Trackback"
+518 "org.apache.roller.weblogger.util.TrackbackNotAllowedException"
+519 "org.apache.roller.weblogger.util.URLUtilities"
+520 "org.apache.roller.weblogger.util.Utilities"
+521 "org.apache.roller.weblogger.util.WSSEUtilities"
+522 "org.apache.roller.weblogger.util.cache.Cache"
+523 "org.apache.roller.weblogger.util.cache.CacheFactory"
+524 "org.apache.roller.weblogger.util.cache.CacheHandler"
+525 "org.apache.roller.weblogger.util.cache.CacheManager"
+526 "org.apache.roller.weblogger.util.cache.CachedContent"
+527 "org.apache.roller.weblogger.util.cache.ExpiringCacheEntry"
+528 "org.apache.roller.weblogger.util.cache.ExpiringLRUCacheFactoryImpl"
+529 "org.apache.roller.weblogger.util.cache.ExpiringLRUCacheImpl"
+530 "org.apache.roller.weblogger.util.cache.LRUCacheFactoryImpl"
+531 "org.apache.roller.weblogger.util.cache.LRUCacheImpl"
+532 "org.apache.roller.weblogger.util.cache.LRUCacheImpl$LRULinkedHashMap"
+533 "org.apache.roller.weblogger.util.cache.LazyExpiringCacheEntry"
+534 "org.apache.roller.weblogger.webservices.atomprotocol.EntryCollection"
+535 "org.apache.roller.weblogger.webservices.atomprotocol.MediaCollection"
+536 "org.apache.roller.weblogger.webservices.atomprotocol.RollerAtomHandler"
+537 "org.apache.roller.weblogger.webservices.atomprotocol.RollerAtomHandlerFactory"
+538 "org.apache.roller.weblogger.webservices.atomprotocol.RollerAtomService"
+539 "org.apache.roller.weblogger.webservices.oauth.AccessTokenServlet"
+540 "org.apache.roller.weblogger.webservices.oauth.AuthorizationServlet"
+541 "org.apache.roller.weblogger.webservices.oauth.RequestTokenServlet"
+542 "org.apache.roller.weblogger.webservices.opensearch.OpenSearchServlet"
+543 "org.apache.roller.weblogger.webservices.tagdata.TagDataServlet"
+544 "org.apache.roller.weblogger.webservices.xmlrpc.BaseAPIHandler"
+545 "org.apache.roller.weblogger.webservices.xmlrpc.BloggerAPIHandler"
+546 "org.apache.roller.weblogger.webservices.xmlrpc.MetaWeblogAPIHandler"
+*Arcs
+14 17 400.0
+15 13 8.0
+16 13 8.0
+18 22 400.0
+18 178 0.2
+20 13 24.0
+20 17 400.0
+20 33 15.0
+20 34 21.0
+20 36 18.0
+20 37 9.0
+21 15 100.0
+21 19 300.0
+19 13 1.0
+19 20 300.0
+19 22 300.0
+19 23 3.0
+19 75 3.0
+23 24 200.0
+23 36 6.0
+24 13 14.0
+25 23 400.0
+25 24 400.0
+25 36 48.0
+25 37 37.0
+25 177 0.2
+26 13 2.0
+26 14 6.0
+26 19 4.0
+26 20 11.0
+26 22 9.0
+26 23 9.0
+26 68 2.0
+26 75 11.0
+26 89 1.0
+27 13 27.0
+27 14 6.0
+27 20 4.0
+27 33 25.0
+27 34 28.0
+27 36 28.0
+27 37 9.0
+27 55 8.0
+27 89 5.8
+28 30 300.0
+28 34 3.0
+28 36 3.0
+29 13 2.0
+29 20 8.0
+29 23 2.0
+29 28 400.0
+29 30 1300.0
+29 34 7.0
+29 36 53.0
+29 81 10.0
+29 82 10.0
+29 178 0.4
+30 13 8.0
+34 20 2.0
+34 33 1200.0
+34 37 500.0
+34 53 0.004
+34 81 2.0
+34 82 2.0
+33 53 0.004
+35 38 700.0
+37 31 900.0
+37 32 900.0
+37 36 1200.0
+37 53 0.002
+37 520 0.002
+36 37 700.0
+36 53 0.002
+39 40 600.0
+39 42 200.0
+39 177 0.6
+39 520 0.002
+41 28 2.0
+41 29 2.0
+41 40 600.0
+41 81 2.0
+41 82 4.0
+41 159 0.2
+42 13 3.0
+42 20 13.0
+42 34 3.0
+42 36 3.0
+42 81 2.0
+42 82 2.0
+44 43 0.04
+45 43 0.06
+46 43 0.02
+46 45 0.02
+49 50 0.02
+52 11 2.0
+54 20 44.0
+54 33 19.0
+54 34 12.0
+54 36 25.0
+54 37 20.0
+54 55 2800.0
+54 57 10.0
+54 59 3.0
+54 78 16.0
+54 79 44.0
+54 80 12.0
+54 81 128.0
+54 82 132.0
+54 100 1.0
+54 104 1.0
+54 154 0.7
+54 157 0.9
+54 159 0.4
+54 177 0.2
+54 193 9.0
+54 212 18.0
+54 229 55.0
+54 233 71.0
+54 235 9.0
+54 236 27.0
+54 237 49.0
+54 239 26.0
+54 247 13.0
+54 248 8.0
+55 13 12.0
+56 77 400.0
+56 178 3.6
+56 519 0.008
+57 55 11.0
+57 233 12.0
+57 234 9.0
+57 235 18.0
+58 55 8.0
+59 60 600.0
+59 158 0.7
+59 177 1.2
+62 61 400.0
+62 63 500.0
+62 64 600.0
+62 65 1200.0
+62 177 0.2
+62 178 1.2
+62 195 5.0
+62 233 23.0
+62 514 0.011
+61 63 300.0
+61 64 300.0
+61 65 300.0
+61 195 3.0
+61 233 18.0
+61 514 0.003
+63 55 10.0
+64 55 10.0
+65 55 10.0
+66 81 600.0
+66 84 400.0
+66 177 0.2
+67 129 0.2
+67 130 0.2
+67 141 0.9
+67 177 0.2
+67 233 5.0
+68 55 8.0
+69 70 300.0
+69 158 0.5
+69 177 1.2
+71 55 25.0
+71 197 30.0
+71 200 42.0
+71 203 3.0
+71 233 39.0
+71 514 0.003
+72 56 600.0
+72 74 200.0
+72 77 300.0
+72 177 0.2
+72 178 1.8
+72 233 51.0
+72 519 0.04
+73 2 12.0
+73 3 15.0
+73 4 5.0
+73 5 6.0
+73 6 2.0
+73 7 3.0
+73 8 3.0
+73 55 3.0
+74 72 600.0
+74 178 2.0
+74 233 25.0
+74 519 0.032
+75 55 4.0
+75 68 100.0
+75 215 6.0
+76 55 1.0
+76 134 0.6
+77 233 45.0
+78 55 33.0
+78 214 3.0
+78 229 66.0
+78 230 3.0
+78 233 30.0
+78 248 6.0
+79 55 44.0
+79 194 3.0
+79 233 45.0
+79 236 24.0
+79 237 36.0
+79 239 9.0
+79 240 9.0
+79 247 12.0
+80 55 24.0
+80 229 3.0
+80 233 36.0
+80 250 18.0
+80 252 6.0
+80 253 6.0
+82 58 600.0
+82 81 700.0
+82 84 1900.0
+82 159 0.4
+82 177 0.2
+83 20 9.0
+83 22 9.0
+83 23 9.0
+83 55 1.0
+83 57 1100.0
+83 61 1100.0
+83 67 400.0
+83 68 500.0
+83 71 1300.0
+83 73 900.0
+83 75 1100.0
+83 77 900.0
+83 78 1100.0
+83 79 900.0
+83 80 1100.0
+83 81 600.0
+83 82 200.0
+83 100 1.3
+83 101 1.1
+83 104 1.1
+83 107 1.1
+83 125 1.1
+83 127 1.1
+83 138 1.5
+83 142 1.3
+83 166 1.1
+83 176 0.6
+84 58 100.0
+84 81 300.0
+81 20 3.0
+81 22 3.0
+81 23 3.0
+81 55 1.0
+81 57 300.0
+81 61 300.0
+81 68 100.0
+81 71 300.0
+81 73 300.0
+81 75 300.0
+81 77 300.0
+81 78 300.0
+81 79 300.0
+81 80 300.0
+81 100 0.3
+81 101 0.3
+81 104 0.3
+81 107 0.3
+81 125 0.3
+81 127 0.3
+81 138 0.3
+81 142 0.3
+81 166 0.3
+85 55 10.0
+85 81 8.0
+85 89 22.0
+85 100 0.4
+85 101 0.2
+85 176 0.2
+85 193 9.0
+85 212 6.0
+85 233 6.0
+85 237 8.0
+86 55 21.0
+86 57 4.0
+86 80 8.0
+86 81 14.0
+86 89 30.0
+86 233 14.0
+86 234 21.0
+86 235 44.0
+87 55 33.0
+87 61 26.0
+87 63 2.0
+87 71 8.0
+87 80 22.0
+87 81 70.0
+87 82 14.0
+87 89 72.0
+87 177 0.6
+87 195 2.0
+87 197 143.0
+87 200 133.0
+87 203 41.0
+87 204 10.0
+87 205 14.0
+87 206 2.0
+87 207 6.0
+87 229 7.0
+87 233 46.0
+87 514 0.011
+87 520 0.002
+88 2 41.0
+88 3 36.0
+88 4 22.0
+88 5 12.0
+88 6 6.0
+88 7 5.0
+88 8 9.0
+88 12 0.006
+88 55 3.0
+88 73 4.0
+88 77 6.0
+88 81 12.0
+88 89 32.0
+88 208 59.0
+88 209 33.0
+89 55 22.0
+89 59 15.0
+89 177 0.8
+90 55 6.0
+90 89 16.0
+90 101 0.4
+90 193 14.0
+90 211 11.0
+91 55 8.0
+91 89 18.0
+91 104 0.4
+91 212 33.0
+92 55 4.0
+92 68 1.0
+92 75 4.0
+92 89 14.0
+92 178 0.2
+92 179 0.2
+92 180 0.2
+92 181 1.2
+92 182 0.2
+92 215 10.0
+94 89 6.0
+94 93 28.0
+94 249 46.0
+94 506 0.018
+93 55 31.0
+93 79 2.0
+93 80 2.0
+93 81 12.0
+93 89 53.0
+93 94 2.0
+93 125 0.4
+93 138 0.2
+93 178 0.4
+93 216 2.0
+93 217 2.0
+93 233 50.0
+93 249 23.0
+93 520 0.004
+95 49 0.006
+95 55 2.0
+95 81 3.0
+95 89 18.0
+95 133 2.8
+95 139 0.6
+95 223 16.0
+96 55 57.0
+96 78 4.0
+96 89 122.0
+96 177 0.2
+96 196 4.0
+96 214 7.0
+96 229 113.0
+96 230 11.0
+96 232 4.0
+96 233 56.0
+96 248 22.0
+97 49 0.004
+97 55 66.0
+97 79 4.0
+97 80 12.0
+97 81 20.0
+97 89 132.0
+97 100 0.2
+97 194 59.0
+97 216 4.0
+97 217 2.0
+97 220 20.0
+97 221 2.0
+97 222 2.0
+97 229 2.0
+97 233 79.0
+97 236 68.0
+97 237 131.0
+97 238 2.0
+97 239 13.0
+97 240 76.0
+97 241 2.0
+97 242 2.0
+97 243 4.0
+97 244 20.0
+97 247 24.0
+98 55 52.0
+98 71 4.0
+98 78 10.0
+98 79 4.0
+98 80 10.0
+98 81 32.0
+98 82 2.0
+98 89 110.0
+98 100 0.4
+98 104 0.2
+98 177 0.4
+98 193 2.0
+98 212 2.0
+98 216 4.0
+98 217 2.0
+98 220 4.0
+98 229 5.0
+98 233 62.0
+98 234 2.0
+98 235 2.0
+98 236 2.0
+98 237 2.0
+98 243 4.0
+98 244 4.0
+98 248 10.0
+98 249 2.0
+98 250 27.0
+98 252 8.0
+98 253 6.0
+99 20 3.0
+99 22 3.0
+99 23 3.0
+99 55 2.0
+99 57 3.0
+99 61 3.0
+99 71 3.0
+99 73 3.0
+99 75 3.0
+99 77 3.0
+99 78 3.0
+99 79 3.0
+99 80 3.0
+99 83 10.0
+99 89 10.0
+99 100 0.3
+99 101 0.3
+99 104 0.3
+99 107 0.3
+99 125 0.3
+99 127 0.3
+99 138 0.3
+99 142 0.3
+99 166 0.3
+100 55 10.0
+100 193 9.0
+100 212 6.0
+100 233 6.0
+100 237 6.0
+101 55 5.0
+101 193 3.0
+101 211 9.0
+102 55 4.0
+102 81 2.0
+102 82 2.0
+102 101 11.0
+102 105 4.0
+102 176 0.6
+102 178 0.2
+102 211 16.0
+103 55 4.0
+103 81 10.0
+103 82 10.0
+103 102 6.0
+103 134 0.8
+104 55 7.0
+104 212 18.0
+105 106 13.0
+105 176 0.2
+105 212 6.0
+105 233 10.0
+108 107 4.0
+108 112 0.6
+108 121 0.8
+108 177 0.4
+108 233 3.0
+108 237 7.0
+108 239 7.0
+108 495 0.002
+107 233 3.0
+107 237 3.0
+107 239 3.0
+109 112 4.0
+109 239 3.0
+110 112 4.0
+110 239 5.0
+110 520 0.004
+111 112 4.0
+111 239 3.0
+111 520 0.006
+112 239 3.0
+113 55 1.0
+113 80 2.0
+113 81 2.0
+113 82 2.0
+113 121 4.0
+113 233 6.0
+113 237 7.0
+113 250 5.0
+114 55 1.0
+114 121 4.0
+114 233 5.0
+114 234 10.0
+114 235 5.0
+114 237 5.0
+115 55 1.0
+115 121 4.0
+115 233 3.0
+115 237 3.0
+116 118 6.0
+116 121 4.0
+117 52 0.002
+117 55 1.0
+117 121 4.0
+117 233 3.0
+117 237 3.0
+118 55 1.0
+118 233 3.0
+118 237 3.0
+119 55 1.0
+119 121 4.0
+119 178 0.2
+119 233 3.0
+119 237 3.0
+120 55 10.0
+120 57 4.0
+120 81 2.0
+120 82 2.0
+120 121 4.0
+120 177 0.4
+120 233 6.0
+120 234 6.0
+120 237 3.0
+121 55 1.0
+121 233 3.0
+121 237 3.0
+122 118 6.0
+122 121 4.0
+124 81 2.0
+124 82 2.0
+124 126 8.0
+124 127 4.0
+125 55 14.0
+125 233 21.0
+125 249 9.0
+126 81 4.0
+126 82 4.0
+126 123 15.0
+126 125 2.0
+126 131 0.4
+128 81 8.0
+128 123 11.0
+128 124 2.0
+128 126 6.0
+128 127 4.0
+128 129 0.4
+128 141 0.2
+128 177 0.6
+127 123 9.0
+129 131 6.0
+129 141 14.0
+130 67 6.0
+130 79 2.0
+130 80 2.0
+130 81 12.0
+130 82 12.0
+130 131 4.0
+132 55 4.0
+132 79 2.0
+132 81 12.0
+132 82 12.0
+132 134 8.0
+134 55 1.0
+134 81 10.0
+134 82 10.0
+134 133 6.0
+134 138 10.0
+133 49 0.004
+133 55 1.0
+133 177 0.6
+135 55 4.0
+135 79 4.0
+135 81 14.0
+135 82 14.0
+135 134 8.0
+135 142 0.2
+135 237 2.0
+135 240 6.0
+135 525 0.002
+136 516 0.002
+137 49 0.008
+137 81 6.0
+137 82 6.0
+137 133 14.0
+137 138 2.0
+137 223 2.0
+139 68 1.0
+139 133 12.0
+139 137 2.0
+139 138 4.0
+139 177 0.4
+139 223 10.0
+138 55 2.0
+138 68 1.0
+138 133 6.0
+138 223 6.0
+140 55 4.0
+140 81 12.0
+140 82 10.0
+140 125 0.2
+140 134 8.0
+141 81 6.0
+141 82 6.0
+141 131 11.0
+143 55 6.0
+143 68 1.0
+143 81 10.0
+143 138 0.4
+143 142 4.0
+143 145 0.2
+143 146 0.9
+143 147 0.2
+143 149 0.4
+143 150 0.2
+143 151 0.2
+143 153 0.6
+143 177 0.4
+143 233 6.0
+143 237 9.0
+142 55 6.0
+142 68 1.0
+142 146 0.3
+142 233 6.0
+142 237 9.0
+144 143 2.0
+145 79 2.0
+145 81 14.0
+145 143 0.3
+145 153 6.0
+145 237 8.0
+146 143 1.0
+146 177 0.2
+146 229 2.0
+146 233 2.0
+146 236 2.0
+146 237 25.0
+146 239 12.0
+147 79 2.0
+147 81 14.0
+147 143 0.3
+147 153 6.0
+147 237 10.0
+148 143 1.1
+148 146 6.0
+149 79 2.0
+149 80 2.0
+149 81 18.0
+149 143 0.3
+149 144 0.4
+149 153 6.0
+149 233 14.0
+149 237 4.0
+149 240 6.0
+150 79 2.0
+150 81 8.0
+150 143 0.3
+150 153 6.0
+150 237 10.0
+151 80 2.0
+151 81 8.0
+151 143 0.3
+151 144 0.2
+151 153 6.0
+151 233 12.0
+152 142 0.3
+152 143 0.4
+152 144 0.6
+152 148 6.0
+153 143 1.3
+153 146 6.0
+154 156 4.0
+155 59 16.0
+155 156 14.0
+155 157 34.0
+155 158 39.0
+158 55 12.0
+159 59 8.0
+159 69 8.0
+159 154 2.0
+159 155 33.0
+159 158 29.0
+159 177 0.2
+161 160 6.0
+161 162 7.0
+161 163 16.0
+161 164 21.0
+161 165 10.0
+161 168 30.0
+161 169 4.0
+161 170 38.0
+161 171 51.0
+161 227 9.0
+161 228 29.0
+162 227 12.0
+164 225 4.0
+163 55 1.0
+163 225 6.0
+163 228 7.0
+160 226 4.0
+160 227 3.0
+165 55 12.0
+167 55 5.0
+167 68 1.0
+167 71 20.0
+167 80 14.0
+167 81 18.0
+167 82 2.0
+167 160 18.0
+167 161 4.0
+167 166 4.0
+167 172 2.0
+167 174 2.0
+167 175 2.0
+167 177 0.2
+167 197 18.0
+167 225 6.0
+167 226 12.0
+167 227 18.0
+167 228 30.0
+167 233 22.0
+167 250 30.0
+167 251 3.0
+167 253 10.0
+167 514 0.008
+166 55 3.0
+166 68 1.0
+166 160 6.0
+166 233 6.0
+166 251 3.0
+169 168 25.0
+169 170 64.0
+169 171 56.0
+169 173 29.0
+170 171 6.0
+168 170 12.0
+172 55 12.0
+173 55 12.0
+174 55 6.0
+174 71 2.0
+174 80 10.0
+174 81 12.0
+174 82 12.0
+174 227 3.0
+174 228 15.0
+174 233 7.0
+174 251 6.0
+175 55 6.0
+175 71 2.0
+175 80 8.0
+175 81 10.0
+175 82 10.0
+175 160 32.0
+175 227 3.0
+175 228 25.0
+175 233 3.0
+175 251 6.0
+176 55 1.0
+176 81 2.0
+176 82 2.0
+176 104 0.5
+176 177 8.0
+176 178 2.0
+176 212 3.0
+177 51 0.002
+178 75 3.0
+178 81 2.0
+178 82 2.0
+178 182 0.6
+178 183 0.5
+178 215 3.0
+179 180 6.0
+180 181 6.0
+183 179 9.0
+183 180 11.0
+183 181 17.0
+183 182 7.0
+182 179 6.0
+184 18 6.0
+184 178 0.4
+185 24 7.0
+185 25 8.0
+185 36 21.0
+185 37 14.0
+185 77 2.0
+185 79 2.0
+185 80 2.0
+185 81 8.0
+185 82 8.0
+185 107 0.4
+185 178 0.2
+185 229 2.0
+185 233 10.0
+185 236 2.0
+185 237 16.0
+185 240 8.0
+186 28 2.0
+186 29 2.0
+186 55 2.0
+186 66 2.0
+186 81 6.0
+186 82 8.0
+186 84 1.0
+186 134 0.8
+186 159 0.2
+186 177 0.2
+187 20 18.0
+187 34 14.0
+187 36 24.0
+187 55 2.0
+187 66 2.0
+187 77 2.0
+187 80 2.0
+187 81 18.0
+187 82 20.0
+187 84 1.0
+187 134 0.8
+187 159 0.2
+187 177 0.2
+187 233 12.0
+188 75 4.0
+188 81 6.0
+188 82 6.0
+188 178 0.2
+188 179 1.1
+188 182 0.2
+188 192 6.0
+188 215 10.0
+190 34 16.0
+189 20 6.0
+189 33 2.0
+189 34 15.0
+189 81 10.0
+189 82 10.0
+189 190 33.0
+189 192 6.0
+191 13 2.0
+191 20 12.0
+191 23 2.0
+191 34 15.0
+191 36 8.0
+191 81 12.0
+191 82 12.0
+191 192 6.0
+192 20 2.0
+192 33 6.0
+192 81 2.0
+192 82 2.0
+192 480 0.006
+193 53 0.004
+193 212 1200.0
+193 233 1200.0
+194 233 900.0
+194 237 900.0
+195 233 900.0
+196 55 3.0
+196 78 2.0
+196 81 2.0
+196 82 2.0
+196 177 0.2
+196 214 1400.0
+196 229 1000.0
+196 520 0.002
+198 197 1800.0
+198 199 1600.0
+201 200 1400.0
+201 202 1400.0
+200 53 0.002
+200 197 700.0
+200 233 1200.0
+203 204 900.0
+203 205 900.0
+203 207 900.0
+206 53 0.004
+206 197 1200.0
+197 53 0.002
+197 55 5.0
+197 71 2.0
+197 77 4.0
+197 78 2.0
+197 81 8.0
+197 82 8.0
+197 195 1600.0
+197 200 1100.0
+197 206 1600.0
+197 207 200.0
+197 229 300.0
+197 233 1300.0
+197 520 0.006
+210 53 0.004
+210 214 800.0
+211 53 0.004
+211 212 1200.0
+211 233 1200.0
+212 53 0.004
+214 210 500.0
+214 520 0.004
+217 216 1600.0
+218 55 1.0
+218 80 2.0
+218 81 2.0
+218 82 2.0
+218 224 400.0
+218 225 300.0
+219 55 1.0
+219 80 2.0
+219 81 2.0
+219 82 2.0
+219 225 300.0
+219 228 1300.0
+221 220 400.0
+222 220 1200.0
+223 53 0.002
+224 55 1.0
+224 225 300.0
+227 213 400.0
+228 224 400.0
+226 55 6.0
+226 227 300.0
+226 228 1500.0
+230 53 0.004
+232 53 0.004
+229 53 0.004
+229 55 1.0
+229 78 2.0
+229 81 2.0
+229 82 2.0
+229 177 0.4
+229 196 200.0
+229 520 0.002
+235 53 0.004
+235 55 2.0
+235 57 4.0
+235 81 4.0
+235 82 4.0
+235 233 1400.0
+235 234 1100.0
+234 53 0.004
+234 233 300.0
+234 235 2000.0
+236 53 0.004
+236 55 2.0
+236 79 6.0
+236 81 6.0
+236 82 6.0
+236 233 1800.0
+236 240 800.0
+238 53 0.002
+238 237 900.0
+239 53 0.002
+239 237 900.0
+240 229 900.0
+240 233 900.0
+240 241 900.0
+240 242 900.0
+244 53 0.004
+244 233 1200.0
+245 243 1000.0
+243 53 0.004
+243 78 2.0
+243 81 2.0
+243 82 2.0
+243 229 800.0
+243 233 1200.0
+243 237 1200.0
+246 262 0.8
+237 49 0.002
+237 53 0.006
+237 55 7.0
+237 77 2.0
+237 78 6.0
+237 79 6.0
+237 81 16.0
+237 82 16.0
+237 121 0.4
+237 125 0.2
+237 177 0.2
+237 178 0.2
+237 194 800.0
+237 196 200.0
+237 229 1100.0
+237 233 3000.0
+237 236 1200.0
+237 238 1600.0
+237 243 2200.0
+237 245 200.0
+237 248 600.0
+237 495 0.004
+237 497 0.004
+237 520 0.014
+247 53 0.002
+247 233 1100.0
+248 55 2.0
+248 78 2.0
+248 80 2.0
+248 81 4.0
+248 82 4.0
+248 210 1200.0
+248 229 1700.0
+248 233 1800.0
+249 53 0.004
+249 233 1200.0
+249 237 1200.0
+250 53 0.002
+250 55 2.0
+250 80 2.0
+250 81 2.0
+250 82 2.0
+250 225 300.0
+250 228 700.0
+250 233 1100.0
+250 251 200.0
+250 253 300.0
+252 53 0.004
+252 233 1200.0
+253 53 0.004
+253 225 400.0
+251 226 400.0
+251 233 900.0
+233 53 0.004
+233 55 1.0
+233 57 4.0
+233 77 4.0
+233 78 8.0
+233 79 18.0
+233 80 2.0
+233 81 42.0
+233 82 42.0
+233 107 0.2
+233 125 0.2
+233 166 0.4
+233 178 0.2
+233 194 1000.0
+233 226 500.0
+233 228 300.0
+233 229 900.0
+233 235 1400.0
+233 236 2600.0
+233 237 300.0
+233 240 2000.0
+233 247 200.0
+233 248 400.0
+233 251 300.0
+233 252 200.0
+233 498 0.002
+254 228 26.0
+255 177 0.2
+255 229 26.0
+255 495 0.004
+256 235 18.0
+256 257 2.0
+257 234 26.0
+257 256 5.0
+258 55 1.0
+258 77 10.0
+258 236 24.0
+258 262 2.0
+258 264 5.0
+259 238 14.0
+260 77 10.0
+260 81 2.0
+260 82 2.0
+260 107 0.2
+260 239 44.0
+260 262 5.0
+260 520 0.002
+261 243 16.0
+261 255 5.0
+262 77 10.0
+262 237 101.0
+262 245 2.0
+262 255 5.0
+262 258 7.0
+262 259 2.0
+262 260 4.0
+262 261 2.0
+262 263 2.0
+262 264 5.0
+262 495 0.008
+263 77 10.0
+263 249 42.0
+263 262 5.0
+263 264 5.0
+264 55 5.0
+264 77 14.0
+264 228 2.0
+264 233 121.0
+264 251 12.0
+264 254 17.0
+264 255 5.0
+264 256 5.0
+264 258 17.0
+264 260 2.0
+264 262 9.0
+264 263 2.0
+264 495 0.004
+265 266 6.0
+266 55 3.0
+266 81 4.0
+266 82 6.0
+266 159 0.4
+266 177 1.4
+266 279 0.3
+266 280 0.2
+266 284 0.3
+266 525 0.002
+267 78 8.0
+267 81 4.0
+267 82 6.0
+267 177 0.2
+267 229 10.0
+267 231 2.0
+267 266 2.0
+267 284 0.2
+268 82 2.0
+268 177 0.2
+270 499 0.004
+271 178 0.4
+272 389 0.004
+273 81 4.0
+273 82 8.0
+274 275 2.0
+275 78 4.0
+275 81 2.0
+275 82 2.0
+276 177 1.2
+277 177 0.2
+277 389 0.006
+278 281 4.0
+280 177 0.4
+280 279 7.0
+280 281 8.0
+279 281 3.0
+282 281 4.0
+283 78 4.0
+283 81 2.0
+283 82 2.0
+285 53 0.002
+285 78 4.0
+285 81 4.0
+285 82 4.0
+285 229 15.0
+285 284 4.0
+285 286 2.0
+286 177 1.8
+286 229 30.0
+286 287 11.0
+288 55 1.0
+288 78 9.0
+288 81 2.0
+288 82 2.0
+288 229 11.0
+288 231 2.0
+289 49 0.006
+289 77 6.0
+289 79 2.0
+289 81 8.0
+289 82 8.0
+289 237 10.0
+289 240 14.0
+289 292 6.0
+289 381 0.003
+291 49 0.002
+291 290 22.0
+292 49 0.022
+292 55 2.0
+292 77 8.0
+292 79 6.0
+292 81 14.0
+292 82 14.0
+292 233 11.0
+292 237 4.0
+292 240 46.0
+292 290 4.0
+292 381 0.02
+294 55 3.0
+294 78 9.0
+294 81 2.0
+294 82 2.0
+294 177 0.2
+294 178 0.4
+294 196 6.0
+294 229 8.0
+294 233 8.0
+294 248 6.0
+294 293 0.12
+294 295 0.13
+294 296 0.11
+294 297 0.17
+294 298 0.49
+294 299 0.64
+294 520 0.01
+295 296 0.03
+293 295 0.03
+297 298 0.03
+298 299 0.03
+301 224 3.0
+301 300 3.0
+301 308 0.3
+302 177 0.4
+302 224 6.0
+302 300 4.0
+302 301 5.0
+302 303 3.0
+302 308 0.4
+300 303 1.0
+303 55 10.0
+305 80 2.0
+305 81 2.0
+305 82 2.0
+305 177 0.6
+305 304 4.0
+306 177 0.4
+306 304 0.2
+307 308 4.0
+309 55 5.0
+309 264 1.1
+309 289 0.2
+309 291 1.4
+309 292 0.2
+309 317 4.0
+309 381 0.003
+310 55 1.0
+310 81 6.0
+310 82 6.0
+310 178 0.6
+310 317 4.0
+312 77 2.0
+312 311 12.0
+312 334 1.0
+312 379 0.024
+312 519 0.004
+313 77 2.0
+313 311 12.0
+313 343 1.0
+313 379 0.03
+313 519 0.004
+314 77 2.0
+314 311 10.0
+314 335 1.0
+314 379 0.022
+314 519 0.004
+311 55 5.0
+311 77 6.0
+311 81 2.0
+311 82 2.0
+311 178 0.2
+311 233 3.0
+311 264 0.5
+311 312 2.0
+311 313 2.0
+311 314 2.0
+311 317 4.0
+311 336 0.9
+311 379 0.013
+315 55 5.0
+315 78 2.0
+315 81 2.0
+315 82 2.0
+315 196 2.0
+315 293 0.006
+315 294 0.004
+315 317 4.0
+315 381 0.017
+316 55 3.0
+316 317 4.0
+316 384 0.002
+316 497 0.009
+318 55 9.0
+318 233 8.0
+318 317 5.0
+318 520 0.002
+317 55 1.0
+319 55 5.0
+319 77 3.0
+319 81 2.0
+319 82 2.0
+319 233 5.0
+319 251 2.0
+319 254 0.7
+319 258 0.5
+319 262 0.5
+319 264 0.5
+319 308 0.5
+319 317 4.0
+319 341 0.2
+319 342 0.2
+319 344 0.2
+319 345 1.2
+319 346 0.2
+319 378 0.008
+319 381 0.071
+319 384 0.002
+320 20 12.0
+320 22 9.0
+320 33 2.0
+320 34 3.0
+320 55 3.0
+320 77 9.0
+320 81 10.0
+320 82 10.0
+320 177 0.2
+320 228 2.0
+320 233 3.0
+320 317 4.0
+320 336 0.9
+320 337 0.6
+320 381 0.004
+320 384 0.011
+321 55 5.0
+321 77 3.0
+321 81 2.0
+321 82 2.0
+321 262 0.5
+321 319 8.0
+321 342 0.2
+321 345 0.3
+321 347 0.2
+321 382 0.043
+322 55 5.0
+322 77 5.0
+322 81 2.0
+322 82 2.0
+322 233 3.0
+322 326 8.0
+322 384 0.004
+323 55 8.0
+323 77 5.0
+323 79 2.0
+323 81 6.0
+323 82 6.0
+323 142 0.2
+323 152 1.9
+323 178 0.4
+323 233 3.0
+323 237 2.0
+323 258 0.5
+323 262 0.2
+323 264 0.5
+323 317 4.0
+323 336 0.3
+323 338 0.7
+323 379 0.041
+323 520 0.002
+324 49 0.002
+324 55 6.0
+324 77 3.0
+324 79 2.0
+324 81 6.0
+324 82 6.0
+324 142 0.2
+324 152 2.1
+324 178 0.2
+324 237 2.0
+324 246 2.0
+324 258 0.5
+324 262 0.7
+324 319 8.0
+324 339 0.7
+324 345 0.6
+324 386 0.037
+324 497 0.004
+324 520 0.002
+325 55 3.0
+325 77 21.0
+325 78 14.0
+325 79 12.0
+325 80 12.0
+325 81 38.0
+325 82 38.0
+325 216 4.0
+325 228 2.0
+325 229 6.0
+325 233 11.0
+325 247 10.0
+325 248 4.0
+325 255 0.9
+325 262 0.2
+325 264 2.0
+325 317 4.0
+325 334 0.2
+325 336 2.1
+325 340 0.2
+325 343 0.4
+325 348 0.2
+325 379 0.039
+325 381 0.006
+325 384 0.031
+327 77 8.0
+327 326 6.0
+328 77 14.0
+328 326 6.0
+329 326 6.0
+329 327 5.0
+329 328 5.0
+329 330 5.0
+330 77 8.0
+330 326 6.0
+326 55 3.0
+326 77 77.0
+326 79 2.0
+326 81 4.0
+326 82 4.0
+326 177 0.2
+326 178 0.4
+326 233 15.0
+326 237 2.0
+326 317 4.0
+326 329 5.0
+326 384 0.004
+331 49 0.008
+331 52 0.004
+331 55 3.0
+331 233 11.0
+331 255 0.5
+331 264 1.0
+331 317 4.0
+331 375 0.017
+331 384 0.002
+331 519 0.004
+331 520 0.014
+332 77 6.0
+332 336 4.0
+332 519 0.002
+333 49 0.004
+333 77 12.0
+333 178 0.2
+333 233 21.0
+333 345 4.0
+333 497 0.011
+334 77 3.0
+334 79 2.0
+334 81 2.0
+334 82 2.0
+334 194 14.0
+334 233 6.0
+334 260 0.8
+334 332 6.0
+335 71 2.0
+335 77 3.0
+335 81 2.0
+335 82 2.0
+335 197 6.0
+335 332 6.0
+337 20 14.0
+337 77 3.0
+337 81 2.0
+337 82 2.0
+337 332 6.0
+338 77 5.0
+338 233 7.0
+338 332 8.0
+338 379 0.02
+338 497 0.007
+338 519 0.006
+339 77 12.0
+339 233 5.0
+339 345 4.0
+339 386 0.013
+339 497 0.011
+340 77 6.0
+340 78 4.0
+340 81 2.0
+340 82 2.0
+340 255 0.2
+340 332 12.0
+341 49 0.01
+341 77 3.0
+341 79 2.0
+341 81 2.0
+341 82 2.0
+341 233 9.0
+341 240 20.0
+341 262 0.2
+341 333 6.0
+341 497 0.012
+342 77 3.0
+342 79 2.0
+342 81 2.0
+342 82 2.0
+342 233 3.0
+342 240 18.0
+342 262 0.2
+342 333 6.0
+343 77 3.0
+343 79 2.0
+343 81 2.0
+343 82 2.0
+343 229 6.0
+343 233 6.0
+343 240 20.0
+343 262 0.8
+343 332 6.0
+344 49 0.01
+344 77 3.0
+344 79 2.0
+344 81 2.0
+344 82 2.0
+344 233 9.0
+344 240 20.0
+344 262 0.2
+344 333 6.0
+344 497 0.012
+346 77 3.0
+346 79 6.0
+346 81 6.0
+346 82 6.0
+346 233 3.0
+346 237 35.0
+346 262 0.2
+346 333 6.0
+346 497 0.006
+346 520 0.004
+347 77 3.0
+347 79 2.0
+347 81 2.0
+347 82 2.0
+347 233 3.0
+347 237 10.0
+347 262 0.2
+347 346 6.0
+348 77 6.0
+348 80 4.0
+348 81 2.0
+348 82 2.0
+348 264 0.2
+348 332 12.0
+349 77 2.0
+349 81 4.0
+349 82 4.0
+349 177 0.2
+349 237 4.0
+349 239 21.0
+349 353 4.0
+349 514 0.005
+350 239 3.0
+350 353 4.0
+350 492 0.002
+350 514 0.005
+352 177 0.2
+352 239 3.0
+352 353 9.0
+352 514 0.003
+352 520 0.002
+353 239 3.0
+353 514 0.003
+354 351 4.0
+355 177 0.2
+355 239 5.0
+355 353 4.0
+355 514 0.005
+356 177 0.2
+356 239 7.0
+356 353 4.0
+356 514 0.005
+357 177 1.0
+357 351 4.0
+358 351 4.0
+359 77 2.0
+359 81 2.0
+359 82 2.0
+359 178 0.2
+359 237 4.0
+359 239 9.0
+359 353 4.0
+359 506 0.004
+359 514 0.005
+360 177 0.2
+360 351 0.5
+360 354 0.2
+361 55 6.0
+361 79 2.0
+361 80 2.0
+361 81 8.0
+361 82 8.0
+361 142 0.4
+361 177 1.0
+361 178 0.6
+361 233 6.0
+361 237 8.0
+361 239 32.0
+361 351 0.5
+361 352 0.7
+361 354 0.2
+361 377 0.034
+361 378 0.014
+361 493 0.007
+361 497 0.018
+361 499 0.004
+361 508 0.002
+361 514 0.008
+361 515 0.008
+361 519 0.002
+361 520 0.002
+361 525 0.002
+362 55 2.0
+362 79 2.0
+362 81 4.0
+362 82 4.0
+362 177 0.4
+362 178 0.6
+362 218 2.0
+362 233 12.0
+362 300 0.2
+362 302 0.2
+362 318 0.8
+362 374 0.004
+362 379 0.054
+362 390 0.013
+362 392 0.011
+362 526 0.016
+363 55 2.0
+363 71 2.0
+363 81 2.0
+363 82 2.0
+363 197 12.0
+363 374 0.004
+363 380 0.014
+364 55 2.0
+364 67 4.0
+364 79 2.0
+364 81 8.0
+364 82 8.0
+364 123 1.2
+364 127 0.2
+364 166 0.2
+364 177 1.2
+364 178 0.8
+364 219 2.0
+364 228 12.0
+364 233 31.0
+364 237 6.0
+364 251 8.0
+364 266 0.2
+364 300 0.2
+364 302 0.2
+364 318 0.6
+364 374 0.004
+364 381 0.082
+364 390 0.015
+364 393 0.013
+364 492 0.002
+364 497 0.002
+364 526 0.018
+365 20 4.0
+365 81 2.0
+365 82 2.0
+365 178 1.4
+365 218 2.0
+365 300 0.2
+365 302 0.2
+365 331 0.2
+365 374 0.004
+365 376 0.031
+365 388 0.011
+365 526 0.016
+366 55 2.0
+366 71 2.0
+366 81 2.0
+366 82 2.0
+366 197 4.0
+366 226 2.0
+366 227 8.0
+366 233 2.0
+366 251 2.0
+366 374 0.004
+366 383 0.024
+367 55 2.0
+367 77 2.0
+367 81 2.0
+367 82 2.0
+367 177 0.4
+367 178 0.2
+367 224 4.0
+367 226 4.0
+367 233 20.0
+367 251 6.0
+367 266 0.2
+367 300 0.2
+367 302 0.2
+367 307 0.2
+367 318 0.6
+367 382 0.036
+367 526 0.012
+368 81 2.0
+368 82 2.0
+368 160 0.2
+368 166 0.2
+368 227 6.0
+368 374 0.004
+369 55 2.0
+369 178 0.2
+369 218 2.0
+369 233 4.0
+369 300 0.2
+369 302 0.2
+369 374 0.004
+369 384 0.01
+369 526 0.012
+370 55 2.0
+370 71 2.0
+370 81 2.0
+370 82 2.0
+370 197 4.0
+370 227 4.0
+370 233 2.0
+370 251 2.0
+370 374 0.004
+370 385 0.018
+371 55 2.0
+371 80 2.0
+371 81 6.0
+371 82 6.0
+371 166 0.2
+371 177 0.6
+371 178 0.4
+371 233 20.0
+371 251 4.0
+371 300 0.2
+371 302 0.2
+371 307 0.2
+371 317 0.2
+371 318 0.6
+371 324 0.2
+371 381 0.01
+371 386 0.018
+371 390 0.004
+371 393 0.004
+371 497 0.002
+371 526 0.012
+372 55 4.0
+372 79 4.0
+372 80 2.0
+372 81 8.0
+372 82 8.0
+372 178 0.4
+372 233 4.0
+372 237 4.0
+372 239 26.0
+372 352 0.9
+372 359 0.2
+372 387 0.036
+372 497 0.002
+372 508 0.002
+372 514 0.002
+372 525 0.002
+373 55 8.0
+374 49 0.004
+374 308 1.2
+375 78 2.0
+375 81 2.0
+375 82 2.0
+375 229 9.0
+375 307 0.2
+375 308 0.9
+375 373 0.01
+376 373 0.05
+376 375 0.06
+377 79 2.0
+377 81 2.0
+377 82 2.0
+377 237 9.0
+377 373 0.09
+377 384 0.08
+377 520 0.006
+378 239 19.0
+378 260 0.5
+379 79 2.0
+379 81 2.0
+379 82 2.0
+379 177 0.2
+379 236 9.0
+379 373 0.11
+379 384 0.08
+379 519 0.004
+379 520 0.002
+380 373 0.03
+380 384 0.08
+381 79 4.0
+381 81 4.0
+381 82 4.0
+381 177 0.2
+381 228 6.0
+381 233 2.0
+381 236 9.0
+381 237 9.0
+381 250 3.0
+381 251 2.0
+381 373 0.13
+381 384 0.08
+381 519 0.01
+381 520 0.004
+382 79 2.0
+382 81 4.0
+382 82 4.0
+382 166 0.2
+382 226 9.0
+382 237 9.0
+382 373 0.01
+382 381 0.1
+382 519 0.002
+383 81 2.0
+383 82 2.0
+383 166 0.2
+383 226 9.0
+383 373 0.01
+383 385 0.08
+384 80 2.0
+384 81 2.0
+384 82 2.0
+384 233 11.0
+384 373 0.03
+384 375 0.08
+385 373 0.03
+385 384 0.08
+385 519 0.002
+386 79 2.0
+386 81 2.0
+386 82 2.0
+386 236 9.0
+386 373 0.05
+386 384 0.08
+386 519 0.002
+387 79 2.0
+387 81 2.0
+387 82 2.0
+387 237 9.0
+387 373 0.11
+387 384 0.08
+388 177 0.8
+388 376 0.025
+388 522 0.011
+388 525 0.002
+388 527 0.007
+389 177 0.4
+389 522 0.011
+389 525 0.002
+389 527 0.004
+390 177 0.6
+390 178 1.0
+390 229 3.0
+390 233 13.0
+390 234 7.0
+390 235 7.0
+390 236 7.0
+390 237 7.0
+390 239 7.0
+390 249 3.0
+390 250 7.0
+390 308 0.2
+390 379 0.031
+390 381 0.047
+390 520 0.006
+390 522 0.015
+390 524 0.004
+390 525 0.002
+390 527 0.007
+391 131 0.4
+391 177 0.2
+391 218 2.0
+391 300 0.2
+391 302 0.2
+391 318 0.2
+391 379 0.008
+391 392 0.06
+391 526 0.008
+392 177 0.6
+392 379 0.029
+392 520 0.002
+392 522 0.011
+392 525 0.002
+392 533 0.004
+393 177 0.6
+393 308 0.2
+393 381 0.049
+393 520 0.004
+393 522 0.011
+393 525 0.002
+393 533 0.004
+394 80 2.0
+394 81 2.0
+394 82 2.0
+394 225 2.0
+394 250 4.0
+395 177 0.2
+395 266 0.2
+395 308 0.8
+396 55 2.0
+396 81 2.0
+396 82 2.0
+396 166 0.2
+396 172 0.2
+396 225 2.0
+396 226 2.0
+396 228 6.0
+398 224 9.0
+398 300 0.3
+398 301 0.4
+398 308 0.3
+398 397 2.0
+397 224 18.0
+397 228 2.0
+397 300 0.4
+397 303 0.6
+397 308 0.6
+397 331 0.2
+397 395 12.0
+399 266 0.2
+400 480 0.006
+400 525 0.006
+401 212 5.0
+401 413 0.6
+401 415 0.4
+402 414 0.6
+403 81 10.0
+403 82 10.0
+403 104 0.6
+403 212 4.0
+403 416 0.6
+405 78 2.0
+405 81 2.0
+405 82 2.0
+405 196 2.0
+405 229 40.0
+404 78 4.0
+404 81 4.0
+404 82 4.0
+404 177 0.2
+404 229 8.0
+404 405 39.0
+404 480 0.006
+407 49 0.002
+407 239 6.0
+407 520 0.002
+406 77 2.0
+406 79 16.0
+406 81 12.0
+406 82 12.0
+406 194 28.0
+406 237 6.0
+406 239 36.0
+406 407 73.0
+406 476 1.5
+406 479 0.014
+406 480 0.006
+406 520 0.002
+406 525 0.002
+408 75 4.0
+408 80 2.0
+408 81 10.0
+408 82 10.0
+408 107 0.2
+408 178 0.6
+408 179 1.1
+408 182 0.2
+408 215 12.0
+408 480 0.006
+409 78 14.0
+409 81 10.0
+409 82 10.0
+409 177 0.2
+409 196 2.0
+409 229 23.0
+409 266 0.2
+409 405 31.0
+409 480 0.006
+410 480 0.006
+411 79 8.0
+411 81 6.0
+411 82 4.0
+411 233 7.0
+411 237 4.0
+411 239 18.0
+411 267 0.8
+411 520 0.006
+412 55 2.0
+412 78 2.0
+412 81 2.0
+412 82 2.0
+412 229 8.0
+412 384 0.004
+413 81 6.0
+413 82 6.0
+413 104 0.8
+413 212 6.0
+413 415 11.0
+413 480 0.006
+414 81 8.0
+414 82 8.0
+414 104 1.0
+414 212 12.0
+414 415 23.0
+414 480 0.006
+415 212 16.0
+416 81 6.0
+416 82 6.0
+416 104 0.4
+416 212 11.0
+416 480 0.006
+417 55 2.0
+417 78 4.0
+417 80 4.0
+417 81 12.0
+417 82 12.0
+417 166 0.2
+417 177 0.6
+417 178 0.2
+417 229 8.0
+417 233 4.0
+417 418 45.0
+417 480 0.006
+417 520 0.002
+419 59 2.0
+419 81 2.0
+419 82 12.0
+419 158 1.0
+419 159 1.8
+419 177 0.4
+419 480 0.006
+420 177 0.2
+420 480 0.006
+421 78 8.0
+421 80 4.0
+421 81 16.0
+421 82 16.0
+421 233 2.0
+421 480 0.006
+422 229 2.0
+422 480 0.006
+423 3 12.0
+423 12 0.004
+423 73 8.0
+423 77 6.0
+423 81 10.0
+423 82 10.0
+423 178 0.2
+423 229 6.0
+423 480 0.006
+425 229 32.0
+424 78 6.0
+424 81 6.0
+424 82 6.0
+424 177 0.4
+424 229 20.0
+424 230 2.0
+424 231 4.0
+424 425 47.0
+424 480 0.006
+426 55 4.0
+426 78 18.0
+426 81 14.0
+426 82 14.0
+426 177 1.2
+426 178 0.6
+426 229 28.0
+426 231 2.0
+426 286 0.4
+426 425 65.0
+426 480 0.006
+426 508 0.002
+427 75 8.0
+427 78 2.0
+427 80 4.0
+427 81 10.0
+427 82 10.0
+427 215 4.0
+427 480 0.006
+428 57 4.0
+428 81 6.0
+428 82 6.0
+428 234 4.0
+428 235 11.0
+428 429 27.0
+428 480 0.006
+428 525 0.002
+429 234 28.0
+430 57 4.0
+430 81 6.0
+430 82 6.0
+430 234 9.0
+430 429 39.0
+430 480 0.006
+430 525 0.002
+432 57 2.0
+432 81 4.0
+432 82 4.0
+432 480 0.006
+432 525 0.002
+431 57 24.0
+431 81 18.0
+431 82 18.0
+431 234 2.0
+431 235 19.0
+431 480 0.006
+431 525 0.006
+433 79 2.0
+433 81 2.0
+433 82 2.0
+433 480 0.006
+434 79 2.0
+434 81 4.0
+434 82 4.0
+434 233 2.0
+434 236 2.0
+434 435 21.0
+434 480 0.006
+434 525 0.002
+435 55 1.0
+435 236 22.0
+436 79 4.0
+436 81 6.0
+436 82 6.0
+436 233 2.0
+436 236 13.0
+436 435 25.0
+436 480 0.006
+436 525 0.002
+437 79 10.0
+437 81 10.0
+437 82 10.0
+437 236 13.0
+437 480 0.006
+437 525 0.002
+439 49 0.002
+439 239 10.0
+439 520 0.002
+438 77 2.0
+438 79 22.0
+438 81 16.0
+438 82 16.0
+438 142 0.4
+438 177 0.4
+438 194 50.0
+438 233 8.0
+438 237 13.0
+438 239 48.0
+438 439 97.0
+438 476 1.5
+438 479 0.014
+438 480 0.006
+438 497 0.002
+438 508 0.004
+438 520 0.002
+438 525 0.002
+441 241 6.0
+441 520 0.002
+440 77 2.0
+440 79 4.0
+440 81 6.0
+440 82 6.0
+440 233 2.0
+440 236 4.0
+440 237 18.0
+440 240 22.0
+440 241 6.0
+440 441 59.0
+440 477 1.1
+440 479 0.014
+440 480 0.006
+443 71 4.0
+443 81 2.0
+443 82 2.0
+443 197 26.0
+443 445 15.0
+443 453 6.0
+442 78 4.0
+442 79 4.0
+442 81 12.0
+442 82 12.0
+442 100 0.2
+442 196 2.0
+442 229 2.0
+442 233 14.0
+442 237 42.0
+442 248 4.0
+442 444 6.0
+442 445 37.0
+442 508 0.004
+442 510 0.002
+442 511 0.006
+442 512 0.002
+442 525 0.002
+444 77 2.0
+444 79 8.0
+444 81 16.0
+444 82 16.0
+444 107 0.2
+444 142 0.4
+444 233 4.0
+444 237 6.0
+444 240 36.0
+444 266 0.2
+444 279 0.2
+444 281 0.3
+444 480 0.006
+445 55 7.0
+445 79 2.0
+445 81 2.0
+445 82 2.0
+445 233 6.0
+445 236 4.0
+445 237 78.0
+445 238 4.0
+446 77 4.0
+446 78 2.0
+446 79 12.0
+446 81 14.0
+446 82 14.0
+446 100 0.2
+446 196 2.0
+446 233 10.0
+446 237 53.0
+446 444 6.0
+446 445 33.0
+446 508 0.004
+446 510 0.002
+446 511 0.006
+446 512 0.002
+446 514 0.004
+446 515 0.016
+446 517 0.004
+446 525 0.002
+447 79 4.0
+447 81 8.0
+447 82 8.0
+447 142 0.2
+447 237 17.0
+447 444 6.0
+447 525 0.002
+448 57 2.0
+448 81 4.0
+448 82 4.0
+448 233 2.0
+448 235 4.0
+448 449 19.0
+448 480 0.006
+448 525 0.002
+449 55 1.0
+449 235 14.0
+450 57 4.0
+450 81 6.0
+450 82 6.0
+450 233 2.0
+450 235 13.0
+450 449 25.0
+450 480 0.006
+450 525 0.002
+451 80 2.0
+451 81 6.0
+451 82 6.0
+451 142 0.2
+451 233 4.0
+451 480 0.006
+451 525 0.002
+452 71 10.0
+452 81 12.0
+452 82 12.0
+452 178 0.2
+452 197 28.0
+452 200 13.0
+452 453 6.0
+452 454 21.0
+452 514 0.004
+452 515 0.004
+452 520 0.002
+453 71 30.0
+453 80 2.0
+453 81 28.0
+453 82 28.0
+453 197 4.0
+453 200 18.0
+453 201 2.0
+453 480 0.006
+454 55 1.0
+454 197 48.0
+454 200 2.0
+455 71 10.0
+455 81 8.0
+455 82 8.0
+455 197 12.0
+455 200 13.0
+455 453 6.0
+455 454 39.0
+456 71 6.0
+456 81 2.0
+456 82 2.0
+456 197 2.0
+456 198 2.0
+456 200 19.0
+456 201 2.0
+456 453 6.0
+456 479 0.004
+457 71 2.0
+457 81 2.0
+457 82 2.0
+457 453 6.0
+457 454 13.0
+458 203 19.0
+459 71 12.0
+459 81 8.0
+459 82 8.0
+459 198 6.0
+459 200 19.0
+459 201 2.0
+459 203 2.0
+459 453 6.0
+459 458 23.0
+459 478 1.1
+459 479 0.036
+460 78 2.0
+460 81 4.0
+460 82 4.0
+460 233 2.0
+460 480 0.006
+462 55 2.0
+462 78 6.0
+462 81 4.0
+462 82 4.0
+462 177 0.4
+462 233 2.0
+462 248 2.0
+462 480 0.006
+462 508 0.004
+461 78 10.0
+461 81 6.0
+461 82 6.0
+461 229 6.0
+461 233 2.0
+461 248 24.0
+461 480 0.006
+461 520 0.002
+463 81 12.0
+463 82 12.0
+463 100 0.6
+463 104 0.4
+463 105 0.2
+463 106 0.8
+463 176 0.2
+463 193 4.0
+463 212 15.0
+463 233 4.0
+463 480 0.006
+464 81 10.0
+464 82 10.0
+464 125 1.0
+464 233 4.0
+464 249 2.0
+464 480 0.006
+464 525 0.004
+465 80 26.0
+465 81 34.0
+465 82 34.0
+465 166 0.2
+465 225 6.0
+465 226 4.0
+465 228 20.0
+465 233 28.0
+465 250 89.0
+465 251 6.0
+465 253 32.0
+465 480 0.006
+465 525 0.006
+467 55 2.0
+467 80 6.0
+467 81 6.0
+467 82 6.0
+467 250 64.0
+467 253 16.0
+466 80 8.0
+466 81 10.0
+466 82 10.0
+466 177 0.2
+466 250 27.0
+466 467 49.0
+466 480 0.006
+466 520 0.002
+466 525 0.002
+468 80 8.0
+468 81 6.0
+468 82 6.0
+468 228 6.0
+468 233 12.0
+468 250 13.0
+468 251 6.0
+468 480 0.006
+468 525 0.002
+470 80 12.0
+470 81 8.0
+470 82 8.0
+470 228 6.0
+470 233 16.0
+470 250 4.0
+470 251 6.0
+470 480 0.006
+470 520 0.004
+470 525 0.002
+469 80 14.0
+469 81 16.0
+469 82 16.0
+469 228 2.0
+469 233 14.0
+469 250 48.0
+469 251 4.0
+469 253 12.0
+469 480 0.006
+471 80 12.0
+471 81 20.0
+471 82 20.0
+471 160 0.6
+471 166 0.8
+471 178 0.4
+471 226 4.0
+471 228 6.0
+471 233 40.0
+471 251 12.0
+471 480 0.006
+471 525 0.004
+473 233 112.0
+473 236 2.0
+472 79 6.0
+472 80 2.0
+472 81 12.0
+472 82 12.0
+472 107 0.2
+472 125 0.2
+472 178 0.2
+472 233 14.0
+472 236 2.0
+472 266 0.2
+472 279 0.2
+472 473 27.0
+472 480 0.006
+472 491 0.002
+472 525 0.002
+474 55 6.0
+474 71 2.0
+474 79 2.0
+474 81 6.0
+474 82 6.0
+474 177 0.4
+474 197 4.0
+474 200 5.0
+474 233 8.0
+474 240 4.0
+474 255 0.2
+474 258 0.2
+474 260 1.0
+474 262 2.8
+474 480 0.006
+475 80 2.0
+475 81 4.0
+475 82 4.0
+475 233 6.0
+475 480 0.006
+475 525 0.002
+476 519 0.002
+477 519 0.002
+481 80 2.0
+481 81 2.0
+481 82 2.0
+481 267 0.4
+481 480 0.06
+483 442 0.4
+483 443 0.2
+483 445 0.4
+483 446 0.2
+483 482 0.02
+480 78 2.0
+480 81 2.0
+480 82 2.0
+480 177 0.6
+480 178 1.0
+480 196 2.0
+480 229 9.0
+480 233 9.0
+480 293 0.003
+480 294 0.002
+480 479 0.24
+480 482 0.04
+480 484 0.04
+480 486 0.04
+485 78 4.0
+485 81 2.0
+485 82 2.0
+485 196 4.0
+485 248 2.0
+485 480 0.04
+485 484 0.16
+486 487 0.02
+489 488 6.0
+490 488 6.0
+492 177 0.6
+492 178 0.6
+492 233 9.0
+492 237 2.0
+492 239 22.0
+492 491 0.19
+491 49 0.004
+491 177 0.4
+494 493 0.09
+493 494 0.02
+493 522 0.013
+493 525 0.002
+493 527 0.006
+495 177 0.2
+495 496 0.09
+497 498 0.04
+500 499 0.06
+499 177 0.2
+499 500 0.17
+503 504 0.04
+501 502 0.06
+501 503 0.02
+501 504 0.1
+501 505 0.04
+507 506 0.87
+506 507 0.02
+506 520 0.04
+509 55 6.0
+509 508 0.06
+508 55 13.0
+508 69 11.0
+508 77 8.0
+508 80 3.0
+508 81 10.0
+508 82 10.0
+508 159 1.6
+508 177 0.2
+508 178 1.2
+508 229 43.0
+508 233 38.0
+508 237 42.0
+508 239 46.0
+508 497 0.34
+508 498 0.02
+508 509 0.03
+508 514 0.19
+508 515 0.1
+508 520 0.06
+510 55 8.0
+512 510 0.09
+512 511 0.08
+513 520 0.04
+514 515 0.16
+518 55 6.0
+517 55 1.0
+517 177 0.2
+517 233 2.0
+517 237 14.0
+517 514 0.25
+517 518 0.03
+517 519 0.1
+517 520 0.08
+520 10 4.0
+520 52 0.004
+521 10 4.0
+523 522 0.03
+524 229 3.0
+524 233 3.0
+524 234 3.0
+524 235 3.0
+524 236 3.0
+524 237 3.0
+524 239 3.0
+524 249 3.0
+524 250 3.0
+525 177 0.4
+525 229 6.0
+525 233 6.0
+525 234 6.0
+525 235 6.0
+525 236 6.0
+525 237 6.0
+525 239 6.0
+525 249 6.0
+525 250 6.0
+525 522 0.17
+525 523 0.08
+525 524 0.36
+528 522 0.03
+528 523 0.04
+528 529 0.02
+529 527 0.04
+529 531 0.14
+530 522 0.03
+530 523 0.04
+530 531 0.02
+531 522 0.04
+531 532 0.04
+534 55 2.0
+534 79 18.0
+534 80 4.0
+534 81 35.0
+534 82 2.0
+534 142 0.6
+534 178 0.2
+534 229 12.0
+534 233 16.0
+534 236 2.0
+534 237 93.0
+534 240 10.0
+534 243 2.0
+534 245 2.0
+534 520 0.002
+534 525 0.006
+534 536 14.0
+534 538 4.0
+535 71 22.0
+535 80 12.0
+535 81 31.0
+535 82 6.0
+535 178 0.2
+535 197 55.0
+535 200 4.0
+535 229 6.0
+535 233 22.0
+535 514 0.006
+535 520 0.01
+535 536 10.0
+537 536 2.0
+536 3 2.0
+536 8 2.0
+536 9 4.0
+536 10 2.0
+536 73 4.0
+536 77 2.0
+536 78 6.0
+536 81 13.0
+536 82 6.0
+536 177 0.6
+536 178 0.4
+536 229 27.0
+536 233 10.0
+536 237 10.0
+536 520 0.002
+536 521 0.004
+536 534 16.0
+536 535 20.0
+536 538 2.0
+538 55 2.0
+538 71 2.0
+538 75 2.0
+538 77 2.0
+538 78 2.0
+538 79 2.0
+538 81 10.0
+538 82 6.0
+538 178 0.2
+538 200 4.0
+538 215 2.0
+538 229 3.0
+538 233 10.0
+538 236 4.0
+538 248 6.0
+538 520 0.002
+539 1 4.0
+539 2 2.0
+539 6 2.0
+539 8 2.0
+539 9 4.0
+539 73 6.0
+539 81 4.0
+539 82 4.0
+540 1 2.0
+540 2 8.0
+540 3 4.0
+540 9 6.0
+540 73 6.0
+540 81 6.0
+540 82 6.0
+541 1 4.0
+541 2 4.0
+541 5 2.0
+541 8 2.0
+541 9 4.0
+541 73 8.0
+541 81 4.0
+541 82 4.0
+542 77 4.0
+542 80 2.0
+542 81 4.0
+542 82 4.0
+542 178 1.0
+542 233 6.0
+542 520 0.002
+543 77 6.0
+543 79 2.0
+543 80 2.0
+543 81 6.0
+543 82 2.0
+543 177 0.2
+543 178 0.2
+543 220 10.0
+543 520 0.002
+544 78 4.0
+544 80 2.0
+544 81 6.0
+544 82 6.0
+544 177 0.8
+544 178 0.4
+544 229 8.0
+544 233 10.0
+544 520 0.004
+544 525 0.002
+545 78 6.0
+545 79 12.0
+545 80 8.0
+545 81 28.0
+545 82 20.0
+545 229 8.0
+545 233 16.0
+545 237 50.0
+545 240 6.0
+545 250 6.0
+545 520 0.002
+545 544 6.0
+546 71 4.0
+546 77 4.0
+546 78 2.0
+546 79 16.0
+546 81 22.0
+546 82 14.0
+546 178 0.2
+546 197 16.0
+546 229 6.0
+546 233 16.0
+546 236 19.0
+546 237 83.0
+546 240 8.0
+546 514 0.006
+546 520 0.008
+546 545 6.0

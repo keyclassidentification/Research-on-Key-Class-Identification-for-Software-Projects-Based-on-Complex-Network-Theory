@@ -1,0 +1,14 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+AsyncChannelWrapper & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+AsyncChannelWrapperSecure & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+MessagePart & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+WsServerContainer & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+Transformation & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+WsFrameBase & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+WsFrameClient & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+WsIOException & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+WsSession & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+WsWebSocketContainer & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+个数 & $\textbf{10}$ & $\textbf{10}$ & $2$ & $8$ & $6$ & $1$ & $\textbf{10}$ & $5$ & $\textbf{10}$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $20$ & $80$ & $60$ & $10$ & $\textbf{100}$ & $50$ & $\textbf{100}$ \\
+准确率($\%$) & $\textbf{66}$ & $\textbf{66}$ & $13$ & $53$ & $40$ & $6$ & $\textbf{66}$ & $33$ & $\textbf{66}$ \\

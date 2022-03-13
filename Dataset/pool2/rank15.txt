@@ -1,0 +1,13 @@
+org.apache.commons.pool2.impl.BaseGenericObjectPool
+org.apache.commons.pool2.impl.CallStack
+org.apache.commons.pool2.impl.EvictionPolicy
+org.apache.commons.pool2.impl.EvictionTimer
+org.apache.commons.pool2.impl.GenericKeyedObjectPool
+org.apache.commons.pool2.impl.GenericObjectPool
+org.apache.commons.pool2.impl.InterruptibleReentrantLock
+org.apache.commons.pool2.impl.LinkedBlockingDeque
+org.apache.commons.pool2.KeyedObjectPool
+org.apache.commons.pool2.KeyedPooledObjectFactory
+org.apache.commons.pool2.ObjectPool
+org.apache.commons.pool2.PooledObject
+org.apache.commons.pool2.PooledObjectFactory

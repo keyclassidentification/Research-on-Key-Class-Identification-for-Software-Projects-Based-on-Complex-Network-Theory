@@ -1,0 +1,739 @@
+*Vertices 251
+1 "org.opengis.annotation.ComplianceLevel"
+2 "org.opengis.annotation.Obligation"
+3 "org.opengis.annotation.Profile"
+4 "org.opengis.annotation.Specification"
+5 "org.opengis.annotation.UML"
+6 "org.opengis.feature.type.FeatureType"
+7 "org.opengis.geometry.DirectPosition"
+8 "org.opengis.geometry.Envelope"
+9 "org.opengis.geometry.Geometry"
+10 "org.opengis.geometry.MismatchedDimensionException"
+11 "org.opengis.geometry.coordinate.Position"
+12 "org.opengis.geometry.primitive.Point"
+13 "org.opengis.metadata.ApplicationSchemaInformation"
+14 "org.opengis.metadata.Datatype"
+15 "org.opengis.metadata.ExtendedElementInformation"
+16 "org.opengis.metadata.Identifier"
+17 "org.opengis.metadata.Metadata"
+18 "org.opengis.metadata.MetadataExtensionInformation"
+19 "org.opengis.metadata.Obligation"
+20 "org.opengis.metadata.acquisition.AcquisitionInformation"
+21 "org.opengis.metadata.acquisition.Context"
+22 "org.opengis.metadata.acquisition.EnvironmentalRecord"
+23 "org.opengis.metadata.acquisition.Event"
+24 "org.opengis.metadata.acquisition.GeometryType"
+25 "org.opengis.metadata.acquisition.Instrument"
+26 "org.opengis.metadata.acquisition.Objective"
+27 "org.opengis.metadata.acquisition.ObjectiveType"
+28 "org.opengis.metadata.acquisition.Operation"
+29 "org.opengis.metadata.acquisition.OperationType"
+30 "org.opengis.metadata.acquisition.Plan"
+31 "org.opengis.metadata.acquisition.Platform"
+32 "org.opengis.metadata.acquisition.PlatformPass"
+33 "org.opengis.metadata.acquisition.Priority"
+34 "org.opengis.metadata.acquisition.RequestedDate"
+35 "org.opengis.metadata.acquisition.Requirement"
+36 "org.opengis.metadata.acquisition.Sequence"
+37 "org.opengis.metadata.acquisition.Trigger"
+38 "org.opengis.metadata.citation.Address"
+39 "org.opengis.metadata.citation.Citation"
+40 "org.opengis.metadata.citation.CitationDate"
+41 "org.opengis.metadata.citation.Contact"
+42 "org.opengis.metadata.citation.DateType"
+43 "org.opengis.metadata.citation.OnLineFunction"
+44 "org.opengis.metadata.citation.OnlineResource"
+45 "org.opengis.metadata.citation.PresentationForm"
+46 "org.opengis.metadata.citation.ResponsibleParty"
+47 "org.opengis.metadata.citation.Role"
+48 "org.opengis.metadata.citation.Series"
+49 "org.opengis.metadata.citation.Telephone"
+50 "org.opengis.metadata.constraint.Classification"
+51 "org.opengis.metadata.constraint.LegalConstraints"
+52 "org.opengis.metadata.constraint.Restriction"
+53 "org.opengis.metadata.constraint.SecurityConstraints"
+54 "org.opengis.metadata.content.Band"
+55 "org.opengis.metadata.content.BandDefinition"
+56 "org.opengis.metadata.content.ContentInformation"
+57 "org.opengis.metadata.content.CoverageContentType"
+58 "org.opengis.metadata.content.CoverageDescription"
+59 "org.opengis.metadata.content.FeatureCatalogueDescription"
+60 "org.opengis.metadata.content.ImageDescription"
+61 "org.opengis.metadata.content.ImagingCondition"
+62 "org.opengis.metadata.content.PolarizationOrientation"
+63 "org.opengis.metadata.content.RangeDimension"
+64 "org.opengis.metadata.content.RangeElementDescription"
+65 "org.opengis.metadata.content.TransferFunctionType"
+66 "org.opengis.metadata.distribution.DataFile"
+67 "org.opengis.metadata.distribution.DigitalTransferOptions"
+68 "org.opengis.metadata.distribution.Distribution"
+69 "org.opengis.metadata.distribution.Distributor"
+70 "org.opengis.metadata.distribution.Format"
+71 "org.opengis.metadata.distribution.Medium"
+72 "org.opengis.metadata.distribution.MediumFormat"
+73 "org.opengis.metadata.distribution.MediumName"
+74 "org.opengis.metadata.distribution.StandardOrderProcess"
+75 "org.opengis.metadata.extent.BoundingPolygon"
+76 "org.opengis.metadata.extent.Extent"
+77 "org.opengis.metadata.extent.GeographicBoundingBox"
+78 "org.opengis.metadata.extent.GeographicDescription"
+79 "org.opengis.metadata.extent.GeographicExtent"
+80 "org.opengis.metadata.extent.SpatialTemporalExtent"
+81 "org.opengis.metadata.extent.TemporalExtent"
+82 "org.opengis.metadata.extent.VerticalExtent"
+83 "org.opengis.metadata.identification.AggregateInformation"
+84 "org.opengis.metadata.identification.AssociationType"
+85 "org.opengis.metadata.identification.BrowseGraphic"
+86 "org.opengis.metadata.identification.CharacterSet"
+87 "org.opengis.metadata.identification.DataIdentification"
+88 "org.opengis.metadata.identification.Identification"
+89 "org.opengis.metadata.identification.InitiativeType"
+90 "org.opengis.metadata.identification.KeywordType"
+91 "org.opengis.metadata.identification.Keywords"
+92 "org.opengis.metadata.identification.Progress"
+93 "org.opengis.metadata.identification.RepresentativeFraction"
+94 "org.opengis.metadata.identification.Resolution"
+95 "org.opengis.metadata.identification.ServiceIdentification"
+96 "org.opengis.metadata.identification.TopicCategory"
+97 "org.opengis.metadata.identification.Usage"
+98 "org.opengis.metadata.lineage.Algorithm"
+99 "org.opengis.metadata.lineage.Lineage"
+100 "org.opengis.metadata.lineage.NominalResolution"
+101 "org.opengis.metadata.lineage.ProcessStep"
+102 "org.opengis.metadata.lineage.ProcessStepReport"
+103 "org.opengis.metadata.lineage.Processing"
+104 "org.opengis.metadata.lineage.Source"
+105 "org.opengis.metadata.maintenance.MaintenanceFrequency"
+106 "org.opengis.metadata.maintenance.MaintenanceInformation"
+107 "org.opengis.metadata.maintenance.ScopeCode"
+108 "org.opengis.metadata.quality.AbsoluteExternalPositionalAccuracy"
+109 "org.opengis.metadata.quality.AccuracyOfATimeMeasurement"
+110 "org.opengis.metadata.quality.Completeness"
+111 "org.opengis.metadata.quality.CompletenessCommission"
+112 "org.opengis.metadata.quality.CompletenessOmission"
+113 "org.opengis.metadata.quality.ConceptualConsistency"
+114 "org.opengis.metadata.quality.ConformanceResult"
+115 "org.opengis.metadata.quality.CoverageResult"
+116 "org.opengis.metadata.quality.DataQuality"
+117 "org.opengis.metadata.quality.DomainConsistency"
+118 "org.opengis.metadata.quality.Element"
+119 "org.opengis.metadata.quality.EvaluationMethodType"
+120 "org.opengis.metadata.quality.FormatConsistency"
+121 "org.opengis.metadata.quality.GriddedDataPositionalAccuracy"
+122 "org.opengis.metadata.quality.LogicalConsistency"
+123 "org.opengis.metadata.quality.NonQuantitativeAttributeAccuracy"
+124 "org.opengis.metadata.quality.PositionalAccuracy"
+125 "org.opengis.metadata.quality.QuantitativeAttributeAccuracy"
+126 "org.opengis.metadata.quality.QuantitativeResult"
+127 "org.opengis.metadata.quality.RelativeInternalPositionalAccuracy"
+128 "org.opengis.metadata.quality.Result"
+129 "org.opengis.metadata.quality.Scope"
+130 "org.opengis.metadata.quality.TemporalAccuracy"
+131 "org.opengis.metadata.quality.TemporalConsistency"
+132 "org.opengis.metadata.quality.TemporalValidity"
+133 "org.opengis.metadata.quality.ThematicAccuracy"
+134 "org.opengis.metadata.quality.ThematicClassificationCorrectness"
+135 "org.opengis.metadata.quality.TopologicalConsistency"
+136 "org.opengis.metadata.quality.Usability"
+137 "org.opengis.metadata.spatial.CellGeometry"
+138 "org.opengis.metadata.spatial.Dimension"
+139 "org.opengis.metadata.spatial.DimensionNameType"
+140 "org.opengis.metadata.spatial.GCP"
+141 "org.opengis.metadata.spatial.GCPCollection"
+142 "org.opengis.metadata.spatial.GeolocationInformation"
+143 "org.opengis.metadata.spatial.GeometricObjectType"
+144 "org.opengis.metadata.spatial.GeometricObjects"
+145 "org.opengis.metadata.spatial.Georectified"
+146 "org.opengis.metadata.spatial.Georeferenceable"
+147 "org.opengis.metadata.spatial.GridSpatialRepresentation"
+148 "org.opengis.metadata.spatial.PixelOrientation"
+149 "org.opengis.metadata.spatial.SpatialRepresentation"
+150 "org.opengis.metadata.spatial.SpatialRepresentationType"
+151 "org.opengis.metadata.spatial.TopologyLevel"
+152 "org.opengis.metadata.spatial.VectorSpatialRepresentation"
+153 "org.opengis.parameter.GeneralParameterDescriptor"
+154 "org.opengis.parameter.GeneralParameterValue"
+155 "org.opengis.parameter.InvalidParameterNameException"
+156 "org.opengis.parameter.InvalidParameterValueException"
+157 "org.opengis.parameter.ParameterDescriptor"
+158 "org.opengis.parameter.ParameterDescriptorGroup"
+159 "org.opengis.parameter.ParameterNotFoundException"
+160 "org.opengis.parameter.ParameterValue"
+161 "org.opengis.parameter.ParameterValueGroup"
+162 "org.opengis.referencing.AuthorityFactory"
+163 "org.opengis.referencing.IdentifiedObject"
+164 "org.opengis.referencing.NoSuchAuthorityCodeException"
+165 "org.opengis.referencing.ObjectFactory"
+166 "org.opengis.referencing.ReferenceIdentifier"
+167 "org.opengis.referencing.ReferenceSystem"
+168 "org.opengis.referencing.crs.CRSAuthorityFactory"
+169 "org.opengis.referencing.crs.CRSFactory"
+170 "org.opengis.referencing.crs.CompoundCRS"
+171 "org.opengis.referencing.crs.CoordinateReferenceSystem"
+172 "org.opengis.referencing.crs.DerivedCRS"
+173 "org.opengis.referencing.crs.EngineeringCRS"
+174 "org.opengis.referencing.crs.GeneralDerivedCRS"
+175 "org.opengis.referencing.crs.GeocentricCRS"
+176 "org.opengis.referencing.crs.GeodeticCRS"
+177 "org.opengis.referencing.crs.GeographicCRS"
+178 "org.opengis.referencing.crs.ImageCRS"
+179 "org.opengis.referencing.crs.ProjectedCRS"
+180 "org.opengis.referencing.crs.SingleCRS"
+181 "org.opengis.referencing.crs.TemporalCRS"
+182 "org.opengis.referencing.crs.VerticalCRS"
+183 "org.opengis.referencing.cs.AffineCS"
+184 "org.opengis.referencing.cs.AxisDirection"
+185 "org.opengis.referencing.cs.CSAuthorityFactory"
+186 "org.opengis.referencing.cs.CSFactory"
+187 "org.opengis.referencing.cs.CartesianCS"
+188 "org.opengis.referencing.cs.CoordinateSystem"
+189 "org.opengis.referencing.cs.CoordinateSystemAxis"
+190 "org.opengis.referencing.cs.CylindricalCS"
+191 "org.opengis.referencing.cs.EllipsoidalCS"
+192 "org.opengis.referencing.cs.LinearCS"
+193 "org.opengis.referencing.cs.PolarCS"
+194 "org.opengis.referencing.cs.RangeMeaning"
+195 "org.opengis.referencing.cs.SphericalCS"
+196 "org.opengis.referencing.cs.TimeCS"
+197 "org.opengis.referencing.cs.UserDefinedCS"
+198 "org.opengis.referencing.cs.VerticalCS"
+199 "org.opengis.referencing.datum.Datum"
+200 "org.opengis.referencing.datum.DatumAuthorityFactory"
+201 "org.opengis.referencing.datum.DatumFactory"
+202 "org.opengis.referencing.datum.Ellipsoid"
+203 "org.opengis.referencing.datum.EngineeringDatum"
+204 "org.opengis.referencing.datum.GeodeticDatum"
+205 "org.opengis.referencing.datum.ImageDatum"
+206 "org.opengis.referencing.datum.PixelInCell"
+207 "org.opengis.referencing.datum.PrimeMeridian"
+208 "org.opengis.referencing.datum.TemporalDatum"
+209 "org.opengis.referencing.datum.VerticalDatum"
+210 "org.opengis.referencing.datum.VerticalDatumType"
+211 "org.opengis.referencing.operation.ConcatenatedOperation"
+212 "org.opengis.referencing.operation.ConicProjection"
+213 "org.opengis.referencing.operation.Conversion"
+214 "org.opengis.referencing.operation.CoordinateOperation"
+215 "org.opengis.referencing.operation.CoordinateOperationAuthorityFactory"
+216 "org.opengis.referencing.operation.CoordinateOperationFactory"
+217 "org.opengis.referencing.operation.CylindricalProjection"
+218 "org.opengis.referencing.operation.Formula"
+219 "org.opengis.referencing.operation.MathTransform"
+220 "org.opengis.referencing.operation.MathTransform1D"
+221 "org.opengis.referencing.operation.MathTransform2D"
+222 "org.opengis.referencing.operation.MathTransformFactory"
+223 "org.opengis.referencing.operation.Matrix"
+224 "org.opengis.referencing.operation.NoninvertibleTransformException"
+225 "org.opengis.referencing.operation.OperationMethod"
+226 "org.opengis.referencing.operation.OperationNotFoundException"
+227 "org.opengis.referencing.operation.PassThroughOperation"
+228 "org.opengis.referencing.operation.PlanarProjection"
+229 "org.opengis.referencing.operation.Projection"
+230 "org.opengis.referencing.operation.SingleOperation"
+231 "org.opengis.referencing.operation.TransformException"
+232 "org.opengis.referencing.operation.Transformation"
+233 "org.opengis.temporal.PeriodDuration"
+234 "org.opengis.temporal.TemporalPrimitive"
+235 "org.opengis.util.CodeList"
+236 "org.opengis.util.CodeList$Filter"
+237 "org.opengis.util.Factory"
+238 "org.opengis.util.FactoryException"
+239 "org.opengis.util.GenericName"
+240 "org.opengis.util.InternationalString"
+241 "org.opengis.util.LocalName"
+242 "org.opengis.util.MemberName"
+243 "org.opengis.util.NameFactory"
+244 "org.opengis.util.NameSpace"
+245 "org.opengis.util.NoSuchIdentifierException"
+246 "org.opengis.util.Record"
+247 "org.opengis.util.RecordSchema"
+248 "org.opengis.util.RecordType"
+249 "org.opengis.util.ScopedName"
+250 "org.opengis.util.Type"
+251 "org.opengis.util.TypeName"
+*Arcs
+3 1 300.0
+5 2 300.0
+5 4 300.0
+7 11 4.0
+7 171 3.0
+8 7 600.0
+8 171 3.0
+11 7 3.0
+12 9 4.0
+13 39 3.0
+14 235 9.0
+15 14 300.0
+15 19 300.0
+15 240 12.0
+16 39 3.0
+18 44 3.0
+17 68 3.0
+17 86 3.0
+19 235 9.0
+20 22 300.0
+21 235 9.0
+22 240 3.0
+23 16 3.0
+23 21 300.0
+23 32 300.0
+23 36 300.0
+23 37 300.0
+24 235 9.0
+25 16 3.0
+25 31 300.0
+25 240 6.0
+27 235 9.0
+26 240 3.0
+29 235 9.0
+28 16 3.0
+28 29 0.03
+28 30 300.0
+28 39 3.0
+28 92 3.0
+28 240 3.0
+30 24 0.03
+30 39 3.0
+30 92 3.0
+32 9 3.0
+32 16 3.0
+31 16 3.0
+31 39 3.0
+31 240 3.0
+33 235 9.0
+35 16 3.0
+35 33 300.0
+35 34 300.0
+35 39 3.0
+36 235 9.0
+37 235 9.0
+38 240 9.0
+40 42 0.03
+39 48 300.0
+39 240 12.0
+41 38 300.0
+41 44 300.0
+41 49 300.0
+41 240 6.0
+42 235 9.0
+43 235 9.0
+44 43 300.0
+44 240 3.0
+45 235 9.0
+46 41 300.0
+46 47 300.0
+46 240 6.0
+47 235 9.0
+48 240 3.0
+50 235 9.0
+52 235 9.0
+53 240 9.0
+55 235 9.0
+54 55 300.0
+54 62 600.0
+54 63 400.0
+54 65 0.03
+57 235 9.0
+58 56 400.0
+58 57 0.03
+58 248 0.003
+59 56 400.0
+60 16 6.0
+60 58 400.0
+60 61 300.0
+61 235 9.0
+62 235 9.0
+63 240 3.0
+63 242 3.0
+64 240 6.0
+65 235 9.0
+66 70 300.0
+67 71 300.0
+67 240 3.0
+69 46 3.0
+70 240 15.0
+72 235 9.0
+73 235 9.0
+71 73 300.0
+71 240 3.0
+74 240 9.0
+75 79 400.0
+76 240 3.0
+77 79 400.0
+78 16 3.0
+78 79 400.0
+80 81 400.0
+81 234 3.0
+82 182 3.0
+83 16 3.0
+83 39 3.0
+83 84 0.03
+83 89 0.03
+84 235 9.0
+85 240 3.0
+86 235 11.0
+87 88 400.0
+87 240 6.0
+88 39 3.0
+88 240 6.0
+89 235 9.0
+90 235 9.0
+91 39 3.0
+91 90 0.03
+92 235 9.0
+94 93 300.0
+95 88 400.0
+96 235 9.0
+97 240 6.0
+98 39 3.0
+98 240 3.0
+99 240 3.0
+102 240 9.0
+101 103 300.0
+101 240 6.0
+103 16 3.0
+103 240 6.0
+104 16 3.0
+104 39 3.0
+104 93 3.0
+104 100 300.0
+104 167 3.0
+104 240 3.0
+105 235 9.0
+106 233 3.0
+107 235 9.0
+108 124 400.0
+109 130 400.0
+111 110 400.0
+112 110 400.0
+110 118 400.0
+113 122 400.0
+114 39 3.0
+114 128 400.0
+114 240 3.0
+115 58 3.0
+115 66 3.0
+115 70 3.0
+115 128 400.0
+115 149 3.0
+115 150 0.003
+116 99 3.0
+116 129 300.0
+117 122 400.0
+118 16 3.0
+118 39 3.0
+118 119 0.03
+118 240 6.0
+119 235 9.0
+120 122 400.0
+121 124 400.0
+122 118 400.0
+123 133 400.0
+124 118 400.0
+125 133 400.0
+126 128 400.0
+126 240 3.0
+126 248 0.003
+127 124 400.0
+129 76 3.0
+130 118 400.0
+131 130 400.0
+132 130 400.0
+133 118 400.0
+134 133 400.0
+135 122 400.0
+136 118 400.0
+137 235 9.0
+139 235 9.0
+138 139 0.03
+141 142 400.0
+141 167 3.0
+141 240 3.0
+140 7 3.0
+143 235 9.0
+144 143 0.03
+145 147 400.0
+145 148 300.0
+145 240 6.0
+146 147 400.0
+146 240 3.0
+146 246 3.0
+147 137 300.0
+147 149 400.0
+148 235 9.0
+150 235 9.0
+151 235 9.0
+152 149 400.0
+152 151 300.0
+153 154 300.0
+153 163 4.0
+154 153 300.0
+158 153 700.0
+158 159 100.0
+158 161 300.0
+157 153 400.0
+157 160 300.0
+161 154 400.0
+161 158 300.0
+161 159 300.0
+161 160 300.0
+160 154 400.0
+160 156 600.0
+160 157 300.0
+162 39 3.0
+162 163 300.0
+162 164 200.0
+162 237 4.0
+162 238 3.0
+162 240 3.0
+163 166 300.0
+163 240 3.0
+164 245 6.0
+165 237 4.0
+166 16 4.0
+167 76 3.0
+167 163 400.0
+167 240 3.0
+168 162 4.0
+168 164 10.0
+168 170 300.0
+168 171 300.0
+168 172 300.0
+168 173 300.0
+168 175 300.0
+168 177 300.0
+168 178 300.0
+168 179 300.0
+168 181 300.0
+168 182 300.0
+168 238 10.0
+169 165 4.0
+169 170 300.0
+169 171 1200.0
+169 172 300.0
+169 173 300.0
+169 175 600.0
+169 177 600.0
+169 178 300.0
+169 179 300.0
+169 181 300.0
+169 182 300.0
+169 183 3.0
+169 187 6.0
+169 188 6.0
+169 191 3.0
+169 195 3.0
+169 196 3.0
+169 198 3.0
+169 203 3.0
+169 204 9.0
+169 205 3.0
+169 208 3.0
+169 209 3.0
+169 213 6.0
+169 238 12.0
+170 171 400.0
+171 167 4.0
+171 188 3.0
+172 174 400.0
+173 180 400.0
+173 203 3.0
+174 171 300.0
+174 180 400.0
+174 213 3.0
+175 176 400.0
+175 188 3.0
+176 180 400.0
+176 204 3.0
+177 176 400.0
+177 191 3.0
+178 180 400.0
+178 183 3.0
+178 205 3.0
+179 174 400.0
+179 177 300.0
+179 187 3.0
+179 204 3.0
+179 229 3.0
+180 171 400.0
+180 188 3.0
+180 199 3.0
+181 180 400.0
+181 196 3.0
+181 208 3.0
+182 180 400.0
+182 198 3.0
+182 209 3.0
+183 188 400.0
+184 235 9.0
+185 162 4.0
+185 164 10.0
+185 187 300.0
+185 188 300.0
+185 189 300.0
+185 190 300.0
+185 191 300.0
+185 193 300.0
+185 195 300.0
+185 196 300.0
+185 198 300.0
+185 238 10.0
+186 165 4.0
+186 183 600.0
+186 184 300.0
+186 187 600.0
+186 189 9600.0
+186 190 300.0
+186 191 600.0
+186 192 300.0
+186 193 300.0
+186 195 300.0
+186 196 300.0
+186 197 600.0
+186 198 300.0
+186 238 15.0
+187 183 400.0
+189 163 4.0
+189 184 300.0
+189 194 300.0
+188 163 4.0
+188 189 300.0
+190 188 400.0
+191 188 400.0
+192 188 400.0
+193 188 400.0
+194 235 9.0
+195 188 400.0
+196 188 400.0
+197 188 400.0
+198 188 400.0
+200 162 4.0
+200 164 8.0
+200 199 300.0
+200 202 300.0
+200 203 300.0
+200 204 300.0
+200 205 300.0
+200 207 300.0
+200 208 300.0
+200 209 300.0
+200 238 8.0
+201 165 4.0
+201 202 900.0
+201 203 300.0
+201 204 300.0
+201 205 300.0
+201 206 300.0
+201 207 600.0
+201 208 300.0
+201 209 300.0
+201 210 0.03
+201 238 8.0
+199 76 3.0
+199 163 4.0
+199 240 6.0
+202 163 4.0
+203 199 400.0
+204 199 400.0
+204 202 300.0
+204 207 300.0
+205 199 400.0
+205 206 300.0
+206 235 9.0
+207 163 4.0
+208 199 400.0
+208 240 3.0
+210 235 9.0
+209 199 400.0
+209 210 0.03
+211 214 400.0
+212 229 400.0
+213 171 6.0
+213 230 400.0
+215 162 4.0
+215 164 3.0
+215 214 300.0
+215 225 300.0
+215 238 3.0
+216 161 3.0
+216 165 4.0
+216 171 12.0
+216 213 300.0
+216 214 1200.0
+216 225 600.0
+216 226 200.0
+216 238 4.0
+214 76 3.0
+214 163 4.0
+214 171 6.0
+214 219 300.0
+214 240 3.0
+217 229 400.0
+218 39 3.0
+218 240 3.0
+220 219 400.0
+220 224 100.0
+220 231 200.0
+221 219 400.0
+221 223 300.0
+221 224 100.0
+221 231 300.0
+222 161 9.0
+222 171 3.0
+222 188 3.0
+222 219 3000.0
+222 223 300.0
+222 225 300.0
+222 237 4.0
+222 238 7.0
+222 245 3.0
+219 7 12.0
+219 10 2.0
+219 223 300.0
+219 224 100.0
+219 231 600.0
+224 231 1000.0
+225 158 3.0
+225 163 4.0
+225 218 300.0
+226 238 10.0
+227 230 700.0
+228 229 400.0
+229 213 400.0
+230 161 3.0
+230 214 400.0
+230 225 300.0
+231 219 900.0
+232 171 6.0
+232 230 400.0
+236 235 300.0
+235 5 2.0
+235 236 400.0
+237 39 3.0
+239 240 300.0
+239 241 600.0
+239 244 300.0
+239 249 300.0
+241 239 400.0
+242 241 400.0
+242 251 0.03
+243 239 900.0
+243 240 300.0
+243 241 300.0
+243 244 1500.0
+243 251 0.03
+244 239 300.0
+245 238 600.0
+247 241 300.0
+247 248 0.03
+247 251 0.03
+248 242 300.0
+248 246 300.0
+248 247 300.0
+248 250 0.04
+248 251 0.06
+246 242 600.0
+246 248 0.03
+249 239 1000.0
+249 241 600.0
+251 241 400.0
+250 251 0.03

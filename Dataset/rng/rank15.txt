@@ -1,0 +1,9 @@
+org.apache.commons.rng.core.source32.AbstractWell
+org.apache.commons.rng.core.source32.AbstractXoShiRo128
+org.apache.commons.rng.core.source32.IntProvider
+org.apache.commons.rng.core.source64.AbstractXoRoShiRo1024
+org.apache.commons.rng.core.source64.AbstractXoRoShiRo128
+org.apache.commons.rng.core.source64.AbstractXoShiRo256
+org.apache.commons.rng.core.source64.AbstractXoShiRo512
+org.apache.commons.rng.core.source64.LongProvider
+org.apache.commons.rng.UniformRandomProvider

@@ -1,0 +1,10 @@
+org.apache.tomcat.websocket.AsyncChannelWrapper
+org.apache.tomcat.websocket.AsyncChannelWrapperSecure
+org.apache.tomcat.websocket.MessagePart
+org.apache.tomcat.websocket.server.WsServerContainer
+org.apache.tomcat.websocket.Transformation
+org.apache.tomcat.websocket.WsFrameBase
+org.apache.tomcat.websocket.WsFrameClient
+org.apache.tomcat.websocket.WsIOException
+org.apache.tomcat.websocket.WsSession
+org.apache.tomcat.websocket.WsWebSocketContainer

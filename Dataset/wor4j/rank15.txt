@@ -1,0 +1,9 @@
+ro.isdc.wro.manager.factory.WroManagerFactory
+ro.isdc.wro.manager.WroManager
+ro.isdc.wro.model.factory.WroModelFactory
+ro.isdc.wro.model.group.GroupExtractor
+ro.isdc.wro.model.group.processor.PreProcessorExecutor
+ro.isdc.wro.model.resource.processor.ResourcePreProcessor
+ro.isdc.wro.model.resource.Resource
+ro.isdc.wro.model.WroModel
+ro.isdc.wro.model.WroModelInspector

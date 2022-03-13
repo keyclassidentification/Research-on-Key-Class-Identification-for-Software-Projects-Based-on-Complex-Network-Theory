@@ -1,0 +1,11 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+EMMARuntimeException & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\times$ \\
+AbstractReportGenerator & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ \\
+HTMLWriter & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+IContent & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Tag & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+IItem & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+IItemMetadata & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ \\
+个数 & $\textbf{6}$ & $\textbf{6}$ & $5$ & $4$ & $3$ & $4$ & $5$ & $2$ & $5$ \\
+召回率($\%$) & $\textbf{85}$ & $\textbf{85}$ & $71$ & $57$ & $42$ & $57$ & $71$ & $28$ & $71$ \\
+准确率($\%$) & $\textbf{40}$ & $\textbf{40}$ & $33$ & $26$ & $20$ & $26$ & $33$ & $13$ & $33$ \\

@@ -1,0 +1,8 @@
+org.hsqldb.ColumnSchema
+org.hsqldb.Database
+org.hsqldb.Expression
+org.hsqldb.RangeVariable
+org.hsqldb.SchemaManager
+org.hsqldb.Session
+org.hsqldb.Statement
+org.hsqldb.Table

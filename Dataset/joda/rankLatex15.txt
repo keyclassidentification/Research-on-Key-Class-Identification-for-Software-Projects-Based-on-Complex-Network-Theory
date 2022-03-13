@@ -1,0 +1,17 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+BasicChronology & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+Chronology & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+DateTimeField & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+DateTimeFieldType & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+DateTimeZone & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+DurationField & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+DurationFieldType & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+DateTimeFormatter & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+DateTimeFormatterBuilder & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+DateTimeParserBucket & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ & $\times$ \\
+ReadableInstant & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\surd$ & $\times$ & $\times$ \\
+ReadablePartial & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+ReadablePeriod & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+个数 & $\textbf{13}$ & $\textbf{13}$ & $11$ & $6$ & $4$ & $11$ & $12$ & $0$ & $6$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $84$ & $46$ & $30$ & $84$ & $92$ & $0$ & $46$ \\
+准确率($\%$) & $\textbf{86}$ & $\textbf{86}$ & $73$ & $40$ & $26$ & $73$ & $80$ & $0$ & $40$ \\

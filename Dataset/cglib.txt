@@ -1,0 +1,1006 @@
+*Vertices 198
+1 "net.sf.cglib.asm.$AnnotationVisitor"
+2 "net.sf.cglib.asm.$AnnotationWriter"
+3 "net.sf.cglib.asm.$Attribute"
+4 "net.sf.cglib.asm.$ByteVector"
+5 "net.sf.cglib.asm.$ClassReader"
+6 "net.sf.cglib.asm.$ClassVisitor"
+7 "net.sf.cglib.asm.$ClassWriter"
+8 "net.sf.cglib.asm.$Context"
+9 "net.sf.cglib.asm.$CurrentFrame"
+10 "net.sf.cglib.asm.$Edge"
+11 "net.sf.cglib.asm.$FieldVisitor"
+12 "net.sf.cglib.asm.$FieldWriter"
+13 "net.sf.cglib.asm.$Frame"
+14 "net.sf.cglib.asm.$Handle"
+15 "net.sf.cglib.asm.$Handler"
+16 "net.sf.cglib.asm.$Item"
+17 "net.sf.cglib.asm.$Label"
+18 "net.sf.cglib.asm.$MethodVisitor"
+19 "net.sf.cglib.asm.$MethodWriter"
+20 "net.sf.cglib.asm.$ModuleVisitor"
+21 "net.sf.cglib.asm.$ModuleWriter"
+22 "net.sf.cglib.asm.$Opcodes"
+23 "net.sf.cglib.asm.$Type"
+24 "net.sf.cglib.asm.$TypePath"
+25 "net.sf.cglib.beans.BeanCopier"
+26 "net.sf.cglib.beans.BeanCopier$BeanCopierKey"
+27 "net.sf.cglib.beans.BeanCopier$Generator"
+28 "net.sf.cglib.beans.BeanGenerator"
+29 "net.sf.cglib.beans.BeanGenerator$BeanGeneratorKey"
+30 "net.sf.cglib.beans.BeanMap"
+31 "net.sf.cglib.beans.BeanMap$Generator"
+32 "net.sf.cglib.beans.BeanMap$Generator$BeanMapKey"
+33 "net.sf.cglib.beans.BeanMapEmitter"
+34 "net.sf.cglib.beans.BulkBean"
+35 "net.sf.cglib.beans.BulkBean$BulkBeanKey"
+36 "net.sf.cglib.beans.BulkBean$Generator"
+37 "net.sf.cglib.beans.BulkBeanEmitter"
+38 "net.sf.cglib.beans.BulkBeanException"
+39 "net.sf.cglib.beans.ImmutableBean"
+40 "net.sf.cglib.beans.ImmutableBean$Generator"
+41 "net.sf.cglib.core.AbstractClassGenerator"
+42 "net.sf.cglib.core.AbstractClassGenerator$ClassLoaderData"
+43 "net.sf.cglib.core.AbstractClassGenerator$Source"
+44 "net.sf.cglib.core.Block"
+45 "net.sf.cglib.core.ClassEmitter"
+46 "net.sf.cglib.core.ClassEmitter$FieldInfo"
+47 "net.sf.cglib.core.ClassGenerator"
+48 "net.sf.cglib.core.ClassInfo"
+49 "net.sf.cglib.core.ClassNameReader"
+50 "net.sf.cglib.core.ClassNameReader$EarlyExitException"
+51 "net.sf.cglib.core.ClassesKey"
+52 "net.sf.cglib.core.ClassesKey$Key"
+53 "net.sf.cglib.core.CodeEmitter"
+54 "net.sf.cglib.core.CodeEmitter$State"
+55 "net.sf.cglib.core.CodeGenerationException"
+56 "net.sf.cglib.core.CollectionUtils"
+57 "net.sf.cglib.core.Constants"
+58 "net.sf.cglib.core.Converter"
+59 "net.sf.cglib.core.Customizer"
+60 "net.sf.cglib.core.DebuggingClassWriter"
+61 "net.sf.cglib.core.DefaultGeneratorStrategy"
+62 "net.sf.cglib.core.DefaultNamingPolicy"
+63 "net.sf.cglib.core.DuplicatesPredicate"
+64 "net.sf.cglib.core.EmitUtils"
+65 "net.sf.cglib.core.EmitUtils$ArrayDelimiters"
+66 "net.sf.cglib.core.EmitUtils$ParameterTyper"
+67 "net.sf.cglib.core.FieldTypeCustomizer"
+68 "net.sf.cglib.core.GeneratorStrategy"
+69 "net.sf.cglib.core.HashCodeCustomizer"
+70 "net.sf.cglib.core.KeyFactory"
+71 "net.sf.cglib.core.KeyFactory$Generator"
+72 "net.sf.cglib.core.KeyFactoryCustomizer"
+73 "net.sf.cglib.core.Local"
+74 "net.sf.cglib.core.LocalVariablesSorter"
+75 "net.sf.cglib.core.LocalVariablesSorter$State"
+76 "net.sf.cglib.core.MethodInfo"
+77 "net.sf.cglib.core.MethodInfoTransformer"
+78 "net.sf.cglib.core.MethodWrapper"
+79 "net.sf.cglib.core.MethodWrapper$MethodWrapperKey"
+80 "net.sf.cglib.core.NamingPolicy"
+81 "net.sf.cglib.core.ObjectSwitchCallback"
+82 "net.sf.cglib.core.Predicate"
+83 "net.sf.cglib.core.ProcessArrayCallback"
+84 "net.sf.cglib.core.ProcessSwitchCallback"
+85 "net.sf.cglib.core.ReflectUtils"
+86 "net.sf.cglib.core.RejectModifierPredicate"
+87 "net.sf.cglib.core.Signature"
+88 "net.sf.cglib.core.Transformer"
+89 "net.sf.cglib.core.TypeUtils"
+90 "net.sf.cglib.core.VisibilityPredicate"
+91 "net.sf.cglib.core.WeakCacheKey"
+92 "net.sf.cglib.core.internal.CustomizerRegistry"
+93 "net.sf.cglib.core.internal.LoadingCache"
+94 "net.sf.cglib.proxy.BridgeMethodResolver"
+95 "net.sf.cglib.proxy.BridgeMethodResolver$BridgedFinder"
+96 "net.sf.cglib.proxy.Callback"
+97 "net.sf.cglib.proxy.CallbackFilter"
+98 "net.sf.cglib.proxy.CallbackGenerator"
+99 "net.sf.cglib.proxy.CallbackGenerator$Context"
+100 "net.sf.cglib.proxy.CallbackHelper"
+101 "net.sf.cglib.proxy.CallbackInfo"
+102 "net.sf.cglib.proxy.Dispatcher"
+103 "net.sf.cglib.proxy.DispatcherGenerator"
+104 "net.sf.cglib.proxy.Enhancer"
+105 "net.sf.cglib.proxy.Enhancer$EnhancerFactoryData"
+106 "net.sf.cglib.proxy.Enhancer$EnhancerKey"
+107 "net.sf.cglib.proxy.Factory"
+108 "net.sf.cglib.proxy.FixedValue"
+109 "net.sf.cglib.proxy.FixedValueGenerator"
+110 "net.sf.cglib.proxy.InterfaceMaker"
+111 "net.sf.cglib.proxy.InvocationHandler"
+112 "net.sf.cglib.proxy.InvocationHandlerGenerator"
+113 "net.sf.cglib.proxy.LazyLoader"
+114 "net.sf.cglib.proxy.LazyLoaderGenerator"
+115 "net.sf.cglib.proxy.MethodInterceptor"
+116 "net.sf.cglib.proxy.MethodInterceptorGenerator"
+117 "net.sf.cglib.proxy.MethodProxy"
+118 "net.sf.cglib.proxy.MethodProxy$CreateInfo"
+119 "net.sf.cglib.proxy.MethodProxy$FastClassInfo"
+120 "net.sf.cglib.proxy.Mixin"
+121 "net.sf.cglib.proxy.Mixin$Generator"
+122 "net.sf.cglib.proxy.Mixin$MixinKey"
+123 "net.sf.cglib.proxy.Mixin$Route"
+124 "net.sf.cglib.proxy.MixinBeanEmitter"
+125 "net.sf.cglib.proxy.MixinEmitter"
+126 "net.sf.cglib.proxy.MixinEverythingEmitter"
+127 "net.sf.cglib.proxy.NoOp"
+128 "net.sf.cglib.proxy.NoOpGenerator"
+129 "net.sf.cglib.proxy.Proxy"
+130 "net.sf.cglib.proxy.Proxy$ProxyImpl"
+131 "net.sf.cglib.proxy.ProxyRefDispatcher"
+132 "net.sf.cglib.proxy.UndeclaredThrowableException"
+133 "net.sf.cglib.reflect.ConstructorDelegate"
+134 "net.sf.cglib.reflect.ConstructorDelegate$ConstructorKey"
+135 "net.sf.cglib.reflect.ConstructorDelegate$Generator"
+136 "net.sf.cglib.reflect.FastClass"
+137 "net.sf.cglib.reflect.FastClass$Generator"
+138 "net.sf.cglib.reflect.FastClassEmitter"
+139 "net.sf.cglib.reflect.FastClassEmitter$GetIndexCallback"
+140 "net.sf.cglib.reflect.FastConstructor"
+141 "net.sf.cglib.reflect.FastMember"
+142 "net.sf.cglib.reflect.FastMethod"
+143 "net.sf.cglib.reflect.MethodDelegate"
+144 "net.sf.cglib.reflect.MethodDelegate$Generator"
+145 "net.sf.cglib.reflect.MethodDelegate$MethodDelegateKey"
+146 "net.sf.cglib.reflect.MulticastDelegate"
+147 "net.sf.cglib.reflect.MulticastDelegate$Generator"
+148 "net.sf.cglib.transform.AbstractClassFilterTransformer"
+149 "net.sf.cglib.transform.AbstractClassLoader"
+150 "net.sf.cglib.transform.AbstractClassTransformer"
+151 "net.sf.cglib.transform.AbstractProcessTask"
+152 "net.sf.cglib.transform.AbstractTransformTask"
+153 "net.sf.cglib.transform.AnnotationVisitorTee"
+154 "net.sf.cglib.transform.ClassEmitterTransformer"
+155 "net.sf.cglib.transform.ClassFilter"
+156 "net.sf.cglib.transform.ClassFilterTransformer"
+157 "net.sf.cglib.transform.ClassReaderGenerator"
+158 "net.sf.cglib.transform.ClassTransformer"
+159 "net.sf.cglib.transform.ClassTransformerChain"
+160 "net.sf.cglib.transform.ClassTransformerFactory"
+161 "net.sf.cglib.transform.ClassTransformerTee"
+162 "net.sf.cglib.transform.ClassVisitorTee"
+163 "net.sf.cglib.transform.FieldVisitorTee"
+164 "net.sf.cglib.transform.MethodFilter"
+165 "net.sf.cglib.transform.MethodFilterTransformer"
+166 "net.sf.cglib.transform.MethodVisitorTee"
+167 "net.sf.cglib.transform.TransformingClassGenerator"
+168 "net.sf.cglib.transform.TransformingClassLoader"
+169 "net.sf.cglib.transform.impl.AbstractInterceptFieldCallback"
+170 "net.sf.cglib.transform.impl.AccessFieldTransformer"
+171 "net.sf.cglib.transform.impl.AccessFieldTransformer$Callback"
+172 "net.sf.cglib.transform.impl.AddDelegateTransformer"
+173 "net.sf.cglib.transform.impl.AddInitTransformer"
+174 "net.sf.cglib.transform.impl.AddPropertyTransformer"
+175 "net.sf.cglib.transform.impl.AddStaticInitTransformer"
+176 "net.sf.cglib.transform.impl.FieldProviderTransformer"
+177 "net.sf.cglib.transform.impl.InterceptFieldCallback"
+178 "net.sf.cglib.transform.impl.InterceptFieldEnabled"
+179 "net.sf.cglib.transform.impl.InterceptFieldFilter"
+180 "net.sf.cglib.transform.impl.InterceptFieldTransformer"
+181 "net.sf.cglib.transform.impl.UndeclaredThrowableStrategy"
+182 "net.sf.cglib.transform.impl.UndeclaredThrowableTransformer"
+183 "net.sf.cglib.util.ParallelSorter"
+184 "net.sf.cglib.util.ParallelSorter$ByteComparer"
+185 "net.sf.cglib.util.ParallelSorter$ComparatorComparer"
+186 "net.sf.cglib.util.ParallelSorter$Comparer"
+187 "net.sf.cglib.util.ParallelSorter$DoubleComparer"
+188 "net.sf.cglib.util.ParallelSorter$FloatComparer"
+189 "net.sf.cglib.util.ParallelSorter$Generator"
+190 "net.sf.cglib.util.ParallelSorter$IntComparer"
+191 "net.sf.cglib.util.ParallelSorter$LongComparer"
+192 "net.sf.cglib.util.ParallelSorter$ObjectComparer"
+193 "net.sf.cglib.util.ParallelSorter$ShortComparer"
+194 "net.sf.cglib.util.ParallelSorterEmitter"
+195 "net.sf.cglib.util.SorterTemplate"
+196 "net.sf.cglib.util.StringSwitcher"
+197 "net.sf.cglib.util.StringSwitcher$Generator"
+198 "net.sf.cglib.util.StringSwitcher$StringSwitcherKey"
+*Arcs
+2 1 1200.0
+2 4 11200.0
+2 7 5000.0
+2 16 100.0
+2 23 0.02
+2 24 0.04
+3 4 1500.0
+3 5 300.0
+3 7 1300.0
+3 17 600.0
+5 1 5300.0
+5 3 2500.0
+5 4 600.0
+5 6 4100.0
+5 7 600.0
+5 8 2900.0
+5 11 1200.0
+5 14 300.0
+5 16 3100.0
+5 17 3500.0
+5 18 11300.0
+5 19 100.0
+5 20 1600.0
+5 23 0.08
+5 24 0.05
+6 1 600.0
+6 3 300.0
+6 11 300.0
+6 18 300.0
+6 20 300.0
+6 24 0.03
+7 1 600.0
+7 2 3400.0
+7 3 1200.0
+7 4 16400.0
+7 5 1200.0
+7 6 600.0
+7 11 300.0
+7 12 1200.0
+7 14 1100.0
+7 16 13400.0
+7 18 300.0
+7 19 1200.0
+7 20 300.0
+7 21 900.0
+7 23 0.09
+7 24 0.03
+8 3 300.0
+8 17 900.0
+8 24 0.03
+9 7 300.0
+9 13 1000.0
+9 16 300.0
+10 17 300.0
+11 1 600.0
+11 3 300.0
+11 24 0.03
+12 1 600.0
+12 2 3400.0
+12 3 1200.0
+12 4 5100.0
+12 7 5000.0
+12 11 600.0
+12 24 0.03
+13 7 6200.0
+13 16 300.0
+13 17 300.0
+13 23 0.11
+15 17 1500.0
+17 4 1100.0
+17 10 600.0
+17 13 300.0
+17 19 600.0
+18 1 2100.0
+18 3 300.0
+18 14 300.0
+18 17 4200.0
+18 24 0.12
+19 1 2100.0
+19 2 8200.0
+19 3 2500.0
+19 4 40000.0
+19 7 14600.0
+19 9 200.0
+19 10 1000.0
+19 13 4800.0
+19 14 300.0
+19 15 1300.0
+19 17 12600.0
+19 18 600.0
+19 23 0.24
+19 24 0.12
+21 4 11400.0
+21 7 3600.0
+21 20 600.0
+24 4 1300.0
+27 6 3.0
+27 23 0.005
+27 25 1300.0
+27 26 200.0
+27 41 8.0
+27 43 5.0
+27 45 8.0
+27 53 52.0
+27 64 0.004
+27 76 8.0
+27 85 0.012
+27 87 6.0
+25 23 0.012
+25 26 600.0
+25 27 1100.0
+25 58 3.0
+25 70 2.0
+25 87 14.0
+25 89 0.006
+28 6 3.0
+28 23 0.004
+28 29 500.0
+28 41 8.0
+28 43 5.0
+28 45 6.0
+28 64 0.004
+28 70 2.0
+28 85 0.008
+31 6 3.0
+31 30 700.0
+31 32 500.0
+31 33 200.0
+31 41 8.0
+31 43 5.0
+31 70 2.0
+31 85 0.004
+33 6 3.0
+33 17 3.0
+33 23 0.01
+33 45 6.0
+33 53 16.0
+33 64 0.012
+33 76 2.0
+33 81 4.0
+33 85 0.002
+33 87 2.0
+33 89 0.016
+30 31 700.0
+36 6 3.0
+36 34 500.0
+36 35 200.0
+36 37 200.0
+36 41 8.0
+36 43 5.0
+36 85 0.006
+37 6 3.0
+37 23 0.01
+37 38 1000.0
+37 44 3.0
+37 45 6.0
+37 53 68.0
+37 64 0.002
+37 73 2.0
+37 76 6.0
+37 85 0.008
+37 87 13.0
+37 89 0.01
+34 35 600.0
+34 36 1300.0
+34 70 2.0
+40 6 3.0
+40 23 0.002
+40 39 600.0
+40 41 8.0
+40 43 5.0
+40 45 10.0
+40 53 30.0
+40 64 0.004
+40 76 2.0
+40 85 0.014
+39 23 0.006
+39 40 700.0
+39 87 6.0
+39 89 0.004
+42 41 500.0
+42 82 400.0
+41 5 2.0
+41 42 1400.0
+41 43 600.0
+41 47 400.0
+41 49 200.0
+41 55 400.0
+41 68 1100.0
+41 80 1100.0
+41 82 300.0
+41 85 0.04
+44 17 12.0
+44 53 1300.0
+46 23 0.01
+45 6 16.0
+45 11 3.0
+45 18 3.0
+45 23 0.027
+45 46 700.0
+45 48 600.0
+45 53 600.0
+45 87 300.0
+45 89 0.14
+45 158 8.0
+47 6 3.0
+48 23 0.015
+50 49 300.0
+49 5 10.0
+49 6 9.0
+49 50 800.0
+51 52 500.0
+51 70 200.0
+54 3 3.0
+54 23 0.012
+54 48 900.0
+54 76 600.0
+54 87 1100.0
+54 89 0.02
+53 17 34.0
+53 18 145.0
+53 23 0.183
+53 44 1400.0
+53 45 4700.0
+53 48 600.0
+53 54 500.0
+53 55 200.0
+53 73 2700.0
+53 74 800.0
+53 76 1700.0
+53 84 1200.0
+53 87 7600.0
+53 89 0.5
+56 82 600.0
+56 88 1200.0
+57 22 4.0
+57 23 0.08
+57 87 300.0
+57 89 0.5
+59 23 0.003
+59 53 300.0
+59 72 400.0
+60 5 5.0
+60 6 11.0
+60 7 2.0
+60 55 200.0
+61 7 3.0
+61 47 1100.0
+61 60 700.0
+61 68 400.0
+62 80 400.0
+62 82 500.0
+63 78 200.0
+63 82 400.0
+66 23 0.003
+66 76 300.0
+64 17 15.0
+64 23 0.003
+64 44 1000.0
+64 45 4700.0
+64 48 200.0
+64 53 800.0
+64 55 400.0
+64 56 0.12
+64 59 2400.0
+64 65 0.08
+64 66 0.04
+64 69 300.0
+64 73 500.0
+64 76 500.0
+64 81 1000.0
+64 83 400.0
+64 84 400.0
+64 87 200.0
+64 88 400.0
+64 89 0.02
+67 23 0.009
+67 53 300.0
+67 72 400.0
+68 47 300.0
+69 23 0.003
+69 53 300.0
+69 72 400.0
+71 6 3.0
+71 23 0.006
+71 41 800.0
+71 43 500.0
+71 45 1600.0
+71 53 7600.0
+71 59 300.0
+71 64 0.1
+71 67 0.06
+71 70 2300.0
+71 72 300.0
+71 85 0.08
+71 89 0.04
+70 23 0.013
+70 53 500.0
+70 59 400.0
+70 67 0.04
+70 69 300.0
+70 71 1300.0
+70 72 900.0
+70 87 4200.0
+70 89 0.16
+75 74 300.0
+74 17 6.0
+74 18 19.0
+74 23 0.004
+74 75 500.0
+73 23 0.009
+77 85 0.04
+77 88 400.0
+76 23 0.003
+76 48 300.0
+76 87 900.0
+78 70 200.0
+78 79 500.0
+78 85 0.02
+80 82 300.0
+81 17 3.0
+83 23 0.003
+84 17 3.0
+85 3 3.0
+85 23 0.021
+85 48 600.0
+85 55 2000.0
+85 76 600.0
+85 87 900.0
+85 89 0.02
+86 82 400.0
+87 23 0.018
+89 23 0.152
+89 56 0.02
+89 76 600.0
+89 87 1500.0
+90 23 0.004
+90 82 400.0
+90 89 0.04
+92 59 4.0
+92 72 3.0
+95 6 6.0
+95 18 6.0
+95 87 5.0
+94 5 4.0
+94 95 200.0
+99 45 3.0
+99 53 9.0
+99 76 15.0
+99 87 3.0
+98 45 3.0
+98 53 3.0
+98 99 600.0
+100 85 0.002
+100 96 300.0
+100 97 400.0
+100 104 200.0
+101 23 0.034
+101 96 1200.0
+101 98 1300.0
+103 23 0.006
+103 45 3.0
+103 48 2.0
+103 53 20.0
+103 76 5.0
+103 87 6.0
+103 89 0.01
+103 98 400.0
+103 99 1200.0
+102 96 400.0
+105 55 6.0
+105 85 0.006
+105 96 600.0
+105 104 200.0
+106 23 0.003
+106 91 3.0
+104 6 3.0
+104 17 3.0
+104 23 0.006
+104 41 12.0
+104 42 3.0
+104 43 5.0
+104 45 3.0
+104 53 14.0
+104 55 10.0
+104 56 0.016
+104 63 2.0
+104 64 0.002
+104 70 2.0
+104 76 27.0
+104 77 6.0
+104 78 2.0
+104 81 4.0
+104 84 4.0
+104 85 0.002
+104 86 4.0
+104 87 13.0
+104 88 4.0
+104 89 0.002
+104 90 4.0
+104 91 2.0
+104 94 400.0
+104 96 3700.0
+104 97 400.0
+104 98 500.0
+104 99 400.0
+104 101 1000.0
+104 105 800.0
+104 106 500.0
+107 96 2100.0
+109 23 0.003
+109 45 3.0
+109 53 14.0
+109 76 1.0
+109 87 3.0
+109 89 0.004
+109 98 400.0
+109 99 1200.0
+108 96 400.0
+110 6 3.0
+110 23 0.004
+110 41 8.0
+110 43 5.0
+110 45 8.0
+110 53 2.0
+110 85 0.004
+110 87 4.0
+112 23 0.009
+112 44 3.0
+112 45 5.0
+112 53 22.0
+112 64 0.004
+112 76 6.0
+112 87 12.0
+112 89 0.008
+112 98 400.0
+112 99 1600.0
+111 96 400.0
+114 17 1.0
+114 23 0.003
+114 45 7.0
+114 48 2.0
+114 53 47.0
+114 76 5.0
+114 87 8.0
+114 89 0.006
+114 98 400.0
+114 99 1200.0
+113 96 400.0
+116 17 3.0
+116 23 0.015
+116 45 16.0
+116 48 3.0
+116 53 14.0
+116 56 0.002
+116 64 0.006
+116 76 2.0
+116 81 4.0
+116 87 61.0
+116 88 4.0
+116 89 0.022
+116 98 400.0
+116 99 2200.0
+115 96 400.0
+115 117 300.0
+118 41 8.0
+118 68 3.0
+118 80 3.0
+119 117 300.0
+119 136 6.0
+117 55 4.0
+117 87 19.0
+117 118 1000.0
+117 119 800.0
+117 136 17.0
+117 137 15.0
+121 6 3.0
+121 41 8.0
+121 43 5.0
+121 85 0.012
+121 120 1100.0
+121 122 200.0
+121 123 500.0
+121 124 200.0
+121 125 200.0
+121 126 200.0
+123 85 0.002
+124 6 3.0
+124 85 0.004
+124 125 600.0
+125 6 3.0
+125 23 0.003
+125 45 6.0
+125 48 2.0
+125 53 30.0
+125 64 0.006
+125 76 5.0
+125 78 2.0
+125 85 0.002
+125 87 8.0
+125 89 0.006
+126 6 3.0
+126 56 0.002
+126 85 0.002
+126 86 2.0
+126 125 600.0
+120 51 2.0
+120 70 2.0
+120 121 2700.0
+120 122 600.0
+120 123 1100.0
+128 45 3.0
+128 53 10.0
+128 64 0.002
+128 76 5.0
+128 89 0.006
+128 98 400.0
+128 99 1000.0
+127 96 400.0
+130 111 300.0
+130 129 600.0
+131 96 400.0
+129 55 2.0
+129 97 400.0
+129 104 1700.0
+129 111 1300.0
+132 55 6.0
+135 6 3.0
+135 23 0.007
+135 41 8.0
+135 43 5.0
+135 45 8.0
+135 53 12.0
+135 64 0.002
+135 85 0.012
+135 89 0.002
+135 133 500.0
+135 134 200.0
+133 70 2.0
+133 134 600.0
+133 135 900.0
+137 6 3.0
+137 41 8.0
+137 43 5.0
+137 85 0.004
+137 136 300.0
+137 138 200.0
+139 17 3.0
+139 53 14.0
+139 81 4.0
+138 6 3.0
+138 17 3.0
+138 23 0.018
+138 44 3.0
+138 45 6.0
+138 53 14.0
+138 56 0.016
+138 63 2.0
+138 64 0.008
+138 76 4.0
+138 77 6.0
+138 81 4.0
+138 84 4.0
+138 85 0.002
+138 87 2.0
+138 88 4.0
+138 89 0.022
+138 90 2.0
+138 139 400.0
+136 23 0.002
+136 87 3.0
+136 137 900.0
+136 140 800.0
+136 142 800.0
+140 136 900.0
+140 141 600.0
+141 136 800.0
+142 23 0.002
+142 87 2.0
+142 136 1100.0
+142 141 600.0
+144 6 3.0
+144 23 0.005
+144 41 8.0
+144 43 5.0
+144 45 12.0
+144 48 2.0
+144 53 42.0
+144 64 0.004
+144 76 8.0
+144 85 0.01
+144 87 7.0
+144 89 0.004
+144 143 900.0
+144 145 200.0
+143 70 2.0
+143 144 2200.0
+143 145 600.0
+147 6 3.0
+147 23 0.005
+147 41 8.0
+147 43 5.0
+147 45 13.0
+147 53 14.0
+147 64 0.006
+147 73 6.0
+147 76 6.0
+147 83 4.0
+147 85 0.008
+147 87 17.0
+147 89 0.002
+147 146 700.0
+146 147 700.0
+148 1 3.0
+148 3 3.0
+148 6 24.0
+148 11 3.0
+148 18 3.0
+148 150 800.0
+148 158 800.0
+149 3 3.0
+149 5 7.0
+149 47 5.0
+149 55 2.0
+149 60 5.0
+149 155 800.0
+149 157 200.0
+150 6 3.0
+150 158 600.0
+152 3 3.0
+152 5 10.0
+152 49 4.0
+152 60 8.0
+152 151 600.0
+152 157 400.0
+152 158 300.0
+152 167 800.0
+153 1 55.0
+154 45 6.0
+156 148 600.0
+156 155 800.0
+156 158 300.0
+157 3 6.0
+157 5 11.0
+157 6 3.0
+157 47 4.0
+159 6 5.0
+159 18 3.0
+159 150 800.0
+159 158 1000.0
+160 158 300.0
+161 6 9.0
+161 158 600.0
+161 162 200.0
+158 6 11.0
+162 1 6.0
+162 3 3.0
+162 6 58.0
+162 11 3.0
+162 18 3.0
+162 24 0.003
+162 153 400.0
+162 163 200.0
+162 166 200.0
+163 1 6.0
+163 3 3.0
+163 11 34.0
+163 24 0.003
+163 153 400.0
+165 6 8.0
+165 18 3.0
+165 150 800.0
+165 158 800.0
+165 164 800.0
+166 1 21.0
+166 3 3.0
+166 14 3.0
+166 17 42.0
+166 18 142.0
+166 24 0.012
+166 153 1400.0
+167 6 3.0
+167 47 12.0
+167 158 800.0
+168 5 3.0
+168 47 3.0
+168 149 800.0
+168 155 300.0
+168 160 800.0
+168 167 200.0
+169 177 400.0
+171 23 0.003
+170 23 0.003
+170 53 19.0
+170 87 4.0
+170 89 0.002
+170 154 8.0
+170 171 800.0
+172 23 0.018
+172 53 15.0
+172 55 4.0
+172 85 0.002
+172 87 11.0
+172 89 0.01
+172 154 14.0
+173 23 0.007
+173 53 11.0
+173 76 10.0
+173 85 0.002
+173 87 9.0
+173 154 8.0
+174 23 0.006
+174 64 0.002
+174 89 0.002
+174 154 10.0
+175 23 0.004
+175 53 3.0
+175 64 0.002
+175 76 9.0
+175 85 0.002
+175 87 4.0
+175 89 0.004
+175 154 6.0
+176 17 3.0
+176 23 0.019
+176 53 14.0
+176 55 2.0
+176 64 0.008
+176 81 4.0
+176 84 4.0
+176 87 18.0
+176 89 0.024
+176 154 24.0
+178 177 600.0
+179 23 0.006
+180 23 0.051
+180 53 104.0
+180 87 39.0
+180 89 0.018
+180 154 24.0
+180 179 1300.0
+181 47 6.0
+181 61 6.0
+181 89 0.002
+181 164 3.0
+181 165 2.0
+181 167 2.0
+181 182 200.0
+182 23 0.011
+182 44 5.0
+182 53 3.0
+182 64 0.002
+182 87 5.0
+182 89 0.002
+182 154 8.0
+184 186 4.0
+185 186 4.0
+187 186 4.0
+188 186 4.0
+189 6 3.0
+189 41 8.0
+189 43 5.0
+189 51 2.0
+189 85 0.002
+189 183 7.0
+189 194 2.0
+190 186 4.0
+191 186 4.0
+192 186 4.0
+193 186 4.0
+194 6 3.0
+194 23 0.01
+194 45 6.0
+194 53 62.0
+194 64 0.004
+194 73 1.0
+194 87 11.0
+194 89 0.008
+183 184 2.0
+183 185 2.0
+183 186 5.0
+183 187 2.0
+183 188 2.0
+183 189 7.0
+183 190 2.0
+183 191 2.0
+183 192 2.0
+183 193 2.0
+183 195 10.0
+197 6 3.0
+197 17 3.0
+197 41 8.0
+197 43 5.0
+197 45 8.0
+197 53 14.0
+197 64 0.004
+197 81 4.0
+197 85 0.002
+197 196 9.0
+197 198 2.0
+196 23 0.006
+196 70 2.0
+196 87 6.0
+196 89 0.004
+196 197 11.0
+196 198 6.0

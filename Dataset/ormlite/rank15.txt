@@ -1,0 +1,8 @@
+com.j256.ormlite.dao.CloseableIterator
+com.j256.ormlite.dao.Dao
+com.j256.ormlite.field.DataPersister
+com.j256.ormlite.stmt.query.BaseComparison
+com.j256.ormlite.stmt.QueryBuilder
+com.j256.ormlite.support.DatabaseConnection
+com.j256.ormlite.support.DatabaseResults
+com.j256.ormlite.table.TableInfo

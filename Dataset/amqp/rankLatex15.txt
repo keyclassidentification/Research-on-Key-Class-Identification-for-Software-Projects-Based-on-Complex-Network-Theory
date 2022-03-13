@@ -1,0 +1,16 @@
+类名 & $KC$ & $MC$ & $PG$ & $HS$ & $CN$ & $BN$ & $ID$ & $OD$ & $D$ \\
+AMQP$BasicProperties & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Channel & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+AMQCommand & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+AMQConnection & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+AMQImpl$MethodVisitor & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ \\
+Frame & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\times$ \\
+Method & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+MethodArgumentReader & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+MethodArgumentWriter & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+AutorecoveringChannel & $\surd$ & $\surd$ & $\times$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\surd$ & $\surd$ \\
+ValueReader & $\surd$ & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\times$ & $\surd$ \\
+Method & $\surd$ & $\surd$ & $\surd$ & $\times$ & $\times$ & $\surd$ & $\surd$ & $\times$ & $\surd$ \\
+个数 & $\textbf{12}$ & $\textbf{12}$ & $8$ & $5$ & $3$ & $8$ & $\textbf{12}$ & $5$ & $11$ \\
+召回率($\%$) & $\textbf{100}$ & $\textbf{100}$ & $66$ & $41$ & $25$ & $66$ & $\textbf{100}$ & $41$ & $91$ \\
+准确率($\%$) & $\textbf{80}$ & $\textbf{80}$ & $53$ & $33$ & $20$ & $53$ & $\textbf{80}$ & $33$ & $73$ \\

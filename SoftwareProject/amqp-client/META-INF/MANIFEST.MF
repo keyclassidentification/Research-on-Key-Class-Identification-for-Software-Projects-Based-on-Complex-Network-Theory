@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-Description: The RabbitMQ Java client library allows Java appli
+ cations to interface with RabbitMQ.
+Implementation-Title: RabbitMQ Java Client
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html, http:
+ //www.gnu.org/licenses/gpl-2.0.txt, http://www.mozilla.org/MPL/MPL-1.
+ 1.txt
+Bundle-SymbolicName: com.rabbitmq.client
+Implementation-Version: 5.0.0
+Built-By: root
+Bnd-LastModified: 1506082255357
+Bundle-ManifestVersion: 2
+Specification-Vendor: AMQP Working Group (www.amqp.org)
+Specification-Title: AMQP
+Bundle-DocURL: http://www.rabbitmq.com
+Bundle-Vendor: Pivotal Software, Inc.
+Import-Package: com.codahale.metrics;version="[3.2,4)";resolution:=opt
+ ional,com.rabbitmq.client,com.rabbitmq.client.impl,com.rabbitmq.clien
+ t.impl.nio,com.rabbitmq.client.impl.recovery,com.rabbitmq.tools.json,
+ com.rabbitmq.utility,javax.naming,javax.naming.directory,javax.net,ja
+ vax.net.ssl,javax.security.auth.callback,javax.security.sasl,org.slf4
+ j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
+Implementation-Vendor: Pivotal Software, Inc.
+Export-Package: com.rabbitmq.client;uses:="com.rabbitmq.client.impl,co
+ m.rabbitmq.client.impl.nio,com.rabbitmq.utility,javax.net,javax.net.s
+ sl";version="5.0.0",com.rabbitmq.client.impl;uses:="com.codahale.metr
+ ics,com.rabbitmq.client,com.rabbitmq.client.impl.recovery,com.rabbitm
+ q.utility,javax.net";version="5.0.0",com.rabbitmq.client.impl.nio;use
+ s:="com.rabbitmq.client,com.rabbitmq.client.impl,javax.net.ssl";versi
+ on="5.0.0",com.rabbitmq.client.impl.recovery;uses:="com.rabbitmq.clie
+ nt,com.rabbitmq.client.impl";version="5.0.0",com.rabbitmq.tools.json;
+ version="5.0.0",com.rabbitmq.tools.jsonrpc;uses:="com.rabbitmq.client
+ ";version="5.0.0",com.rabbitmq.utility;version="5.0.0"
+Bundle-Name: RabbitMQ Java Client
+Bundle-Version: 5.0.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_131
+Implementation-URL: http://www.rabbitmq.com
+Specification-Version: 0.9.1
+

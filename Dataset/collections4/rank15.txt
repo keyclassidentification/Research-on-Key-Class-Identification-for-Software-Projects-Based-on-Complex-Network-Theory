@@ -1,0 +1,8 @@
+org.apache.commons.collections4.Closure
+org.apache.commons.collections4.map.AbstractHashedMap
+org.apache.commons.collections4.map.AbstractMapDecorator
+org.apache.commons.collections4.MapIterator
+org.apache.commons.collections4.multimap.AbstractMultiValuedMap
+org.apache.commons.collections4.Predicate
+org.apache.commons.collections4.Transformer
+org.apache.commons.collections4.trie.AbstractPatriciaTrie

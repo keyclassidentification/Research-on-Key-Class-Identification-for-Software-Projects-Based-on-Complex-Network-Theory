@@ -1,0 +1,604 @@
+*Vertices 151
+1 "com.sun.pdfview.BaseWatchable"
+2 "com.sun.pdfview.BaseWatchable$Gate"
+3 "com.sun.pdfview.Cache"
+4 "com.sun.pdfview.Cache$PageRecord"
+5 "com.sun.pdfview.Cache$Record"
+6 "com.sun.pdfview.Flag"
+7 "com.sun.pdfview.FullScreenWindow"
+8 "com.sun.pdfview.FullScreenWindow$PickMe"
+9 "com.sun.pdfview.Identity8BitCharsetEncoder"
+10 "com.sun.pdfview.ImageInfo"
+11 "com.sun.pdfview.NameTree"
+12 "com.sun.pdfview.OutlineNode"
+13 "com.sun.pdfview.PDFChangeStrokeCmd"
+14 "com.sun.pdfview.PDFCmd"
+15 "com.sun.pdfview.PDFDestination"
+16 "com.sun.pdfview.PDFDocCharsetEncoder"
+17 "com.sun.pdfview.PDFFile"
+18 "com.sun.pdfview.PDFFillAlphaCmd"
+19 "com.sun.pdfview.PDFFillPaintCmd"
+20 "com.sun.pdfview.PDFImage"
+21 "com.sun.pdfview.PDFImage$DecodeComponentColorModel"
+22 "com.sun.pdfview.PDFImageCmd"
+23 "com.sun.pdfview.PDFObject"
+24 "com.sun.pdfview.PDFPage"
+25 "com.sun.pdfview.PDFPaint"
+26 "com.sun.pdfview.PDFParseException"
+27 "com.sun.pdfview.PDFParser"
+28 "com.sun.pdfview.PDFParser$ParserState"
+29 "com.sun.pdfview.PDFParser$Tok"
+30 "com.sun.pdfview.PDFPopCmd"
+31 "com.sun.pdfview.PDFPrintPage"
+32 "com.sun.pdfview.PDFPushCmd"
+33 "com.sun.pdfview.PDFRenderer"
+34 "com.sun.pdfview.PDFRenderer$GraphicsState"
+35 "com.sun.pdfview.PDFShapeCmd"
+36 "com.sun.pdfview.PDFStringUtil"
+37 "com.sun.pdfview.PDFStrokeAlphaCmd"
+38 "com.sun.pdfview.PDFStrokePaintCmd"
+39 "com.sun.pdfview.PDFTextFormat"
+40 "com.sun.pdfview.PDFViewer"
+41 "com.sun.pdfview.PDFViewer$PageBuilder"
+42 "com.sun.pdfview.PDFViewer$PagePreparer"
+43 "com.sun.pdfview.PDFViewer$PerformFullScreenMode"
+44 "com.sun.pdfview.PDFViewer$PrintThread"
+45 "com.sun.pdfview.PDFViewer$ThumbAction"
+46 "com.sun.pdfview.PDFViewer$ZoomAction"
+47 "com.sun.pdfview.PDFXformCmd"
+48 "com.sun.pdfview.PDFXref"
+49 "com.sun.pdfview.PageChangeListener"
+50 "com.sun.pdfview.PagePanel"
+51 "com.sun.pdfview.RefImage"
+52 "com.sun.pdfview.ThumbPanel"
+53 "com.sun.pdfview.ThumbPanel$GotoLater"
+54 "com.sun.pdfview.Watchable"
+55 "com.sun.pdfview.action.GoToAction"
+56 "com.sun.pdfview.action.PDFAction"
+57 "com.sun.pdfview.colorspace.AlternateColorSpace"
+58 "com.sun.pdfview.colorspace.CMYKColorSpace"
+59 "com.sun.pdfview.colorspace.CalGrayColor"
+60 "com.sun.pdfview.colorspace.CalRGBColor"
+61 "com.sun.pdfview.colorspace.IndexedColor"
+62 "com.sun.pdfview.colorspace.LabColor"
+63 "com.sun.pdfview.colorspace.PDFColorSpace"
+64 "com.sun.pdfview.colorspace.PatternSpace"
+65 "com.sun.pdfview.decode.ASCII85Decode"
+66 "com.sun.pdfview.decode.ASCIIHexDecode"
+67 "com.sun.pdfview.decode.CCITTFaxDecode"
+68 "com.sun.pdfview.decode.CCITTFaxDecoder"
+69 "com.sun.pdfview.decode.DCTDecode"
+70 "com.sun.pdfview.decode.FlateDecode"
+71 "com.sun.pdfview.decode.LZWDecode"
+72 "com.sun.pdfview.decode.MyTracker"
+73 "com.sun.pdfview.decode.PDFDecoder"
+74 "com.sun.pdfview.decode.PNGPredictor"
+75 "com.sun.pdfview.decode.Predictor"
+76 "com.sun.pdfview.decode.RunLengthDecode"
+77 "com.sun.pdfview.decrypt.CryptFilterDecrypter"
+78 "com.sun.pdfview.decrypt.EncryptionUnsupportedByPlatformException"
+79 "com.sun.pdfview.decrypt.EncryptionUnsupportedByProductException"
+80 "com.sun.pdfview.decrypt.IdentityDecrypter"
+81 "com.sun.pdfview.decrypt.PDFAuthenticationFailureException"
+82 "com.sun.pdfview.decrypt.PDFDecrypter"
+83 "com.sun.pdfview.decrypt.PDFDecrypterFactory"
+84 "com.sun.pdfview.decrypt.PDFPassword"
+85 "com.sun.pdfview.decrypt.PDFPassword$CharsetEncoderGenerator"
+86 "com.sun.pdfview.decrypt.PDFPassword$IdentityEncodingByteGenerator"
+87 "com.sun.pdfview.decrypt.PDFPassword$PDFDocEncodingByteGenerator"
+88 "com.sun.pdfview.decrypt.PDFPassword$PasswordByteGenerator"
+89 "com.sun.pdfview.decrypt.StandardDecrypter"
+90 "com.sun.pdfview.decrypt.StandardDecrypter$EncryptionAlgorithm"
+91 "com.sun.pdfview.decrypt.UnsupportedEncryptionException"
+92 "com.sun.pdfview.font.BuiltinFont"
+93 "com.sun.pdfview.font.CIDFontType2"
+94 "com.sun.pdfview.font.FontSupport"
+95 "com.sun.pdfview.font.NativeFont"
+96 "com.sun.pdfview.font.OutlineFont"
+97 "com.sun.pdfview.font.PDFCMap"
+98 "com.sun.pdfview.font.PDFFont"
+99 "com.sun.pdfview.font.PDFFontDescriptor"
+100 "com.sun.pdfview.font.PDFFontEncoding"
+101 "com.sun.pdfview.font.PDFGlyph"
+102 "com.sun.pdfview.font.TTFFont"
+103 "com.sun.pdfview.font.TTFFont$PointRec"
+104 "com.sun.pdfview.font.TTFFont$RenderState"
+105 "com.sun.pdfview.font.Type0Font"
+106 "com.sun.pdfview.font.Type1CFont"
+107 "com.sun.pdfview.font.Type1CFont$Range"
+108 "com.sun.pdfview.font.Type1Font"
+109 "com.sun.pdfview.font.Type1Font$PSParser"
+110 "com.sun.pdfview.font.Type3Font"
+111 "com.sun.pdfview.font.ttf.AdobeGlyphList"
+112 "com.sun.pdfview.font.ttf.CMap"
+113 "com.sun.pdfview.font.ttf.CMapFormat0"
+114 "com.sun.pdfview.font.ttf.CMapFormat4"
+115 "com.sun.pdfview.font.ttf.CMapFormat4$Segment"
+116 "com.sun.pdfview.font.ttf.CMapFormat6"
+117 "com.sun.pdfview.font.ttf.CmapTable"
+118 "com.sun.pdfview.font.ttf.CmapTable$CmapSubtable"
+119 "com.sun.pdfview.font.ttf.Glyf"
+120 "com.sun.pdfview.font.ttf.GlyfCompound"
+121 "com.sun.pdfview.font.ttf.GlyfCompound$GlyfComponent"
+122 "com.sun.pdfview.font.ttf.GlyfSimple"
+123 "com.sun.pdfview.font.ttf.GlyfTable"
+124 "com.sun.pdfview.font.ttf.HeadTable"
+125 "com.sun.pdfview.font.ttf.HheaTable"
+126 "com.sun.pdfview.font.ttf.HmtxTable"
+127 "com.sun.pdfview.font.ttf.LocaTable"
+128 "com.sun.pdfview.font.ttf.MaxpTable"
+129 "com.sun.pdfview.font.ttf.NameTable"
+130 "com.sun.pdfview.font.ttf.NameTable$NameRecord"
+131 "com.sun.pdfview.font.ttf.PostTable"
+132 "com.sun.pdfview.font.ttf.PostTable$PostMap"
+133 "com.sun.pdfview.font.ttf.PostTable$PostMapFormat0"
+134 "com.sun.pdfview.font.ttf.PostTable$PostMapFormat2"
+135 "com.sun.pdfview.font.ttf.TrueTypeFont"
+136 "com.sun.pdfview.font.ttf.TrueTypeTable"
+137 "com.sun.pdfview.function.FunctionType0"
+138 "com.sun.pdfview.function.FunctionType2"
+139 "com.sun.pdfview.function.FunctionType3"
+140 "com.sun.pdfview.function.FunctionType4"
+141 "com.sun.pdfview.function.FunctionType4$Expression"
+142 "com.sun.pdfview.function.FunctionType4$Operation"
+143 "com.sun.pdfview.function.PDFFunction"
+144 "com.sun.pdfview.pattern.PDFPattern"
+145 "com.sun.pdfview.pattern.PDFShader"
+146 "com.sun.pdfview.pattern.PatternType1"
+147 "com.sun.pdfview.pattern.PatternType1$TilingPatternPaint"
+148 "com.sun.pdfview.pattern.PatternType1$Type1PaintContext"
+149 "com.sun.pdfview.pattern.ShaderType2"
+150 "com.sun.pdfview.pattern.ShaderType2$Type2Paint"
+151 "com.sun.pdfview.pattern.ShaderType2$Type2PaintContext"
+*Arcs
+2 1 600.0
+1 2 1500.0
+1 54 400.0
+4 3 600.0
+4 5 600.0
+5 1 300.0
+5 3 600.0
+3 4 1100.0
+3 5 1100.0
+3 10 2400.0
+3 24 4200.0
+3 27 900.0
+3 33 900.0
+8 7 800.0
+7 6 1500.0
+7 8 400.0
+11 23 4300.0
+12 56 6.0
+13 14 0.06
+13 33 800.0
+14 33 300.0
+15 11 500.0
+15 23 9200.0
+15 26 400.0
+17 3 1300.0
+17 12 1400.0
+17 15 300.0
+17 23 29400.0
+17 24 1100.0
+17 26 3600.0
+17 27 800.0
+17 48 2600.0
+17 55 2.0
+17 56 3.0
+17 78 1.0
+17 79 1.0
+17 80 8.0
+17 81 1.0
+17 82 36.0
+17 83 2.0
+17 84 9.0
+17 91 3.0
+18 14 0.06
+18 33 500.0
+19 14 0.06
+19 33 500.0
+21 20 1000.0
+22 14 0.06
+22 20 600.0
+22 33 500.0
+20 21 200.0
+20 23 7100.0
+20 26 800.0
+20 61 0.7
+20 63 1.6
+20 137 0.002
+23 17 1300.0
+23 26 300.0
+23 29 100.0
+23 36 0.04
+23 48 1500.0
+23 73 2.0
+23 80 2.0
+23 82 3.0
+24 3 1200.0
+24 10 400.0
+24 13 0.2
+24 14 0.06
+24 18 0.02
+24 20 300.0
+24 22 0.02
+24 30 0.02
+24 32 0.02
+24 33 1600.0
+24 35 0.02
+24 37 0.02
+24 47 0.02
+24 51 200.0
+25 33 300.0
+28 27 600.0
+28 39 500.0
+28 63 0.6
+29 27 600.0
+27 1 600.0
+27 17 600.0
+27 20 200.0
+27 23 14500.0
+27 24 10000.0
+27 26 3400.0
+27 28 700.0
+27 29 900.0
+27 39 4800.0
+27 63 4.9
+27 64 0.5
+27 98 0.5
+27 145 6.0
+30 14 0.06
+30 33 500.0
+31 17 1600.0
+31 24 500.0
+31 33 500.0
+32 14 0.06
+32 33 500.0
+34 33 600.0
+33 1 800.0
+33 10 800.0
+33 14 0.02
+33 20 1100.0
+33 24 2100.0
+33 26 200.0
+33 34 700.0
+35 14 0.06
+35 33 2000.0
+36 16 400.0
+37 14 0.06
+37 33 500.0
+38 14 0.06
+38 33 500.0
+39 24 600.0
+39 26 300.0
+39 98 1.1
+39 101 0.5
+41 40 800.0
+42 17 200.0
+42 24 300.0
+42 40 600.0
+42 50 1200.0
+43 7 200.0
+43 40 800.0
+43 50 800.0
+44 40 600.0
+45 40 800.0
+46 40 1100.0
+40 6 300.0
+40 7 500.0
+40 12 800.0
+40 15 300.0
+40 17 2900.0
+40 23 100.0
+40 41 700.0
+40 42 900.0
+40 43 200.0
+40 45 500.0
+40 46 1400.0
+40 49 400.0
+40 50 3000.0
+40 52 1700.0
+40 55 2.0
+40 56 1.0
+47 14 0.06
+47 33 800.0
+48 23 600.0
+50 6 1100.0
+50 24 1700.0
+53 49 200.0
+53 52 600.0
+52 17 1000.0
+52 24 500.0
+52 49 900.0
+52 53 200.0
+55 15 11.0
+55 23 8.0
+55 26 2.0
+55 56 800.0
+56 23 24.0
+56 26 4.0
+56 55 200.0
+57 63 18.0
+57 143 10.0
+59 23 19.0
+60 23 27.0
+60 137 0.002
+61 23 5.0
+61 63 15.0
+62 23 21.0
+63 23 23.0
+63 26 2.0
+63 57 2.0
+63 58 2.0
+63 59 2.0
+63 60 2.0
+63 61 2.0
+63 62 2.0
+63 64 4.0
+63 143 2.0
+64 23 7.0
+64 63 21.0
+64 144 4.0
+65 17 2.0
+65 23 4.0
+65 26 9.0
+66 17 2.0
+66 23 4.0
+66 26 7.0
+67 23 50.0
+67 68 1100.0
+69 23 11.0
+69 26 1.0
+69 63 0.5
+69 72 500.0
+70 23 10.0
+70 26 4.0
+70 75 500.0
+71 23 6.0
+71 26 4.0
+71 75 500.0
+73 23 42.0
+73 26 2.0
+73 65 200.0
+73 66 200.0
+73 67 200.0
+73 69 200.0
+73 70 200.0
+73 71 200.0
+73 76 200.0
+73 82 6.0
+74 75 600.0
+75 23 21.0
+75 26 4.0
+75 74 200.0
+76 23 4.0
+76 26 2.0
+77 23 3.0
+77 26 9.0
+77 82 2100.0
+78 91 800.0
+79 91 600.0
+80 23 3.0
+80 26 3.0
+80 82 400.0
+81 26 6.0
+83 23 94.0
+83 26 16.0
+83 77 200.0
+83 78 900.0
+83 79 300.0
+83 80 600.0
+83 81 300.0
+83 82 1300.0
+83 84 1400.0
+83 89 200.0
+83 90 400.0
+82 23 3.0
+82 26 2.0
+85 88 400.0
+86 9 2.0
+86 84 300.0
+86 85 600.0
+87 16 2.0
+87 84 300.0
+87 85 600.0
+84 36 0.002
+84 86 600.0
+84 87 600.0
+84 88 400.0
+89 23 18.0
+89 26 34.0
+89 36 0.004
+89 78 1600.0
+89 79 800.0
+89 81 200.0
+89 82 400.0
+89 84 500.0
+89 90 1000.0
+92 23 6.0
+92 99 9.0
+92 108 0.08
+93 23 58.0
+93 99 3.0
+93 102 6.0
+95 23 5.0
+95 26 2.0
+95 96 6.0
+95 99 11.0
+95 112 1.0
+95 113 0.2
+95 114 1.0
+95 117 1.4
+95 124 0.3
+95 126 0.5
+95 129 0.8
+95 131 0.5
+95 135 0.032
+95 136 0.008
+96 23 18.0
+96 98 6.0
+96 99 5.0
+96 101 5.0
+97 23 14.0
+99 23 143.0
+100 23 33.0
+100 94 2.0
+100 97 11.0
+100 98 13.0
+100 101 6.0
+100 105 0.02
+98 23 28.0
+98 26 2.0
+98 92 6.0
+98 93 0.04
+98 97 9.0
+98 99 22.0
+98 100 13.0
+98 101 6.0
+98 102 2.0
+98 105 0.02
+98 106 0.02
+98 108 0.02
+98 110 0.02
+101 24 16.0
+101 35 0.002
+103 102 9.0
+103 122 0.9
+104 102 6.0
+102 23 5.0
+102 96 6.0
+102 99 7.0
+102 104 8.0
+102 111 0.2
+102 112 0.4
+102 117 0.6
+102 120 0.9
+102 122 0.8
+102 123 0.7
+102 124 0.3
+102 126 0.2
+102 131 0.2
+102 135 0.017
+105 23 7.0
+105 98 16.0
+105 99 3.0
+105 101 3.0
+107 106 0.06
+106 23 5.0
+106 94 4.0
+106 96 6.0
+106 99 5.0
+106 107 0.32
+109 17 6.0
+109 108 0.08
+108 23 13.0
+108 94 2.0
+108 96 8.0
+108 99 11.0
+108 109 0.45
+110 23 39.0
+110 24 5.0
+110 27 5.0
+110 98 6.0
+110 99 3.0
+110 101 7.0
+113 112 6.0
+115 114 6.0
+114 112 8.0
+114 115 14.0
+116 112 6.0
+112 113 2.0
+112 114 2.0
+112 116 2.0
+118 117 6.0
+117 112 24.0
+117 118 8.0
+117 136 0.06
+121 120 6.0
+120 119 10.0
+120 121 8.0
+122 119 10.0
+123 119 10.0
+123 127 7.0
+123 128 2.0
+123 135 0.07
+123 136 0.06
+119 120 2.0
+119 122 2.0
+124 136 0.06
+125 136 0.06
+126 125 2.0
+126 128 2.0
+126 135 0.07
+126 136 0.06
+127 124 2.0
+127 128 2.0
+127 135 0.07
+127 136 0.06
+128 136 0.06
+130 129 6.0
+129 130 11.0
+129 136 0.06
+133 131 6.0
+133 132 6.0
+134 131 6.0
+134 133 10.0
+132 131 6.0
+131 132 19.0
+131 133 2.0
+131 134 2.0
+131 136 0.06
+135 136 0.19
+136 117 2.0
+136 123 2.0
+136 124 2.0
+136 125 2.0
+136 126 2.0
+136 127 2.0
+136 128 2.0
+136 129 2.0
+136 131 2.0
+136 135 0.08
+137 23 33.0
+137 26 4.0
+137 143 600.0
+138 23 21.0
+138 26 2.0
+138 143 600.0
+139 23 21.0
+139 26 8.0
+139 143 600.0
+141 140 0.06
+142 140 0.06
+140 23 5.0
+140 26 2.0
+140 141 0.09
+140 142 0.06
+140 143 600.0
+143 23 24.0
+143 26 10.0
+143 137 0.02
+143 138 0.02
+143 139 0.02
+143 140 0.02
+144 23 21.0
+144 26 2.0
+144 146 0.02
+145 23 37.0
+145 26 6.0
+145 63 1.3
+145 149 0.02
+147 33 15.0
+147 146 0.14
+148 146 0.06
+146 23 43.0
+146 24 6.0
+146 27 4.0
+146 144 600.0
+151 143 4.0
+151 149 0.12
+150 149 0.1
+149 23 37.0
+149 26 4.0
+149 143 11.0
+149 145 600.0

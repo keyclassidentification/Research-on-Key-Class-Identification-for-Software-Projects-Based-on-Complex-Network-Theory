@@ -1,0 +1,5447 @@
+*Vertices 989
+1 "org.apache.tools.ant.AntClassLoader"
+2 "org.apache.tools.ant.AntClassLoader$ResourceEnumeration"
+3 "org.apache.tools.ant.AntTypeDefinition"
+4 "org.apache.tools.ant.ArgumentProcessor"
+5 "org.apache.tools.ant.ArgumentProcessorRegistry"
+6 "org.apache.tools.ant.BuildEvent"
+7 "org.apache.tools.ant.BuildException"
+8 "org.apache.tools.ant.BuildListener"
+9 "org.apache.tools.ant.BuildLogger"
+10 "org.apache.tools.ant.ComponentHelper"
+11 "org.apache.tools.ant.DefaultDefinitions"
+12 "org.apache.tools.ant.DefaultLogger"
+13 "org.apache.tools.ant.DemuxInputStream"
+14 "org.apache.tools.ant.DemuxOutputStream"
+15 "org.apache.tools.ant.DemuxOutputStream$BufferInfo"
+16 "org.apache.tools.ant.Diagnostics"
+17 "org.apache.tools.ant.DirectoryScanner"
+18 "org.apache.tools.ant.DynamicAttribute"
+19 "org.apache.tools.ant.DynamicAttributeNS"
+20 "org.apache.tools.ant.DynamicConfigurator"
+21 "org.apache.tools.ant.DynamicConfiguratorNS"
+22 "org.apache.tools.ant.DynamicElement"
+23 "org.apache.tools.ant.DynamicElementNS"
+24 "org.apache.tools.ant.DynamicObjectAttribute"
+25 "org.apache.tools.ant.Evaluable"
+26 "org.apache.tools.ant.Executor"
+27 "org.apache.tools.ant.ExitException"
+28 "org.apache.tools.ant.ExitStatusException"
+29 "org.apache.tools.ant.ExtensionPoint"
+30 "org.apache.tools.ant.FileScanner"
+31 "org.apache.tools.ant.IntrospectionHelper"
+32 "org.apache.tools.ant.IntrospectionHelper$AddNestedCreator"
+33 "org.apache.tools.ant.IntrospectionHelper$AttributeSetter"
+34 "org.apache.tools.ant.IntrospectionHelper$CreateNestedCreator"
+35 "org.apache.tools.ant.IntrospectionHelper$Creator"
+36 "org.apache.tools.ant.IntrospectionHelper$MethodAndObject"
+37 "org.apache.tools.ant.IntrospectionHelper$NestedCreator"
+38 "org.apache.tools.ant.Location"
+39 "org.apache.tools.ant.Main"
+40 "org.apache.tools.ant.NoBannerLogger"
+41 "org.apache.tools.ant.PathTokenizer"
+42 "org.apache.tools.ant.Project"
+43 "org.apache.tools.ant.Project$AntRefTable"
+44 "org.apache.tools.ant.ProjectComponent"
+45 "org.apache.tools.ant.ProjectHelper"
+46 "org.apache.tools.ant.ProjectHelperRepository"
+47 "org.apache.tools.ant.ProjectHelperRepository$ConstructingIterator"
+48 "org.apache.tools.ant.PropertyHelper"
+49 "org.apache.tools.ant.PropertyHelper$Delegate"
+50 "org.apache.tools.ant.PropertyHelper$PropertyEvaluator"
+51 "org.apache.tools.ant.PropertyHelper$PropertySetter"
+52 "org.apache.tools.ant.RuntimeConfigurable"
+53 "org.apache.tools.ant.RuntimeConfigurable$AttributeComponentInformation"
+54 "org.apache.tools.ant.RuntimeConfigurable$EnableAttributeConsumer"
+55 "org.apache.tools.ant.SubBuildListener"
+56 "org.apache.tools.ant.Target"
+57 "org.apache.tools.ant.Target$IfStringCondition"
+58 "org.apache.tools.ant.Target$UnlessStringCondition"
+59 "org.apache.tools.ant.Task"
+60 "org.apache.tools.ant.TaskAdapter"
+61 "org.apache.tools.ant.TaskConfigurationChecker"
+62 "org.apache.tools.ant.TaskContainer"
+63 "org.apache.tools.ant.TypeAdapter"
+64 "org.apache.tools.ant.UnknownElement"
+65 "org.apache.tools.ant.UnsupportedAttributeException"
+66 "org.apache.tools.ant.UnsupportedElementException"
+67 "org.apache.tools.ant.XmlLogger"
+68 "org.apache.tools.ant.XmlLogger$TimedElement"
+69 "org.apache.tools.ant.attribute.BaseIfAttribute"
+70 "org.apache.tools.ant.attribute.EnableAttribute"
+71 "org.apache.tools.ant.attribute.IfBlankAttribute"
+72 "org.apache.tools.ant.attribute.IfBlankAttribute$Unless"
+73 "org.apache.tools.ant.attribute.IfSetAttribute"
+74 "org.apache.tools.ant.attribute.IfSetAttribute$Unless"
+75 "org.apache.tools.ant.attribute.IfTrueAttribute"
+76 "org.apache.tools.ant.attribute.IfTrueAttribute$Unless"
+77 "org.apache.tools.ant.dispatch.DispatchTask"
+78 "org.apache.tools.ant.dispatch.DispatchUtils"
+79 "org.apache.tools.ant.dispatch.Dispatchable"
+80 "org.apache.tools.ant.filters.BaseFilterReader"
+81 "org.apache.tools.ant.filters.BaseParamFilterReader"
+82 "org.apache.tools.ant.filters.ChainableReader"
+83 "org.apache.tools.ant.filters.ClassConstants"
+84 "org.apache.tools.ant.filters.ConcatFilter"
+85 "org.apache.tools.ant.filters.EscapeUnicode"
+86 "org.apache.tools.ant.filters.ExpandProperties"
+87 "org.apache.tools.ant.filters.FixCrLfFilter"
+88 "org.apache.tools.ant.filters.FixCrLfFilter$AddAsisRemove"
+89 "org.apache.tools.ant.filters.FixCrLfFilter$AddEofFilter"
+90 "org.apache.tools.ant.filters.FixCrLfFilter$AddTabFilter"
+91 "org.apache.tools.ant.filters.FixCrLfFilter$CrLf"
+92 "org.apache.tools.ant.filters.FixCrLfFilter$MaskJavaTabLiteralsFilter"
+93 "org.apache.tools.ant.filters.FixCrLfFilter$NormalizeEolFilter"
+94 "org.apache.tools.ant.filters.FixCrLfFilter$RemoveEofFilter"
+95 "org.apache.tools.ant.filters.FixCrLfFilter$RemoveTabFilter"
+96 "org.apache.tools.ant.filters.FixCrLfFilter$SimpleFilterReader"
+97 "org.apache.tools.ant.filters.HeadFilter"
+98 "org.apache.tools.ant.filters.LineContains"
+99 "org.apache.tools.ant.filters.LineContains$Contains"
+100 "org.apache.tools.ant.filters.LineContainsRegExp"
+101 "org.apache.tools.ant.filters.Native2AsciiFilter"
+102 "org.apache.tools.ant.filters.PrefixLines"
+103 "org.apache.tools.ant.filters.ReplaceTokens"
+104 "org.apache.tools.ant.filters.ReplaceTokens$Token"
+105 "org.apache.tools.ant.filters.SortFilter"
+106 "org.apache.tools.ant.filters.StringInputStream"
+107 "org.apache.tools.ant.filters.StripJavaComments"
+108 "org.apache.tools.ant.filters.StripLineBreaks"
+109 "org.apache.tools.ant.filters.StripLineComments"
+110 "org.apache.tools.ant.filters.StripLineComments$Comment"
+111 "org.apache.tools.ant.filters.SuffixLines"
+112 "org.apache.tools.ant.filters.TabsToSpaces"
+113 "org.apache.tools.ant.filters.TailFilter"
+114 "org.apache.tools.ant.filters.TokenFilter"
+115 "org.apache.tools.ant.filters.TokenFilter$ChainableReaderFilter"
+116 "org.apache.tools.ant.filters.TokenFilter$ContainsRegex"
+117 "org.apache.tools.ant.filters.TokenFilter$ContainsString"
+118 "org.apache.tools.ant.filters.TokenFilter$DeleteCharacters"
+119 "org.apache.tools.ant.filters.TokenFilter$FileTokenizer"
+120 "org.apache.tools.ant.filters.TokenFilter$Filter"
+121 "org.apache.tools.ant.filters.TokenFilter$IgnoreBlank"
+122 "org.apache.tools.ant.filters.TokenFilter$ReplaceRegex"
+123 "org.apache.tools.ant.filters.TokenFilter$ReplaceString"
+124 "org.apache.tools.ant.filters.TokenFilter$StringTokenizer"
+125 "org.apache.tools.ant.filters.TokenFilter$Trim"
+126 "org.apache.tools.ant.filters.UniqFilter"
+127 "org.apache.tools.ant.filters.util.ChainReaderHelper"
+128 "org.apache.tools.ant.helper.AntXMLContext"
+129 "org.apache.tools.ant.helper.DefaultExecutor"
+130 "org.apache.tools.ant.helper.IgnoreDependenciesExecutor"
+131 "org.apache.tools.ant.helper.ProjectHelper2"
+132 "org.apache.tools.ant.helper.ProjectHelper2$AntHandler"
+133 "org.apache.tools.ant.helper.ProjectHelper2$ElementHandler"
+134 "org.apache.tools.ant.helper.ProjectHelper2$MainHandler"
+135 "org.apache.tools.ant.helper.ProjectHelper2$ProjectHandler"
+136 "org.apache.tools.ant.helper.ProjectHelper2$RootHandler"
+137 "org.apache.tools.ant.helper.ProjectHelper2$TargetHandler"
+138 "org.apache.tools.ant.helper.ProjectHelperImpl"
+139 "org.apache.tools.ant.helper.ProjectHelperImpl$AbstractHandler"
+140 "org.apache.tools.ant.helper.ProjectHelperImpl$DataTypeHandler"
+141 "org.apache.tools.ant.helper.ProjectHelperImpl$DescriptionHandler"
+142 "org.apache.tools.ant.helper.ProjectHelperImpl$NestedElementHandler"
+143 "org.apache.tools.ant.helper.ProjectHelperImpl$ProjectHandler"
+144 "org.apache.tools.ant.helper.ProjectHelperImpl$RootHandler"
+145 "org.apache.tools.ant.helper.ProjectHelperImpl$TargetHandler"
+146 "org.apache.tools.ant.helper.ProjectHelperImpl$TaskHandler"
+147 "org.apache.tools.ant.helper.SingleCheckExecutor"
+148 "org.apache.tools.ant.input.DefaultInputHandler"
+149 "org.apache.tools.ant.input.GreedyInputHandler"
+150 "org.apache.tools.ant.input.InputHandler"
+151 "org.apache.tools.ant.input.InputRequest"
+152 "org.apache.tools.ant.input.MultipleChoiceInputRequest"
+153 "org.apache.tools.ant.input.PropertyFileInputHandler"
+154 "org.apache.tools.ant.input.SecureInputHandler"
+155 "org.apache.tools.ant.launch.AntMain"
+156 "org.apache.tools.ant.launch.Locator"
+157 "org.apache.tools.ant.listener.AnsiColorLogger"
+158 "org.apache.tools.ant.listener.BigProjectLogger"
+159 "org.apache.tools.ant.listener.MailLogger"
+160 "org.apache.tools.ant.listener.MailLogger$Values"
+161 "org.apache.tools.ant.listener.ProfileLogger"
+162 "org.apache.tools.ant.listener.SilentLogger"
+163 "org.apache.tools.ant.listener.SimpleBigProjectLogger"
+164 "org.apache.tools.ant.listener.TimestampedLogger"
+165 "org.apache.tools.ant.loader.AntClassLoader2"
+166 "org.apache.tools.ant.loader.AntClassLoader5"
+167 "org.apache.tools.ant.property.GetProperty"
+168 "org.apache.tools.ant.property.LocalProperties"
+169 "org.apache.tools.ant.property.LocalPropertyStack"
+170 "org.apache.tools.ant.property.ParseNextProperty"
+171 "org.apache.tools.ant.property.ParseProperties"
+172 "org.apache.tools.ant.property.PropertyExpander"
+173 "org.apache.tools.ant.property.ResolvePropertyMap"
+174 "org.apache.tools.ant.taskdefs.AbstractCvsTask"
+175 "org.apache.tools.ant.taskdefs.AbstractCvsTask$Module"
+176 "org.apache.tools.ant.taskdefs.AbstractJarSignerTask"
+177 "org.apache.tools.ant.taskdefs.Ant"
+178 "org.apache.tools.ant.taskdefs.Ant$PropertyType"
+179 "org.apache.tools.ant.taskdefs.Ant$Reference"
+180 "org.apache.tools.ant.taskdefs.Ant$TargetElement"
+181 "org.apache.tools.ant.taskdefs.AntStructure"
+182 "org.apache.tools.ant.taskdefs.AntStructure$DTDPrinter"
+183 "org.apache.tools.ant.taskdefs.AntStructure$StructurePrinter"
+184 "org.apache.tools.ant.taskdefs.Antlib"
+185 "org.apache.tools.ant.taskdefs.AntlibDefinition"
+186 "org.apache.tools.ant.taskdefs.Apt"
+187 "org.apache.tools.ant.taskdefs.Apt$Option"
+188 "org.apache.tools.ant.taskdefs.AttributeNamespaceDef"
+189 "org.apache.tools.ant.taskdefs.AugmentReference"
+190 "org.apache.tools.ant.taskdefs.Available"
+191 "org.apache.tools.ant.taskdefs.Available$FileDir"
+192 "org.apache.tools.ant.taskdefs.BUnzip2"
+193 "org.apache.tools.ant.taskdefs.BZip2"
+194 "org.apache.tools.ant.taskdefs.Basename"
+195 "org.apache.tools.ant.taskdefs.BindTargets"
+196 "org.apache.tools.ant.taskdefs.BuildNumber"
+197 "org.apache.tools.ant.taskdefs.CVSPass"
+198 "org.apache.tools.ant.taskdefs.CallTarget"
+199 "org.apache.tools.ant.taskdefs.Checksum"
+200 "org.apache.tools.ant.taskdefs.Checksum$FileUnion"
+201 "org.apache.tools.ant.taskdefs.Checksum$FormatElement"
+202 "org.apache.tools.ant.taskdefs.Chmod"
+203 "org.apache.tools.ant.taskdefs.Classloader"
+204 "org.apache.tools.ant.taskdefs.CloseResources"
+205 "org.apache.tools.ant.taskdefs.CommandLauncherTask"
+206 "org.apache.tools.ant.taskdefs.Componentdef"
+207 "org.apache.tools.ant.taskdefs.Concat"
+208 "org.apache.tools.ant.taskdefs.Concat$ConcatResource"
+209 "org.apache.tools.ant.taskdefs.Concat$MultiReader"
+210 "org.apache.tools.ant.taskdefs.Concat$ReaderFactory"
+211 "org.apache.tools.ant.taskdefs.Concat$TextElement"
+212 "org.apache.tools.ant.taskdefs.ConditionTask"
+213 "org.apache.tools.ant.taskdefs.Copy"
+214 "org.apache.tools.ant.taskdefs.CopyPath"
+215 "org.apache.tools.ant.taskdefs.Copydir"
+216 "org.apache.tools.ant.taskdefs.Copyfile"
+217 "org.apache.tools.ant.taskdefs.Cvs"
+218 "org.apache.tools.ant.taskdefs.DefBase"
+219 "org.apache.tools.ant.taskdefs.DefaultExcludes"
+220 "org.apache.tools.ant.taskdefs.Definer"
+221 "org.apache.tools.ant.taskdefs.Definer$Format"
+222 "org.apache.tools.ant.taskdefs.Definer$OnError"
+223 "org.apache.tools.ant.taskdefs.Delete"
+224 "org.apache.tools.ant.taskdefs.Delete$ReverseDirs"
+225 "org.apache.tools.ant.taskdefs.Deltree"
+226 "org.apache.tools.ant.taskdefs.DependSet"
+227 "org.apache.tools.ant.taskdefs.DependSet$HideMissingBasedir"
+228 "org.apache.tools.ant.taskdefs.DependSet$NonExistent"
+229 "org.apache.tools.ant.taskdefs.DiagnosticsTask"
+230 "org.apache.tools.ant.taskdefs.Dirname"
+231 "org.apache.tools.ant.taskdefs.Ear"
+232 "org.apache.tools.ant.taskdefs.Echo"
+233 "org.apache.tools.ant.taskdefs.Echo$EchoLevel"
+234 "org.apache.tools.ant.taskdefs.EchoXML"
+235 "org.apache.tools.ant.taskdefs.EchoXML$NamespacePolicy"
+236 "org.apache.tools.ant.taskdefs.Exec"
+237 "org.apache.tools.ant.taskdefs.Exec$StreamPumper"
+238 "org.apache.tools.ant.taskdefs.ExecTask"
+239 "org.apache.tools.ant.taskdefs.Execute"
+240 "org.apache.tools.ant.taskdefs.ExecuteJava"
+241 "org.apache.tools.ant.taskdefs.ExecuteOn"
+242 "org.apache.tools.ant.taskdefs.ExecuteOn$FileDirBoth"
+243 "org.apache.tools.ant.taskdefs.ExecuteStreamHandler"
+244 "org.apache.tools.ant.taskdefs.ExecuteWatchdog"
+245 "org.apache.tools.ant.taskdefs.Exit"
+246 "org.apache.tools.ant.taskdefs.Exit$NestedCondition"
+247 "org.apache.tools.ant.taskdefs.Expand"
+248 "org.apache.tools.ant.taskdefs.Filter"
+249 "org.apache.tools.ant.taskdefs.FixCRLF"
+250 "org.apache.tools.ant.taskdefs.FixCRLF$AddAsisRemove"
+251 "org.apache.tools.ant.taskdefs.FixCRLF$CrLf"
+252 "org.apache.tools.ant.taskdefs.FixCRLF$OneLiner"
+253 "org.apache.tools.ant.taskdefs.FixCRLF$OneLiner$BufferLine"
+254 "org.apache.tools.ant.taskdefs.GUnzip"
+255 "org.apache.tools.ant.taskdefs.GZip"
+256 "org.apache.tools.ant.taskdefs.GenerateKey"
+257 "org.apache.tools.ant.taskdefs.GenerateKey$DistinguishedName"
+258 "org.apache.tools.ant.taskdefs.GenerateKey$DnameParam"
+259 "org.apache.tools.ant.taskdefs.Get"
+260 "org.apache.tools.ant.taskdefs.Get$Base64Converter"
+261 "org.apache.tools.ant.taskdefs.Get$DownloadProgress"
+262 "org.apache.tools.ant.taskdefs.Get$GetThread"
+263 "org.apache.tools.ant.taskdefs.Get$NullProgress"
+264 "org.apache.tools.ant.taskdefs.Get$VerboseProgress"
+265 "org.apache.tools.ant.taskdefs.HostInfo"
+266 "org.apache.tools.ant.taskdefs.ImportTask"
+267 "org.apache.tools.ant.taskdefs.Input"
+268 "org.apache.tools.ant.taskdefs.Input$Handler"
+269 "org.apache.tools.ant.taskdefs.Input$HandlerType"
+270 "org.apache.tools.ant.taskdefs.JDBCTask"
+271 "org.apache.tools.ant.taskdefs.Jar"
+272 "org.apache.tools.ant.taskdefs.Jar$FilesetManifestConfig"
+273 "org.apache.tools.ant.taskdefs.Jar$StrictMode"
+274 "org.apache.tools.ant.taskdefs.Java"
+275 "org.apache.tools.ant.taskdefs.Javac"
+276 "org.apache.tools.ant.taskdefs.Javac$ImplementationSpecificArgument"
+277 "org.apache.tools.ant.taskdefs.Javadoc"
+278 "org.apache.tools.ant.taskdefs.Javadoc$AccessType"
+279 "org.apache.tools.ant.taskdefs.Javadoc$DocletInfo"
+280 "org.apache.tools.ant.taskdefs.Javadoc$DocletParam"
+281 "org.apache.tools.ant.taskdefs.Javadoc$ExtensionInfo"
+282 "org.apache.tools.ant.taskdefs.Javadoc$GroupArgument"
+283 "org.apache.tools.ant.taskdefs.Javadoc$Html"
+284 "org.apache.tools.ant.taskdefs.Javadoc$JavadocOutputStream"
+285 "org.apache.tools.ant.taskdefs.Javadoc$LinkArgument"
+286 "org.apache.tools.ant.taskdefs.Javadoc$PackageName"
+287 "org.apache.tools.ant.taskdefs.Javadoc$ResourceCollectionContainer"
+288 "org.apache.tools.ant.taskdefs.Javadoc$SourceFile"
+289 "org.apache.tools.ant.taskdefs.Javadoc$TagArgument"
+290 "org.apache.tools.ant.taskdefs.Jikes"
+291 "org.apache.tools.ant.taskdefs.JikesOutputParser"
+292 "org.apache.tools.ant.taskdefs.KeySubst"
+293 "org.apache.tools.ant.taskdefs.Length"
+294 "org.apache.tools.ant.taskdefs.Length$AccumHandler"
+295 "org.apache.tools.ant.taskdefs.Length$AllHandler"
+296 "org.apache.tools.ant.taskdefs.Length$EachHandler"
+297 "org.apache.tools.ant.taskdefs.Length$FileMode"
+298 "org.apache.tools.ant.taskdefs.Length$Handler"
+299 "org.apache.tools.ant.taskdefs.Length$When"
+300 "org.apache.tools.ant.taskdefs.LoadFile"
+301 "org.apache.tools.ant.taskdefs.LoadProperties"
+302 "org.apache.tools.ant.taskdefs.LoadResource"
+303 "org.apache.tools.ant.taskdefs.Local"
+304 "org.apache.tools.ant.taskdefs.LogOutputStream"
+305 "org.apache.tools.ant.taskdefs.LogStreamHandler"
+306 "org.apache.tools.ant.taskdefs.MacroDef"
+307 "org.apache.tools.ant.taskdefs.MacroDef$Attribute"
+308 "org.apache.tools.ant.taskdefs.MacroDef$MyAntTypeDefinition"
+309 "org.apache.tools.ant.taskdefs.MacroDef$NestedSequential"
+310 "org.apache.tools.ant.taskdefs.MacroDef$TemplateElement"
+311 "org.apache.tools.ant.taskdefs.MacroDef$Text"
+312 "org.apache.tools.ant.taskdefs.MacroInstance"
+313 "org.apache.tools.ant.taskdefs.MacroInstance$Element"
+314 "org.apache.tools.ant.taskdefs.MakeUrl"
+315 "org.apache.tools.ant.taskdefs.Manifest"
+316 "org.apache.tools.ant.taskdefs.Manifest$Attribute"
+317 "org.apache.tools.ant.taskdefs.Manifest$Section"
+318 "org.apache.tools.ant.taskdefs.ManifestClassPath"
+319 "org.apache.tools.ant.taskdefs.ManifestException"
+320 "org.apache.tools.ant.taskdefs.ManifestTask"
+321 "org.apache.tools.ant.taskdefs.ManifestTask$Mode"
+322 "org.apache.tools.ant.taskdefs.MatchingTask"
+323 "org.apache.tools.ant.taskdefs.Mkdir"
+324 "org.apache.tools.ant.taskdefs.Move"
+325 "org.apache.tools.ant.taskdefs.Nice"
+326 "org.apache.tools.ant.taskdefs.Pack"
+327 "org.apache.tools.ant.taskdefs.Parallel"
+328 "org.apache.tools.ant.taskdefs.Parallel$TaskList"
+329 "org.apache.tools.ant.taskdefs.Parallel$TaskRunnable"
+330 "org.apache.tools.ant.taskdefs.Patch"
+331 "org.apache.tools.ant.taskdefs.PathConvert"
+332 "org.apache.tools.ant.taskdefs.PathConvert$MapEntry"
+333 "org.apache.tools.ant.taskdefs.PathConvert$TargetOs"
+334 "org.apache.tools.ant.taskdefs.PreSetDef"
+335 "org.apache.tools.ant.taskdefs.PreSetDef$PreSetDefinition"
+336 "org.apache.tools.ant.taskdefs.ProcessDestroyer"
+337 "org.apache.tools.ant.taskdefs.ProcessDestroyer$ProcessDestroyerImpl"
+338 "org.apache.tools.ant.taskdefs.ProjectHelperTask"
+339 "org.apache.tools.ant.taskdefs.Property"
+340 "org.apache.tools.ant.taskdefs.PropertyHelperTask"
+341 "org.apache.tools.ant.taskdefs.PropertyHelperTask$DelegateElement"
+342 "org.apache.tools.ant.taskdefs.PumpStreamHandler"
+343 "org.apache.tools.ant.taskdefs.PumpStreamHandler$ThreadWithPumper"
+344 "org.apache.tools.ant.taskdefs.Recorder"
+345 "org.apache.tools.ant.taskdefs.Recorder$ActionChoices"
+346 "org.apache.tools.ant.taskdefs.Recorder$VerbosityLevelChoices"
+347 "org.apache.tools.ant.taskdefs.RecorderEntry"
+348 "org.apache.tools.ant.taskdefs.Redirector"
+349 "org.apache.tools.ant.taskdefs.Redirector$PropertyOutputStream"
+350 "org.apache.tools.ant.taskdefs.Rename"
+351 "org.apache.tools.ant.taskdefs.Replace"
+352 "org.apache.tools.ant.taskdefs.Replace$FileInput"
+353 "org.apache.tools.ant.taskdefs.Replace$FileOutput"
+354 "org.apache.tools.ant.taskdefs.Replace$NestedString"
+355 "org.apache.tools.ant.taskdefs.Replace$Replacefilter"
+356 "org.apache.tools.ant.taskdefs.ResourceCount"
+357 "org.apache.tools.ant.taskdefs.Retry"
+358 "org.apache.tools.ant.taskdefs.Rmic"
+359 "org.apache.tools.ant.taskdefs.Rmic$ImplementationSpecificArgument"
+360 "org.apache.tools.ant.taskdefs.SQLExec"
+361 "org.apache.tools.ant.taskdefs.SQLExec$DelimiterType"
+362 "org.apache.tools.ant.taskdefs.SQLExec$OnError"
+363 "org.apache.tools.ant.taskdefs.SQLExec$Transaction"
+364 "org.apache.tools.ant.taskdefs.SendEmail"
+365 "org.apache.tools.ant.taskdefs.Sequential"
+366 "org.apache.tools.ant.taskdefs.SignJar"
+367 "org.apache.tools.ant.taskdefs.Sleep"
+368 "org.apache.tools.ant.taskdefs.StreamPumper"
+369 "org.apache.tools.ant.taskdefs.SubAnt"
+370 "org.apache.tools.ant.taskdefs.Sync"
+371 "org.apache.tools.ant.taskdefs.Sync$MyCopy"
+372 "org.apache.tools.ant.taskdefs.Sync$SyncTarget"
+373 "org.apache.tools.ant.taskdefs.Tar"
+374 "org.apache.tools.ant.taskdefs.Tar$TarCompressionMethod"
+375 "org.apache.tools.ant.taskdefs.Tar$TarFileSet"
+376 "org.apache.tools.ant.taskdefs.Tar$TarLongFileMode"
+377 "org.apache.tools.ant.taskdefs.TaskOutputStream"
+378 "org.apache.tools.ant.taskdefs.Taskdef"
+379 "org.apache.tools.ant.taskdefs.TempFile"
+380 "org.apache.tools.ant.taskdefs.Touch"
+381 "org.apache.tools.ant.taskdefs.Touch$DateFormatFactory"
+382 "org.apache.tools.ant.taskdefs.Transform"
+383 "org.apache.tools.ant.taskdefs.Truncate"
+384 "org.apache.tools.ant.taskdefs.Tstamp"
+385 "org.apache.tools.ant.taskdefs.Tstamp$CustomFormat"
+386 "org.apache.tools.ant.taskdefs.Tstamp$Unit"
+387 "org.apache.tools.ant.taskdefs.Typedef"
+388 "org.apache.tools.ant.taskdefs.Unpack"
+389 "org.apache.tools.ant.taskdefs.Untar"
+390 "org.apache.tools.ant.taskdefs.Untar$UntarCompressionMethod"
+391 "org.apache.tools.ant.taskdefs.UpToDate"
+392 "org.apache.tools.ant.taskdefs.VerifyJar"
+393 "org.apache.tools.ant.taskdefs.VerifyJar$BufferingOutputFilter"
+394 "org.apache.tools.ant.taskdefs.VerifyJar$BufferingOutputFilterReader"
+395 "org.apache.tools.ant.taskdefs.WaitFor"
+396 "org.apache.tools.ant.taskdefs.WaitFor$Unit"
+397 "org.apache.tools.ant.taskdefs.War"
+398 "org.apache.tools.ant.taskdefs.WhichResource"
+399 "org.apache.tools.ant.taskdefs.XSLTLiaison"
+400 "org.apache.tools.ant.taskdefs.XSLTLiaison2"
+401 "org.apache.tools.ant.taskdefs.XSLTLiaison3"
+402 "org.apache.tools.ant.taskdefs.XSLTLiaison4"
+403 "org.apache.tools.ant.taskdefs.XSLTLogger"
+404 "org.apache.tools.ant.taskdefs.XSLTLoggerAware"
+405 "org.apache.tools.ant.taskdefs.XSLTProcess"
+406 "org.apache.tools.ant.taskdefs.XSLTProcess$Factory"
+407 "org.apache.tools.ant.taskdefs.XSLTProcess$Factory$Attribute"
+408 "org.apache.tools.ant.taskdefs.XSLTProcess$Factory$Feature"
+409 "org.apache.tools.ant.taskdefs.XSLTProcess$OutputProperty"
+410 "org.apache.tools.ant.taskdefs.XSLTProcess$Param"
+411 "org.apache.tools.ant.taskdefs.XSLTProcess$ParamType"
+412 "org.apache.tools.ant.taskdefs.XSLTProcess$StyleMapper"
+413 "org.apache.tools.ant.taskdefs.XSLTProcess$TraceConfiguration"
+414 "org.apache.tools.ant.taskdefs.XmlProperty"
+415 "org.apache.tools.ant.taskdefs.Zip"
+416 "org.apache.tools.ant.taskdefs.Zip$ArchiveState"
+417 "org.apache.tools.ant.taskdefs.Zip$Duplicate"
+418 "org.apache.tools.ant.taskdefs.Zip$UnicodeExtraField"
+419 "org.apache.tools.ant.taskdefs.Zip$WhenEmpty"
+420 "org.apache.tools.ant.taskdefs.Zip$Zip64ModeAttribute"
+421 "org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter"
+422 "org.apache.tools.ant.taskdefs.compilers.AptExternalCompilerAdapter"
+423 "org.apache.tools.ant.taskdefs.compilers.CompilerAdapter"
+424 "org.apache.tools.ant.taskdefs.compilers.CompilerAdapterExtension"
+425 "org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory"
+426 "org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter"
+427 "org.apache.tools.ant.taskdefs.compilers.Gcj"
+428 "org.apache.tools.ant.taskdefs.compilers.Javac12"
+429 "org.apache.tools.ant.taskdefs.compilers.Javac13"
+430 "org.apache.tools.ant.taskdefs.compilers.JavacExternal"
+431 "org.apache.tools.ant.taskdefs.compilers.Jikes"
+432 "org.apache.tools.ant.taskdefs.compilers.Jvc"
+433 "org.apache.tools.ant.taskdefs.compilers.Kjc"
+434 "org.apache.tools.ant.taskdefs.compilers.Sj"
+435 "org.apache.tools.ant.taskdefs.condition.And"
+436 "org.apache.tools.ant.taskdefs.condition.AntVersion"
+437 "org.apache.tools.ant.taskdefs.condition.Condition"
+438 "org.apache.tools.ant.taskdefs.condition.ConditionBase"
+439 "org.apache.tools.ant.taskdefs.condition.Contains"
+440 "org.apache.tools.ant.taskdefs.condition.Equals"
+441 "org.apache.tools.ant.taskdefs.condition.FilesMatch"
+442 "org.apache.tools.ant.taskdefs.condition.HasFreeSpace"
+443 "org.apache.tools.ant.taskdefs.condition.HasMethod"
+444 "org.apache.tools.ant.taskdefs.condition.Http"
+445 "org.apache.tools.ant.taskdefs.condition.IsFailure"
+446 "org.apache.tools.ant.taskdefs.condition.IsFalse"
+447 "org.apache.tools.ant.taskdefs.condition.IsFileSelected"
+448 "org.apache.tools.ant.taskdefs.condition.IsLastModified"
+449 "org.apache.tools.ant.taskdefs.condition.IsLastModified$CompareMode"
+450 "org.apache.tools.ant.taskdefs.condition.IsReachable"
+451 "org.apache.tools.ant.taskdefs.condition.IsReference"
+452 "org.apache.tools.ant.taskdefs.condition.IsSet"
+453 "org.apache.tools.ant.taskdefs.condition.IsSigned"
+454 "org.apache.tools.ant.taskdefs.condition.IsTrue"
+455 "org.apache.tools.ant.taskdefs.condition.Matches"
+456 "org.apache.tools.ant.taskdefs.condition.Not"
+457 "org.apache.tools.ant.taskdefs.condition.Or"
+458 "org.apache.tools.ant.taskdefs.condition.Os"
+459 "org.apache.tools.ant.taskdefs.condition.ParserSupports"
+460 "org.apache.tools.ant.taskdefs.condition.ResourceContains"
+461 "org.apache.tools.ant.taskdefs.condition.ResourceExists"
+462 "org.apache.tools.ant.taskdefs.condition.ResourcesMatch"
+463 "org.apache.tools.ant.taskdefs.condition.Socket"
+464 "org.apache.tools.ant.taskdefs.condition.TypeFound"
+465 "org.apache.tools.ant.taskdefs.condition.Xor"
+466 "org.apache.tools.ant.taskdefs.cvslib.CVSEntry"
+467 "org.apache.tools.ant.taskdefs.cvslib.ChangeLogParser"
+468 "org.apache.tools.ant.taskdefs.cvslib.ChangeLogTask"
+469 "org.apache.tools.ant.taskdefs.cvslib.ChangeLogWriter"
+470 "org.apache.tools.ant.taskdefs.cvslib.CvsTagDiff"
+471 "org.apache.tools.ant.taskdefs.cvslib.CvsTagEntry"
+472 "org.apache.tools.ant.taskdefs.cvslib.CvsUser"
+473 "org.apache.tools.ant.taskdefs.cvslib.CvsVersion"
+474 "org.apache.tools.ant.taskdefs.cvslib.RCSFile"
+475 "org.apache.tools.ant.taskdefs.cvslib.RedirectingOutputStream"
+476 "org.apache.tools.ant.taskdefs.cvslib.RedirectingStreamHandler"
+477 "org.apache.tools.ant.taskdefs.email.EmailAddress"
+478 "org.apache.tools.ant.taskdefs.email.EmailTask"
+479 "org.apache.tools.ant.taskdefs.email.EmailTask$Encoding"
+480 "org.apache.tools.ant.taskdefs.email.Header"
+481 "org.apache.tools.ant.taskdefs.email.Mailer"
+482 "org.apache.tools.ant.taskdefs.email.Message"
+483 "org.apache.tools.ant.taskdefs.email.PlainMailer"
+484 "org.apache.tools.ant.taskdefs.email.UUMailer"
+485 "org.apache.tools.ant.taskdefs.launcher.CommandLauncher"
+486 "org.apache.tools.ant.taskdefs.launcher.CommandLauncherProxy"
+487 "org.apache.tools.ant.taskdefs.launcher.Java13CommandLauncher"
+488 "org.apache.tools.ant.taskdefs.launcher.MacCommandLauncher"
+489 "org.apache.tools.ant.taskdefs.launcher.OS2CommandLauncher"
+490 "org.apache.tools.ant.taskdefs.launcher.PerlScriptCommandLauncher"
+491 "org.apache.tools.ant.taskdefs.launcher.ScriptCommandLauncher"
+492 "org.apache.tools.ant.taskdefs.launcher.VmsCommandLauncher"
+493 "org.apache.tools.ant.taskdefs.launcher.WinNTCommandLauncher"
+494 "org.apache.tools.ant.taskdefs.optional.Cab"
+495 "org.apache.tools.ant.taskdefs.optional.EchoProperties"
+496 "org.apache.tools.ant.taskdefs.optional.EchoProperties$FormatAttribute"
+497 "org.apache.tools.ant.taskdefs.optional.EchoProperties$Tuple"
+498 "org.apache.tools.ant.taskdefs.optional.Javah"
+499 "org.apache.tools.ant.taskdefs.optional.Javah$ClassArgument"
+500 "org.apache.tools.ant.taskdefs.optional.Native2Ascii"
+501 "org.apache.tools.ant.taskdefs.optional.Native2Ascii$ExtMapper"
+502 "org.apache.tools.ant.taskdefs.optional.PropertyFile"
+503 "org.apache.tools.ant.taskdefs.optional.PropertyFile$Entry"
+504 "org.apache.tools.ant.taskdefs.optional.PropertyFile$Entry$Operation"
+505 "org.apache.tools.ant.taskdefs.optional.PropertyFile$Entry$Type"
+506 "org.apache.tools.ant.taskdefs.optional.PropertyFile$Unit"
+507 "org.apache.tools.ant.taskdefs.optional.RenameExtensions"
+508 "org.apache.tools.ant.taskdefs.optional.ReplaceRegExp"
+509 "org.apache.tools.ant.taskdefs.optional.Rpm"
+510 "org.apache.tools.ant.taskdefs.optional.SchemaValidate"
+511 "org.apache.tools.ant.taskdefs.optional.SchemaValidate$SchemaLocation"
+512 "org.apache.tools.ant.taskdefs.optional.Script"
+513 "org.apache.tools.ant.taskdefs.optional.TraXLiaison"
+514 "org.apache.tools.ant.taskdefs.optional.XMLValidateTask"
+515 "org.apache.tools.ant.taskdefs.optional.XMLValidateTask$Attribute"
+516 "org.apache.tools.ant.taskdefs.optional.XMLValidateTask$Property"
+517 "org.apache.tools.ant.taskdefs.optional.XMLValidateTask$ValidatorErrorHandler"
+518 "org.apache.tools.ant.taskdefs.optional.XSLTTraceSupport"
+519 "org.apache.tools.ant.taskdefs.optional.ccm.CCMCheck"
+520 "org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckin"
+521 "org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckinDefault"
+522 "org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckout"
+523 "org.apache.tools.ant.taskdefs.optional.ccm.CCMCreateTask"
+524 "org.apache.tools.ant.taskdefs.optional.ccm.CCMReconfigure"
+525 "org.apache.tools.ant.taskdefs.optional.ccm.Continuus"
+526 "org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckin"
+527 "org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckout"
+528 "org.apache.tools.ant.taskdefs.optional.clearcase.CCLock"
+529 "org.apache.tools.ant.taskdefs.optional.clearcase.CCMkattr"
+530 "org.apache.tools.ant.taskdefs.optional.clearcase.CCMkbl"
+531 "org.apache.tools.ant.taskdefs.optional.clearcase.CCMkdir"
+532 "org.apache.tools.ant.taskdefs.optional.clearcase.CCMkelem"
+533 "org.apache.tools.ant.taskdefs.optional.clearcase.CCMklabel"
+534 "org.apache.tools.ant.taskdefs.optional.clearcase.CCMklbtype"
+535 "org.apache.tools.ant.taskdefs.optional.clearcase.CCRmtype"
+536 "org.apache.tools.ant.taskdefs.optional.clearcase.CCUnCheckout"
+537 "org.apache.tools.ant.taskdefs.optional.clearcase.CCUnlock"
+538 "org.apache.tools.ant.taskdefs.optional.clearcase.CCUpdate"
+539 "org.apache.tools.ant.taskdefs.optional.clearcase.ClearCase"
+540 "org.apache.tools.ant.taskdefs.optional.depend.AntAnalyzer"
+541 "org.apache.tools.ant.taskdefs.optional.depend.ClassFile"
+542 "org.apache.tools.ant.taskdefs.optional.depend.ClassFileIterator"
+543 "org.apache.tools.ant.taskdefs.optional.depend.ClassFileUtils"
+544 "org.apache.tools.ant.taskdefs.optional.depend.Depend"
+545 "org.apache.tools.ant.taskdefs.optional.depend.Depend$ClassFileInfo"
+546 "org.apache.tools.ant.taskdefs.optional.depend.DirectoryIterator"
+547 "org.apache.tools.ant.taskdefs.optional.depend.JarFileIterator"
+548 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.ClassCPInfo"
+549 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantCPInfo"
+550 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantPool"
+551 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantPoolEntry"
+552 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.DoubleCPInfo"
+553 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.FieldRefCPInfo"
+554 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.FloatCPInfo"
+555 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.IntegerCPInfo"
+556 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.InterfaceMethodRefCPInfo"
+557 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.InvokeDynamicCPInfo"
+558 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.LongCPInfo"
+559 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodHandleCPInfo"
+560 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodHandleCPInfo$ReferenceKind"
+561 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodRefCPInfo"
+562 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.MethodTypeCPInfo"
+563 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.NameAndTypeCPInfo"
+564 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.StringCPInfo"
+565 "org.apache.tools.ant.taskdefs.optional.depend.constantpool.Utf8CPInfo"
+566 "org.apache.tools.ant.taskdefs.optional.ejb.BorlandDeploymentTool"
+567 "org.apache.tools.ant.taskdefs.optional.ejb.BorlandGenerateClient"
+568 "org.apache.tools.ant.taskdefs.optional.ejb.DescriptorHandler"
+569 "org.apache.tools.ant.taskdefs.optional.ejb.EJBDeploymentTool"
+570 "org.apache.tools.ant.taskdefs.optional.ejb.EjbJar"
+571 "org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$CMPVersion"
+572 "org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$Config"
+573 "org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DTDLocation"
+574 "org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$NamingScheme"
+575 "org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool"
+576 "org.apache.tools.ant.taskdefs.optional.ejb.IPlanetDeploymentTool"
+577 "org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc"
+578 "org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$Classname"
+579 "org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbInfo"
+580 "org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcException"
+581 "org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$EjbcHandler"
+582 "org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbc$RedirectOutput"
+583 "org.apache.tools.ant.taskdefs.optional.ejb.IPlanetEjbcTask"
+584 "org.apache.tools.ant.taskdefs.optional.ejb.InnerClassFilenameFilter"
+585 "org.apache.tools.ant.taskdefs.optional.ejb.JbossDeploymentTool"
+586 "org.apache.tools.ant.taskdefs.optional.ejb.JonasDeploymentTool"
+587 "org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool"
+588 "org.apache.tools.ant.taskdefs.optional.ejb.WeblogicTOPLinkDeploymentTool"
+589 "org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool"
+590 "org.apache.tools.ant.taskdefs.optional.extension.Compatibility"
+591 "org.apache.tools.ant.taskdefs.optional.extension.DeweyDecimal"
+592 "org.apache.tools.ant.taskdefs.optional.extension.Extension"
+593 "org.apache.tools.ant.taskdefs.optional.extension.ExtensionAdapter"
+594 "org.apache.tools.ant.taskdefs.optional.extension.ExtensionResolver"
+595 "org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet"
+596 "org.apache.tools.ant.taskdefs.optional.extension.ExtensionUtil"
+597 "org.apache.tools.ant.taskdefs.optional.extension.ExtraAttribute"
+598 "org.apache.tools.ant.taskdefs.optional.extension.JarLibAvailableTask"
+599 "org.apache.tools.ant.taskdefs.optional.extension.JarLibDisplayTask"
+600 "org.apache.tools.ant.taskdefs.optional.extension.JarLibManifestTask"
+601 "org.apache.tools.ant.taskdefs.optional.extension.JarLibResolveTask"
+602 "org.apache.tools.ant.taskdefs.optional.extension.LibFileSet"
+603 "org.apache.tools.ant.taskdefs.optional.extension.LibraryDisplayer"
+604 "org.apache.tools.ant.taskdefs.optional.extension.Specification"
+605 "org.apache.tools.ant.taskdefs.optional.extension.resolvers.AntResolver"
+606 "org.apache.tools.ant.taskdefs.optional.extension.resolvers.LocationResolver"
+607 "org.apache.tools.ant.taskdefs.optional.extension.resolvers.URLResolver"
+608 "org.apache.tools.ant.taskdefs.optional.i18n.Translate"
+609 "org.apache.tools.ant.taskdefs.optional.j2ee.AbstractHotDeploymentTool"
+610 "org.apache.tools.ant.taskdefs.optional.j2ee.GenericHotDeploymentTool"
+611 "org.apache.tools.ant.taskdefs.optional.j2ee.HotDeploymentTool"
+612 "org.apache.tools.ant.taskdefs.optional.j2ee.JonasHotDeploymentTool"
+613 "org.apache.tools.ant.taskdefs.optional.j2ee.ServerDeploy"
+614 "org.apache.tools.ant.taskdefs.optional.j2ee.WebLogicHotDeploymentTool"
+615 "org.apache.tools.ant.taskdefs.optional.javacc.JJDoc"
+616 "org.apache.tools.ant.taskdefs.optional.javacc.JJTree"
+617 "org.apache.tools.ant.taskdefs.optional.javacc.JavaCC"
+618 "org.apache.tools.ant.taskdefs.optional.javah.ForkingJavah"
+619 "org.apache.tools.ant.taskdefs.optional.javah.Gcjh"
+620 "org.apache.tools.ant.taskdefs.optional.javah.JavahAdapter"
+621 "org.apache.tools.ant.taskdefs.optional.javah.JavahAdapterFactory"
+622 "org.apache.tools.ant.taskdefs.optional.javah.Kaffeh"
+623 "org.apache.tools.ant.taskdefs.optional.javah.SunJavah"
+624 "org.apache.tools.ant.taskdefs.optional.jlink.ClassNameReader"
+625 "org.apache.tools.ant.taskdefs.optional.jlink.ConstantPool"
+626 "org.apache.tools.ant.taskdefs.optional.jlink.JlinkTask"
+627 "org.apache.tools.ant.taskdefs.optional.jlink.jlink"
+628 "org.apache.tools.ant.taskdefs.optional.jsp.Jasper41Mangler"
+629 "org.apache.tools.ant.taskdefs.optional.jsp.JspC"
+630 "org.apache.tools.ant.taskdefs.optional.jsp.JspC$WebAppParameter"
+631 "org.apache.tools.ant.taskdefs.optional.jsp.JspMangler"
+632 "org.apache.tools.ant.taskdefs.optional.jsp.JspNameMangler"
+633 "org.apache.tools.ant.taskdefs.optional.jsp.WLJspc"
+634 "org.apache.tools.ant.taskdefs.optional.jsp.compilers.DefaultJspCompilerAdapter"
+635 "org.apache.tools.ant.taskdefs.optional.jsp.compilers.JasperC"
+636 "org.apache.tools.ant.taskdefs.optional.jsp.compilers.JspCompilerAdapter"
+637 "org.apache.tools.ant.taskdefs.optional.jsp.compilers.JspCompilerAdapterFactory"
+638 "org.apache.tools.ant.taskdefs.optional.native2ascii.BuiltinNative2Ascii"
+639 "org.apache.tools.ant.taskdefs.optional.native2ascii.DefaultNative2Ascii"
+640 "org.apache.tools.ant.taskdefs.optional.native2ascii.KaffeNative2Ascii"
+641 "org.apache.tools.ant.taskdefs.optional.native2ascii.Native2AsciiAdapter"
+642 "org.apache.tools.ant.taskdefs.optional.native2ascii.Native2AsciiAdapterFactory"
+643 "org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii"
+644 "org.apache.tools.ant.taskdefs.optional.net.MimeMail"
+645 "org.apache.tools.ant.taskdefs.optional.net.SetProxy"
+646 "org.apache.tools.ant.taskdefs.optional.net.SetProxy$ProxyAuth"
+647 "org.apache.tools.ant.taskdefs.optional.pvcs.Pvcs"
+648 "org.apache.tools.ant.taskdefs.optional.pvcs.PvcsProject"
+649 "org.apache.tools.ant.taskdefs.optional.script.ScriptDef"
+650 "org.apache.tools.ant.taskdefs.optional.script.ScriptDef$Attribute"
+651 "org.apache.tools.ant.taskdefs.optional.script.ScriptDef$NestedElement"
+652 "org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase"
+653 "org.apache.tools.ant.taskdefs.optional.sos.SOS"
+654 "org.apache.tools.ant.taskdefs.optional.sos.SOSCheckin"
+655 "org.apache.tools.ant.taskdefs.optional.sos.SOSCheckout"
+656 "org.apache.tools.ant.taskdefs.optional.sos.SOSCmd"
+657 "org.apache.tools.ant.taskdefs.optional.sos.SOSGet"
+658 "org.apache.tools.ant.taskdefs.optional.sos.SOSLabel"
+659 "org.apache.tools.ant.taskdefs.optional.testing.BlockFor"
+660 "org.apache.tools.ant.taskdefs.optional.testing.BuildTimeoutException"
+661 "org.apache.tools.ant.taskdefs.optional.testing.Funtest"
+662 "org.apache.tools.ant.taskdefs.optional.testing.Funtest$NestedCondition"
+663 "org.apache.tools.ant.taskdefs.optional.unix.AbstractAccessTask"
+664 "org.apache.tools.ant.taskdefs.optional.unix.Chgrp"
+665 "org.apache.tools.ant.taskdefs.optional.unix.Chown"
+666 "org.apache.tools.ant.taskdefs.optional.unix.Symlink"
+667 "org.apache.tools.ant.taskdefs.optional.vss.MSVSS"
+668 "org.apache.tools.ant.taskdefs.optional.vss.MSVSS$CurrentModUpdated"
+669 "org.apache.tools.ant.taskdefs.optional.vss.MSVSS$WritableFiles"
+670 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSADD"
+671 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSCHECKIN"
+672 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSCHECKOUT"
+673 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSCP"
+674 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSCREATE"
+675 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSConstants"
+676 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET"
+677 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSHISTORY"
+678 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSHISTORY$BriefCodediffNofile"
+679 "org.apache.tools.ant.taskdefs.optional.vss.MSVSSLABEL"
+680 "org.apache.tools.ant.taskdefs.optional.windows.Attrib"
+681 "org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter"
+682 "org.apache.tools.ant.taskdefs.rmic.DefaultRmicAdapter$RmicFileNameMapper"
+683 "org.apache.tools.ant.taskdefs.rmic.ForkingSunRmic"
+684 "org.apache.tools.ant.taskdefs.rmic.KaffeRmic"
+685 "org.apache.tools.ant.taskdefs.rmic.RmicAdapter"
+686 "org.apache.tools.ant.taskdefs.rmic.RmicAdapterFactory"
+687 "org.apache.tools.ant.taskdefs.rmic.SunRmic"
+688 "org.apache.tools.ant.taskdefs.rmic.WLRmic"
+689 "org.apache.tools.ant.taskdefs.rmic.XNewRmic"
+690 "org.apache.tools.ant.types.AbstractFileSet"
+691 "org.apache.tools.ant.types.AntFilterReader"
+692 "org.apache.tools.ant.types.ArchiveFileSet"
+693 "org.apache.tools.ant.types.ArchiveScanner"
+694 "org.apache.tools.ant.types.Assertions"
+695 "org.apache.tools.ant.types.Assertions$BaseAssertion"
+696 "org.apache.tools.ant.types.Assertions$DisabledAssertion"
+697 "org.apache.tools.ant.types.Assertions$EnabledAssertion"
+698 "org.apache.tools.ant.types.Commandline"
+699 "org.apache.tools.ant.types.Commandline$Argument"
+700 "org.apache.tools.ant.types.Commandline$Marker"
+701 "org.apache.tools.ant.types.CommandlineJava"
+702 "org.apache.tools.ant.types.CommandlineJava$ExecutableType"
+703 "org.apache.tools.ant.types.CommandlineJava$SysProperties"
+704 "org.apache.tools.ant.types.Comparison"
+705 "org.apache.tools.ant.types.DTDLocation"
+706 "org.apache.tools.ant.types.DataType"
+707 "org.apache.tools.ant.types.Description"
+708 "org.apache.tools.ant.types.DirSet"
+709 "org.apache.tools.ant.types.EnumeratedAttribute"
+710 "org.apache.tools.ant.types.Environment"
+711 "org.apache.tools.ant.types.Environment$Variable"
+712 "org.apache.tools.ant.types.FileList"
+713 "org.apache.tools.ant.types.FileList$FileName"
+714 "org.apache.tools.ant.types.FileSet"
+715 "org.apache.tools.ant.types.FilterChain"
+716 "org.apache.tools.ant.types.FilterSet"
+717 "org.apache.tools.ant.types.FilterSet$Filter"
+718 "org.apache.tools.ant.types.FilterSet$FiltersFile"
+719 "org.apache.tools.ant.types.FilterSet$OnMissing"
+720 "org.apache.tools.ant.types.FilterSetCollection"
+721 "org.apache.tools.ant.types.LogLevel"
+722 "org.apache.tools.ant.types.Mapper"
+723 "org.apache.tools.ant.types.Mapper$MapperType"
+724 "org.apache.tools.ant.types.Parameter"
+725 "org.apache.tools.ant.types.Parameterizable"
+726 "org.apache.tools.ant.types.Path"
+727 "org.apache.tools.ant.types.Path$PathElement"
+728 "org.apache.tools.ant.types.PatternSet"
+729 "org.apache.tools.ant.types.PatternSet$InvertedPatternSet"
+730 "org.apache.tools.ant.types.PatternSet$NameEntry"
+731 "org.apache.tools.ant.types.Permissions"
+732 "org.apache.tools.ant.types.Permissions$MySM"
+733 "org.apache.tools.ant.types.Permissions$Permission"
+734 "org.apache.tools.ant.types.PropertySet"
+735 "org.apache.tools.ant.types.PropertySet$BuiltinPropertySetName"
+736 "org.apache.tools.ant.types.PropertySet$PropertyRef"
+737 "org.apache.tools.ant.types.Quantifier"
+738 "org.apache.tools.ant.types.Quantifier$Predicate"
+739 "org.apache.tools.ant.types.RedirectorElement"
+740 "org.apache.tools.ant.types.Reference"
+741 "org.apache.tools.ant.types.RegularExpression"
+742 "org.apache.tools.ant.types.Resource"
+743 "org.apache.tools.ant.types.ResourceCollection"
+744 "org.apache.tools.ant.types.ResourceFactory"
+745 "org.apache.tools.ant.types.ResourceLocation"
+746 "org.apache.tools.ant.types.Substitution"
+747 "org.apache.tools.ant.types.TarFileSet"
+748 "org.apache.tools.ant.types.TarScanner"
+749 "org.apache.tools.ant.types.TimeComparison"
+750 "org.apache.tools.ant.types.XMLCatalog"
+751 "org.apache.tools.ant.types.XMLCatalog$CatalogResolver"
+752 "org.apache.tools.ant.types.XMLCatalog$ExternalResolver"
+753 "org.apache.tools.ant.types.XMLCatalog$InternalResolver"
+754 "org.apache.tools.ant.types.ZipFileSet"
+755 "org.apache.tools.ant.types.ZipScanner"
+756 "org.apache.tools.ant.types.mappers.CutDirsMapper"
+757 "org.apache.tools.ant.types.mappers.FilterMapper"
+758 "org.apache.tools.ant.types.optional.AbstractScriptComponent"
+759 "org.apache.tools.ant.types.optional.ScriptCondition"
+760 "org.apache.tools.ant.types.optional.ScriptFilter"
+761 "org.apache.tools.ant.types.optional.ScriptMapper"
+762 "org.apache.tools.ant.types.optional.ScriptSelector"
+763 "org.apache.tools.ant.types.optional.depend.ClassfileSet"
+764 "org.apache.tools.ant.types.optional.depend.ClassfileSet$ClassRoot"
+765 "org.apache.tools.ant.types.optional.depend.DependScanner"
+766 "org.apache.tools.ant.types.resources.AbstractClasspathResource"
+767 "org.apache.tools.ant.types.resources.AbstractClasspathResource$ClassLoaderWithFlag"
+768 "org.apache.tools.ant.types.resources.AbstractResourceCollectionWrapper"
+769 "org.apache.tools.ant.types.resources.AllButFirst"
+770 "org.apache.tools.ant.types.resources.AllButLast"
+771 "org.apache.tools.ant.types.resources.Appendable"
+772 "org.apache.tools.ant.types.resources.ArchiveResource"
+773 "org.apache.tools.ant.types.resources.Archives"
+774 "org.apache.tools.ant.types.resources.BCFileSet"
+775 "org.apache.tools.ant.types.resources.BZip2Resource"
+776 "org.apache.tools.ant.types.resources.BaseResourceCollectionContainer"
+777 "org.apache.tools.ant.types.resources.BaseResourceCollectionWrapper"
+778 "org.apache.tools.ant.types.resources.CompressedResource"
+779 "org.apache.tools.ant.types.resources.ContentTransformingResource"
+780 "org.apache.tools.ant.types.resources.Difference"
+781 "org.apache.tools.ant.types.resources.FailFast"
+782 "org.apache.tools.ant.types.resources.FileProvider"
+783 "org.apache.tools.ant.types.resources.FileResource"
+784 "org.apache.tools.ant.types.resources.FileResourceIterator"
+785 "org.apache.tools.ant.types.resources.Files"
+786 "org.apache.tools.ant.types.resources.First"
+787 "org.apache.tools.ant.types.resources.GZipResource"
+788 "org.apache.tools.ant.types.resources.ImmutableResourceException"
+789 "org.apache.tools.ant.types.resources.Intersect"
+790 "org.apache.tools.ant.types.resources.JavaConstantResource"
+791 "org.apache.tools.ant.types.resources.JavaResource"
+792 "org.apache.tools.ant.types.resources.Last"
+793 "org.apache.tools.ant.types.resources.LazyResourceCollectionWrapper"
+794 "org.apache.tools.ant.types.resources.LazyResourceCollectionWrapper$CachedIterator"
+795 "org.apache.tools.ant.types.resources.LazyResourceCollectionWrapper$FilteringIterator"
+796 "org.apache.tools.ant.types.resources.LogOutputResource"
+797 "org.apache.tools.ant.types.resources.MappedResource"
+798 "org.apache.tools.ant.types.resources.MappedResourceCollection"
+799 "org.apache.tools.ant.types.resources.MultiRootFileSet"
+800 "org.apache.tools.ant.types.resources.MultiRootFileSet$SetType"
+801 "org.apache.tools.ant.types.resources.MultiRootFileSet$Worker"
+802 "org.apache.tools.ant.types.resources.PropertyResource"
+803 "org.apache.tools.ant.types.resources.ResourceDecorator"
+804 "org.apache.tools.ant.types.resources.ResourceList"
+805 "org.apache.tools.ant.types.resources.Resources"
+806 "org.apache.tools.ant.types.resources.Resources$MyCollection"
+807 "org.apache.tools.ant.types.resources.Resources$MyCollection$MyIterator"
+808 "org.apache.tools.ant.types.resources.Restrict"
+809 "org.apache.tools.ant.types.resources.SizeLimitCollection"
+810 "org.apache.tools.ant.types.resources.Sort"
+811 "org.apache.tools.ant.types.resources.StringResource"
+812 "org.apache.tools.ant.types.resources.StringResource$StringResourceFilterOutputStream"
+813 "org.apache.tools.ant.types.resources.TarResource"
+814 "org.apache.tools.ant.types.resources.Tokens"
+815 "org.apache.tools.ant.types.resources.Touchable"
+816 "org.apache.tools.ant.types.resources.URLProvider"
+817 "org.apache.tools.ant.types.resources.URLResource"
+818 "org.apache.tools.ant.types.resources.URLResource$ConnectionUser"
+819 "org.apache.tools.ant.types.resources.Union"
+820 "org.apache.tools.ant.types.resources.ZipResource"
+821 "org.apache.tools.ant.types.resources.comparators.Content"
+822 "org.apache.tools.ant.types.resources.comparators.Date"
+823 "org.apache.tools.ant.types.resources.comparators.DelegatedResourceComparator"
+824 "org.apache.tools.ant.types.resources.comparators.Exists"
+825 "org.apache.tools.ant.types.resources.comparators.FileSystem"
+826 "org.apache.tools.ant.types.resources.comparators.Name"
+827 "org.apache.tools.ant.types.resources.comparators.ResourceComparator"
+828 "org.apache.tools.ant.types.resources.comparators.Reverse"
+829 "org.apache.tools.ant.types.resources.comparators.Size"
+830 "org.apache.tools.ant.types.resources.comparators.Type"
+831 "org.apache.tools.ant.types.resources.selectors.And"
+832 "org.apache.tools.ant.types.resources.selectors.Compare"
+833 "org.apache.tools.ant.types.resources.selectors.Date"
+834 "org.apache.tools.ant.types.resources.selectors.Exists"
+835 "org.apache.tools.ant.types.resources.selectors.InstanceOf"
+836 "org.apache.tools.ant.types.resources.selectors.Majority"
+837 "org.apache.tools.ant.types.resources.selectors.Name"
+838 "org.apache.tools.ant.types.resources.selectors.None"
+839 "org.apache.tools.ant.types.resources.selectors.Not"
+840 "org.apache.tools.ant.types.resources.selectors.Or"
+841 "org.apache.tools.ant.types.resources.selectors.ResourceSelector"
+842 "org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer"
+843 "org.apache.tools.ant.types.resources.selectors.Size"
+844 "org.apache.tools.ant.types.resources.selectors.Type"
+845 "org.apache.tools.ant.types.resources.selectors.Type$FileDir"
+846 "org.apache.tools.ant.types.selectors.AbstractSelectorContainer"
+847 "org.apache.tools.ant.types.selectors.AndSelector"
+848 "org.apache.tools.ant.types.selectors.BaseExtendSelector"
+849 "org.apache.tools.ant.types.selectors.BaseSelector"
+850 "org.apache.tools.ant.types.selectors.BaseSelectorContainer"
+851 "org.apache.tools.ant.types.selectors.ContainsRegexpSelector"
+852 "org.apache.tools.ant.types.selectors.ContainsSelector"
+853 "org.apache.tools.ant.types.selectors.DateSelector"
+854 "org.apache.tools.ant.types.selectors.DateSelector$TimeComparisons"
+855 "org.apache.tools.ant.types.selectors.DependSelector"
+856 "org.apache.tools.ant.types.selectors.DepthSelector"
+857 "org.apache.tools.ant.types.selectors.DifferentSelector"
+858 "org.apache.tools.ant.types.selectors.ExtendFileSelector"
+859 "org.apache.tools.ant.types.selectors.ExtendSelector"
+860 "org.apache.tools.ant.types.selectors.FileSelector"
+861 "org.apache.tools.ant.types.selectors.FilenameSelector"
+862 "org.apache.tools.ant.types.selectors.MajoritySelector"
+863 "org.apache.tools.ant.types.selectors.MappingSelector"
+864 "org.apache.tools.ant.types.selectors.NoneSelector"
+865 "org.apache.tools.ant.types.selectors.NotSelector"
+866 "org.apache.tools.ant.types.selectors.OrSelector"
+867 "org.apache.tools.ant.types.selectors.PresentSelector"
+868 "org.apache.tools.ant.types.selectors.PresentSelector$FilePresence"
+869 "org.apache.tools.ant.types.selectors.ReadableSelector"
+870 "org.apache.tools.ant.types.selectors.SelectSelector"
+871 "org.apache.tools.ant.types.selectors.SelectorContainer"
+872 "org.apache.tools.ant.types.selectors.SelectorScanner"
+873 "org.apache.tools.ant.types.selectors.SelectorUtils"
+874 "org.apache.tools.ant.types.selectors.SignedSelector"
+875 "org.apache.tools.ant.types.selectors.SizeSelector"
+876 "org.apache.tools.ant.types.selectors.SizeSelector$ByteUnits"
+877 "org.apache.tools.ant.types.selectors.SizeSelector$SizeComparisons"
+878 "org.apache.tools.ant.types.selectors.TokenizedPath"
+879 "org.apache.tools.ant.types.selectors.TokenizedPattern"
+880 "org.apache.tools.ant.types.selectors.TypeSelector"
+881 "org.apache.tools.ant.types.selectors.TypeSelector$FileType"
+882 "org.apache.tools.ant.types.selectors.WritableSelector"
+883 "org.apache.tools.ant.types.selectors.modifiedselector.Algorithm"
+884 "org.apache.tools.ant.types.selectors.modifiedselector.Cache"
+885 "org.apache.tools.ant.types.selectors.modifiedselector.ChecksumAlgorithm"
+886 "org.apache.tools.ant.types.selectors.modifiedselector.DigestAlgorithm"
+887 "org.apache.tools.ant.types.selectors.modifiedselector.EqualComparator"
+888 "org.apache.tools.ant.types.selectors.modifiedselector.HashvalueAlgorithm"
+889 "org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector"
+890 "org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector$AlgorithmName"
+891 "org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector$CacheName"
+892 "org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector$ComparatorName"
+893 "org.apache.tools.ant.types.selectors.modifiedselector.PropertiesfileCache"
+894 "org.apache.tools.ant.types.spi.Provider"
+895 "org.apache.tools.ant.types.spi.Service"
+896 "org.apache.tools.ant.util.Base64Converter"
+897 "org.apache.tools.ant.util.ChainedMapper"
+898 "org.apache.tools.ant.util.ClasspathUtils"
+899 "org.apache.tools.ant.util.ClasspathUtils$Delegate"
+900 "org.apache.tools.ant.util.CollectionUtils"
+901 "org.apache.tools.ant.util.CollectionUtils$CompoundEnumeration"
+902 "org.apache.tools.ant.util.CollectionUtils$EmptyEnumeration"
+903 "org.apache.tools.ant.util.CompositeMapper"
+904 "org.apache.tools.ant.util.ConcatFileInputStream"
+905 "org.apache.tools.ant.util.ConcatResourceInputStream"
+906 "org.apache.tools.ant.util.ContainerMapper"
+907 "org.apache.tools.ant.util.DOMElementWriter"
+908 "org.apache.tools.ant.util.DOMElementWriter$XmlNamespacePolicy"
+909 "org.apache.tools.ant.util.DOMUtils"
+910 "org.apache.tools.ant.util.DateUtils"
+911 "org.apache.tools.ant.util.DeweyDecimal"
+912 "org.apache.tools.ant.util.FileNameMapper"
+913 "org.apache.tools.ant.util.FileTokenizer"
+914 "org.apache.tools.ant.util.FileUtils"
+915 "org.apache.tools.ant.util.FirstMatchMapper"
+916 "org.apache.tools.ant.util.FlatFileNameMapper"
+917 "org.apache.tools.ant.util.GlobPatternMapper"
+918 "org.apache.tools.ant.util.IdentityMapper"
+919 "org.apache.tools.ant.util.IdentityStack"
+920 "org.apache.tools.ant.util.JAXPUtils"
+921 "org.apache.tools.ant.util.JavaEnvUtils"
+922 "org.apache.tools.ant.util.KeepAliveInputStream"
+923 "org.apache.tools.ant.util.KeepAliveOutputStream"
+924 "org.apache.tools.ant.util.LayoutPreservingProperties"
+925 "org.apache.tools.ant.util.LayoutPreservingProperties$Blank"
+926 "org.apache.tools.ant.util.LayoutPreservingProperties$Comment"
+927 "org.apache.tools.ant.util.LayoutPreservingProperties$LogicalLine"
+928 "org.apache.tools.ant.util.LayoutPreservingProperties$Pair"
+929 "org.apache.tools.ant.util.LazyFileOutputStream"
+930 "org.apache.tools.ant.util.LeadPipeInputStream"
+931 "org.apache.tools.ant.util.LineOrientedOutputStream"
+932 "org.apache.tools.ant.util.LineOrientedOutputStreamRedirector"
+933 "org.apache.tools.ant.util.LineTokenizer"
+934 "org.apache.tools.ant.util.LinkedHashtable"
+935 "org.apache.tools.ant.util.LoaderUtils"
+936 "org.apache.tools.ant.util.MergingMapper"
+937 "org.apache.tools.ant.util.Native2AsciiUtils"
+938 "org.apache.tools.ant.util.OutputStreamFunneler"
+939 "org.apache.tools.ant.util.OutputStreamFunneler$Funnel"
+940 "org.apache.tools.ant.util.PackageNameMapper"
+941 "org.apache.tools.ant.util.PropertyOutputStream"
+942 "org.apache.tools.ant.util.ProxySetup"
+943 "org.apache.tools.ant.util.ReaderInputStream"
+944 "org.apache.tools.ant.util.ReflectUtil"
+945 "org.apache.tools.ant.util.ReflectWrapper"
+946 "org.apache.tools.ant.util.RegexpPatternMapper"
+947 "org.apache.tools.ant.util.ResourceUtils"
+948 "org.apache.tools.ant.util.ResourceUtils$ReadOnlyTargetFileException"
+949 "org.apache.tools.ant.util.ResourceUtils$ResourceSelectorProvider"
+950 "org.apache.tools.ant.util.RetryHandler"
+951 "org.apache.tools.ant.util.Retryable"
+952 "org.apache.tools.ant.util.ScriptFixBSFPath"
+953 "org.apache.tools.ant.util.ScriptRunnerBase"
+954 "org.apache.tools.ant.util.ScriptRunnerCreator"
+955 "org.apache.tools.ant.util.ScriptRunnerHelper"
+956 "org.apache.tools.ant.util.SourceFileScanner"
+957 "org.apache.tools.ant.util.SplitClassLoader"
+958 "org.apache.tools.ant.util.StringTokenizer"
+959 "org.apache.tools.ant.util.StringUtils"
+960 "org.apache.tools.ant.util.SymbolicLinkUtils"
+961 "org.apache.tools.ant.util.TaskLogger"
+962 "org.apache.tools.ant.util.TeeOutputStream"
+963 "org.apache.tools.ant.util.TimeoutObserver"
+964 "org.apache.tools.ant.util.Tokenizer"
+965 "org.apache.tools.ant.util.UUEncoder"
+966 "org.apache.tools.ant.util.UnPackageNameMapper"
+967 "org.apache.tools.ant.util.UnicodeUtil"
+968 "org.apache.tools.ant.util.VectorSet"
+969 "org.apache.tools.ant.util.Watchdog"
+970 "org.apache.tools.ant.util.WeakishReference"
+971 "org.apache.tools.ant.util.WeakishReference$HardReference"
+972 "org.apache.tools.ant.util.WorkerAnt"
+973 "org.apache.tools.ant.util.XMLFragment"
+974 "org.apache.tools.ant.util.XMLFragment$Child"
+975 "org.apache.tools.ant.util.depend.AbstractAnalyzer"
+976 "org.apache.tools.ant.util.depend.DependencyAnalyzer"
+977 "org.apache.tools.ant.util.facade.FacadeTaskHelper"
+978 "org.apache.tools.ant.util.facade.ImplementationSpecificArgument"
+979 "org.apache.tools.ant.util.java15.ProxyDiagnostics"
+980 "org.apache.tools.ant.util.optional.JavaxScriptRunner"
+981 "org.apache.tools.ant.util.optional.NoExitSecurityManager"
+982 "org.apache.tools.ant.util.optional.WeakishReference12"
+983 "org.apache.tools.ant.util.regexp.Jdk14RegexpMatcher"
+984 "org.apache.tools.ant.util.regexp.Jdk14RegexpRegexp"
+985 "org.apache.tools.ant.util.regexp.Regexp"
+986 "org.apache.tools.ant.util.regexp.RegexpFactory"
+987 "org.apache.tools.ant.util.regexp.RegexpMatcher"
+988 "org.apache.tools.ant.util.regexp.RegexpMatcherFactory"
+989 "org.apache.tools.ant.util.regexp.RegexpUtil"
+*Arcs
+2 1 1200.0
+1 2 200.0
+1 6 2900.0
+1 7 500.0
+1 42 3200.0
+1 55 400.0
+1 156 2.0
+1 726 2.4
+1 900 0.6
+1 902 0.2
+1 914 2.5
+1 921 0.2
+1 935 1.0
+1 959 0.2
+1 968 0.8
+3 1 400.0
+3 7 1600.0
+3 42 3300.0
+3 63 500.0
+5 4 1500.0
+5 7 600.0
+5 914 0.6
+5 935 0.2
+4 42 600.0
+6 42 900.0
+6 56 1100.0
+6 59 1300.0
+7 38 2000.0
+8 6 2100.0
+9 8 400.0
+10 3 12100.0
+10 7 1800.0
+10 11 400.0
+10 42 4300.0
+10 45 600.0
+10 59 2100.0
+10 60 200.0
+10 64 900.0
+10 220 0.2
+10 222 0.2
+10 387 1.6
+10 914 0.4
+11 3 2000.0
+11 10 1000.0
+11 45 600.0
+12 6 4800.0
+12 9 400.0
+12 42 200.0
+12 56 400.0
+12 59 200.0
+12 910 0.2
+12 914 0.6
+12 959 0.4
+13 42 1000.0
+15 14 300.0
+14 15 3900.0
+14 42 1000.0
+14 914 0.2
+16 7 300.0
+16 39 200.0
+16 42 1300.0
+16 914 1.6
+16 920 0.4
+16 921 0.8
+17 7 1600.0
+17 30 400.0
+17 458 0.2
+17 742 0.3
+17 744 0.4
+17 783 0.2
+17 860 0.8
+17 872 0.4
+17 873 1.6
+17 878 9.0
+17 879 3.9
+17 900 0.4
+17 914 1.9
+17 960 1.1
+17 968 1.6
+19 7 100.0
+18 7 100.0
+21 19 400.0
+21 23 400.0
+20 18 400.0
+20 22 400.0
+23 7 100.0
+22 7 100.0
+24 7 100.0
+26 7 100.0
+26 42 300.0
+28 7 1000.0
+28 38 300.0
+29 7 400.0
+29 52 300.0
+29 56 1100.0
+29 59 300.0
+32 37 600.0
+32 42 300.0
+32 335 0.2
+33 7 400.0
+33 31 400.0
+33 42 600.0
+34 37 600.0
+34 42 300.0
+35 7 1600.0
+35 10 500.0
+35 31 700.0
+35 37 1700.0
+35 42 1100.0
+37 42 300.0
+31 3 1200.0
+31 7 500.0
+31 10 2100.0
+31 18 300.0
+31 19 300.0
+31 22 300.0
+31 23 300.0
+31 24 300.0
+31 32 400.0
+31 33 600.0
+31 34 200.0
+31 35 500.0
+31 36 2000.0
+31 37 600.0
+31 42 300.0
+31 45 1400.0
+31 64 1000.0
+31 65 600.0
+31 66 600.0
+31 335 0.2
+31 709 0.3
+31 783 0.2
+31 959 0.2
+38 914 0.7
+39 4 1500.0
+39 5 1600.0
+39 7 6000.0
+39 8 100.0
+39 9 1100.0
+39 12 200.0
+39 13 200.0
+39 14 400.0
+39 16 200.0
+39 28 300.0
+39 42 9100.0
+39 45 800.0
+39 46 800.0
+39 48 400.0
+39 56 2000.0
+39 148 2.0
+39 155 4.0
+39 162 0.2
+39 167 0.3
+39 173 0.4
+39 898 0.6
+39 900 0.2
+39 914 1.4
+39 942 0.5
+40 6 2000.0
+40 12 800.0
+40 56 200.0
+41 458 0.2
+43 64 500.0
+44 38 900.0
+44 42 1100.0
+47 7 200.0
+47 45 300.0
+47 46 200.0
+46 7 1500.0
+46 45 1200.0
+46 47 200.0
+46 742 0.6
+46 935 0.4
+45 7 3700.0
+45 28 600.0
+45 31 1400.0
+45 38 600.0
+45 42 4700.0
+45 46 800.0
+45 48 700.0
+45 56 400.0
+45 63 400.0
+45 64 300.0
+45 742 0.9
+45 783 0.3
+45 935 0.4
+42 1 1000.0
+42 6 4300.0
+42 7 6000.0
+42 8 2600.0
+42 10 4200.0
+42 26 1000.0
+42 31 200.0
+42 39 200.0
+42 43 400.0
+42 44 400.0
+42 48 5600.0
+42 55 400.0
+42 56 5100.0
+42 59 3800.0
+42 60 200.0
+42 148 2.0
+42 150 9.0
+42 156 2.0
+42 707 0.2
+42 716 1.4
+42 717 0.2
+42 720 0.5
+42 726 0.6
+42 742 0.3
+42 744 0.4
+42 783 0.2
+42 900 0.2
+42 914 3.1
+42 921 0.6
+42 968 0.2
+50 48 300.0
+50 49 400.0
+51 48 600.0
+51 49 400.0
+48 7 200.0
+48 42 200.0
+48 49 700.0
+48 50 400.0
+48 51 600.0
+48 167 0.4
+48 170 0.3
+48 171 0.8
+48 172 0.4
+53 52 300.0
+54 52 300.0
+54 70 0.3
+52 7 800.0
+52 10 900.0
+52 25 200.0
+52 31 800.0
+52 35 300.0
+52 42 1300.0
+52 45 600.0
+52 48 400.0
+52 53 1900.0
+52 54 200.0
+52 59 200.0
+52 63 200.0
+52 64 1100.0
+52 65 300.0
+52 70 0.3
+52 306 0.2
+52 307 0.5
+52 312 0.2
+52 902 0.2
+55 6 600.0
+55 8 400.0
+57 7 100.0
+57 48 600.0
+57 56 800.0
+57 437 0.4
+58 7 100.0
+58 48 600.0
+58 56 800.0
+58 437 0.4
+56 7 500.0
+56 38 900.0
+56 42 2700.0
+56 52 800.0
+56 57 200.0
+56 58 200.0
+56 59 1800.0
+56 62 400.0
+56 168 0.8
+56 435 1.1
+56 437 1.6
+56 457 1.1
+60 7 1200.0
+60 42 1000.0
+60 59 600.0
+60 63 400.0
+60 78 2.0
+61 7 300.0
+61 59 1000.0
+62 59 300.0
+59 7 1300.0
+59 42 1200.0
+59 44 1000.0
+59 52 3000.0
+59 56 1100.0
+59 64 3700.0
+59 78 2.0
+63 42 600.0
+64 7 900.0
+64 10 1300.0
+64 31 1500.0
+64 35 900.0
+64 42 500.0
+64 44 400.0
+64 45 600.0
+64 52 7700.0
+64 56 700.0
+64 59 6600.0
+64 62 300.0
+64 63 200.0
+64 66 400.0
+64 335 1.0
+65 7 600.0
+66 7 600.0
+68 67 300.0
+67 6 5800.0
+67 7 200.0
+67 9 400.0
+67 12 600.0
+67 38 200.0
+67 42 400.0
+67 56 200.0
+67 59 1000.0
+67 64 200.0
+67 68 7300.0
+67 907 0.4
+67 914 0.4
+67 959 0.4
+69 42 2.0
+69 44 6.0
+69 52 2.0
+69 64 7.0
+69 70 4.0
+70 64 3.0
+72 71 6.0
+71 64 3.0
+71 69 6.0
+74 73 6.0
+73 42 2.0
+73 64 3.0
+73 69 6.0
+76 75 6.0
+75 42 2.0
+75 64 3.0
+75 69 6.0
+77 59 6.0
+77 79 400.0
+78 7 19.0
+78 64 7.0
+78 79 300.0
+80 42 9.0
+80 914 0.4
+81 80 8.0
+81 724 0.9
+81 725 0.4
+83 7 4.0
+83 80 8.0
+83 82 4.0
+84 42 4.0
+84 81 10.0
+84 82 4.0
+84 724 0.8
+85 81 8.0
+85 82 4.0
+85 967 0.2
+86 7 2.0
+86 42 1.0
+86 48 6.0
+86 80 8.0
+86 82 4.0
+86 167 0.2
+86 171 0.4
+86 734 0.8
+88 709 0.6
+89 96 8.0
+90 96 12.0
+91 709 0.6
+92 96 10.0
+93 96 14.0
+94 96 8.0
+95 96 8.0
+87 7 2.0
+87 81 8.0
+87 82 4.0
+87 88 50.0
+87 89 2.0
+87 90 2.0
+87 91 39.0
+87 92 2.0
+87 93 2.0
+87 94 2.0
+87 95 2.0
+87 458 1.2
+97 81 8.0
+97 82 4.0
+97 724 0.8
+97 933 0.9
+100 42 4.0
+100 81 8.0
+100 82 4.0
+100 724 1.2
+100 741 1.1
+100 985 0.3
+100 989 0.4
+98 42 2.0
+98 81 8.0
+98 82 4.0
+98 99 5.0
+98 724 0.8
+101 115 6.0
+101 937 0.4
+102 81 8.0
+102 82 4.0
+102 724 0.4
+103 42 2.0
+103 81 8.0
+103 82 4.0
+103 104 7.0
+103 724 1.6
+103 742 1.1
+103 783 0.2
+103 914 0.6
+105 7 12.0
+105 81 8.0
+105 82 4.0
+105 724 0.6
+106 943 0.8
+107 80 8.0
+107 82 4.0
+108 81 8.0
+108 82 4.0
+108 724 0.4
+109 81 8.0
+109 82 4.0
+109 110 5.0
+109 724 0.4
+111 81 8.0
+111 82 4.0
+111 724 0.4
+112 81 8.0
+112 82 4.0
+112 724 0.4
+113 81 8.0
+113 82 4.0
+113 724 0.8
+113 933 0.9
+115 44 6.0
+115 82 4.0
+115 114 6.0
+115 119 2.0
+115 120 4.0
+116 7 2.0
+116 114 2.0
+116 115 6.0
+116 741 0.9
+116 746 0.9
+116 985 0.7
+117 7 2.0
+117 44 6.0
+117 120 4.0
+118 44 6.0
+118 80 6.0
+118 82 4.0
+118 114 2.0
+118 120 4.0
+119 913 0.6
+121 115 6.0
+122 7 2.0
+122 114 2.0
+122 115 6.0
+122 741 0.9
+122 746 0.9
+122 985 0.7
+123 7 2.0
+123 115 6.0
+124 958 0.6
+125 115 6.0
+114 7 2.0
+114 80 8.0
+114 82 4.0
+114 116 3.0
+114 117 3.0
+114 118 3.0
+114 119 3.0
+114 120 6.0
+114 121 3.0
+114 122 3.0
+114 123 3.0
+114 124 3.0
+114 125 3.0
+114 933 0.5
+114 959 0.2
+114 964 1.2
+114 989 0.2
+126 115 6.0
+127 1 3.0
+127 7 15.0
+127 42 13.0
+127 80 0.2
+127 82 0.2
+127 691 1.1
+127 715 0.3
+127 724 0.1
+127 725 0.2
+127 914 0.2
+128 7 2.0
+128 38 4.0
+128 42 11.0
+128 52 9.0
+128 56 33.0
+128 914 0.4
+129 7 2.0
+129 26 7.0
+129 42 7.0
+129 147 5.0
+130 7 4.0
+130 26 7.0
+130 42 7.0
+130 56 3.0
+130 147 5.0
+132 128 19.0
+133 7 2.0
+133 38 2.0
+133 45 4.0
+133 52 10.0
+133 56 2.0
+133 64 22.0
+133 128 36.0
+133 131 2.0
+133 132 9.0
+134 128 7.0
+134 131 2.0
+134 132 9.0
+135 7 2.0
+135 38 2.0
+135 42 36.0
+135 45 10.0
+135 56 2.0
+135 128 56.0
+135 131 6.0
+135 132 9.0
+135 914 0.2
+136 42 10.0
+136 128 29.0
+136 131 6.0
+136 132 19.0
+136 914 0.6
+137 7 10.0
+137 38 2.0
+137 42 12.0
+137 45 13.0
+137 56 35.0
+137 128 44.0
+137 131 2.0
+137 132 9.0
+131 7 26.0
+131 38 3.0
+131 42 20.0
+131 45 6.0
+131 56 19.0
+131 64 6.0
+131 128 48.0
+131 132 49.0
+131 133 2.0
+131 134 2.0
+131 135 2.0
+131 136 11.0
+131 137 2.0
+131 156 2.0
+131 742 1.2
+131 782 0.3
+131 816 0.5
+131 914 1.6
+131 920 0.2
+139 138 14.0
+140 7 5.0
+140 42 2.0
+140 52 9.0
+140 56 8.0
+140 138 7.0
+140 139 6.0
+140 142 4.0
+141 42 6.0
+141 138 9.0
+141 139 6.0
+142 7 3.0
+142 31 4.0
+142 52 17.0
+142 56 6.0
+142 63 2.0
+142 64 7.0
+142 138 13.0
+142 139 6.0
+142 146 4.0
+143 7 2.0
+143 42 22.0
+143 138 43.0
+143 139 6.0
+143 145 4.0
+143 914 0.2
+144 42 6.0
+144 138 26.0
+144 143 4.0
+144 914 0.6
+145 7 2.0
+145 38 2.0
+145 42 4.0
+145 56 17.0
+145 138 15.0
+145 139 6.0
+146 38 2.0
+146 42 2.0
+146 52 15.0
+146 56 6.0
+146 59 15.0
+146 62 8.0
+146 64 2.0
+146 138 11.0
+146 139 6.0
+146 142 4.0
+138 7 19.0
+138 38 3.0
+138 42 15.0
+138 45 6.0
+138 56 16.0
+138 140 4.0
+138 141 2.0
+138 144 2.0
+138 146 4.0
+138 914 1.4
+138 920 0.4
+147 7 1.0
+147 26 7.0
+147 42 9.0
+148 7 7.0
+148 150 400.0
+148 151 1400.0
+148 152 200.0
+148 922 0.2
+149 7 5.0
+149 148 600.0
+149 151 700.0
+149 368 0.7
+149 914 0.4
+150 7 1.0
+150 151 300.0
+152 151 600.0
+153 7 10.0
+153 150 400.0
+153 151 1300.0
+154 7 1.0
+154 148 800.0
+154 151 700.0
+154 944 0.4
+157 12 6.0
+157 914 0.6
+158 6 32.0
+158 42 2.0
+158 55 4.0
+158 163 18.0
+160 159 3.0
+159 6 9.0
+159 7 5.0
+159 12 8.0
+159 42 13.0
+159 160 107.0
+159 477 0.4
+159 481 3.2
+159 482 0.8
+159 898 0.2
+159 910 0.2
+159 914 0.6
+161 6 38.0
+161 12 6.0
+161 56 4.0
+161 59 4.0
+162 6 20.0
+162 12 8.0
+163 6 3.0
+163 40 8.0
+164 12 10.0
+165 1 6.0
+166 1 6.0
+166 42 3.0
+166 726 0.3
+168 42 8.0
+168 48 13.0
+168 50 4.0
+168 51 4.0
+168 169 22.0
+169 48 9.0
+170 42 3.0
+171 42 11.0
+171 167 8.0
+171 170 4.0
+171 172 3.0
+172 49 4.0
+172 170 3.0
+173 7 2.0
+173 42 3.0
+173 167 12.0
+173 171 7.0
+174 7 15.0
+174 42 2.0
+174 59 6.0
+174 175 6.0
+174 239 21.0
+174 243 9.0
+174 304 4.0
+174 342 2.0
+174 698 4.9
+174 699 1.8
+174 710 1.2
+174 711 2.7
+174 914 0.8
+176 7 1.0
+176 42 2.0
+176 59 6.0
+176 100 0.7
+176 238 29.0
+176 699 0.2
+176 710 0.9
+176 711 0.9
+176 714 1.1
+176 715 0.2
+176 726 1.9
+176 739 1.7
+176 741 0.5
+176 921 0.2
+179 740 0.6
+182 31 12.0
+182 42 6.0
+182 181 17.0
+182 709 0.3
+183 42 6.0
+181 7 5.0
+181 42 12.0
+181 59 6.0
+181 914 0.2
+185 7 3.0
+185 59 6.0
+184 7 6.0
+184 10 8.0
+184 42 5.0
+184 45 5.0
+184 46 5.0
+184 59 9.0
+184 62 4.0
+184 64 20.0
+184 185 9.0
+184 817 0.2
+177 7 24.0
+177 12 9.0
+177 42 92.0
+177 44 2.0
+177 45 6.0
+177 56 7.0
+177 59 21.0
+177 178 17.0
+177 179 8.0
+177 180 5.0
+177 339 29.0
+177 734 0.6
+177 914 1.3
+177 968 0.2
+186 7 3.0
+186 187 5.0
+186 275 14.0
+186 726 1.5
+186 740 0.3
+186 921 0.4
+188 3 12.0
+188 10 4.0
+188 45 2.0
+188 185 6.0
+189 42 4.0
+189 52 14.0
+189 59 6.0
+189 63 4.0
+191 709 0.6
+190 1 23.0
+190 7 8.0
+190 42 6.0
+190 48 7.0
+190 59 6.0
+190 191 20.0
+190 437 0.4
+190 726 3.6
+190 740 0.3
+190 914 1.1
+192 7 6.0
+192 388 6.0
+192 742 0.6
+192 914 1.6
+193 7 2.0
+193 326 6.0
+193 914 0.4
+194 7 5.0
+194 42 2.0
+194 59 6.0
+195 7 7.0
+195 42 2.0
+195 45 2.0
+195 56 2.0
+195 59 6.0
+196 7 16.0
+196 42 4.0
+196 59 6.0
+196 914 0.9
+197 7 7.0
+197 59 6.0
+197 914 0.8
+198 7 3.0
+198 42 2.0
+198 59 16.0
+198 177 35.0
+198 179 3.0
+198 180 3.0
+198 339 3.0
+198 734 0.3
+200 743 0.3
+200 808 1.0
+200 819 0.7
+201 709 0.6
+199 7 49.0
+199 42 8.0
+199 200 15.0
+199 201 9.0
+199 322 6.0
+199 437 0.4
+199 714 0.3
+199 742 0.5
+199 743 0.3
+199 782 0.2
+199 914 1.6
+202 7 13.0
+202 42 3.0
+202 239 3.0
+202 241 20.0
+202 458 0.2
+202 698 1.0
+202 699 0.4
+202 714 3.5
+202 728 0.3
+202 730 0.6
+203 1 7.0
+203 7 1.0
+203 42 12.0
+203 59 6.0
+203 726 1.7
+203 740 0.5
+203 959 0.2
+204 59 6.0
+204 742 0.3
+204 743 0.3
+204 816 0.3
+204 819 0.9
+204 914 0.2
+205 7 2.0
+205 59 6.0
+205 485 1.0
+206 220 6.0
+208 207 52.0
+208 209 4.0
+208 211 8.0
+208 742 0.6
+208 743 1.1
+208 905 0.5
+208 943 0.4
+209 207 30.0
+209 210 11.0
+211 7 5.0
+211 42 2.0
+211 44 6.0
+211 914 0.6
+207 7 22.0
+207 59 6.0
+207 127 1.2
+207 208 4.0
+207 210 4.0
+207 211 18.0
+207 251 5.0
+207 712 0.3
+207 714 0.3
+207 715 0.3
+207 726 0.5
+207 742 0.5
+207 743 1.7
+207 783 0.2
+207 789 1.1
+207 796 0.2
+207 805 1.1
+207 808 1.4
+207 811 0.2
+207 834 0.2
+207 839 0.2
+207 841 0.6
+207 873 0.2
+207 914 0.7
+207 947 0.2
+212 7 7.0
+212 48 8.0
+212 437 0.2
+212 438 0.6
+214 7 12.0
+214 59 6.0
+214 726 1.7
+214 740 0.3
+214 912 0.8
+214 914 0.9
+215 7 9.0
+215 17 2.0
+215 42 2.0
+215 322 8.0
+216 7 9.0
+216 42 4.0
+216 59 6.0
+213 7 39.0
+213 17 7.0
+213 42 6.0
+213 59 6.0
+213 714 1.0
+213 715 0.5
+213 716 0.7
+213 720 1.4
+213 722 1.2
+213 742 0.3
+213 743 1.9
+213 744 0.4
+213 782 0.4
+213 783 0.2
+213 912 2.0
+213 914 1.4
+213 916 0.2
+213 918 0.2
+213 934 0.6
+213 947 0.6
+213 956 0.5
+217 174 6.0
+218 1 2.0
+218 7 1.0
+218 185 8.0
+218 726 0.9
+218 740 0.6
+218 898 0.2
+218 899 2.6
+219 7 3.0
+219 17 8.0
+219 59 6.0
+221 709 0.6
+222 709 0.8
+220 3 19.0
+220 7 36.0
+220 10 4.0
+220 45 4.0
+220 184 9.0
+220 218 6.0
+220 221 5.0
+220 222 5.0
+220 914 1.0
+224 42 6.0
+224 743 0.4
+224 784 0.2
+223 7 11.0
+223 17 7.0
+223 224 2.0
+223 322 64.0
+223 458 0.2
+223 714 2.0
+223 728 0.3
+223 730 1.2
+223 742 0.3
+223 743 0.4
+223 782 0.2
+223 784 0.2
+223 805 3.3
+223 808 0.7
+223 810 0.7
+223 825 0.2
+223 827 0.3
+223 828 0.2
+223 834 0.2
+223 841 0.3
+223 847 0.3
+223 851 0.3
+223 852 0.3
+223 853 0.3
+223 855 0.3
+223 856 0.3
+223 859 0.3
+223 860 0.3
+223 861 0.3
+223 862 0.3
+223 864 0.3
+223 865 0.3
+223 866 0.3
+223 867 0.3
+223 870 0.3
+223 875 0.3
+223 889 0.3
+223 914 0.7
+223 960 0.9
+225 7 11.0
+225 59 6.0
+227 226 3.0
+227 714 1.5
+227 743 0.4
+228 226 5.0
+228 743 0.6
+228 808 1.0
+226 7 5.0
+226 223 9.0
+226 227 2.0
+226 228 8.0
+226 322 6.0
+226 712 0.6
+226 714 0.6
+226 726 1.6
+226 742 2.5
+226 743 2.5
+226 808 0.8
+226 819 1.4
+226 822 0.2
+226 827 1.1
+226 828 0.2
+226 833 0.8
+226 834 0.2
+226 839 0.2
+226 841 0.9
+229 7 1.0
+229 16 2.0
+229 59 6.0
+230 7 5.0
+230 42 2.0
+230 59 6.0
+231 7 5.0
+231 271 18.0
+231 754 1.1
+231 914 0.7
+233 721 0.6
+235 7 2.0
+235 709 0.8
+235 908 0.3
+234 7 5.0
+234 235 8.0
+234 304 2.0
+234 907 0.4
+234 914 0.4
+234 973 0.6
+232 7 5.0
+232 42 2.0
+232 59 6.0
+232 233 5.0
+232 742 0.8
+232 782 0.2
+232 783 0.2
+232 796 0.2
+232 811 0.2
+232 947 0.2
+237 236 8.0
+238 7 26.0
+238 42 12.0
+238 59 11.0
+238 239 33.0
+238 243 3.0
+238 244 5.0
+238 348 27.0
+238 458 0.2
+238 698 2.2
+238 699 0.3
+238 710 1.3
+238 711 0.3
+238 726 0.7
+238 739 0.8
+238 914 0.9
+236 7 10.0
+236 42 14.0
+236 59 6.0
+236 237 14.0
+240 1 20.0
+240 7 15.0
+240 42 13.0
+240 44 7.0
+240 59 1.0
+240 239 20.0
+240 244 2.0
+240 348 6.0
+240 458 0.2
+240 698 1.4
+240 699 0.2
+240 701 1.4
+240 703 1.2
+240 726 0.8
+240 731 1.6
+240 921 0.2
+240 963 0.4
+240 969 1.2
+242 709 0.6
+241 7 18.0
+241 17 18.0
+241 238 12.0
+241 239 22.0
+241 242 5.0
+241 243 3.0
+241 342 2.0
+241 348 18.0
+241 690 0.5
+241 698 1.6
+241 700 3.2
+241 708 0.3
+241 712 1.0
+241 714 0.3
+241 722 1.2
+241 739 0.8
+241 742 1.3
+241 743 0.3
+241 782 0.1
+241 783 0.5
+241 819 0.9
+241 912 0.8
+241 947 0.2
+241 956 0.4
+244 7 3.0
+244 963 0.4
+244 969 1.4
+239 7 12.0
+239 42 14.0
+239 59 11.0
+239 243 28.0
+239 244 14.0
+239 305 2.0
+239 336 11.0
+239 342 6.0
+239 458 3.4
+239 485 0.8
+239 698 0.2
+239 914 0.6
+246 7 2.0
+246 245 3.0
+246 437 0.6
+246 438 0.6
+245 7 7.0
+245 28 2.0
+245 42 2.0
+245 48 8.0
+245 59 6.0
+245 246 7.0
+245 438 0.3
+247 7 24.0
+247 59 6.0
+247 714 0.3
+247 722 1.2
+247 728 0.8
+247 742 1.0
+247 743 0.3
+247 782 0.3
+247 819 0.9
+247 873 0.4
+247 912 1.1
+247 914 2.3
+247 918 0.2
+248 7 4.0
+248 42 4.0
+248 59 6.0
+248 716 0.4
+250 709 0.6
+251 709 0.6
+253 7 1.0
+253 252 10.0
+252 7 6.0
+252 87 0.2
+252 249 16.0
+252 253 2.0
+249 7 20.0
+249 17 2.0
+249 82 0.4
+249 87 3.0
+249 88 0.8
+249 91 0.4
+249 250 15.0
+249 251 13.0
+249 322 8.0
+249 714 0.2
+249 715 0.5
+249 914 1.9
+254 7 2.0
+254 388 6.0
+254 742 0.6
+254 914 1.2
+255 7 2.0
+255 326 6.0
+255 914 0.4
+257 258 7.0
+256 7 20.0
+256 59 6.0
+256 238 12.0
+256 257 8.0
+256 699 0.2
+256 921 0.2
+260 896 0.6
+262 7 16.0
+262 259 54.0
+262 260 5.0
+262 261 12.0
+262 914 1.4
+263 261 4.0
+264 261 4.0
+259 7 20.0
+259 39 2.0
+259 42 2.0
+259 59 8.0
+259 261 7.0
+259 262 14.0
+259 263 2.0
+259 264 2.0
+259 722 1.2
+259 742 0.9
+259 743 0.3
+259 805 1.9
+259 816 0.7
+259 817 0.2
+259 912 0.6
+259 914 0.8
+265 7 1.0
+265 42 2.0
+265 59 6.0
+266 7 15.0
+266 38 12.0
+266 42 12.0
+266 45 44.0
+266 46 4.0
+266 56 2.0
+266 59 6.0
+266 742 2.3
+266 743 0.3
+266 782 0.5
+266 783 0.4
+266 816 0.5
+266 817 0.2
+266 819 1.7
+266 914 0.9
+269 148 2.0
+269 149 2.0
+269 150 9.0
+269 153 2.0
+269 154 2.0
+269 709 0.6
+268 7 4.0
+268 42 2.0
+268 150 6.0
+268 218 6.0
+268 267 6.0
+268 269 11.0
+268 898 0.2
+267 7 3.0
+267 42 8.0
+267 59 6.0
+267 150 2.0
+267 151 6.0
+267 152 2.0
+267 268 10.0
+267 959 0.2
+270 1 8.0
+270 7 18.0
+270 42 2.0
+270 59 6.0
+270 339 8.0
+270 726 1.8
+270 740 0.3
+272 709 0.6
+273 709 0.8
+271 7 29.0
+271 272 12.0
+271 273 12.0
+271 315 73.0
+271 316 5.0
+271 317 8.0
+271 319 10.0
+271 415 24.0
+271 416 5.0
+271 419 8.0
+271 420 2.0
+271 692 0.9
+271 726 1.2
+271 742 0.7
+271 743 0.6
+271 754 0.5
+271 895 1.0
+271 914 2.0
+276 275 6.0
+276 978 0.8
+275 7 32.0
+275 17 6.0
+275 42 18.0
+275 276 5.0
+275 322 6.0
+275 423 1.1
+275 424 0.2
+275 425 0.4
+275 726 17.4
+275 740 1.8
+275 914 1.6
+275 917 0.6
+275 921 1.4
+275 956 0.5
+275 977 3.1
+278 709 0.6
+279 277 6.0
+279 280 5.0
+279 281 6.0
+280 277 6.0
+281 44 6.0
+281 726 2.0
+281 740 0.3
+282 277 6.0
+282 283 12.0
+282 286 10.0
+284 277 6.0
+284 304 16.0
+285 277 6.0
+287 277 6.0
+287 743 0.3
+289 7 10.0
+289 42 4.0
+289 277 6.0
+289 714 0.6
+277 7 35.0
+277 17 20.0
+277 42 10.0
+277 59 6.0
+277 239 10.0
+277 278 5.0
+277 279 36.0
+277 280 9.0
+277 281 10.0
+277 282 10.0
+277 283 48.0
+277 284 14.0
+277 285 36.0
+277 286 22.0
+277 287 12.0
+277 288 13.0
+277 289 12.0
+277 342 2.0
+277 698 21.4
+277 699 16.3
+277 708 1.9
+277 714 1.5
+277 726 10.6
+277 727 0.2
+277 728 1.3
+277 730 1.0
+277 740 1.2
+277 742 0.3
+277 743 0.5
+277 782 0.2
+277 914 4.7
+277 921 0.4
+274 7 56.0
+274 27 3.0
+274 28 2.0
+274 42 12.0
+274 59 19.0
+274 239 35.0
+274 240 19.0
+274 244 5.0
+274 348 51.0
+274 458 0.2
+274 694 0.3
+274 698 0.2
+274 699 1.2
+274 701 10.8
+274 703 0.3
+274 710 1.3
+274 711 0.6
+274 726 3.4
+274 731 1.0
+274 734 0.3
+274 739 0.8
+274 740 0.6
+274 922 0.2
+274 959 0.2
+291 59 10.0
+291 243 4.0
+290 7 4.0
+290 42 8.0
+290 239 11.0
+290 291 6.0
+290 914 0.8
+292 7 2.0
+292 59 6.0
+292 914 1.2
+292 959 0.2
+294 293 11.0
+294 298 8.0
+294 742 0.7
+295 293 6.0
+295 294 8.0
+296 293 6.0
+296 298 6.0
+296 742 0.7
+297 709 0.6
+298 293 6.0
+298 742 0.3
+298 914 0.2
+299 704 0.6
+293 7 12.0
+293 59 6.0
+293 294 5.0
+293 295 2.0
+293 296 2.0
+293 297 5.0
+293 298 7.0
+293 299 3.0
+293 304 2.0
+293 437 0.4
+293 704 0.8
+293 714 0.3
+293 742 0.8
+293 743 0.3
+293 783 0.2
+293 805 0.9
+293 941 0.2
+300 302 6.0
+300 783 0.2
+301 7 13.0
+301 59 6.0
+301 127 1.3
+301 339 11.0
+301 715 0.3
+301 726 0.9
+301 740 0.3
+301 742 0.9
+301 743 0.7
+301 783 0.2
+301 791 1.5
+301 914 0.8
+302 7 16.0
+302 42 2.0
+302 59 6.0
+302 127 1.5
+302 715 0.3
+302 742 0.9
+302 743 0.7
+302 914 0.8
+303 7 2.0
+303 59 6.0
+303 168 0.4
+304 44 11.0
+304 59 3.0
+304 931 0.8
+305 7 2.0
+305 44 3.0
+305 59 3.0
+305 304 4.0
+305 342 8.0
+307 7 2.0
+307 306 6.0
+308 3 18.0
+308 42 9.0
+308 306 10.0
+308 312 2.0
+309 59 3.0
+309 62 4.0
+309 64 4.0
+310 7 2.0
+310 306 4.0
+311 7 2.0
+311 306 8.0
+306 7 24.0
+306 10 4.0
+306 38 2.0
+306 45 2.0
+306 52 4.0
+306 64 18.0
+306 185 6.0
+306 307 19.0
+306 308 6.0
+306 309 14.0
+306 310 15.0
+306 311 19.0
+313 59 3.0
+313 62 4.0
+312 7 22.0
+312 18 4.0
+312 45 4.0
+312 52 29.0
+312 56 5.0
+312 59 9.0
+312 62 4.0
+312 64 76.0
+312 168 0.8
+312 306 29.0
+312 307 13.0
+312 310 16.0
+312 311 8.0
+314 7 7.0
+314 17 5.0
+314 42 4.0
+314 59 6.0
+314 714 0.6
+314 726 0.6
+314 914 0.4
+316 319 4.0
+317 7 4.0
+317 315 6.0
+317 316 77.0
+317 319 11.0
+317 900 0.2
+318 7 18.0
+318 42 4.0
+318 59 6.0
+318 156 2.0
+318 726 0.8
+318 914 0.8
+321 709 0.6
+320 7 16.0
+320 59 6.0
+320 315 23.0
+320 316 9.0
+320 317 7.0
+320 319 4.0
+320 321 12.0
+320 914 1.2
+315 7 11.0
+315 316 28.0
+315 317 67.0
+315 319 8.0
+315 900 0.2
+315 914 1.2
+322 17 3.0
+322 42 6.0
+322 59 8.0
+322 714 8.6
+322 728 0.3
+322 730 1.8
+322 847 0.3
+322 851 0.3
+322 852 0.3
+322 853 0.3
+322 855 0.3
+322 856 0.3
+322 857 0.3
+322 859 0.3
+322 860 0.9
+322 861 0.3
+322 862 0.3
+322 864 0.3
+322 865 0.3
+322 866 0.3
+322 867 0.3
+322 870 0.3
+322 871 0.4
+322 875 0.3
+322 880 0.3
+322 889 0.3
+323 7 7.0
+323 59 6.0
+324 7 20.0
+324 17 5.0
+324 42 2.0
+324 213 8.0
+324 458 0.2
+324 714 0.9
+324 720 0.7
+324 914 1.8
+325 7 5.0
+325 42 2.0
+325 59 6.0
+326 7 16.0
+326 59 6.0
+326 742 2.4
+326 743 1.1
+326 782 0.2
+326 783 0.4
+328 59 3.0
+328 62 4.0
+329 59 8.0
+329 168 0.4
+329 327 24.0
+327 7 14.0
+327 28 7.0
+327 38 3.0
+327 59 10.0
+327 62 4.0
+327 328 12.0
+327 329 20.0
+330 7 16.0
+330 42 2.0
+330 59 6.0
+330 239 12.0
+330 305 2.0
+330 698 3.3
+330 699 2.0
+332 7 2.0
+332 331 10.0
+333 709 0.6
+331 7 13.0
+331 42 2.0
+331 59 6.0
+331 332 8.0
+331 333 9.0
+331 458 0.2
+331 722 1.2
+331 726 0.5
+331 740 1.0
+331 742 0.1
+331 743 0.6
+331 805 1.4
+331 819 0.2
+331 912 0.6
+331 918 0.2
+335 3 34.0
+335 7 10.0
+335 42 21.0
+335 64 15.0
+334 7 10.0
+334 10 6.0
+334 45 4.0
+334 59 3.0
+334 62 4.0
+334 64 7.0
+334 185 6.0
+334 335 4.0
+337 336 8.0
+336 337 13.0
+338 7 1.0
+338 45 4.0
+338 46 4.0
+338 59 6.0
+341 7 2.0
+341 42 2.0
+341 49 6.0
+341 340 14.0
+340 7 7.0
+340 42 2.0
+340 48 10.0
+340 49 4.0
+340 59 6.0
+340 341 7.0
+339 1 4.0
+339 7 21.0
+339 42 12.0
+339 48 12.0
+339 59 6.0
+339 173 0.4
+339 239 2.0
+339 726 2.0
+339 740 1.6
+339 914 1.0
+343 368 9.0
+342 243 4.0
+342 343 4.0
+342 368 13.0
+342 914 0.2
+345 709 0.6
+346 721 0.6
+347 6 51.0
+347 7 5.0
+347 9 4.0
+347 42 13.0
+347 55 4.0
+347 56 2.0
+347 59 2.0
+344 6 29.0
+344 7 4.0
+344 42 9.0
+344 55 4.0
+344 59 6.0
+344 345 5.0
+344 346 5.0
+344 347 27.0
+349 348 14.0
+348 7 11.0
+348 42 4.0
+348 44 32.0
+348 59 3.0
+348 127 3.3
+348 239 2.0
+348 243 3.0
+348 304 4.0
+348 342 2.0
+348 349 10.0
+348 368 4.0
+348 904 0.4
+348 914 0.4
+348 923 0.4
+348 929 0.4
+348 930 1.0
+348 932 0.4
+348 938 0.7
+348 943 0.6
+348 962 1.0
+350 7 9.0
+350 42 2.0
+350 59 6.0
+350 914 0.7
+352 351 10.0
+353 351 10.0
+354 42 2.0
+354 351 8.0
+355 7 11.0
+355 351 22.0
+355 354 30.0
+355 742 0.2
+351 7 24.0
+351 17 3.0
+351 322 8.0
+351 352 11.0
+351 353 13.0
+351 354 29.0
+351 355 39.0
+351 742 2.9
+351 743 0.5
+351 782 0.3
+351 783 0.6
+351 819 0.9
+351 914 1.5
+356 7 10.0
+356 42 2.0
+356 59 6.0
+356 437 0.4
+356 704 0.8
+356 740 0.7
+356 743 1.2
+357 7 7.0
+357 59 16.0
+357 62 4.0
+359 358 6.0
+359 978 0.8
+358 1 7.0
+358 7 14.0
+358 17 3.0
+358 42 6.0
+358 322 6.0
+358 359 5.0
+358 685 2.2
+358 686 0.2
+358 720 0.2
+358 726 4.2
+358 740 0.3
+358 912 0.5
+358 914 0.9
+358 956 0.5
+358 959 0.2
+358 977 1.7
+361 709 0.6
+362 709 0.6
+363 7 4.0
+363 360 18.0
+363 742 1.0
+363 743 0.7
+363 783 0.2
+363 914 0.8
+360 7 13.0
+360 42 4.0
+360 270 8.0
+360 361 5.0
+360 362 5.0
+360 363 15.0
+360 368 4.0
+360 714 0.3
+360 742 1.3
+360 743 0.3
+360 771 0.3
+360 782 0.3
+360 783 0.2
+360 819 0.9
+360 914 0.4
+360 923 0.2
+360 959 0.2
+364 478 0.6
+365 7 1.0
+365 59 12.0
+365 62 4.0
+365 168 0.8
+366 7 20.0
+366 176 6.0
+366 238 8.0
+366 453 0.2
+366 726 0.3
+366 742 0.3
+366 783 0.9
+366 912 1.3
+366 914 1.1
+366 918 0.2
+366 947 0.2
+367 7 6.0
+367 59 6.0
+368 914 0.8
+369 7 16.0
+369 42 4.0
+369 59 16.0
+369 177 44.0
+369 179 3.0
+369 180 6.0
+369 339 57.0
+369 708 0.3
+369 712 0.3
+369 714 0.3
+369 726 2.6
+369 727 0.3
+369 734 0.3
+369 740 0.3
+369 743 0.3
+369 959 0.2
+371 213 10.0
+371 370 4.0
+371 742 0.5
+372 7 3.0
+372 690 0.6
+372 714 2.4
+372 728 0.5
+370 7 6.0
+370 17 14.0
+370 59 17.0
+370 371 41.0
+370 372 18.0
+370 714 2.1
+370 728 0.5
+370 743 0.5
+370 805 0.7
+370 808 0.7
+370 834 0.2
+370 860 0.1
+370 864 0.5
+374 709 0.6
+375 42 3.0
+375 373 2.0
+375 714 0.3
+375 747 0.8
+376 709 0.6
+373 7 25.0
+373 17 5.0
+373 322 6.0
+373 374 10.0
+373 375 73.0
+373 376 26.0
+373 692 1.9
+373 714 1.4
+373 742 3.2
+373 743 3.1
+373 747 1.7
+373 772 0.3
+373 782 0.2
+373 783 1.1
+373 813 0.9
+373 873 0.2
+373 914 1.2
+373 936 0.4
+373 947 0.2
+373 956 0.4
+377 59 8.0
+378 387 6.0
+379 7 3.0
+379 42 4.0
+379 59 6.0
+379 914 0.7
+380 7 20.0
+380 17 3.0
+380 42 2.0
+380 59 6.0
+380 381 4.0
+380 712 0.3
+380 714 0.8
+380 722 0.5
+380 742 1.6
+380 743 0.3
+380 782 0.3
+380 783 0.4
+380 815 0.3
+380 819 0.9
+380 912 0.8
+380 914 0.9
+382 241 6.0
+383 7 12.0
+383 59 6.0
+383 726 1.2
+383 742 0.3
+383 743 0.3
+383 782 0.2
+383 783 0.2
+383 914 0.7
+385 7 8.0
+385 38 3.0
+385 42 3.0
+385 384 14.0
+385 386 11.0
+386 709 0.6
+384 7 3.0
+384 42 2.0
+384 59 6.0
+384 385 8.0
+387 220 6.0
+388 7 14.0
+388 42 4.0
+388 59 6.0
+388 742 2.3
+388 743 0.7
+388 782 0.2
+388 783 0.2
+390 7 3.0
+390 709 0.6
+389 7 12.0
+389 247 6.0
+389 390 10.0
+389 742 1.3
+389 912 0.1
+389 914 1.7
+391 7 14.0
+391 17 3.0
+391 42 2.0
+391 59 6.0
+391 437 0.4
+391 714 0.8
+391 722 1.4
+391 742 0.1
+391 819 1.4
+391 912 0.6
+391 936 0.5
+391 947 0.2
+391 956 0.9
+393 82 0.4
+393 392 3.0
+393 394 9.0
+392 7 8.0
+392 176 6.0
+392 238 2.0
+392 393 9.0
+392 715 0.2
+392 726 0.3
+392 739 0.4
+392 742 0.3
+392 782 0.3
+396 709 0.6
+395 7 5.0
+395 42 2.0
+395 396 10.0
+395 437 0.2
+395 438 0.8
+397 7 5.0
+397 271 20.0
+397 754 2.1
+397 914 0.7
+398 1 8.0
+398 7 9.0
+398 42 8.0
+398 59 6.0
+398 726 2.3
+398 740 0.3
+400 399 4.0
+400 405 3.0
+401 400 4.0
+401 742 0.3
+402 401 4.0
+404 403 3.0
+407 7 4.0
+407 20 4.0
+407 42 2.0
+407 44 6.0
+407 740 0.2
+407 898 0.2
+406 407 3.0
+406 408 3.0
+410 7 6.0
+410 42 6.0
+410 48 6.0
+412 405 14.0
+412 912 0.4
+413 304 2.0
+413 405 6.0
+405 1 25.0
+405 7 17.0
+405 17 5.0
+405 42 2.0
+405 322 8.0
+405 399 23.0
+405 400 2.0
+405 401 2.0
+405 402 2.0
+405 403 4.0
+405 404 2.0
+405 406 11.0
+405 409 5.0
+405 410 23.0
+405 411 12.0
+405 412 2.0
+405 413 11.0
+405 513 0.2
+405 703 3.3
+405 711 0.3
+405 722 1.2
+405 726 1.7
+405 734 0.3
+405 740 0.3
+405 742 3.5
+405 743 0.3
+405 750 1.7
+405 782 0.4
+405 783 1.8
+405 805 0.7
+405 819 1.1
+405 912 0.6
+405 914 0.9
+405 947 0.2
+405 959 0.2
+414 7 17.0
+414 42 16.0
+414 59 8.0
+414 726 0.9
+414 742 2.3
+414 743 0.7
+414 750 1.2
+414 782 0.7
+414 783 0.4
+414 914 0.7
+416 742 0.9
+417 709 0.6
+418 709 0.8
+419 709 0.6
+420 709 0.8
+415 7 40.0
+415 17 18.0
+415 30 5.0
+415 322 6.0
+415 416 52.0
+415 417 5.0
+415 418 11.0
+415 419 5.0
+415 420 11.0
+415 692 1.8
+415 714 2.9
+415 730 0.3
+415 742 0.5
+415 743 2.1
+415 754 4.4
+415 755 1.6
+415 772 0.2
+415 782 0.6
+415 783 0.4
+415 819 0.7
+415 820 0.4
+415 841 0.4
+415 912 0.4
+415 914 2.7
+415 917 0.7
+415 918 0.4
+415 936 0.5
+415 947 0.6
+415 949 0.4
+421 7 4.0
+421 186 1.7
+421 187 0.7
+421 275 0.2
+421 426 6.0
+421 698 2.5
+421 699 1.6
+421 726 0.1
+422 7 1.0
+422 186 0.5
+422 275 0.2
+422 421 2.0
+422 426 6.0
+422 698 0.8
+425 7 5.0
+425 42 2.0
+425 59 12.0
+425 423 9.0
+425 427 2.0
+425 429 2.0
+425 430 2.0
+425 431 2.0
+425 432 2.0
+425 433 2.0
+425 434 2.0
+425 726 0.4
+425 898 0.2
+425 921 0.2
+423 7 1.0
+423 275 0.3
+426 7 4.0
+426 38 3.0
+426 42 8.0
+426 239 1.5
+426 275 12.1
+426 305 0.2
+426 423 4.0
+426 424 4.0
+426 458 0.4
+426 698 13.0
+426 699 8.4
+426 726 10.9
+426 914 1.1
+426 921 0.2
+427 7 3.0
+427 275 1.4
+427 426 6.0
+427 698 3.1
+427 699 2.0
+427 726 1.4
+428 7 5.0
+428 275 0.2
+428 304 0.2
+428 426 6.0
+428 698 0.2
+428 914 0.4
+428 921 0.2
+429 7 3.0
+429 275 0.2
+429 426 6.0
+429 698 0.2
+430 7 3.0
+430 275 0.4
+430 426 6.0
+430 458 0.2
+430 698 1.5
+430 914 0.4
+430 921 0.2
+431 7 1.0
+431 42 16.0
+431 275 1.8
+431 426 6.0
+431 698 6.9
+431 699 5.8
+431 726 1.6
+432 7 1.0
+432 42 4.0
+432 275 0.4
+432 426 6.0
+432 698 2.8
+432 699 2.0
+432 726 1.4
+433 7 1.0
+433 240 0.6
+433 275 0.2
+433 426 6.0
+433 698 2.7
+433 699 2.0
+433 726 1.4
+434 7 1.0
+434 275 0.4
+434 426 6.0
+434 698 0.6
+435 7 1.0
+435 437 7.0
+435 438 6.0
+436 7 13.0
+436 42 10.0
+436 59 6.0
+436 437 4.0
+436 911 2.1
+438 44 8.0
+438 190 0.3
+438 199 0.3
+438 391 0.3
+438 435 3.0
+438 437 3.0
+438 439 3.0
+438 440 3.0
+438 441 3.0
+438 444 3.0
+438 446 3.0
+438 447 3.0
+438 451 3.0
+438 452 3.0
+438 454 3.0
+438 456 3.0
+438 457 3.0
+438 458 3.0
+438 463 3.0
+437 7 1.0
+439 7 3.0
+439 437 4.0
+440 7 3.0
+440 437 4.0
+441 7 5.0
+441 437 4.0
+441 914 0.7
+442 7 10.0
+442 437 4.0
+442 921 0.2
+442 945 0.5
+442 959 0.2
+443 1 17.0
+443 7 11.0
+443 42 2.0
+443 44 6.0
+443 437 4.0
+443 726 1.7
+443 740 0.3
+444 7 7.0
+444 44 6.0
+444 437 4.0
+445 239 0.2
+445 437 4.0
+446 7 3.0
+446 44 6.0
+446 437 4.0
+447 7 4.0
+447 42 2.0
+447 437 4.0
+447 846 0.8
+447 860 0.2
+447 914 0.7
+449 709 0.6
+448 7 15.0
+448 44 6.0
+448 381 0.4
+448 437 4.0
+448 449 20.0
+448 742 0.8
+450 7 13.0
+450 44 6.0
+450 437 4.0
+451 7 3.0
+451 42 8.0
+451 44 6.0
+451 437 4.0
+451 740 0.8
+452 7 3.0
+452 42 2.0
+452 44 6.0
+452 437 4.0
+453 7 2.0
+453 437 4.0
+453 706 0.6
+454 7 3.0
+454 44 6.0
+454 437 4.0
+455 7 9.0
+455 44 6.0
+455 437 4.0
+455 741 1.2
+455 985 0.2
+455 989 0.2
+456 7 5.0
+456 437 6.0
+456 438 6.0
+457 7 1.0
+457 437 7.0
+457 438 6.0
+458 7 3.0
+458 437 4.0
+459 7 7.0
+459 42 2.0
+459 44 6.0
+459 437 4.0
+459 920 0.4
+460 7 11.0
+460 42 13.0
+460 437 4.0
+460 742 0.7
+460 743 0.5
+460 783 0.2
+460 914 0.6
+461 7 6.0
+461 44 6.0
+461 437 4.0
+461 742 0.8
+462 7 5.0
+462 437 4.0
+462 742 0.6
+462 743 0.3
+462 819 1.1
+462 947 0.2
+463 7 5.0
+463 44 6.0
+463 437 4.0
+464 3 2.0
+464 7 3.0
+464 10 6.0
+464 44 6.0
+464 45 2.0
+464 437 4.0
+465 7 1.0
+465 437 7.0
+465 438 6.0
+466 474 4.0
+467 175 0.3
+467 466 8.0
+468 7 16.0
+468 17 3.0
+468 42 4.0
+468 174 0.8
+468 466 24.0
+468 467 5.0
+468 469 5.0
+468 472 10.0
+468 473 19.0
+468 476 7.0
+468 714 0.6
+468 914 0.6
+469 7 2.0
+469 466 17.0
+469 474 7.0
+469 907 1.1
+469 909 1.8
+470 7 20.0
+470 174 0.8
+470 175 0.3
+470 471 33.0
+470 900 0.2
+470 907 1.1
+470 909 1.0
+470 914 0.7
+472 7 5.0
+473 42 4.0
+473 174 0.8
+475 467 8.0
+475 931 0.6
+476 7 2.0
+476 342 0.8
+476 467 3.0
+476 475 2.0
+479 709 0.6
+478 7 37.0
+478 42 2.0
+478 59 6.0
+478 477 30.0
+478 479 5.0
+478 480 5.0
+478 481 45.0
+478 482 28.0
+478 483 2.0
+478 714 0.3
+478 726 1.6
+478 742 0.3
+478 782 0.2
+478 783 0.2
+478 898 0.4
+481 7 1.0
+481 59 6.0
+481 477 6.0
+481 482 6.0
+481 910 0.2
+482 42 4.0
+482 44 10.0
+483 7 8.0
+483 59 2.0
+483 477 2.0
+483 480 5.0
+483 481 6.0
+483 482 10.0
+484 7 2.0
+484 483 6.0
+484 965 0.5
+486 42 3.0
+486 485 14.0
+485 42 34.0
+485 458 1.6
+485 487 2.0
+485 488 2.0
+485 489 2.0
+485 490 2.0
+485 491 4.0
+485 492 2.0
+485 493 2.0
+485 698 0.2
+485 914 0.5
+487 7 2.0
+487 42 5.0
+487 485 6.0
+487 698 0.2
+488 42 3.0
+488 485 3.0
+488 486 6.0
+489 42 5.0
+489 485 3.0
+489 486 6.0
+490 42 9.0
+490 485 3.0
+490 486 6.0
+490 914 0.2
+491 42 9.0
+491 485 3.0
+491 486 6.0
+491 914 0.2
+492 42 6.0
+492 487 10.0
+492 914 0.6
+493 42 5.0
+493 485 3.0
+493 486 6.0
+494 7 18.0
+494 17 5.0
+494 42 2.0
+494 238 3.2
+494 239 0.4
+494 304 1.0
+494 322 0.8
+494 368 1.0
+494 458 0.2
+494 699 1.6
+494 714 0.8
+494 914 1.5
+496 709 0.6
+497 495 3.0
+495 7 22.0
+495 42 2.0
+495 59 6.0
+495 496 5.0
+495 497 7.0
+495 734 2.0
+495 900 0.2
+495 907 0.4
+495 914 2.2
+495 921 0.2
+499 498 6.0
+498 7 13.0
+498 17 2.0
+498 59 6.0
+498 499 8.0
+498 620 0.8
+498 621 0.6
+498 698 1.0
+498 699 0.2
+498 714 0.6
+498 726 4.9
+498 740 0.6
+498 977 1.7
+498 978 0.5
+501 500 16.0
+501 912 0.4
+500 7 17.0
+500 17 2.0
+500 42 2.0
+500 322 0.6
+500 501 2.0
+500 641 0.8
+500 642 0.6
+500 722 1.2
+500 726 0.3
+500 912 0.5
+500 918 0.2
+500 956 0.4
+500 977 1.7
+500 978 0.5
+504 709 0.6
+505 709 0.6
+503 7 17.0
+503 504 7.0
+503 505 7.0
+503 506 5.0
+506 709 0.6
+502 7 13.0
+502 59 6.0
+502 503 8.0
+502 914 0.4
+502 924 0.2
+507 7 3.0
+507 322 0.6
+507 324 2.0
+507 714 0.2
+507 722 0.6
+507 723 0.7
+508 7 19.0
+508 59 6.0
+508 714 0.3
+508 741 1.9
+508 742 0.3
+508 743 0.5
+508 746 1.9
+508 782 0.3
+508 819 0.9
+508 914 1.3
+508 985 0.4
+508 989 0.2
+509 7 11.0
+509 42 2.0
+509 59 6.0
+509 239 1.7
+509 243 0.3
+509 304 0.8
+509 305 0.4
+509 342 0.2
+509 458 0.2
+509 698 2.5
+509 699 1.4
+509 726 0.5
+509 914 1.2
+511 7 11.0
+511 914 0.4
+510 7 17.0
+510 511 27.0
+510 514 10.0
+512 7 1.0
+512 42 3.0
+512 59 8.0
+512 726 0.6
+512 740 0.3
+512 953 0.2
+512 955 2.5
+513 7 7.0
+513 42 11.0
+513 402 0.4
+513 403 1.0
+513 404 0.4
+513 405 1.5
+513 406 0.6
+513 407 0.5
+513 408 0.5
+513 409 0.5
+513 413 0.3
+513 518 3.0
+513 742 2.6
+513 782 0.2
+513 783 0.6
+513 816 0.2
+513 914 1.9
+513 920 0.6
+513 921 0.4
+517 514 10.0
+517 914 0.2
+514 1 5.0
+514 7 33.0
+514 17 3.0
+514 42 2.0
+514 59 8.0
+514 515 10.0
+514 516 10.0
+514 517 9.0
+514 705 0.5
+514 714 0.8
+514 726 1.7
+514 740 0.3
+514 750 1.4
+514 914 1.0
+514 920 0.4
+518 413 0.3
+521 519 6.0
+520 519 6.0
+519 7 9.0
+519 17 3.0
+519 239 0.2
+519 525 6.0
+519 698 2.1
+519 699 1.2
+519 714 0.8
+522 519 6.0
+523 7 9.0
+523 239 0.2
+523 243 0.4
+523 525 6.0
+523 698 4.3
+523 699 2.6
+523 959 0.2
+524 7 3.0
+524 239 0.2
+524 525 6.0
+524 698 1.9
+524 699 1.0
+525 7 2.0
+525 42 2.0
+525 59 6.0
+525 239 1.1
+525 243 0.3
+525 305 0.2
+525 698 0.8
+525 914 0.2
+526 7 3.0
+526 42 4.0
+526 239 0.2
+526 539 6.0
+526 698 3.7
+526 699 2.2
+527 7 3.0
+527 42 6.0
+527 239 0.2
+527 539 6.0
+527 698 6.7
+527 699 4.2
+528 7 5.0
+528 42 4.0
+528 239 0.2
+528 539 6.0
+528 698 3.8
+528 699 2.0
+529 7 7.0
+529 42 4.0
+529 239 0.2
+529 458 0.2
+529 539 6.0
+529 698 5.0
+529 699 2.6
+530 7 3.0
+530 42 4.0
+530 239 0.2
+530 539 6.0
+530 698 3.7
+530 699 2.2
+531 7 3.0
+531 42 4.0
+531 239 0.2
+531 539 6.0
+531 698 3.1
+531 699 1.6
+532 7 5.0
+532 42 4.0
+532 239 0.2
+532 539 6.0
+532 698 4.6
+532 699 2.8
+533 7 5.0
+533 42 4.0
+533 239 0.2
+533 539 6.0
+533 698 4.5
+533 699 2.4
+534 7 5.0
+534 42 2.0
+534 239 0.2
+534 539 6.0
+534 698 3.9
+534 699 2.4
+535 7 7.0
+535 42 2.0
+535 239 0.2
+535 539 6.0
+535 698 3.5
+535 699 2.0
+536 7 3.0
+536 42 4.0
+536 239 0.2
+536 539 6.0
+536 698 1.7
+536 699 0.8
+537 7 5.0
+537 42 4.0
+537 239 0.2
+537 539 6.0
+537 698 2.7
+537 699 1.2
+538 7 3.0
+538 42 6.0
+538 239 0.2
+538 539 6.0
+538 698 3.4
+538 699 2.0
+539 7 2.0
+539 42 5.0
+539 59 6.0
+539 238 1.0
+539 239 1.1
+539 305 0.2
+539 698 1.4
+539 699 0.2
+539 914 0.2
+540 541 7.0
+540 914 0.4
+540 975 0.6
+542 541 3.0
+541 543 4.0
+541 548 0.7
+541 550 1.5
+541 551 0.3
+545 544 3.0
+544 1 7.0
+544 7 9.0
+544 17 3.0
+544 42 4.0
+544 322 0.6
+544 540 2.0
+544 543 4.0
+544 545 69.0
+544 726 4.8
+544 740 0.3
+544 914 1.6
+544 976 0.9
+546 541 8.0
+546 542 4.0
+547 7 2.0
+547 541 8.0
+547 542 4.0
+548 550 5.0
+548 551 8.0
+548 565 2.0
+549 551 6.0
+551 548 2.0
+551 550 3.0
+551 552 2.0
+551 553 2.0
+551 554 2.0
+551 555 2.0
+551 556 2.0
+551 557 2.0
+551 558 2.0
+551 559 2.0
+551 561 2.0
+551 562 2.0
+551 563 2.0
+551 564 2.0
+551 565 2.0
+550 548 3.0
+550 549 3.0
+550 551 18.0
+550 553 7.0
+550 556 7.0
+550 561 7.0
+550 563 5.0
+550 565 3.0
+552 549 6.0
+553 548 4.0
+553 550 7.0
+553 551 8.0
+553 563 6.0
+554 549 6.0
+555 549 6.0
+556 548 4.0
+556 550 7.0
+556 551 8.0
+556 563 6.0
+557 549 8.0
+557 550 5.0
+557 563 9.0
+558 549 6.0
+559 550 5.0
+559 551 13.0
+559 560 5.0
+561 548 4.0
+561 550 7.0
+561 551 8.0
+561 563 6.0
+562 549 8.0
+562 550 5.0
+562 565 4.0
+563 550 7.0
+563 551 8.0
+563 565 4.0
+564 549 8.0
+564 550 5.0
+564 565 2.0
+565 551 6.0
+566 7 15.0
+566 42 7.0
+566 59 3.0
+566 238 2.1
+566 239 1.2
+566 243 0.4
+566 274 1.4
+566 567 12.0
+566 568 6.0
+566 573 5.0
+566 575 8.0
+566 698 2.8
+566 699 3.5
+566 726 0.4
+567 7 17.0
+567 59 6.0
+567 238 5.0
+567 274 2.9
+567 699 4.8
+567 726 2.1
+567 740 0.3
+568 42 2.0
+568 59 20.0
+569 7 2.0
+569 59 3.0
+569 572 3.0
+571 709 0.6
+572 574 3.0
+572 726 0.3
+573 705 0.6
+574 709 0.6
+570 7 14.0
+570 17 5.0
+570 322 0.6
+570 566 7.0
+570 569 13.0
+570 571 5.0
+570 572 5.0
+570 573 5.0
+570 574 21.0
+570 575 9.0
+570 576 5.0
+570 585 5.0
+570 586 5.0
+570 587 5.0
+570 588 5.0
+570 589 5.0
+570 714 0.5
+570 726 1.0
+575 7 21.0
+575 17 5.0
+575 38 3.0
+575 42 2.0
+575 59 25.0
+575 568 19.0
+575 569 4.0
+575 572 9.0
+575 573 5.0
+575 574 16.0
+575 584 3.0
+575 714 0.5
+575 726 2.0
+575 914 1.4
+575 976 1.3
+576 7 11.0
+576 573 5.0
+576 575 8.0
+576 577 18.0
+576 580 1.0
+576 726 0.2
+579 577 16.0
+579 578 94.0
+579 580 16.0
+580 577 6.0
+581 577 16.0
+581 579 28.0
+582 914 0.2
+583 7 28.0
+583 59 6.0
+583 577 10.0
+583 580 3.0
+583 726 2.6
+577 578 6.0
+577 579 35.0
+577 580 7.0
+577 581 11.0
+577 582 10.0
+577 959 0.2
+585 7 3.0
+585 570 9.0
+585 575 6.0
+586 1 8.0
+586 7 18.0
+586 42 2.0
+586 59 2.0
+586 274 4.8
+586 568 11.0
+586 574 2.0
+586 575 16.0
+586 699 3.6
+586 726 2.9
+587 1 3.0
+587 7 14.0
+587 42 4.0
+587 59 3.0
+587 274 4.0
+587 568 6.0
+587 573 5.0
+587 575 12.0
+587 699 2.6
+587 711 0.4
+587 726 2.3
+587 914 1.1
+588 7 3.0
+588 568 7.0
+588 587 12.0
+589 1 3.0
+589 7 12.0
+589 42 6.0
+589 59 3.0
+589 274 3.3
+589 568 6.0
+589 573 10.0
+589 575 14.0
+589 699 1.6
+589 711 0.7
+589 726 2.4
+589 914 0.9
+591 911 0.8
+593 7 5.0
+593 592 7.0
+593 706 0.8
+593 740 0.3
+593 911 1.4
+594 7 1.0
+594 42 3.0
+594 592 3.0
+595 7 3.0
+595 42 6.0
+595 592 3.0
+595 593 3.0
+595 596 4.0
+595 602 3.0
+595 706 1.0
+595 714 0.3
+595 740 0.3
+596 7 11.0
+596 17 5.0
+596 42 8.0
+596 592 48.0
+596 593 3.0
+596 602 5.0
+596 714 0.3
+596 911 0.6
+592 590 28.0
+592 911 2.8
+597 7 5.0
+598 7 12.0
+598 42 4.0
+598 59 6.0
+598 592 10.0
+598 593 8.0
+598 595 6.0
+598 596 2.0
+599 7 8.0
+599 17 5.0
+599 59 6.0
+599 603 6.0
+599 714 0.6
+600 7 13.0
+600 42 2.0
+600 59 6.0
+600 592 9.0
+600 593 5.0
+600 595 9.0
+600 597 8.0
+600 914 0.2
+601 7 22.0
+601 42 22.0
+601 59 6.0
+601 592 9.0
+601 593 5.0
+601 594 3.0
+601 596 2.0
+601 605 0.3
+601 606 0.3
+601 607 0.3
+602 714 0.6
+603 7 5.0
+603 592 15.0
+603 596 2.0
+603 604 13.0
+604 590 28.0
+604 911 2.0
+605 7 7.0
+605 42 3.0
+605 177 1.4
+605 592 0.3
+605 594 0.4
+606 7 3.0
+606 42 5.0
+606 592 0.3
+606 594 0.4
+607 7 7.0
+607 42 3.0
+607 259 1.0
+607 592 0.3
+607 594 0.4
+608 7 21.0
+608 17 5.0
+608 42 2.0
+608 322 0.6
+608 714 0.6
+608 914 1.3
+608 933 0.9
+609 7 8.0
+609 611 4.0
+609 613 15.0
+609 726 1.6
+610 7 4.0
+610 274 2.2
+610 609 10.0
+610 613 5.0
+610 699 0.6
+611 7 2.0
+611 613 3.0
+612 7 5.0
+612 274 3.0
+612 610 8.0
+612 611 4.0
+612 613 10.0
+612 699 3.0
+612 726 1.2
+613 7 1.0
+613 59 6.0
+613 610 5.0
+613 611 5.0
+613 612 5.0
+613 614 5.0
+614 7 10.0
+614 274 1.4
+614 609 8.0
+614 611 4.0
+614 613 12.0
+614 699 0.2
+615 7 7.0
+615 42 2.0
+615 59 6.0
+615 239 0.6
+615 305 0.2
+615 617 4.0
+615 699 0.8
+615 701 2.5
+615 726 0.4
+615 727 0.2
+615 921 0.2
+616 7 12.0
+616 42 2.0
+616 59 6.0
+616 239 0.6
+616 305 0.2
+616 617 4.0
+616 699 1.2
+616 701 2.9
+616 726 0.4
+616 727 0.2
+616 921 0.2
+617 1 11.0
+617 7 18.0
+617 59 6.0
+617 239 0.2
+617 699 0.8
+617 701 2.3
+617 726 1.7
+617 727 0.4
+617 921 0.2
+618 7 3.0
+618 42 2.0
+618 239 1.3
+618 305 0.2
+618 498 0.7
+618 620 4.0
+618 623 2.0
+618 698 0.4
+618 921 0.2
+619 7 4.0
+619 239 0.2
+619 498 3.0
+619 620 4.0
+619 698 2.5
+619 699 1.4
+619 726 1.0
+619 921 0.2
+621 7 3.0
+621 42 2.0
+621 44 10.0
+621 618 2.0
+621 619 2.0
+621 620 9.0
+621 622 2.0
+621 623 4.0
+621 726 0.4
+621 898 0.2
+621 921 1.2
+620 7 1.0
+620 498 0.3
+622 7 4.0
+622 239 0.2
+622 498 3.0
+622 620 4.0
+622 698 2.5
+622 699 1.4
+622 726 1.0
+622 921 0.2
+623 7 5.0
+623 156 2.0
+623 240 0.8
+623 498 4.7
+623 620 4.0
+623 698 3.4
+623 699 2.4
+623 726 1.1
+624 625 3.0
+626 7 7.0
+626 322 0.6
+626 627 12.0
+626 726 4.3
+627 624 4.0
+627 914 0.4
+628 631 4.0
+629 1 2.0
+629 7 17.0
+629 17 3.0
+629 42 4.0
+629 322 0.6
+629 630 9.0
+629 631 9.0
+629 636 1.2
+629 637 0.2
+629 726 5.1
+629 740 0.3
+632 631 4.0
+632 959 0.2
+633 7 7.0
+633 17 2.0
+633 274 1.6
+633 322 0.8
+633 699 0.2
+633 726 1.9
+634 42 3.0
+634 629 1.8
+634 636 4.0
+634 699 1.2
+634 701 2.6
+635 1 4.0
+635 7 3.0
+635 42 10.0
+635 274 1.9
+635 629 3.6
+635 630 0.2
+635 631 0.9
+635 634 6.0
+635 698 0.2
+635 699 0.2
+635 701 0.7
+635 726 1.0
+637 1 10.0
+637 7 9.0
+637 42 2.0
+637 59 10.0
+637 628 0.2
+637 632 0.2
+637 635 4.0
+637 636 9.0
+636 7 1.0
+636 629 0.3
+636 631 0.3
+638 7 3.0
+638 500 0.7
+638 641 4.0
+638 914 0.4
+638 937 0.4
+639 7 4.0
+639 44 6.0
+639 500 1.2
+639 641 4.0
+639 698 2.1
+639 699 0.8
+640 7 6.0
+640 44 5.0
+640 240 0.6
+640 500 0.5
+640 639 8.0
+640 698 0.8
+642 7 3.0
+642 42 2.0
+642 44 10.0
+642 638 4.0
+642 640 2.0
+642 641 9.0
+642 643 2.0
+642 726 0.4
+642 898 0.2
+642 921 1.2
+641 7 1.0
+641 500 0.3
+643 7 7.0
+643 44 3.0
+643 500 0.5
+643 639 8.0
+643 698 1.0
+643 699 0.2
+644 7 1.0
+644 478 0.8
+646 645 3.0
+645 7 1.0
+645 59 6.0
+645 646 4.0
+647 7 19.0
+647 42 3.0
+647 59 6.0
+647 239 1.3
+647 243 0.3
+647 304 0.2
+647 305 0.2
+647 342 0.2
+647 648 5.0
+647 698 6.1
+647 699 3.2
+647 914 0.8
+652 7 8.0
+652 20 4.0
+652 42 4.0
+652 59 6.0
+652 649 9.0
+649 3 6.0
+649 7 21.0
+649 10 4.0
+649 42 13.0
+649 45 2.0
+649 218 0.8
+649 650 12.0
+649 651 26.0
+649 652 3.0
+649 743 0.3
+649 898 0.4
+649 953 1.0
+649 955 2.5
+654 653 12.0
+654 698 2.3
+654 699 1.8
+655 653 10.0
+655 698 1.9
+655 699 1.4
+657 653 14.0
+657 698 2.7
+657 699 2.2
+658 7 2.0
+658 653 12.0
+658 698 1.9
+658 699 1.4
+653 7 15.0
+653 42 8.0
+653 59 6.0
+653 239 1.3
+653 305 0.2
+653 656 4.0
+653 698 4.9
+653 699 3.4
+653 726 0.5
+653 914 0.2
+659 42 2.0
+659 395 1.0
+659 660 3.0
+660 7 18.0
+660 38 9.0
+662 7 2.0
+662 437 0.6
+662 438 0.6
+662 661 3.0
+661 7 31.0
+661 42 2.0
+661 59 21.0
+661 60 5.0
+661 327 2.7
+661 365 3.8
+661 396 1.0
+661 438 0.3
+661 659 8.0
+661 662 7.0
+661 972 1.4
+663 7 6.0
+663 241 1.2
+663 458 0.2
+663 698 0.3
+663 714 0.4
+664 7 4.0
+664 663 10.0
+664 699 0.2
+665 7 4.0
+665 663 10.0
+665 699 0.2
+666 7 17.0
+666 17 14.0
+666 77 10.0
+666 78 2.0
+666 239 0.2
+666 304 0.2
+666 714 1.3
+666 914 1.1
+666 960 1.9
+668 709 0.6
+669 709 0.6
+670 7 2.0
+670 667 14.0
+670 698 2.1
+670 699 1.4
+670 726 0.5
+671 7 2.0
+671 667 16.0
+671 698 2.3
+671 699 1.6
+671 726 0.5
+672 7 2.0
+672 667 24.0
+672 668 3.0
+672 669 3.0
+672 698 2.7
+672 699 2.0
+672 726 0.5
+673 7 2.0
+673 667 8.0
+673 698 1.5
+673 699 0.8
+674 7 2.0
+674 667 12.0
+674 698 1.9
+674 699 1.2
+676 7 2.0
+676 667 26.0
+676 668 3.0
+676 669 3.0
+676 698 2.9
+676 699 2.2
+676 726 0.5
+678 709 0.6
+677 7 4.0
+677 667 32.0
+677 678 5.0
+677 698 2.5
+677 699 1.8
+679 7 4.0
+679 667 14.0
+679 698 2.1
+679 699 1.4
+667 7 12.0
+667 42 6.0
+667 59 6.0
+667 239 1.9
+667 305 0.2
+667 668 10.0
+667 669 10.0
+667 675 4.0
+667 698 1.3
+667 914 0.2
+680 7 14.0
+680 241 1.4
+680 458 0.2
+680 699 0.2
+680 714 0.4
+682 358 2.2
+682 681 48.0
+682 912 0.4
+682 959 0.2
+681 7 2.0
+681 358 7.6
+681 682 2.0
+681 685 4.0
+681 698 5.0
+681 699 3.0
+681 726 2.2
+681 912 0.6
+681 921 0.2
+683 7 3.0
+683 42 2.0
+683 239 1.3
+683 305 0.2
+683 358 0.4
+683 681 6.0
+683 698 0.4
+683 921 0.2
+684 7 3.0
+684 240 0.6
+684 358 0.6
+684 681 6.0
+684 698 0.6
+684 699 0.2
+686 7 3.0
+686 42 2.0
+686 59 10.0
+686 683 2.0
+686 684 4.0
+686 685 9.0
+686 687 2.0
+686 688 2.0
+686 689 2.0
+686 726 0.4
+686 898 0.2
+686 921 0.2
+685 7 1.0
+685 358 0.3
+685 726 0.3
+685 912 0.3
+687 7 9.0
+687 304 0.4
+687 358 0.8
+687 681 6.0
+687 698 0.2
+687 921 0.2
+688 1 2.0
+688 7 5.0
+688 42 2.0
+688 358 1.6
+688 681 6.0
+688 698 0.2
+689 683 8.0
+689 698 0.3
+690 7 18.0
+690 17 21.0
+690 30 16.0
+690 42 29.0
+690 706 14.0
+690 728 60.0
+690 730 18.0
+690 740 3.0
+690 847 0.3
+690 851 0.3
+690 852 0.3
+690 853 0.3
+690 855 0.3
+690 856 0.3
+690 857 0.3
+690 859 0.3
+690 860 1.0
+690 861 0.3
+690 862 0.3
+690 864 0.3
+690 865 0.3
+690 866 0.3
+690 867 0.3
+690 869 0.3
+690 870 0.3
+690 871 0.4
+690 872 0.3
+690 875 0.3
+690 880 0.3
+690 882 0.3
+690 889 0.3
+691 7 2.0
+691 42 3.0
+691 706 10.0
+691 724 6.0
+691 726 20.0
+691 740 6.0
+692 7 16.0
+692 17 3.0
+692 42 26.0
+692 690 3.0
+692 693 13.0
+692 714 29.0
+692 740 2.0
+692 742 18.0
+692 743 11.0
+692 782 0.3
+692 783 0.2
+693 17 18.0
+693 42 6.0
+693 742 41.0
+693 782 0.2
+693 783 0.2
+693 784 0.4
+695 7 2.0
+696 695 6.0
+697 695 6.0
+694 7 2.0
+694 42 16.0
+694 695 9.0
+694 696 3.0
+694 697 3.0
+694 699 3.0
+694 701 9.0
+694 706 10.0
+694 740 5.0
+699 44 6.0
+699 698 2.0
+699 726 11.0
+699 740 3.0
+700 698 10.0
+700 699 3.0
+703 7 9.0
+703 710 8.0
+703 711 7.0
+703 734 6.0
+701 7 4.0
+701 42 12.0
+701 694 15.0
+701 698 79.0
+701 699 10.0
+701 702 8.0
+701 703 34.0
+701 711 3.0
+701 726 96.0
+701 734 8.0
+701 735 5.0
+701 921 0.4
+698 7 6.0
+698 458 0.2
+698 699 15.0
+698 700 5.0
+704 7 2.0
+704 709 8.0
+705 745 6.0
+706 7 20.0
+706 10 2.0
+706 42 18.0
+706 44 8.0
+706 740 15.0
+706 919 1.1
+707 42 24.0
+707 52 2.0
+707 56 11.0
+707 59 5.0
+707 64 3.0
+707 706 6.0
+708 17 6.0
+708 690 10.0
+708 743 4.0
+708 784 0.2
+709 7 8.0
+711 7 3.0
+711 726 5.0
+710 7 1.0
+710 711 5.0
+712 7 8.0
+712 42 9.0
+712 706 10.0
+712 713 7.0
+712 740 3.0
+712 743 4.0
+712 784 0.2
+714 17 4.0
+714 690 10.0
+714 743 4.0
+714 784 0.2
+715 7 2.0
+715 42 3.0
+715 82 0.3
+715 83 0.3
+715 85 0.3
+715 86 0.3
+715 97 0.3
+715 98 0.3
+715 100 0.3
+715 102 0.3
+715 103 0.3
+715 107 0.3
+715 108 0.3
+715 109 0.3
+715 111 0.3
+715 112 0.3
+715 113 0.3
+715 114 0.3
+715 116 0.3
+715 118 0.3
+715 121 0.3
+715 122 0.3
+715 123 0.3
+715 125 0.3
+715 691 3.0
+715 706 10.0
+715 740 3.0
+718 716 8.0
+719 709 8.0
+720 716 12.0
+716 7 16.0
+716 706 10.0
+716 717 15.0
+716 718 5.0
+716 719 11.0
+716 734 5.0
+716 914 0.4
+716 968 0.2
+721 709 6.0
+723 709 6.0
+722 7 13.0
+722 42 8.0
+722 706 8.0
+722 723 8.0
+722 726 17.0
+722 740 11.0
+722 903 0.2
+722 906 0.5
+722 912 1.5
+725 724 3.0
+727 726 14.0
+727 743 4.0
+727 784 0.2
+726 7 15.0
+726 41 7.0
+726 42 23.0
+726 706 12.0
+726 708 7.0
+726 712 7.0
+726 714 28.0
+726 727 11.0
+726 740 3.0
+726 743 19.0
+726 784 0.2
+726 819 1.9
+726 914 0.4
+726 921 0.2
+729 42 6.0
+729 728 21.0
+730 42 6.0
+730 48 6.0
+730 728 6.0
+728 7 14.0
+728 42 30.0
+728 706 10.0
+728 729 2.0
+728 730 44.0
+728 740 3.0
+728 914 0.4
+732 27 2.0
+732 731 26.0
+732 733 3.0
+731 7 6.0
+731 732 2.0
+731 733 27.0
+735 709 6.0
+736 7 4.0
+736 735 5.0
+734 7 7.0
+734 42 7.0
+734 706 10.0
+734 722 23.0
+734 723 4.0
+734 735 3.0
+734 736 42.0
+734 740 3.0
+734 742 3.0
+734 743 4.0
+734 797 0.2
+734 802 0.2
+734 912 0.6
+734 987 0.5
+734 988 0.5
+738 737 3.0
+737 7 2.0
+737 709 8.0
+737 738 6.0
+739 7 18.0
+739 42 5.0
+739 348 4.2
+739 706 10.0
+739 715 22.0
+739 722 36.0
+739 740 3.0
+739 912 0.6
+740 7 8.0
+740 42 19.0
+741 42 12.0
+741 706 6.0
+741 985 1.2
+741 986 0.7
+744 742 3.0
+742 706 12.0
+742 740 3.0
+742 743 4.0
+746 42 6.0
+746 706 6.0
+747 7 3.0
+747 42 3.0
+747 690 3.0
+747 692 19.0
+747 693 3.0
+747 714 3.0
+747 740 9.0
+747 748 4.0
+748 7 4.0
+748 693 6.0
+748 742 6.0
+748 813 0.2
+748 914 0.2
+749 7 2.0
+749 709 8.0
+749 914 0.9
+752 7 14.0
+752 42 2.0
+752 726 3.0
+752 745 21.0
+752 750 38.0
+752 751 4.0
+752 914 0.2
+753 745 21.0
+753 750 28.0
+753 751 4.0
+750 1 5.0
+750 7 10.0
+750 42 13.0
+750 706 10.0
+750 726 47.0
+750 740 9.0
+750 745 49.0
+750 751 10.0
+750 752 2.0
+750 753 2.0
+750 914 1.8
+750 920 0.2
+754 7 2.0
+754 42 3.0
+754 690 3.0
+754 692 12.0
+754 693 3.0
+754 714 3.0
+754 740 6.0
+754 755 4.0
+755 7 6.0
+755 693 6.0
+755 742 6.0
+755 782 0.2
+755 820 0.2
+756 7 2.0
+756 912 0.4
+757 7 3.0
+757 65 4.0
+757 127 1.3
+757 715 0.6
+757 912 0.4
+757 914 0.2
+758 42 3.0
+758 44 8.0
+758 726 0.6
+758 740 0.3
+758 953 0.8
+758 955 2.7
+759 7 1.0
+759 437 0.4
+759 758 6.0
+760 7 1.0
+760 42 3.0
+760 115 0.8
+760 726 0.6
+760 740 0.3
+760 953 0.5
+760 955 2.5
+761 758 6.0
+761 912 0.4
+761 953 0.2
+762 7 1.0
+762 42 3.0
+762 726 0.6
+762 740 0.3
+762 849 0.8
+762 953 1.1
+762 955 2.5
+763 17 6.0
+763 42 6.0
+763 690 0.2
+763 714 2.1
+763 764 5.0
+763 765 10.0
+763 959 0.2
+765 7 2.0
+765 17 14.0
+765 726 0.4
+765 976 0.8
+767 1 2.0
+766 1 2.0
+766 42 9.0
+766 726 2.3
+766 740 1.9
+766 742 1.4
+766 767 8.0
+766 914 0.2
+768 7 7.0
+768 42 8.0
+768 706 1.0
+768 742 0.4
+768 743 1.5
+768 776 2.0
+768 781 2.0
+769 743 0.4
+769 809 6.0
+770 743 0.4
+770 809 6.0
+770 900 0.2
+772 7 13.0
+772 42 3.0
+772 740 0.3
+772 742 6.0
+772 743 0.7
+772 783 2.0
+773 7 3.0
+773 42 3.0
+773 692 1.4
+773 706 1.2
+773 740 0.3
+773 742 0.5
+773 743 0.4
+773 747 0.2
+773 754 0.2
+773 819 28.0
+773 900 0.2
+774 17 8.0
+774 714 1.5
+774 784 6.0
+775 743 0.3
+775 778 8.0
+776 7 8.0
+776 42 11.0
+776 706 1.2
+776 742 0.4
+776 743 1.1
+776 781 6.0
+777 768 6.0
+778 743 0.3
+778 779 10.0
+779 7 2.0
+779 742 0.8
+779 743 0.3
+779 771 12.0
+779 803 8.0
+779 914 0.2
+780 7 2.0
+780 742 0.1
+780 743 0.3
+780 776 6.0
+781 742 0.3
+784 42 12.0
+784 742 0.3
+784 783 7.0
+783 7 2.0
+783 42 8.0
+783 740 0.3
+783 742 4.2
+783 744 0.4
+783 771 4.0
+783 782 6.0
+783 815 4.0
+783 914 1.9
+785 7 3.0
+785 17 33.0
+785 42 9.0
+785 728 6.3
+785 730 1.6
+785 740 0.3
+785 743 0.4
+785 784 6.0
+785 846 1.4
+785 860 0.3
+786 743 0.2
+786 809 6.0
+787 743 0.3
+787 778 8.0
+789 7 2.0
+789 742 0.1
+789 743 0.5
+789 776 6.0
+790 766 6.0
+791 726 0.7
+791 740 0.4
+791 742 0.5
+791 766 10.0
+791 767 8.0
+791 816 4.0
+792 7 2.0
+792 743 0.4
+792 809 6.0
+794 742 0.4
+794 793 16.0
+795 742 0.6
+795 793 8.0
+793 742 0.3
+793 743 0.4
+793 768 6.0
+793 794 2.0
+793 795 7.0
+796 44 6.0
+796 304 0.7
+796 742 0.8
+796 771 4.0
+798 7 11.0
+798 42 3.0
+798 706 1.2
+798 722 1.2
+798 740 0.3
+798 742 0.3
+798 743 1.2
+798 797 4.0
+798 912 0.5
+798 918 0.2
+798 936 0.2
+797 740 0.3
+797 742 0.9
+797 803 10.0
+797 912 0.8
+801 17 12.0
+801 690 0.6
+801 743 0.4
+801 784 2.0
+801 799 9.0
+801 800 9.0
+799 7 2.0
+799 42 2.0
+799 690 1.0
+799 740 0.3
+799 743 0.4
+799 783 5.0
+799 800 6.0
+799 801 2.0
+799 819 19.0
+802 42 5.0
+802 48 2.0
+802 742 3.1
+802 788 2.0
+802 941 0.2
+803 7 21.0
+803 42 3.0
+803 740 0.3
+803 742 4.3
+803 743 1.0
+804 7 4.0
+804 42 3.0
+804 48 4.0
+804 127 1.1
+804 706 1.0
+804 715 0.4
+804 740 0.3
+804 742 1.1
+804 743 2.3
+804 783 2.0
+804 817 2.0
+804 819 16.0
+804 914 0.2
+807 742 0.3
+807 743 0.2
+807 805 5.0
+807 806 9.0
+806 805 8.0
+806 807 2.0
+806 900 0.2
+805 7 1.0
+805 42 6.0
+805 706 1.0
+805 742 0.3
+805 743 0.4
+805 781 4.0
+805 806 2.0
+808 42 3.0
+808 742 0.3
+808 743 0.7
+808 781 2.0
+808 793 6.0
+808 841 0.2
+808 842 1.0
+809 7 2.0
+809 743 0.2
+809 777 6.0
+810 7 1.0
+810 42 3.0
+810 706 0.2
+810 743 0.2
+810 777 8.0
+810 781 2.0
+810 823 0.7
+810 827 0.3
+810 900 0.2
+812 811 12.0
+811 7 2.0
+811 42 9.0
+811 740 0.3
+811 742 2.4
+811 788 4.0
+811 812 2.0
+813 7 4.0
+813 742 1.1
+813 772 10.0
+813 914 0.4
+814 7 7.0
+814 42 3.0
+814 743 0.2
+814 777 8.0
+814 811 5.0
+814 905 0.4
+814 914 0.4
+814 933 0.2
+814 964 1.0
+817 7 14.0
+817 740 0.3
+817 742 3.0
+817 816 9.0
+817 818 4.0
+817 914 1.1
+819 42 8.0
+819 742 0.7
+819 743 1.3
+819 776 10.0
+820 7 6.0
+820 740 0.3
+820 742 0.6
+820 743 0.5
+820 772 12.0
+820 782 2.0
+820 914 0.2
+821 7 2.0
+821 742 0.6
+821 827 6.0
+821 947 0.2
+822 742 1.0
+822 827 6.0
+823 7 1.0
+823 42 3.0
+823 742 0.8
+823 827 14.0
+824 742 1.0
+824 827 6.0
+825 742 1.0
+825 782 0.4
+825 827 6.0
+825 914 1.1
+826 742 1.0
+826 827 6.0
+827 706 0.6
+827 742 1.2
+828 7 3.0
+828 42 3.0
+828 742 0.8
+828 827 21.0
+829 742 1.0
+829 827 6.0
+830 742 1.0
+830 827 6.0
+831 742 0.3
+831 841 9.0
+831 842 8.0
+832 7 6.0
+832 42 3.0
+832 704 0.8
+832 706 1.4
+832 737 0.8
+832 742 0.4
+832 743 0.3
+832 819 0.7
+832 823 0.9
+832 827 0.3
+832 841 6.0
+833 7 6.0
+833 742 0.5
+833 749 1.1
+833 841 4.0
+833 914 0.7
+834 742 0.5
+834 841 4.0
+835 3 3.0
+835 7 10.0
+835 10 4.0
+835 42 6.0
+835 45 2.0
+835 742 0.3
+835 841 4.0
+836 742 0.3
+836 841 9.0
+836 842 8.0
+837 42 6.0
+837 741 0.9
+837 742 0.7
+837 841 4.0
+837 873 0.2
+837 985 0.5
+837 989 0.2
+838 742 0.3
+838 841 9.0
+838 842 8.0
+839 742 0.3
+839 841 15.0
+840 742 0.3
+840 841 9.0
+840 842 8.0
+842 7 1.0
+842 42 3.0
+842 706 1.0
+842 841 7.0
+841 742 0.3
+843 704 1.1
+843 742 0.5
+843 841 4.0
+845 709 0.8
+844 7 2.0
+844 742 0.5
+844 841 4.0
+844 845 17.0
+846 7 2.0
+846 42 6.0
+846 706 1.0
+846 847 3.0
+846 849 2.0
+846 851 3.0
+846 852 3.0
+846 853 3.0
+846 855 3.0
+846 856 3.0
+846 857 3.0
+846 859 3.0
+846 860 10.0
+846 861 3.0
+846 862 3.0
+846 864 3.0
+846 865 3.0
+846 866 3.0
+846 867 3.0
+846 869 3.0
+846 870 3.0
+846 871 4.0
+846 875 3.0
+846 880 3.0
+846 882 3.0
+846 889 0.3
+847 850 8.0
+847 860 2.0
+848 7 1.0
+848 724 0.9
+848 849 6.0
+848 858 4.0
+850 7 3.0
+850 42 6.0
+850 847 3.0
+850 849 10.0
+850 851 3.0
+850 852 3.0
+850 853 3.0
+850 855 3.0
+850 856 3.0
+850 857 3.0
+850 859 3.0
+850 860 10.0
+850 861 3.0
+850 862 3.0
+850 864 3.0
+850 865 3.0
+850 866 3.0
+850 867 3.0
+850 869 3.0
+850 870 3.0
+850 871 4.0
+850 875 3.0
+850 880 3.0
+850 882 3.0
+850 889 0.3
+849 7 2.0
+849 706 0.6
+849 860 4.0
+851 7 10.0
+851 42 6.0
+851 724 1.3
+851 741 0.9
+851 742 1.7
+851 783 0.2
+851 841 0.4
+851 848 8.0
+851 985 0.5
+851 989 0.2
+852 7 4.0
+852 42 4.0
+852 724 1.1
+852 742 1.3
+852 783 0.2
+852 841 0.4
+852 848 8.0
+852 873 4.0
+852 914 0.6
+854 749 0.6
+853 42 2.0
+853 724 2.1
+853 749 1.2
+853 848 8.0
+853 854 3.0
+853 914 0.7
+855 722 0.2
+855 863 6.0
+855 873 2.0
+856 7 4.0
+856 724 1.3
+856 848 8.0
+857 7 2.0
+857 863 6.0
+857 914 0.7
+858 725 0.4
+858 860 4.0
+859 1 1.0
+859 7 1.0
+859 42 5.0
+859 724 0.4
+859 726 2.0
+859 740 0.3
+859 849 6.0
+859 858 2.0
+859 860 5.0
+860 7 1.0
+861 42 4.0
+861 724 1.3
+861 741 0.9
+861 848 8.0
+861 873 2.0
+861 985 0.5
+861 989 0.2
+862 850 8.0
+862 860 2.0
+863 7 7.0
+863 722 1.0
+863 849 6.0
+863 912 0.8
+863 914 0.9
+863 918 0.2
+864 850 8.0
+864 860 2.0
+865 860 3.0
+865 864 8.0
+866 850 8.0
+866 860 2.0
+868 709 0.6
+867 7 7.0
+867 722 1.2
+867 849 6.0
+867 868 5.0
+867 912 0.8
+867 914 0.4
+867 918 0.2
+869 742 0.5
+869 782 0.2
+869 841 0.4
+869 860 4.0
+870 42 3.0
+870 48 6.0
+870 850 18.0
+870 860 8.0
+871 42 3.0
+871 847 3.0
+871 851 3.0
+871 852 3.0
+871 853 3.0
+871 855 3.0
+871 856 3.0
+871 857 3.0
+871 859 3.0
+871 860 9.0
+871 861 3.0
+871 862 3.0
+871 864 3.0
+871 865 3.0
+871 866 3.0
+871 867 3.0
+871 870 3.0
+871 875 3.0
+871 880 3.0
+871 889 0.3
+872 860 3.0
+873 742 2.2
+873 878 2.0
+873 879 4.0
+873 914 1.3
+874 453 1.3
+874 706 0.6
+874 860 4.0
+876 709 0.6
+877 704 0.6
+875 704 0.7
+875 724 1.3
+875 848 8.0
+875 876 10.0
+875 877 8.0
+878 7 2.0
+878 873 6.0
+878 879 5.0
+878 914 1.3
+878 960 0.9
+879 873 8.0
+879 878 15.0
+881 709 0.6
+880 724 0.7
+880 848 8.0
+880 881 10.0
+882 742 0.5
+882 782 0.2
+882 841 0.4
+882 860 4.0
+885 7 2.0
+885 883 4.0
+886 7 6.0
+886 883 4.0
+888 883 4.0
+888 914 0.4
+890 709 0.6
+891 709 0.6
+892 709 0.6
+889 6 21.0
+889 7 12.0
+889 8 4.0
+889 31 4.0
+889 42 8.0
+889 724 2.3
+889 726 0.6
+889 742 1.0
+889 783 0.9
+889 841 0.4
+889 848 0.6
+889 883 10.0
+889 884 14.0
+889 885 2.0
+889 886 4.0
+889 887 4.0
+889 888 2.0
+889 890 17.0
+889 891 13.0
+889 892 15.0
+889 893 4.0
+889 914 0.5
+889 947 0.2
+893 884 4.0
+894 7 4.0
+894 44 6.0
+895 7 6.0
+895 44 6.0
+895 894 12.0
+897 906 6.0
+897 912 2.0
+899 42 3.0
+899 44 10.0
+899 726 2.0
+899 740 1.0
+899 898 6.0
+898 1 5.0
+898 7 14.0
+898 42 42.0
+898 44 4.0
+898 726 1.6
+898 740 1.0
+898 899 5.0
+900 901 2.0
+903 906 6.0
+903 912 2.0
+904 44 8.0
+904 59 3.0
+904 914 2.0
+905 44 8.0
+905 742 0.7
+905 743 0.5
+905 914 2.0
+906 722 0.5
+906 912 14.0
+907 908 12.0
+909 920 2.0
+913 44 6.0
+913 914 2.0
+913 964 4.0
+914 7 4.0
+914 41 7.0
+914 42 18.0
+914 156 2.0
+914 458 0.8
+914 720 4.2
+914 783 1.0
+914 947 6.0
+914 960 6.0
+915 906 6.0
+915 912 3.0
+916 912 4.0
+917 7 4.0
+917 912 4.0
+918 912 4.0
+920 7 24.0
+920 914 7.0
+921 458 0.6
+921 911 12.0
+921 914 11.0
+925 927 6.0
+926 924 6.0
+926 927 6.0
+928 927 6.0
+924 910 4.0
+924 925 4.0
+924 926 2.0
+924 927 8.0
+924 928 17.0
+924 967 2.0
+930 44 8.0
+930 59 3.0
+932 931 10.0
+933 44 6.0
+933 964 4.0
+934 900 4.0
+935 156 4.0
+935 914 7.0
+936 912 4.0
+939 938 32.0
+938 939 12.0
+940 917 6.0
+941 42 11.0
+942 42 14.0
+944 7 10.0
+945 944 8.0
+946 7 8.0
+946 912 4.0
+946 987 0.9
+946 988 0.4
+946 989 0.2
+949 742 0.3
+949 841 0.3
+947 42 38.0
+947 44 32.0
+947 127 2.6
+947 720 2.0
+947 742 0.3
+947 743 2.5
+947 744 1.8
+947 771 0.3
+947 782 1.0
+947 783 0.8
+947 808 2.0
+947 811 0.2
+947 815 0.7
+947 819 2.3
+947 833 0.7
+947 841 0.3
+947 873 0.2
+947 912 18.0
+947 914 81.0
+947 933 9.0
+947 948 2.0
+947 949 4.0
+950 59 10.0
+950 951 5.0
+952 1 8.0
+952 7 2.0
+952 935 12.0
+953 7 12.0
+953 42 17.0
+953 44 10.0
+953 742 0.8
+953 743 0.5
+953 914 6.0
+954 7 10.0
+954 42 6.0
+954 935 2.0
+954 944 2.0
+954 952 4.0
+954 953 12.0
+955 44 8.0
+955 726 0.6
+955 740 0.3
+955 743 0.3
+955 819 0.7
+955 898 2.0
+955 899 14.0
+955 953 16.0
+955 954 4.0
+956 59 6.0
+956 742 0.5
+956 744 0.4
+956 783 0.6
+956 912 12.0
+956 914 9.0
+956 947 2.0
+957 1 8.0
+957 42 3.0
+957 726 0.3
+958 44 6.0
+958 959 2.0
+958 964 4.0
+959 7 2.0
+960 59 3.0
+960 239 0.2
+960 914 17.0
+961 59 16.0
+963 969 3.0
+966 917 6.0
+969 963 8.0
+971 970 6.0
+972 7 8.0
+972 59 14.0
+974 21 4.0
+974 973 12.0
+973 23 4.0
+973 42 2.0
+973 44 6.0
+973 920 2.0
+973 974 2.0
+975 7 2.0
+975 726 3.2
+975 968 0.2
+975 976 4.0
+976 726 0.6
+977 42 3.0
+977 726 0.8
+977 978 6.0
+978 699 0.8
+979 7 2.0
+980 7 11.0
+980 945 1.9
+980 953 0.6
+981 27 2.0
+982 971 0.6
+983 7 9.0
+983 987 4.0
+983 989 6.0
+984 7 1.0
+984 983 6.0
+984 985 4.0
+984 989 4.0
+986 7 3.0
+986 42 5.0
+986 898 0.2
+986 984 2.0
+986 985 9.0
+986 988 6.0
+988 7 6.0
+988 42 9.0
+988 898 0.2
+988 983 2.0
+988 987 9.0
+987 7 6.0
+985 7 1.0
+985 987 4.0

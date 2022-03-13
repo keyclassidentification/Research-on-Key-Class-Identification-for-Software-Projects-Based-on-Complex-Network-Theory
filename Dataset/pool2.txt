@@ -1,0 +1,514 @@
+*Vertices 168
+1 "org.apache.commons.pool2.BaseKeyedPooledObjectFactory"
+2 "org.apache.commons.pool2.BaseObject"
+3 "org.apache.commons.pool2.BaseObjectPool"
+4 "org.apache.commons.pool2.BasePooledObjectFactory"
+5 "org.apache.commons.pool2.DestroyMode"
+6 "org.apache.commons.pool2.KeyedObjectPool"
+7 "org.apache.commons.pool2.KeyedPooledObjectFactory"
+8 "org.apache.commons.pool2.MethodCall"
+9 "org.apache.commons.pool2.MethodCallPoolableObjectFactory"
+10 "org.apache.commons.pool2.ObjectPool"
+11 "org.apache.commons.pool2.ObjectPoolIssue326"
+12 "org.apache.commons.pool2.ObjectPoolIssue326$ObjectFactory"
+13 "org.apache.commons.pool2.ObjectPoolIssue326$Task"
+14 "org.apache.commons.pool2.ObjectPoolIssue326$TestObject"
+15 "org.apache.commons.pool2.PoolTest$Foo"
+16 "org.apache.commons.pool2.PoolTest$PooledFooFactory"
+17 "org.apache.commons.pool2.PoolUtils"
+18 "org.apache.commons.pool2.PoolUtils$ErodingFactor"
+19 "org.apache.commons.pool2.PoolUtils$ErodingKeyedObjectPool"
+20 "org.apache.commons.pool2.PoolUtils$ErodingObjectPool"
+21 "org.apache.commons.pool2.PoolUtils$ErodingPerKeyKeyedObjectPool"
+22 "org.apache.commons.pool2.PoolUtils$KeyedObjectPoolMinIdleTimerTask"
+23 "org.apache.commons.pool2.PoolUtils$ObjectPoolMinIdleTimerTask"
+24 "org.apache.commons.pool2.PoolUtils$SynchronizedKeyedObjectPool"
+25 "org.apache.commons.pool2.PoolUtils$SynchronizedKeyedPooledObjectFactory"
+26 "org.apache.commons.pool2.PoolUtils$SynchronizedObjectPool"
+27 "org.apache.commons.pool2.PoolUtils$SynchronizedPooledObjectFactory"
+28 "org.apache.commons.pool2.PooledObject"
+29 "org.apache.commons.pool2.PooledObjectFactory"
+30 "org.apache.commons.pool2.PooledObjectState"
+31 "org.apache.commons.pool2.PrivateException"
+32 "org.apache.commons.pool2.ReaderUtil"
+33 "org.apache.commons.pool2.StringBufferFactory"
+34 "org.apache.commons.pool2.SwallowedExceptionListener"
+35 "org.apache.commons.pool2.TestBaseKeyedPoolableObjectFactory$TestFactory"
+36 "org.apache.commons.pool2.TestBaseObjectPool"
+37 "org.apache.commons.pool2.TestBaseObjectPool$TestObjectPool"
+38 "org.apache.commons.pool2.TestBasePoolableObjectFactory$TestFactory"
+39 "org.apache.commons.pool2.TestKeyedObjectPool"
+40 "org.apache.commons.pool2.TestKeyedObjectPool$FailingKeyedPooledObjectFactory"
+41 "org.apache.commons.pool2.TestKeyedObjectPool$TestFactory"
+42 "org.apache.commons.pool2.TestObjectPool"
+43 "org.apache.commons.pool2.TestPoolUtils"
+44 "org.apache.commons.pool2.TrackedUse"
+45 "org.apache.commons.pool2.UsageTracking"
+46 "org.apache.commons.pool2.VisitTracker"
+47 "org.apache.commons.pool2.VisitTrackerFactory"
+48 "org.apache.commons.pool2.Waiter"
+49 "org.apache.commons.pool2.WaiterFactory"
+50 "org.apache.commons.pool2.impl.AbandonedConfig"
+51 "org.apache.commons.pool2.impl.AtomicIntegerFactory"
+52 "org.apache.commons.pool2.impl.BaseGenericObjectPool"
+53 "org.apache.commons.pool2.impl.BaseGenericObjectPool$EvictionIterator"
+54 "org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor"
+55 "org.apache.commons.pool2.impl.BaseGenericObjectPool$IdentityWrapper"
+56 "org.apache.commons.pool2.impl.BaseGenericObjectPool$StatsStore"
+57 "org.apache.commons.pool2.impl.BaseObjectPoolConfig"
+58 "org.apache.commons.pool2.impl.CallStack"
+59 "org.apache.commons.pool2.impl.CallStackTest"
+60 "org.apache.commons.pool2.impl.CallStackUtils"
+61 "org.apache.commons.pool2.impl.DefaultEvictionPolicy"
+62 "org.apache.commons.pool2.impl.DefaultPooledObject"
+63 "org.apache.commons.pool2.impl.DefaultPooledObjectInfo"
+64 "org.apache.commons.pool2.impl.DefaultPooledObjectInfoMBean"
+65 "org.apache.commons.pool2.impl.EvictionConfig"
+66 "org.apache.commons.pool2.impl.EvictionPolicy"
+67 "org.apache.commons.pool2.impl.EvictionTimer"
+68 "org.apache.commons.pool2.impl.EvictionTimer$EvictorThreadFactory"
+69 "org.apache.commons.pool2.impl.EvictionTimer$Reaper"
+70 "org.apache.commons.pool2.impl.EvictionTimer$WeakRunner"
+71 "org.apache.commons.pool2.impl.GenericKeyedObjectPool"
+72 "org.apache.commons.pool2.impl.GenericKeyedObjectPool$ObjectDeque"
+73 "org.apache.commons.pool2.impl.GenericKeyedObjectPoolConfig"
+74 "org.apache.commons.pool2.impl.GenericKeyedObjectPoolMXBean"
+75 "org.apache.commons.pool2.impl.GenericObjectPool"
+76 "org.apache.commons.pool2.impl.GenericObjectPoolConfig"
+77 "org.apache.commons.pool2.impl.GenericObjectPoolMXBean"
+78 "org.apache.commons.pool2.impl.InterruptibleReentrantLock"
+79 "org.apache.commons.pool2.impl.LinkedBlockingDeque"
+80 "org.apache.commons.pool2.impl.LinkedBlockingDeque$AbstractItr"
+81 "org.apache.commons.pool2.impl.LinkedBlockingDeque$DescendingItr"
+82 "org.apache.commons.pool2.impl.LinkedBlockingDeque$Itr"
+83 "org.apache.commons.pool2.impl.LinkedBlockingDeque$Node"
+84 "org.apache.commons.pool2.impl.NoOpCallStack"
+85 "org.apache.commons.pool2.impl.PoolImplUtils"
+86 "org.apache.commons.pool2.impl.PooledSoftReference"
+87 "org.apache.commons.pool2.impl.PooledTestObject"
+88 "org.apache.commons.pool2.impl.SecurityManagerCallStack"
+89 "org.apache.commons.pool2.impl.SecurityManagerCallStack$PrivateSecurityManager"
+90 "org.apache.commons.pool2.impl.SecurityManagerCallStack$Snapshot"
+91 "org.apache.commons.pool2.impl.SoftReferenceObjectPool"
+92 "org.apache.commons.pool2.impl.TestAbandonedObjectPool"
+93 "org.apache.commons.pool2.impl.TestAbandonedObjectPool$ConcurrentBorrower"
+94 "org.apache.commons.pool2.impl.TestAbandonedObjectPool$ConcurrentReturner"
+95 "org.apache.commons.pool2.impl.TestAbandonedObjectPool$SimpleFactory"
+96 "org.apache.commons.pool2.impl.TestBaseGenericObjectPool"
+97 "org.apache.commons.pool2.impl.TestDefaultPooledObjectInfo"
+98 "org.apache.commons.pool2.impl.TestEvictionTimer"
+99 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool"
+100 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$DummyFactory"
+101 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$HashSetFactory"
+102 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$InvalidateThread"
+103 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$ObjectFactory"
+104 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$SimpleFactory"
+105 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$SimplePerKeyFactory"
+106 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$SimpleTestThread"
+107 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$SlowEvictionPolicy"
+108 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$TestThread"
+109 "org.apache.commons.pool2.impl.TestGenericKeyedObjectPool$WaitingTestThread"
+110 "org.apache.commons.pool2.impl.TestGenericObjectPool"
+111 "org.apache.commons.pool2.impl.TestGenericObjectPool$ConcurrentBorrowAndEvictThread"
+112 "org.apache.commons.pool2.impl.TestGenericObjectPool$CreateErrorFactory"
+113 "org.apache.commons.pool2.impl.TestGenericObjectPool$CreateFailFactory"
+114 "org.apache.commons.pool2.impl.TestGenericObjectPool$DummyFactory"
+115 "org.apache.commons.pool2.impl.TestGenericObjectPool$EvictionThread"
+116 "org.apache.commons.pool2.impl.TestGenericObjectPool$HashSetFactory"
+117 "org.apache.commons.pool2.impl.TestGenericObjectPool$InvalidFactory"
+118 "org.apache.commons.pool2.impl.TestGenericObjectPool$InvalidateThread"
+119 "org.apache.commons.pool2.impl.TestGenericObjectPool$SimpleFactory"
+120 "org.apache.commons.pool2.impl.TestGenericObjectPool$TestEvictionPolicy"
+121 "org.apache.commons.pool2.impl.TestGenericObjectPool$TestThread"
+122 "org.apache.commons.pool2.impl.TestGenericObjectPool$WaitingTestThread"
+123 "org.apache.commons.pool2.impl.TestGenericObjectPoolClassLoaders$CustomClassLoader"
+124 "org.apache.commons.pool2.impl.TestGenericObjectPoolClassLoaders$CustomClassLoaderObjectFactory"
+125 "org.apache.commons.pool2.impl.TestGenericObjectPoolFactoryCreateFailure$SingleObjectFactory"
+126 "org.apache.commons.pool2.impl.TestGenericObjectPoolFactoryCreateFailure$WinnerRunnable"
+127 "org.apache.commons.pool2.impl.TestLinkedBlockingDeque"
+128 "org.apache.commons.pool2.impl.TestPoolImplUtils$FactoryAB"
+129 "org.apache.commons.pool2.impl.TestPoolImplUtils$FactoryBA"
+130 "org.apache.commons.pool2.impl.TestPoolImplUtils$FactoryC"
+131 "org.apache.commons.pool2.impl.TestPoolImplUtils$FactoryDE"
+132 "org.apache.commons.pool2.impl.TestPoolImplUtils$FactoryF"
+133 "org.apache.commons.pool2.impl.TestPoolImplUtils$NotSimpleFactory"
+134 "org.apache.commons.pool2.impl.TestPoolImplUtils$SimpleFactory"
+135 "org.apache.commons.pool2.impl.TestPooledSoftReference"
+136 "org.apache.commons.pool2.impl.TestSoftRefOutOfMemory"
+137 "org.apache.commons.pool2.impl.TestSoftRefOutOfMemory$LargePoolableObjectFactory"
+138 "org.apache.commons.pool2.impl.TestSoftRefOutOfMemory$OomeFactory"
+139 "org.apache.commons.pool2.impl.TestSoftRefOutOfMemory$OomeTrigger"
+140 "org.apache.commons.pool2.impl.TestSoftRefOutOfMemory$SmallPoolableObjectFactory"
+141 "org.apache.commons.pool2.impl.TestSoftReferenceObjectPool"
+142 "org.apache.commons.pool2.impl.TestSoftReferenceObjectPool$SimpleFactory"
+143 "org.apache.commons.pool2.impl.TestSynchronizedPooledObjectFactory"
+144 "org.apache.commons.pool2.impl.ThrowableCallStack"
+145 "org.apache.commons.pool2.impl.ThrowableCallStack$Snapshot"
+146 "org.apache.commons.pool2.performance.PerformanceTest"
+147 "org.apache.commons.pool2.performance.PerformanceTest$PerfTask"
+148 "org.apache.commons.pool2.performance.PerformanceTest$TaskStats"
+149 "org.apache.commons.pool2.performance.SleepingObjectFactory"
+150 "org.apache.commons.pool2.proxy.BaseProxyHandler"
+151 "org.apache.commons.pool2.proxy.BaseTestProxiedKeyedObjectPool"
+152 "org.apache.commons.pool2.proxy.BaseTestProxiedKeyedObjectPool$TestKeyedObjectFactory"
+153 "org.apache.commons.pool2.proxy.BaseTestProxiedKeyedObjectPool$TestObject"
+154 "org.apache.commons.pool2.proxy.BaseTestProxiedKeyedObjectPool$TestObjectImpl"
+155 "org.apache.commons.pool2.proxy.BaseTestProxiedObjectPool"
+156 "org.apache.commons.pool2.proxy.BaseTestProxiedObjectPool$TestObject"
+157 "org.apache.commons.pool2.proxy.BaseTestProxiedObjectPool$TestObjectFactory"
+158 "org.apache.commons.pool2.proxy.BaseTestProxiedObjectPool$TestObjectImpl"
+159 "org.apache.commons.pool2.proxy.CglibProxySource"
+160 "org.apache.commons.pool2.proxy.JdkProxyHandler"
+161 "org.apache.commons.pool2.proxy.JdkProxySource"
+162 "org.apache.commons.pool2.proxy.ProxiedKeyedObjectPool"
+163 "org.apache.commons.pool2.proxy.ProxiedObjectPool"
+164 "org.apache.commons.pool2.proxy.ProxySource"
+165 "org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithCglibProxy"
+166 "org.apache.commons.pool2.proxy.TestProxiedKeyedObjectPoolWithJdkProxy"
+167 "org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithCglibProxy"
+168 "org.apache.commons.pool2.proxy.TestProxiedObjectPoolWithJdkProxy"
+*Arcs
+1 2 600.0
+1 7 400.0
+1 28 1800.0
+3 2 600.0
+3 10 400.0
+4 2 600.0
+4 28 1800.0
+4 29 400.0
+6 5 300.0
+7 5 300.0
+7 28 1800.0
+9 8 1400.0
+9 28 2300.0
+9 29 400.0
+9 31 1000.0
+9 62 2.0
+12 1 600.0
+12 11 0.09
+12 14 0.02
+12 28 300.0
+12 62 2.0
+13 11 0.06
+13 71 10.0
+14 11 0.09
+11 12 0.02
+11 13 0.02
+11 71 5.0
+11 73 0.042
+10 5 300.0
+16 28 1500.0
+16 29 400.0
+19 6 4000.0
+19 18 0.15
+20 10 3000.0
+20 18 0.09
+21 6 300.0
+21 18 0.05
+21 19 0.06
+22 6 1000.0
+23 10 1000.0
+24 6 3200.0
+25 7 2000.0
+25 28 1500.0
+26 10 2600.0
+27 28 1500.0
+27 29 2000.0
+17 6 4800.0
+17 7 700.0
+17 10 3100.0
+17 19 0.02
+17 20 0.02
+17 21 0.02
+17 22 0.02
+17 23 0.02
+17 24 0.02
+17 25 0.02
+17 26 0.02
+17 27 0.02
+17 29 700.0
+29 5 300.0
+29 28 1800.0
+28 30 300.0
+32 10 600.0
+33 4 400.0
+33 28 600.0
+35 1 400.0
+35 28 300.0
+37 3 400.0
+36 10 900.0
+36 29 300.0
+36 42 0.04
+38 4 400.0
+38 5 300.0
+38 28 600.0
+40 7 400.0
+40 28 1500.0
+41 1 400.0
+41 28 300.0
+39 6 1200.0
+39 7 300.0
+39 40 0.06
+42 9 600.0
+42 10 600.0
+42 29 300.0
+43 6 300.0
+43 7 300.0
+43 10 300.0
+43 29 300.0
+47 7 400.0
+47 28 4600.0
+47 29 400.0
+47 46 2000.0
+47 62 4.0
+49 7 400.0
+49 28 4200.0
+49 29 400.0
+49 48 1400.0
+49 62 2.0
+51 4 6.0
+51 28 24.0
+51 62 200.0
+53 28 3.0
+53 52 800.0
+54 52 1800.0
+56 52 600.0
+52 2 6.0
+52 28 12.0
+52 34 11.0
+52 53 0.03
+52 54 0.07
+52 56 0.27
+52 57 0.43
+52 66 900.0
+52 67 800.0
+57 2 6.0
+57 66 900.0
+59 58 600.0
+60 58 600.0
+60 88 200.0
+60 144 200.0
+61 28 7.0
+61 65 0.09
+61 66 400.0
+63 28 26.0
+63 64 400.0
+62 28 9.0
+62 30 8.0
+62 44 2.0
+62 58 1600.0
+62 60 0.04
+66 28 3.0
+66 65 0.03
+69 67 1600.0
+70 67 400.0
+67 54 0.16
+67 68 0.02
+67 69 0.02
+67 70 0.03
+72 71 600.0
+72 79 1100.0
+73 57 0.08
+71 5 6.0
+71 6 4.0
+71 7 34.0
+71 17 0.004
+71 28 31.0
+71 30 2.0
+71 52 1000.0
+71 53 0.1
+71 55 0.08
+71 63 200.0
+71 65 0.02
+71 66 200.0
+71 72 1.3
+71 73 0.2
+71 74 400.0
+71 79 5500.0
+76 57 0.08
+75 5 6.0
+75 10 4.0
+75 17 0.004
+75 28 45.0
+75 29 37.0
+75 45 4.0
+75 50 0.66
+75 52 1000.0
+75 53 0.08
+75 55 0.1
+75 63 200.0
+75 65 0.02
+75 66 200.0
+75 76 0.21
+75 77 400.0
+75 79 5100.0
+75 85 0.02
+80 78 1800.0
+80 79 2600.0
+80 83 0.21
+81 79 1100.0
+81 80 0.06
+81 83 0.09
+82 79 1100.0
+82 80 0.06
+82 83 0.09
+79 78 20600.0
+79 81 0.02
+79 82 0.02
+79 83 0.22
+84 58 700.0
+86 30 2.0
+86 62 600.0
+87 5 3.0
+87 44 4.0
+88 58 400.0
+88 89 0.1
+88 90 0.09
+91 3 10.0
+91 17 0.004
+91 28 4.0
+91 29 29.0
+91 79 2300.0
+91 86 3600.0
+93 92 0.06
+94 87 0.06
+94 92 0.06
+95 5 3.0
+95 28 18.0
+95 29 4.0
+92 50 0.03
+92 75 300.0
+96 52 300.0
+96 119 0.03
+100 1 4.0
+100 28 3.0
+101 1 4.0
+101 28 3.0
+102 6 6.0
+103 1 4.0
+103 28 3.0
+104 7 4.0
+104 28 15.0
+105 1 4.0
+105 28 3.0
+106 6 6.0
+107 28 3.0
+107 61 400.0
+107 65 0.03
+108 6 15.0
+109 6 6.0
+99 6 6.0
+99 7 3.0
+99 39 0.004
+99 71 600.0
+99 104 0.03
+111 110 0.06
+112 4 4.0
+112 28 3.0
+113 4 4.0
+113 28 3.0
+114 4 4.0
+114 28 3.0
+115 75 600.0
+116 4 4.0
+116 28 3.0
+117 4 4.0
+117 28 6.0
+118 10 6.0
+119 28 15.0
+119 29 4.0
+120 28 3.0
+120 65 0.03
+120 66 400.0
+121 10 21.0
+122 75 600.0
+124 4 4.0
+124 28 3.0
+125 4 4.0
+125 28 6.0
+126 75 600.0
+110 4 9.0
+110 10 6.0
+110 29 3.0
+110 36 0.004
+110 75 900.0
+110 76 0.03
+110 119 0.03
+127 79 300.0
+128 4 4.0
+129 128 0.04
+130 129 0.04
+131 130 0.04
+132 131 0.04
+133 28 3.0
+133 132 0.04
+134 4 4.0
+134 28 3.0
+135 86 300.0
+137 4 4.0
+137 28 3.0
+138 4 4.0
+138 28 9.0
+138 139 0.06
+140 4 4.0
+140 28 3.0
+136 91 300.0
+142 4 6.0
+142 28 6.0
+142 62 200.0
+141 10 6.0
+141 29 3.0
+141 36 0.006
+141 91 400.0
+141 142 0.02
+143 28 15.0
+143 29 20.0
+144 58 400.0
+144 145 0.09
+147 75 4.0
+147 146 0.18
+147 148 0.08
+146 75 14.0
+146 147 0.02
+146 148 0.02
+146 149 400.0
+149 28 15.0
+149 29 4.0
+149 62 2.0
+150 45 8.0
+152 1 4.0
+152 28 3.0
+152 153 0.06
+154 153 0.04
+151 6 3.0
+151 164 300.0
+157 4 4.0
+157 28 3.0
+157 156 0.06
+158 156 0.04
+155 10 3.0
+155 164 300.0
+159 45 3.0
+159 164 400.0
+160 45 3.0
+160 150 600.0
+161 45 3.0
+161 160 400.0
+161 164 400.0
+162 6 32.0
+162 164 1200.0
+163 10 26.0
+163 164 1200.0
+164 45 3.0
+165 151 0.06
+165 159 200.0
+165 164 300.0
+166 151 0.06
+166 161 200.0
+166 164 300.0
+167 155 0.06
+167 159 200.0
+167 164 300.0
+168 155 0.06
+168 161 200.0
+168 164 300.0
